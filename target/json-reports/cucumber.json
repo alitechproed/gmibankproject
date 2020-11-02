@@ -1,0 +1,150 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is in the google page // bu kisim background in tanimi",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10796000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-02T11:08:28.464Z",
+        "line": 8,
+        "name": "user search teapod in google",
+        "description": "",
+        "id": "google-search;user-search-teapod-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2848000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches teapod",
+            "match": {
+              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_searches_teapod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify result has teapot",
+            "match": {
+              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_teapot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleTest"
+          },
+          {
+            "name": "@Teapot"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user is in the google page // bu kisim background in tanimi",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1968000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-02T11:08:42.560Z",
+        "line": 14,
+        "name": "user searches nokia in google",
+        "description": "",
+        "id": "google-search;user-searches-nokia-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2941000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user searches nokia",
+            "match": {
+              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_searches_nokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify result has nokia",
+            "match": {
+              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_nokia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleTest"
+          },
+          {
+            "name": "@Nokia"
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/firstfeaturefile.feature",
+    "tags": [
+      {
+        "name": "@googleTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
