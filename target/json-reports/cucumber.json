@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10796000000,
+              "duration": 14581000000,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-02T11:08:28.464Z",
+        "start_timestamp": "2020-11-02T11:20:53.379Z",
         "line": 8,
         "name": "user search teapod in google",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2848000000,
+              "duration": 7816000000,
               "status": "passed"
             },
             "line": 10,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 169000000,
+              "duration": 54000000,
               "status": "passed"
             },
             "line": 11,
@@ -75,7 +75,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1968000000,
+              "duration": 3261000000,
               "status": "passed"
             },
             "line": 5,
@@ -88,7 +88,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-02T11:08:42.560Z",
+        "start_timestamp": "2020-11-02T11:21:16.129Z",
         "line": 14,
         "name": "user searches nokia in google",
         "description": "",
@@ -98,7 +98,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2941000000,
+              "duration": 4668000000,
               "status": "passed"
             },
             "line": 16,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 46000000,
               "status": "passed"
             },
             "line": 17,
