@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="32.114">
 <testcase classname="Google search" name="user search teapod in google" time="22.729">
 <system-out><![CDATA[Given user is in the google page............................................passed
@@ -10,6 +11,112 @@ Then verify result has teapot...............................................pass
 <system-out><![CDATA[Given user is in the google page............................................passed
 And user searches nokia.....................................................passed
 Then verify result has nokia................................................passed
+=======
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="12" time="1.093">
+<testcase classname="US_01 succes register with valid credentials" name="TC_001 gecerli SSN test" time="0.18">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak SSN textboxina "333-22-4444" numarasini girer.skipped
+Then Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler.skipped
 ]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_002  gecerli first name positive test" time="0.011">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak First Name textboxina "Ali" ismini girer....skipped
+Then Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler.skipped
+>>>>>>> master
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_003 bos first name negative test" time="0.01">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak First Name textboxini " " bos birakir.......skipped
+Then Kullanici bir user olarak "Your First Name is required" hata uyarisini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_004  gecerli last name positive test" time="0.008">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer.skipped
+Then Kullanici bir user olarak First Name textboxinin bir hata mesaji vermedigini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_005 bos last name negative test" time="0.007">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Last Name textboxini " " bos birakir........skipped
+Then Kullanici bir user olarak "Your Last Name is required" hata mesajini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_006  gecerli address test" time="0.008">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer.skipped
+Then Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_007 gecerli mobile phone number test" time="0.014">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer.skipped
+Then Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_008 gecersiz mobile phone number negative test" time="0.02">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan "1231231234" cep telefonu numarasini girer.skipped
+Then Kullanici bir user olarak "Your mobile phone number is invalid" hata mesajini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_009 gecerli kullanici adi test" time="0.009">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Username textboxina  "Abc123" kullanici adini girer.skipped
+Then Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_010 gecersiz kullanici adi test" time="0.006">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Username textboxina  sadece sayilardan olusan "123" kullanici adini girer.skipped
+Then Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_011 gecerli email test" time="0.009">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak Email textboxina "abc@mail.com" mail adresini girer.skipped
+Then Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler.skipped
+]]></system-out>
+</testcase>
+<testcase classname="US_01 succes register with valid credentials" name="TC_012 gecerli verilerle hesap olusturma" time="0.022">
+<skipped><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................skipped
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak SSN textboxina "333-22-4444" numarasini girer.skipped
+And Kullanici bir user olarak First Name textboxina "Ali" ismini girer......skipped
+And Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer..skipped
+And Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer.skipped
+And Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer.skipped
+And Kullanici bir user olarak Username textboxina  "Abc123" kullanici adini girer.skipped
+And Kullanici bir user olarak Email textboxina "abc@mail.com" mail adresini girer.skipped
+And Kullanici bir user olarak New password textboxina "A1b2C3" sifresini girer.undefined
+And Kullanici bir user olarak New password confirmation textboxina "A1b2C3" sifresini girer.undefined
+And Kullanici bir user olarak Register butonuna tiklar......................undefined
+Then Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler.undefined
+]]></skipped>
 </testcase>
 </testsuite>

@@ -7,8 +7,8 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
-
 public class GoogleSearchStepDefinitions {
+
     GooglePage googlePage = new GooglePage();
 
     @Given("user is in the google page")
@@ -39,14 +39,14 @@ public class GoogleSearchStepDefinitions {
 
     @Then("verify result has nokia")
     public void verify_result_has_nokia() {
-    Assert.assertTrue(Driver.getDriver().getTitle().contains("nokia"));
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("nokia"));
 
     }
 
     @Given("user searches {string}")
     public void user_searches(String string) {
-     googlePage.searchBox.sendKeys(string);
-     googlePage.searchBox.submit();
+        googlePage.searchBox.sendKeys(string);
+        googlePage.searchBox.submit();
     }
 
     @Then("verify result has {string}")
@@ -54,6 +54,7 @@ public class GoogleSearchStepDefinitions {
         String googleTitle = Driver.getDriver().getTitle();
         System.out.println("Google Title: " + googleTitle);
         Assert.assertTrue(googleTitle.contains(string));
+
     }
 
 }
