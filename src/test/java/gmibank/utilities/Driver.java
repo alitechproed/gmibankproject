@@ -13,15 +13,9 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
-    // SINGLETON CLASS CLASS BURADA OLUSTURDUK.
-    // Projede kullanilan Web Driver i tekrar tekrar olusturmaktan kurtulmak icin
-    // Driver null oldugunda  create edip driver baslatilir.
-    // Driver classi farkli browser larin driverini kolayca baslatmak icin de kullanilir.
-
     static WebDriver driver;
     private Driver() {
-        // Constructor private yaparak class disindan obje uretilmesini sagladik.
-        //  PRIVATE YAPARAK ==> SINGLETON YAPTIK.
+        //  PRIVATE CONSTRUCTOR  ==> SINGLETON CLASS
     }
 
     public static WebDriver getDriver() {
@@ -57,7 +51,6 @@ public class Driver {
 
         }
 
-        // Yine Driver cagirirken maximize ve wait i birlikte getirdin.
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
@@ -65,9 +58,9 @@ public class Driver {
     }
 
     public static void closeDriver() {
-        if (driver!=null) {    //  driver doluysa kapat.
+        if (driver!=null) {
             driver.quit();
-            driver=null;  // driveri baska browserlara gecis yapmak icin null olmasi gerekli
+            driver=null;
         }
     }
 
