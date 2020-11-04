@@ -1,106 +1,186 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/firstfeaturefile.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_02.feature");
 formatter.feature({
-  "name": "Google search",
+  "name": "GmiBankTest",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@googleTest"
+      "name": "@US_02"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "TC_017",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC_016"
+    }
+  ]
+});
+formatter.step({
+  "name": "kullanici \"\u003cemail\u003e\" adresini girer",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "kullanici invalid email girdiginde hata mesajini gorur",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "emailler",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "email"
+      ]
+    },
+    {
+      "cells": [
+        "alicangmail.com"
+      ]
+    },
+    {
+      "cells": [
+        "alican@gmail"
+      ]
     }
   ]
 });
 formatter.background({
-  "name": "user is in the google page // bu kisim background in tanimi",
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
   "description": "",
   "keyword": "Background"
 });
 formatter.step({
-  "name": "user is in the google page",
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "user search teapod in google",
+  "name": "TC_017",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@googleTest"
+      "name": "@US_02"
     },
     {
-      "name": "@Teapot"
+      "name": "@TC_016"
     }
   ]
 });
 formatter.step({
-  "name": "user searches teapod",
+  "name": "kullanici \"alicangmail.com\" adresini girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_searches_teapod()"
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_adresini_girer(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify result has teapot",
+  "name": "kullanici invalid email girdiginde hata mesajini gorur",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_teapot()"
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.background({
-  "name": "user is in the google page // bu kisim background in tanimi",
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
   "description": "",
   "keyword": "Background"
 });
 formatter.step({
-  "name": "user is in the google page",
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "user searches nokia in google",
+  "name": "TC_017",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@googleTest"
+      "name": "@US_02"
     },
     {
-      "name": "@Nokia"
+      "name": "@TC_016"
     }
   ]
 });
 formatter.step({
-  "name": "user searches nokia",
+  "name": "kullanici \"alican@gmail\" adresini girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_searches_nokia()"
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_adresini_girer(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify result has nokia",
+  "name": "kullanici invalid email girdiginde hata mesajini gorur",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_nokia()"
+  "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
 });
 formatter.result({
   "status": "passed"

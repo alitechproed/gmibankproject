@@ -4,141 +4,201 @@
     "elements": [
       {
         "line": 4,
-        "name": "user is in the google page // bu kisim background in tanimi",
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 10796000000,
+              "duration": 14241000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user is in the google page",
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
-              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
             },
             "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-02T11:08:28.464Z",
-        "line": 8,
-        "name": "user search teapod in google",
-        "description": "",
-        "id": "google-search;user-search-teapod-in-google",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 2848000000,
+              "duration": 216000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user searches teapod",
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_searches_teapod()"
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 169000000,
+              "duration": 449000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "verify result has teapot",
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_teapot()"
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-04T20:17:57.348Z",
+        "line": 33,
+        "name": "TC_017",
+        "description": "",
+        "id": "gmibanktest;tc-017;emailler;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 957000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "kullanici \"alicangmail.com\" adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alicangmail.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_adresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "kullanici invalid email girdiginde hata mesajini gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@googleTest"
+            "name": "@US_02"
           },
           {
-            "name": "@Teapot"
+            "name": "@TC_016"
           }
         ]
       },
       {
         "line": 4,
-        "name": "user is in the google page // bu kisim background in tanimi",
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1968000000,
+              "duration": 1153000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user is in the google page",
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
-              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
             },
             "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-02T11:08:42.560Z",
-        "line": 14,
-        "name": "user searches nokia in google",
-        "description": "",
-        "id": "google-search;user-searches-nokia-in-google",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 2941000000,
+              "duration": 261000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "user searches nokia",
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.user_searches_nokia()"
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 434000000,
               "status": "passed"
             },
-            "line": 17,
-            "name": "verify result has nokia",
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_nokia()"
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-04T20:18:13.798Z",
+        "line": 34,
+        "name": "TC_017",
+        "description": "",
+        "id": "gmibanktest;tc-017;emailler;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 405000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "kullanici \"alican@gmail\" adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alican@gmail\"",
+                  "offset": 10
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_adresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "kullanici invalid email girdiginde hata mesajini gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Us_02_StepDef.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@googleTest"
+            "name": "@US_02"
           },
           {
-            "name": "@Nokia"
+            "name": "@TC_016"
           }
         ]
       }
     ],
-    "name": "Google search",
+    "name": "GmiBankTest",
     "description": "",
-    "id": "google-search",
+    "id": "gmibanktest",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/firstfeaturefile.feature",
+    "uri": "file:src/test/resources/features/us_02.feature",
     "tags": [
       {
-        "name": "@googleTest",
+        "name": "@US_02",
         "type": "Tag",
         "location": {
           "line": 1,
