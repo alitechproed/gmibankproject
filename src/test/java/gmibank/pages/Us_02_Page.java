@@ -36,4 +36,21 @@ public class Us_02_Page {
 
     @FindBy(xpath = "//div[.='This field is invalid']")
     public  WebElement emailInvalidMessage;
+
+    @FindBy(id = "lastname")
+    public WebElement lastname;
+
+
+    @FindBy(id = "address")
+    public WebElement adressTextbox;
+    @FindBy(id = "mobilephone")
+    public WebElement mobilePhoneNumber;
+    @FindBy(id = "username")
+    public WebElement usernameTextBox;
+    @FindBy(id = "email")
+    public WebElement emailTextbox;
+    @FindBy(id = "firstPassword")
+    public WebElement newPasswordTextBox;
+    @FindBy(id = "secondPassword")
+    public WebElement Newpasswordconfirmation;
 }
