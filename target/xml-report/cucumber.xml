@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="43.938">
-<testcase classname="US_01 succes register with valid credentials" name="TC_001 gecerli SSN test" time="11.858">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="30.591">
+<testcase classname="US_01 succes register with valid credentials" name="TC_001 gecerli SSN test" time="11.064">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -8,83 +8,23 @@ Given Kullanici bir user olarak SSN textboxina "333-22-4444" numarasini girer.pa
 Then Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_002 gecersiz SSN test" time="11.162">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[.='Your SSN is invalid']&quot;}&#10;  (Session info: chrome=86.0.4240.111)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 534bf45c4681b81265d35f0c4e00e543&#10;*** Element info: {Using=xpath, value=//div[.='Your SSN is invalid']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+<testcase classname="US_01 succes register with valid credentials" name="TC_002 gecersiz SSN test" time="1.339">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
-Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-4444" numarasini girer.passed
-Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.failed
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[.='Your SSN is invalid']"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 534bf45c4681b81265d35f0c4e00e543
-*** Element info: {Using=xpath, value=//div[.='Your SSN is invalid']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.getText(Unknown Source)
-	at gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(US_01_Step_Definitions.java:49)
-	at ✽.Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:17)
-]]></failure>
+Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-44445" numarasini girer.passed
+Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.passed
+]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_002 gecersiz SSN test 2" time="10.917">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[.='Your SSN is invalid']&quot;}&#10;  (Session info: chrome=86.0.4240.111)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 534bf45c4681b81265d35f0c4e00e543&#10;*** Element info: {Using=xpath, value=//div[.='Your SSN is invalid']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+<testcase classname="US_01 succes register with valid credentials" name="TC_002 gecersiz SSN test 2" time="1.251">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
-Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-43" numarasini girer.passed
-Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.failed
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[.='Your SSN is invalid']"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 534bf45c4681b81265d35f0c4e00e543
-*** Element info: {Using=xpath, value=//div[.='Your SSN is invalid']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.getText(Unknown Source)
-	at gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(US_01_Step_Definitions.java:49)
-	at ✽.Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:17)
-]]></failure>
+Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-443" numarasini girer.passed
+Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.passed
+]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_003  gecerli first name positive test" time="0.895">
+<testcase classname="US_01 succes register with valid credentials" name="TC_003  gecerli first name positive test" time="1.11">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -92,7 +32,7 @@ Given Kullanici bir user olarak First Name textboxina "Ali" ismini girer....pass
 Then Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_004 bos first name negative test" time="0.936">
+<testcase classname="US_01 succes register with valid credentials" name="TC_004 bos first name negative test" time="1.075">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -100,7 +40,7 @@ Given Kullanici bir user olarak First Name textboxini " " bos birakir.......pass
 Then Kullanici bir user olarak "Your First Name is required" hata uyarisini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_005  gecerli last name positive test" time="0.901">
+<testcase classname="US_01 succes register with valid credentials" name="TC_005  gecerli last name positive test" time="1.063">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -108,7 +48,7 @@ Given Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer.pas
 Then Kullanici bir user olarak First Name textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_006 bos last name negative test" time="0.971">
+<testcase classname="US_01 succes register with valid credentials" name="TC_006 bos last name negative test" time="1.075">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -116,7 +56,7 @@ Given Kullanici bir user olarak Last Name textboxini " " bos birakir........pass
 Then Kullanici bir user olarak "Your Last Name is required" hata mesajini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_007  gecerli address test" time="0.8">
+<testcase classname="US_01 succes register with valid credentials" name="TC_007  gecerli address test" time="1.16">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -124,7 +64,7 @@ Given Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Ist
 Then Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_008 gecerli mobile phone number test" time="0.744">
+<testcase classname="US_01 succes register with valid credentials" name="TC_008 gecerli mobile phone number test" time="1.096">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -132,7 +72,7 @@ Given Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" ce
 Then Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_009 gecersiz mobile phone number negative test" time="0.711">
+<testcase classname="US_01 succes register with valid credentials" name="TC_009 gecersiz mobile phone number negative test" time="1.081">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -140,7 +80,7 @@ Given Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan "123
 Then Kullanici bir user olarak "Your mobile phone number is invalid" hata mesajini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_010 gecerli kullanici adi test" time="0.713">
+<testcase classname="US_01 succes register with valid credentials" name="TC_010 gecerli kullanici adi test" time="1.066">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -148,15 +88,22 @@ Given Kullanici bir user olarak Username textboxina  "Abc123" kullanici adini gi
 Then Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_011 gecersiz kullanici adi test" time="0.657">
-<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+<testcase classname="US_01 succes register with valid credentials" name="TC_011 gecersiz kullanici adi test" time="3.139">
+<failure message="expected:&lt;#[dc3545]&gt; but was:&lt;#[ced4da]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Username textboxina  sadece sayilardan olusan "123" kullanici adini girer.passed
-Then Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler.passed
-]]></system-out>
+Then Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler.failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<#[dc3545]> but was:<#[ced4da]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler(US_01_Step_Definitions.java:149)
+	at ✽.Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:67)
+]]></failure>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_012 gecerli email test" time="0.694">
+<testcase classname="US_01 succes register with valid credentials" name="TC_012 gecerli email test" time="1.191">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
@@ -164,17 +111,17 @@ Given Kullanici bir user olarak Email textboxina "abc@mail.com" mail adresini gi
 Then Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 succes register with valid credentials" name="TC_013 gecerli verilerle hesap olusturma" time="1.241">
+<testcase classname="US_01 succes register with valid credentials" name="TC_013 gecerli verilerle hesap olusturma" time="3.241">
 <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
-Given Kullanici bir user olarak SSN textboxina "333-22-4444" numarasini girer.passed
+Given Kullanici bir user olarak SSN textboxina "333-28-4444" numarasini girer.passed
 And Kullanici bir user olarak First Name textboxina "Ali" ismini girer......passed
 And Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer..passed
 And Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer.passed
 And Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer.passed
-And Kullanici bir user olarak Username textboxina  "Abc123" kullanici adini girer.passed
-And Kullanici bir user olarak Email textboxina "abc@mail.com" mail adresini girer.passed
+And Kullanici bir user olarak Username textboxina  "AAbc123" kullanici adini girer.passed
+And Kullanici bir user olarak Email textboxina "abc12@mail.com" mail adresini girer.passed
 And Kullanici bir user olarak New password textboxina "A1b2C3" sifresini girer.passed
 And Kullanici bir user olarak New password confirmation textboxina "A1b2C3" sifresini girer.passed
 And Kullanici bir user olarak Register butonuna tiklar......................passed
