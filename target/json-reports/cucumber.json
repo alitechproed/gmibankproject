@@ -3,1508 +3,728 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:16.469Z",
+        "line": 11,
+        "name": "SSN number entry positive test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11077000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 99000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 176000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:39:54.870Z",
-        "line": 10,
-        "name": "TC_001 gecerli SSN test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-001-gecerli-ssn-test",
+        "id": "us01-tests;ssn-number-entry-positive-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 243000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Kullanici bir user olarak SSN textboxina \"333-22-4444\" numarasini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"333-22-4444\"",
-                  "offset": 41
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_numarasini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 64000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#ssn\"}\n  (Session info: chrome\u003d86.0.4240.183)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SAMET-PC\u0027, ip: \u0027192.168.2.33\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_272\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\samet\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1a772c8037cdd7aceffefdaa8e116d67\n*** Element info: {Using\u003did, value\u003dssn}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_SSN_number(US01StepDefinitions.java:35)\r\n\tat ✽.user enters valid SSN number(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/US01.feature:12)\r\n",
+              "duration": 15280000000,
+              "status": "failed"
             },
             "line": 12,
-            "name": "Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler",
+            "name": "user enters valid SSN number",
             "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxinin_bir_hata_uyarisi_vermedigini_goruntuler()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_SSN_number()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user verifies valid SSN number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_SSN_number()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_001"
+            "name": "@tc001"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:31.956Z",
+        "line": 16,
+        "name": "SSN number entry negative test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 580000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 169000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:06.755Z",
-        "line": 21,
-        "name": "TC_002 gecersiz SSN test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-002-gecersiz-ssn-test;tc-002-ssn-numaralari;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 170000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-4444\" numarasini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"333-22-4444\"",
-                  "offset": 51
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_gecersiz_numarasini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[.\u003d\u0027Your SSN is invalid\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.111)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-GIHN8273\u0027, ip: \u0027192.168.0.34\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\TTR\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 534bf45c4681b81265d35f0c4e00e543\n*** Element info: {Using\u003dxpath, value\u003d//div[.\u003d\u0027Your SSN is invalid\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.getText(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(US_01_Step_Definitions.java:49)\r\n\tat ✽.Kullanici bir user olarak \"Your SSN is invalid\" hata mesajini goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:17)\r\n",
-              "duration": 10078000000,
-              "status": "failed"
-            },
-            "line": 17,
-            "name": "Kullanici bir user olarak \"Your SSN is invalid\" hata mesajini goruntuler",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your SSN is invalid\"",
-                  "offset": 26
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_002"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 461000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 150000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 140000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:17.945Z",
-        "line": 22,
-        "name": "TC_002 gecersiz SSN test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-002-gecersiz-ssn-test;tc-002-ssn-numaralari;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 121000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-43\" numarasini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"333-22-43\"",
-                  "offset": 51
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_gecersiz_numarasini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[.\u003d\u0027Your SSN is invalid\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.111)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-GIHN8273\u0027, ip: \u0027192.168.0.34\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\TTR\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 534bf45c4681b81265d35f0c4e00e543\n*** Element info: {Using\u003dxpath, value\u003d//div[.\u003d\u0027Your SSN is invalid\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.getText(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(US_01_Step_Definitions.java:49)\r\n\tat ✽.Kullanici bir user olarak \"Your SSN is invalid\" hata mesajini goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:17)\r\n",
-              "duration": 10035000000,
-              "status": "failed"
-            },
-            "line": 17,
-            "name": "Kullanici bir user olarak \"Your SSN is invalid\" hata mesajini goruntuler",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your SSN is invalid\"",
-                  "offset": 26
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_002"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 457000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 141000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 138000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:28.873Z",
-        "line": 25,
-        "name": "TC_003  gecerli first name positive test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-003--gecerli-first-name-positive-test",
+        "id": "us01-tests;ssn-number-entry-negative-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 107000000,
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters invalid SSN number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_invalid_SSN_number()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verifies invalid SSN number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_SSN_number()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:31.981Z",
+        "line": 21,
+        "name": "first name entry box positive test",
+        "description": "",
+        "id": "us01-tests;first-name-entry-box-positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters valid name",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user verifies valid first name entry",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_first_name_entry()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc003"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.006Z",
+        "line": 25,
+        "name": "first name entry box negative test",
+        "description": "",
+        "id": "us01-tests;first-name-entry-box-negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 26,
-            "name": "Kullanici bir user olarak First Name textboxina \"Ali\" ismini girer",
+            "name": "user enters invalid name",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Ali\"",
-                  "offset": 48
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxina_ismini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_invalid_name()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 49000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 27,
-            "name": "Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler",
+            "name": "user verifies invalid first name entry",
             "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxinin_bir_hata_uyarisi_vermedigini_goruntuler()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_first_name_entry()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_003"
+            "name": "@tc004"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:32.033Z",
+        "line": 29,
+        "name": "first name entry box positive test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 450000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 127000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 172000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:29.775Z",
-        "line": 30,
-        "name": "TC_004 bos first name negative test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-004-bos-first-name-negative-test",
+        "id": "us01-tests;first-name-entry-box-positive-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 123000000,
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enters nothing as name",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_nothing_as_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 31,
-            "name": "Kullanici bir user olarak First Name textboxini \" \" bos birakir",
+            "name": "user verifies invalid first name entry",
             "match": {
-              "arguments": [
-                {
-                  "val": "\" \"",
-                  "offset": 48
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxini_bos_birakir(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 60000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Kullanici bir user olarak \"Your First Name is required\" hata uyarisini goruntuler",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your First Name is required\"",
-                  "offset": 26
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_uyarisini_goruntuler(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_first_name_entry()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_004"
+            "name": "@tc005"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:32.057Z",
+        "line": 34,
+        "name": "last name entry box positive test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 396000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 159000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 165000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:30.718Z",
-        "line": 35,
-        "name": "TC_005  gecerli last name positive test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-005--gecerli-last-name-positive-test",
+        "id": "us01-tests;last-name-entry-box-positive-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 128000000,
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enters valid last name",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_last_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 36,
-            "name": "Kullanici bir user olarak Last Name textboxina \"Smith\" soyismini girer",
+            "name": "user verifies valid last name entry",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Smith\"",
-                  "offset": 47
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Last_Name_textboxina_soyismini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 50000000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "Kullanici bir user olarak First Name textboxinin bir hata mesaji vermedigini goruntuler",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_last_name_entry()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_005"
+            "name": "@tc006"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:32.084Z",
+        "line": 38,
+        "name": "last name entry box negative test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 445000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 170000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 171000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:31.628Z",
-        "line": 40,
-        "name": "TC_006 bos last name negative test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-006-bos-last-name-negative-test",
+        "id": "us01-tests;last-name-entry-box-negative-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 140000000,
+              "duration": 15000000,
               "status": "passed"
             },
-            "line": 41,
-            "name": "Kullanici bir user olarak Last Name textboxini \" \" bos birakir",
+            "line": 39,
+            "name": "user enters invalid last name",
             "match": {
-              "arguments": [
-                {
-                  "val": "\" \"",
-                  "offset": 47
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Last_Name_textboxini_bos_birakir(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_invalid_last_name()"
             },
             "keyword": "Given "
           },
-          {
-            "result": {
-              "duration": 42000000,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "Kullanici bir user olarak \"Your Last Name is required\" hata mesajini goruntuler",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your Last Name is required\"",
-                  "offset": 26
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_006"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 477000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 175000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:32.610Z",
-        "line": 45,
-        "name": "TC_007  gecerli address test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-007--gecerli-address-test",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
           {
             "result": {
               "duration": 1000000,
               "status": "passed"
             },
-            "line": 46,
-            "name": "Kullanici bir user olarak Address textboxina \"A mah. B cad. No:1 66300 Istanbul Sariyer\"  adresini girer",
+            "line": 40,
+            "name": "user verifies invalid last name entry",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"A mah. B cad. No:1 66300 Istanbul Sariyer\"",
-                  "offset": 45
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Address_textboxina_adresini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Address_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_last_name_entry()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_007"
+            "name": "@tc007"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:32.109Z",
+        "line": 42,
+        "name": "last name entry box positive test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 407000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 147000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 182000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:33.418Z",
-        "line": 50,
-        "name": "TC_008 gecerli mobile phone number test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-008-gecerli-mobile-phone-number-test",
+        "id": "us01-tests;last-name-entry-box-positive-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 13000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "Kullanici bir user olarak Mobile Phone Number textboxina \"123-123-1234\" cep telefonu numarasini girer",
+            "line": 43,
+            "name": "user enters nothing as last name",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"123-123-1234\"",
-                  "offset": 57
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_cep_telefonu_numarasini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_nothing_as_last_name()"
             },
             "keyword": "Given "
           },
           {
             "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user verifies invalid last name entry",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_last_name_entry()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc008"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.133Z",
+        "line": 47,
+        "name": "Mobile phone number entry positive test",
+        "description": "",
+        "id": "us01-tests;mobile-phone-number-entry-positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters valid Mobile phone number number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_Mobile_phone_number_number()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user verifies valid Mobile phone number number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_Mobile_phone_number_number()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc009"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.160Z",
+        "line": 51,
+        "name": "Mobile phone number entry negative test",
+        "description": "",
+        "id": "us01-tests;mobile-phone-number-entry-negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 52,
-            "name": "Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler",
+            "name": "user enters invalid Mobile phone number number",
             "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_008"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 423000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_invalid_Mobile_phone_number_number()"
             },
             "keyword": "Given "
           },
-          {
-            "result": {
-              "duration": 122000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 158000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:34.169Z",
-        "line": 55,
-        "name": "TC_009 gecersiz mobile phone number negative test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-009-gecersiz-mobile-phone-number-negative-test",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan \"1231231234\" cep telefonu numarasini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1231231234\"",
-                  "offset": 70
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_tire_olmadan_cep_telefonu_numarasini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4000000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "Kullanici bir user olarak \"Your mobile phone number is invalid\" hata mesajini goruntuler",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your mobile phone number is invalid\"",
-                  "offset": 26
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_009"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 393000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 171000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:34.890Z",
-        "line": 60,
-        "name": "TC_010 gecerli kullanici adi test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-010-gecerli-kullanici-adi-test",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "Kullanici bir user olarak Username textboxina  \"Abc123\" kullanici adini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Abc123\"",
-                  "offset": 47
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_010"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 381000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 139000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 132000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:35.609Z",
-        "line": 65,
-        "name": "TC_011 gecersiz kullanici adi test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-011-gecersiz-kullanici-adi-test",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "Kullanici bir user olarak Username textboxina  sadece sayilardan olusan \"123\" kullanici adini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"123\"",
-                  "offset": 72
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_sadece_sayilardan_olusan_kullanici_adini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_01"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_011"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 398000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 132000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 159000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:36.272Z",
-        "line": 70,
-        "name": "TC_012 gecerli email test",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-012-gecerli-email-test",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
           {
             "result": {
               "duration": 3000000,
               "status": "passed"
             },
-            "line": 71,
-            "name": "Kullanici bir user olarak Email textboxina \"abc@mail.com\" mail adresini girer",
+            "line": 53,
+            "name": "user verifies invalid Mobile phone number number",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"abc@mail.com\"",
-                  "offset": 43
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxina_mail_adresini_girer(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_Mobile_phone_number_number()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_012"
+            "name": "@tc010"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "start_timestamp": "2020-11-06T19:22:32.191Z",
+        "line": 56,
+        "name": "username test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 469000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 164000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 161000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T21:40:36.973Z",
-        "line": 75,
-        "name": "TC_013 gecerli verilerle hesap olusturma",
-        "description": "",
-        "id": "us-01-succes-register-with-valid-credentials;tc-013-gecerli-verilerle-hesap-olusturma",
+        "id": "us01-tests;username-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 154000000,
+              "duration": 18000000,
               "status": "passed"
             },
-            "line": 76,
-            "name": "Kullanici bir user olarak SSN textboxina \"333-22-4444\" numarasini girer",
+            "line": 57,
+            "name": "user enters a valid username",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"333-22-4444\"",
-                  "offset": 41
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_numarasini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_a_valid_username()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user verifies valid username",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_username()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc011"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.224Z",
+        "line": 62,
+        "name": "email entry positive test",
+        "description": "",
+        "id": "us01-tests;email-entry-positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user enters valid email",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_email()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user verifies valid email",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc012"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.252Z",
+        "line": 66,
+        "name": "email entry negative test",
+        "description": "",
+        "id": "us01-tests;email-entry-negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user enters invalid email",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_invalid_email()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user verifies invalid email",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc013"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.275Z",
+        "line": 71,
+        "name": "password entry positive test",
+        "description": "",
+        "id": "us01-tests;password-entry-positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user enters valid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user verifies valid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc014"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.300Z",
+        "line": 76,
+        "name": "password entry negative test",
+        "description": "",
+        "id": "us01-tests;password-entry-negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 77,
-            "name": "Kullanici bir user olarak First Name textboxina \"Ali\" ismini girer",
+            "name": "user enters invalid password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Ali\"",
-                  "offset": 48
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxina_ismini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_invalid_password()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 124000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 78,
-            "name": "Kullanici bir user olarak Last Name textboxina \"Smith\" soyismini girer",
+            "name": "user verifies invalid password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Smith\"",
-                  "offset": 47
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Last_Name_textboxina_soyismini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_invalid_password()"
             },
-            "keyword": "And "
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
           },
           {
-            "result": {
-              "status": "passed"
-            },
-            "line": 79,
-            "name": "Kullanici bir user olarak Address textboxina \"A mah. B cad. No:1 66300 Istanbul Sariyer\"  adresini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A mah. B cad. No:1 66300 Istanbul Sariyer\"",
-                  "offset": 45
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Address_textboxina_adresini_girer(java.lang.String)"
-            },
-            "keyword": "And "
+            "name": "@SmokeTest"
           },
           {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 80,
-            "name": "Kullanici bir user olarak Mobile Phone Number textboxina \"123-123-1234\" cep telefonu numarasini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"123-123-1234\"",
-                  "offset": 57
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_cep_telefonu_numarasini_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
+            "name": "@tc015"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.323Z",
+        "line": 82,
+        "name": "password matching positive test",
+        "description": "",
+        "id": "us01-tests;password-matching-positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "status": "passed"
-            },
-            "line": 81,
-            "name": "Kullanici bir user olarak Username textboxina  \"Abc123\" kullanici adini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Abc123\"",
-                  "offset": 47
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 82,
-            "name": "Kullanici bir user olarak Email textboxina \"abc@mail.com\" mail adresini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"abc@mail.com\"",
-                  "offset": 43
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxina_mail_adresini_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 83,
-            "name": "Kullanici bir user olarak New password textboxina \"A1b2C3\" sifresini girer",
+            "name": "user enters valid password to first pasword box",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"A1b2C3\"",
-                  "offset": 50
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_New_password_textboxina_sifresini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_password_to_first_pasword_box()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 84,
-            "name": "Kullanici bir user olarak New password confirmation textboxina \"A1b2C3\" sifresini girer",
+            "name": "user enters the same pasword to confirmation box",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"A1b2C3\"",
-                  "offset": 63
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_New_password_confirmation_textboxina_sifresini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_the_same_pasword_to_confirmation_box()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
@@ -1512,46 +732,223 @@
               "status": "passed"
             },
             "line": 85,
-            "name": "Kullanici bir user olarak Register butonuna tiklar",
+            "name": "user verifies passwords matched correctly",
             "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Register_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_basarili_bir_kayit_olusturulduguna_dair_mesaj_goruntuler()"
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_passwords_matched_correctly()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_01"
+            "name": "@US01"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_013"
+            "name": "@tc016"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.348Z",
+        "line": 87,
+        "name": "password entry negative test",
+        "description": "",
+        "id": "us01-tests;password-entry-negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user enters valid password to first pasword box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_password_to_first_pasword_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user enters the different pasword to confirmation box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_the_different_pasword_to_confirmation_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "user verifies passwords dont matched correctly",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_verifies_passwords_dont_matched_correctly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc017"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T19:22:32.372Z",
+        "line": 93,
+        "name": "user valid data entry test",
+        "description": "",
+        "id": "us01-tests;user-valid-data-entry-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#ssn\"}\n  (Session info: chrome\u003d86.0.4240.183)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SAMET-PC\u0027, ip: \u0027192.168.2.33\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_272\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\samet\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1a772c8037cdd7aceffefdaa8e116d67\n*** Element info: {Using\u003did, value\u003dssn}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_SSN_number(US01StepDefinitions.java:35)\r\n\tat ✽.user enters valid SSN number(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/US01.feature:94)\r\n",
+              "duration": 10034000000,
+              "status": "failed"
+            },
+            "line": 94,
+            "name": "user enters valid SSN number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_SSN_number()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "user enters valid name",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "user enters valid last name",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_last_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 97,
+            "name": "user enters valid Mobile phone number number",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_Mobile_phone_number_number()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "user enters a valid username",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_a_valid_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "user enters valid email",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_email()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 100,
+            "name": "user enters valid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 101,
+            "name": "user enters the same pasword to confirmation box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_enters_the_same_pasword_to_confirmation_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "user clicks register button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US01StepDefinitions.user_clicks_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@tc018"
           }
         ]
       }
     ],
-    "name": "US_01 succes register with valid credentials",
-    "description": "",
-    "id": "us-01-succes-register-with-valid-credentials",
+    "name": "US01 tests",
+    "description": "  Background : user is gmibank homepage\n    Given user enters gmibank homepage\n    Then user clicks userEntry icon\n    Then user clicks register link",
+    "id": "us01-tests",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us_01.feature",
+    "uri": "file:src/test/resources/features/US01.feature",
     "tags": [
       {
-        "name": "@US_01",
+        "name": "@US01",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -1563,7 +960,7 @@
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 8
+          "column": 7
         }
       }
     ]
