@@ -11,7 +11,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 10715000000,
+=======
+              "duration": 9937000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +27,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 130000000,
+=======
+              "duration": 95000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +43,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 218000000,
+=======
+              "duration": 131000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 7,
@@ -43,11 +55,41 @@
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
             },
+<<<<<<< HEAD
             "keyword": "Then "
           },
           {
             "result": {
               "duration": 171000000,
+=======
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:18.484Z",
+        "line": 10,
+        "name": "TC_001 gecerli SSN test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-001-gecerli-ssn-test",
+        "after": [
+          {
+            "result": {
+              "duration": 341000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 309000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 8,
@@ -65,7 +107,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 173000000,
+=======
+              "duration": 67000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 9,
@@ -95,7 +141,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 502000000,
+=======
+              "duration": 467000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -107,7 +157,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 131000000,
+=======
+              "duration": 135000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 12,
@@ -119,7 +173,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 269000000,
+=======
+              "duration": 144000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 13,
@@ -132,16 +190,36 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:36:58.228Z",
         "line": 22,
         "name": "zipcode positive test",
         "description": "",
         "id": "us10-tests;zipcode-positive-test;;2",
+=======
+        "start_timestamp": "2020-11-06T22:21:29.565Z",
+        "line": 21,
+        "name": "TC_002 gecersiz SSN test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-002-gecersiz-ssn-test;tc-002-ssn-numaralari;2",
+        "after": [
+          {
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 339000000,
               "status": "passed"
             },
@@ -152,6 +230,18 @@
                 {
                   "val": "\"123456\"",
                   "offset": 30
+=======
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-44445\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"333-22-44445\"",
+                  "offset": 51
+>>>>>>> master
                 }
               ],
               "location": "gmibank.stepdefinitions.US10StepDefinitions.userSendDataToZipcodeBox(java.lang.String)"
@@ -160,7 +250,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1081000000,
+=======
+              "duration": 66000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 18,
@@ -204,7 +298,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 520000000,
+=======
+              "duration": 393000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -216,7 +314,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 165000000,
+=======
+              "duration": 120000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -228,7 +330,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 162000000,
+=======
+              "duration": 157000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 7,
@@ -236,6 +342,7 @@
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
             },
+<<<<<<< HEAD
             "keyword": "Then "
           },
           {
@@ -250,6 +357,44 @@
                 {
                   "val": "\"sametyaprak\"",
                   "offset": 27
+=======
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:30.913Z",
+        "line": 22,
+        "name": "TC_002 gecersiz SSN test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-002-gecersiz-ssn-test;tc-002-ssn-numaralari;3",
+        "after": [
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-443\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"333-22-443\"",
+                  "offset": 51
+>>>>>>> master
                 }
               ],
               "location": "gmibank.stepdefinitions.US10StepDefinitions.userEntersAdminUsername(java.lang.String)"
@@ -258,7 +403,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 185000000,
+=======
+              "duration": 39000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 9,
@@ -288,7 +437,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 538000000,
+=======
+              "duration": 389000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -300,7 +453,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 131000000,
+=======
+              "duration": 143000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 12,
@@ -312,7 +469,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 264000000,
+=======
+              "duration": 137000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 13,
@@ -325,17 +486,40 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:37:12.508Z",
         "line": 23,
         "name": "zipcode positive test",
         "description": "",
         "id": "us10-tests;zipcode-positive-test;;3",
+=======
+        "start_timestamp": "2020-11-06T22:21:32.172Z",
+        "line": 25,
+        "name": "TC_003  gecerli first name positive test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-003--gecerli-first-name-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 364000000,
+=======
+              "duration": 100000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 17,
@@ -353,6 +537,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1063000000,
               "status": "passed"
             },
@@ -366,6 +551,9 @@
           {
             "result": {
               "duration": 203000000,
+=======
+              "duration": 32000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 19,
@@ -397,7 +585,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 542000000,
+=======
+              "duration": 330000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -409,7 +601,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 170000000,
+=======
+              "duration": 128000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -421,7 +617,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 171000000,
+=======
+              "duration": 138000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 7,
@@ -429,11 +629,41 @@
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
             },
+<<<<<<< HEAD
             "keyword": "Then "
           },
           {
             "result": {
               "duration": 99000000,
+=======
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:33.289Z",
+        "line": 30,
+        "name": "TC_004 bos first name negative test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-004-bos-first-name-negative-test",
+        "after": [
+          {
+            "result": {
+              "duration": 319000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 8,
@@ -451,7 +681,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 125000000,
+=======
+              "duration": 46000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 9,
@@ -481,7 +715,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 493000000,
+=======
+              "duration": 320000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -493,7 +731,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 124000000,
+=======
+              "duration": 115000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 12,
@@ -505,7 +747,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 223000000,
+=======
+              "duration": 134000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 13,
@@ -518,11 +764,30 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:37:16.344Z",
         "line": 24,
         "name": "zipcode positive test",
         "description": "",
         "id": "us10-tests;zipcode-positive-test;;4",
+=======
+        "start_timestamp": "2020-11-06T22:21:34.368Z",
+        "line": 35,
+        "name": "TC_005  gecerli last name positive test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-005--gecerli-last-name-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -546,7 +811,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1066000000,
+=======
+              "duration": 36000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 18,
@@ -590,7 +859,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 504000000,
+=======
+              "duration": 346000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -602,7 +875,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 160000000,
+=======
+              "duration": 104000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -614,7 +891,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 156000000,
+=======
+              "duration": 142000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 7,
@@ -622,8 +903,35 @@
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
             },
+<<<<<<< HEAD
             "keyword": "Then "
           },
+=======
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:35.435Z",
+        "line": 40,
+        "name": "TC_006 bos last name negative test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-006-bos-last-name-negative-test",
+        "after": [
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+>>>>>>> master
           {
             "result": {
               "duration": 103000000,
@@ -644,7 +952,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 125000000,
+=======
+              "duration": 41000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 9,
@@ -674,7 +986,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 504000000,
+=======
+              "duration": 329000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -686,7 +1002,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 119000000,
+=======
+              "duration": 108000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 12,
@@ -698,7 +1018,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 220000000,
+=======
+              "duration": 132000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 13,
@@ -711,17 +1035,40 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:37:19.989Z",
         "line": 25,
         "name": "zipcode positive test",
         "description": "",
         "id": "us10-tests;zipcode-positive-test;;5",
+=======
+        "start_timestamp": "2020-11-06T22:21:36.515Z",
+        "line": 45,
+        "name": "TC_007  gecerli address test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-007--gecerli-address-test",
+        "after": [
+          {
+            "result": {
+              "duration": 310000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 310000000,
+=======
+              "duration": 237000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 17,
@@ -739,6 +1086,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1073000000,
               "status": "passed"
             },
@@ -752,6 +1100,9 @@
           {
             "result": {
               "duration": 177000000,
+=======
+              "duration": 40000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 19,
@@ -783,7 +1134,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 484000000,
+=======
+              "duration": 339000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -795,7 +1150,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 155000000,
+=======
+              "duration": 97000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -3147,7 +3506,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 93000000,
+=======
+              "duration": 139000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 10,
@@ -3196,17 +3559,40 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:38:07.415Z",
         "line": 88,
         "name": "state positive test",
         "description": "",
         "id": "us10-tests;state-positive-test;;2",
+=======
+        "start_timestamp": "2020-11-06T22:21:37.680Z",
+        "line": 50,
+        "name": "TC_008 gecerli mobile phone number test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-008-gecerli-mobile-phone-number-test",
+        "after": [
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 335000000,
+=======
+              "duration": 153000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 83,
@@ -3224,6 +3610,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1065000000,
               "status": "passed"
             },
@@ -3237,6 +3624,9 @@
           {
             "result": {
               "duration": 184000000,
+=======
+              "duration": 27000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 85,
@@ -3268,7 +3658,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 449000000,
+=======
+              "duration": 336000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -3280,7 +3674,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 197000000,
+=======
+              "duration": 105000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -3292,7 +3690,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 159000000,
+=======
+              "duration": 126000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 7,
@@ -3300,11 +3702,41 @@
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
             },
+<<<<<<< HEAD
             "keyword": "Then "
           },
           {
             "result": {
               "duration": 102000000,
+=======
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:38.780Z",
+        "line": 55,
+        "name": "TC_009 gecersiz mobile phone number negative test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-009-gecersiz-mobile-phone-number-negative-test",
+        "after": [
+          {
+            "result": {
+              "duration": 342000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 8,
@@ -3322,7 +3754,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 129000000,
+=======
+              "duration": 32000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 9,
@@ -3352,7 +3788,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 487000000,
+=======
+              "duration": 327000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -3364,7 +3804,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 121000000,
+=======
+              "duration": 109000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 12,
@@ -3376,7 +3820,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 231000000,
+=======
+              "duration": 134000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 13,
@@ -3389,17 +3837,40 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:38:10.989Z",
         "line": 89,
         "name": "state positive test",
         "description": "",
         "id": "us10-tests;state-positive-test;;3",
+=======
+        "start_timestamp": "2020-11-06T22:21:39.866Z",
+        "line": 60,
+        "name": "TC_010 gecerli kullanici adi test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-010-gecerli-kullanici-adi-test",
+        "after": [
+          {
+            "result": {
+              "duration": 322000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 331000000,
+=======
+              "duration": 133000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 83,
@@ -3417,6 +3888,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1070000000,
               "status": "passed"
             },
@@ -3430,6 +3902,9 @@
           {
             "result": {
               "duration": 193000000,
+=======
+              "duration": 34000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 85,
@@ -3461,7 +3936,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 486000000,
+=======
+              "duration": 338000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -3473,7 +3952,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 144000000,
+=======
+              "duration": 104000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -3493,11 +3976,47 @@
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
             },
+<<<<<<< HEAD
             "keyword": "Then "
           },
           {
             "result": {
               "duration": 101000000,
+=======
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:40.936Z",
+        "line": 65,
+        "name": "TC_011 gecersiz kullanici adi test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-011-gecersiz-kullanici-adi-test",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "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\u003d\u003d",
+                "mime_type": "image/png"
+              }
+            ],
+            "result": {
+              "duration": 379000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2138000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 8,
@@ -3515,8 +4034,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 125000000,
               "status": "passed"
+=======
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c#[dc3545]\u003e but was:\u003c#[ced4da]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler(US_01_Step_Definitions.java:149)\r\n\tat ✽.Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:67)\r\n",
+              "duration": 43000000,
+              "status": "failed"
+>>>>>>> master
             },
             "line": 9,
             "name": "user enters admin password \"Ankara06\"",
@@ -3545,7 +4070,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 491000000,
+=======
+              "duration": 354000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -3557,7 +4086,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 128000000,
+=======
+              "duration": 120000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 12,
@@ -3569,7 +4102,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 227000000,
+=======
+              "duration": 156000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 13,
@@ -3582,17 +4119,40 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-08T22:38:14.563Z",
         "line": 90,
         "name": "state positive test",
         "description": "",
         "id": "us10-tests;state-positive-test;;4",
+=======
+        "start_timestamp": "2020-11-06T22:21:44.091Z",
+        "line": 70,
+        "name": "TC_012 gecerli email test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-012-gecerli-email-test",
+        "after": [
+          {
+            "result": {
+              "duration": 356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 321000000,
+=======
+              "duration": 170000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 83,
@@ -3610,6 +4170,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1073000000,
               "status": "passed"
             },
@@ -3623,6 +4184,9 @@
           {
             "result": {
               "duration": 193000000,
+=======
+              "duration": 33000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 85,
@@ -3654,7 +4218,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 483000000,
+=======
+              "duration": 361000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 5,
@@ -3666,7 +4234,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 152000000,
+=======
+              "duration": 115000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
@@ -3678,6 +4250,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 167000000,
               "status": "passed"
             },
@@ -3685,12 +4258,65 @@
             "name": "user clicks signIn link",
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
+=======
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T22:21:45.286Z",
+        "line": 75,
+        "name": "TC_013 gecerli verilerle hesap olusturma",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-013-gecerli-verilerle-hesap-olusturma",
+        "after": [
+          {
+            "result": {
+              "duration": 335000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Kullanici bir user olarak SSN textboxina \"333-28-4444\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"333-28-4444\"",
+                  "offset": 41
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_numarasini_girer(java.lang.String)"
+>>>>>>> master
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 103000000,
+=======
+              "duration": 115000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 8,
@@ -3726,7 +4352,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 103000000,
+=======
+              "duration": 235000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 10,
@@ -3738,7 +4368,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 512000000,
+=======
+              "duration": 158000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 11,
@@ -3750,6 +4384,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 121000000,
               "status": "passed"
             },
@@ -3757,11 +4392,27 @@
             "name": "user clicks manageCostomers link",
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_manageCostomers_link()"
+=======
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Kullanici bir user olarak Username textboxina  \"AAbc123\" kullanici adini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AAbc123\"",
+                  "offset": 47
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer(java.lang.String)"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 218000000,
               "status": "passed"
             },
@@ -3769,6 +4420,21 @@
             "name": "user clicks createNewCustomer link",
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_createNewCustomer_link()"
+=======
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Kullanici bir user olarak Email textboxina \"abc12@mail.com\" mail adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc12@mail.com\"",
+                  "offset": 43
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxina_mail_adresini_girer(java.lang.String)"
+>>>>>>> master
             },
             "keyword": "And "
           }
@@ -3785,7 +4451,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 318000000,
+=======
+              "duration": 158000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 83,
@@ -3803,7 +4473,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1072000000,
+=======
+              "duration": 137000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 84,
@@ -3815,11 +4489,31 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 205000000,
               "status": "passed"
             },
             "line": 85,
             "name": "user signOut",
+=======
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Kullanici bir user olarak Register butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Register_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler",
+>>>>>>> master
             "match": {
               "location": "gmibank.stepdefinitions.US10StepDefinitions.userSignOut()"
             },

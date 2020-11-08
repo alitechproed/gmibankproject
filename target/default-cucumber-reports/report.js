@@ -30,6 +30,32 @@ formatter.step({
   "name": "user verifies valid data entry to zipcode box",
   "keyword": "Then "
 });
+<<<<<<< HEAD
+=======
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxinin_bir_hata_uyarisi_vermedigini_goruntuler()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "TC_002 gecersiz SSN test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC_002"
+    }
+  ]
+});
+formatter.step({
+  "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"\u003cSSN\u003e\" numarasini girer",
+  "keyword": "Given "
+});
+>>>>>>> master
 formatter.step({
   "name": "user signOut",
   "keyword": "Then "
@@ -56,12 +82,20 @@ formatter.examples({
     },
     {
       "cells": [
+<<<<<<< HEAD
         "das455"
+=======
+        "333-22-44445"
+>>>>>>> master
       ]
     },
     {
       "cells": [
+<<<<<<< HEAD
         "4a"
+=======
+        "333-22-443"
+>>>>>>> master
       ]
     }
   ]
@@ -102,8 +136,13 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
+=======
+  "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-44445\" numarasini girer",
+  "keyword": "Given "
+>>>>>>> master
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US10StepDefinitions.userEntersAdminUsername(java.lang.String)"
@@ -120,6 +159,12 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+<<<<<<< HEAD
+=======
+});
+formatter.after({
+  "status": "passed"
+>>>>>>> master
 });
 formatter.step({
   "name": "user clicks signIn button",
@@ -178,7 +223,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user send data to zipcode box \"123456\"",
+=======
+  "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-443\" numarasini girer",
+>>>>>>> master
   "keyword": "Given "
 });
 formatter.match({
@@ -197,6 +246,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.step({
   "name": "user signOut",
   "keyword": "Then "
@@ -205,6 +255,9 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US10StepDefinitions.userSignOut()"
 });
 formatter.result({
+=======
+formatter.after({
+>>>>>>> master
   "status": "passed"
 });
 formatter.background({
@@ -262,6 +315,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.step({
   "name": "user clicks signIn button",
   "keyword": "Then "
@@ -271,6 +325,15 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+=======
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+  "description": "",
+  "keyword": "Background"
+>>>>>>> master
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -348,6 +411,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
@@ -403,6 +469,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.step({
   "name": "user clicks signIn button",
   "keyword": "Then "
@@ -412,6 +479,15 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+=======
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+  "description": "",
+  "keyword": "Background"
+>>>>>>> master
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -489,6 +565,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
@@ -544,6 +623,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.step({
   "name": "user clicks signIn button",
   "keyword": "Then "
@@ -553,6 +633,15 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+=======
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+  "description": "",
+  "keyword": "Background"
+>>>>>>> master
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -630,6 +719,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
@@ -685,6 +777,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.step({
   "name": "user clicks signIn button",
   "keyword": "Then "
@@ -694,6 +787,15 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+=======
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+  "description": "",
+  "keyword": "Background"
+>>>>>>> master
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -761,6 +863,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.step({
   "name": "user signOut",
   "keyword": "Then "
@@ -2486,6 +2589,13 @@ formatter.examples({
 });
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
+=======
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+>>>>>>> master
   "description": "",
   "keyword": "Background"
 });
@@ -2623,6 +2733,11 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US10StepDefinitions.userSignOut()"
 });
 formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c#[dc3545]\u003e but was:\u003c#[ced4da]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler(US_01_Step_Definitions.java:149)\r\n\tat ✽.Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:67)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded0.png", null);
+formatter.after({
   "status": "passed"
 });
 formatter.background({
@@ -2766,6 +2881,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
@@ -2878,7 +2996,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user send data to state box \"das455\"",
+=======
+  "name": "Kullanici bir user olarak SSN textboxina \"333-28-4444\" numarasini girer",
+>>>>>>> master
   "keyword": "Given "
 });
 formatter.match({
@@ -2933,8 +3055,13 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user clicks signIn link",
   "keyword": "Then "
+=======
+  "name": "Kullanici bir user olarak Username textboxina  \"AAbc123\" kullanici adini girer",
+  "keyword": "And "
+>>>>>>> master
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_link()"
@@ -2943,6 +3070,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
@@ -2965,6 +3093,10 @@ formatter.result({
 formatter.step({
   "name": "user clicks signIn button",
   "keyword": "Then "
+=======
+  "name": "Kullanici bir user olarak Email textboxina \"abc12@mail.com\" mail adresini girer",
+  "keyword": "And "
+>>>>>>> master
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US10StepDefinitions.user_clicks_signIn_button()"
@@ -3046,6 +3178,9 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US10StepDefinitions.userSignOut()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });
