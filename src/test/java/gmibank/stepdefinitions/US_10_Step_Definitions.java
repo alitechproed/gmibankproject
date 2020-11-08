@@ -17,6 +17,7 @@ public class US_10_Step_Definitions {
 
     @Then("user clicks signIn link")
     public void user_clicks_signIn_link() {
+        ReusableMethods.waitFor(1);
        us10Page.signinLink.click();
     }
     @Then("user clicks signIn button")
@@ -164,5 +165,15 @@ public class US_10_Step_Definitions {
         ReusableMethods.waitFor(1);
         Assert.assertTrue(us10Page.state.getAttribute("class")
                 .equals("form-control is-touched is-dirty av-valid form-control"));
+    }
+
+    @Given("user enters gmibank homepage")
+    public void userEntersGmibankHomepage() {
+        Driver.getDriver().get("http://www.gmibank.com/");
+    }
+
+    @Then("user clicks userEntry icon")
+    public void userClicksUserEntryIcon() {
+        us10Page.enterIcon.click();
     }
 }
