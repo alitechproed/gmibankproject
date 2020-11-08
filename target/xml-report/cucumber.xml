@@ -1,162 +1,303 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="26.333">
-<testcase classname="US01 tests" name="SSN number entry positive test" time="15.464">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ssn&quot;}&#10;  (Session info: chrome=86.0.4240.183)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SAMET-PC', ip: '192.168.2.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_272'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\samet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1a772c8037cdd7aceffefdaa8e116d67&#10;*** Element info: {Using=id, value=ssn}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user enters valid SSN number..........................................failed
-Then user verifies valid SSN number.........................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ssn"}
-  (Session info: chrome=86.0.4240.183)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SAMET-PC', ip: '192.168.2.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_272'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\samet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1a772c8037cdd7aceffefdaa8e116d67
-*** Element info: {Using=id, value=ssn}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_SSN_number(US01StepDefinitions.java:35)
-	at ✽.user enters valid SSN number(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/US01.feature:12)
-]]></failure>
-</testcase>
-<testcase classname="US01 tests" name="SSN number entry negative test" time="0.019">
-<system-out><![CDATA[Given user enters invalid SSN number........................................passed
-Then user verifies invalid SSN number.......................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="83.915">
+<testcase classname="US10 tests" name="zipcode positive test" time="14.248">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "123456"................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="first name entry box positive test" time="0.02">
-<system-out><![CDATA[Given user enters valid name................................................passed
-Then user verifies valid first name entry...................................passed
+<testcase classname="US10 tests" name="zipcode positive test 2" time="3.823">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "asdasd"................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="first name entry box negative test" time="0.022">
-<system-out><![CDATA[Given user enters invalid name..............................................passed
-Then user verifies invalid first name entry.................................passed
+<testcase classname="US10 tests" name="zipcode positive test 3" time="3.637">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "das455"................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="first name entry box positive test" time="0.02">
-<system-out><![CDATA[Given user enters nothing as name...........................................passed
-Then user verifies invalid first name entry.................................passed
+<testcase classname="US10 tests" name="zipcode positive test 4" time="3.561">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "4a"....................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="last name entry box positive test" time="0.022">
-<system-out><![CDATA[Given user enters valid last name...........................................passed
-Then user verifies valid last name entry....................................passed
+<testcase classname="US10 tests" name="zipcode negative test" time="3.597">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send nothing to zipcode box......................................passed
+Then user verifies invalid zipcode data entry...............................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="last name entry box negative test" time="0.021">
-<system-out><![CDATA[Given user enters invalid last name.........................................passed
-Then user verifies invalid last name entry..................................passed
+<testcase classname="US10 tests" name="adress positive test" time="3.634">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "123456".................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="last name entry box positive test" time="0.02">
-<system-out><![CDATA[Given user enters nothing as last name......................................passed
-Then user verifies invalid last name entry..................................passed
+<testcase classname="US10 tests" name="adress positive test 2" time="3.586">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "asdasd".................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="Mobile phone number entry positive test" time="0.021">
-<system-out><![CDATA[Given user enters valid Mobile phone number number..........................passed
-Then user verifies valid Mobile phone number number.........................passed
+<testcase classname="US10 tests" name="adress positive test 3" time="3.641">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "das455".................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="Mobile phone number entry negative test" time="0.024">
-<system-out><![CDATA[Given user enters invalid Mobile phone number number........................passed
-Then user verifies invalid Mobile phone number number.......................passed
+<testcase classname="US10 tests" name="adress positive test 4" time="3.648">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "4a".....................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="username test" time="0.027">
-<system-out><![CDATA[Given user enters a valid username..........................................passed
-Then user verifies valid username...........................................passed
+<testcase classname="US10 tests" name="adress negative test" time="3.585">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send nothing to adress box.......................................passed
+Then user verifies invalid acress data entry................................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="email entry positive test" time="0.023">
-<system-out><![CDATA[Given user enters valid email...............................................passed
-Then user verifies valid email..............................................passed
+<testcase classname="US10 tests" name="city positive test" time="3.697">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "123456"...................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="email entry negative test" time="0.019">
-<system-out><![CDATA[Given user enters invalid email.............................................passed
-Then user verifies invalid email............................................passed
+<testcase classname="US10 tests" name="city positive test 2" time="3.748">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "asdasd"...................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="password entry positive test" time="0.019">
-<system-out><![CDATA[Given user enters valid password............................................passed
-Then user verifies valid password...........................................passed
+<testcase classname="US10 tests" name="city positive test 3" time="3.633">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "das455"...................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="password entry negative test" time="0.018">
-<system-out><![CDATA[Given user enters invalid password..........................................passed
-Then user verifies invalid password.........................................passed
+<testcase classname="US10 tests" name="city positive test 4" time="3.593">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "4a".......................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="password matching positive test" time="0.021">
-<system-out><![CDATA[Given user enters valid password to first pasword box.......................passed
-Then user enters the same pasword to confirmation box.......................passed
-Then user verifies passwords matched correctly..............................passed
+<testcase classname="US10 tests" name="city negative test" time="3.639">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send nothing to city box.........................................passed
+Then user verifies invalid city data entry..................................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="password entry negative test" time="0.02">
-<system-out><![CDATA[Given user enters valid password to first pasword box.......................passed
-Then user enters the different pasword to confirmation box..................passed
-Then user verifies passwords dont matched correctly.........................passed
+<testcase classname="US10 tests" name="country positive test" time="3.766">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user select a country from dropbox....................................passed
+Then user verifies a country can be selected................................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US01 tests" name="user valid data entry test" time="10.059">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ssn&quot;}&#10;  (Session info: chrome=86.0.4240.183)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SAMET-PC', ip: '192.168.2.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_272'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\samet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1a772c8037cdd7aceffefdaa8e116d67&#10;*** Element info: {Using=id, value=ssn}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user enters valid SSN number..........................................failed
-Given user enters valid name................................................skipped
-Given user enters valid last name...........................................skipped
-Given user enters valid Mobile phone number number..........................skipped
-Given user enters a valid username..........................................skipped
-Given user enters valid email...............................................skipped
-Given user enters valid password............................................skipped
-Then user enters the same pasword to confirmation box.......................skipped
-Then user clicks register button............................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ssn"}
-  (Session info: chrome=86.0.4240.183)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SAMET-PC', ip: '192.168.2.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_272'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\samet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1a772c8037cdd7aceffefdaa8e116d67
-*** Element info: {Using=id, value=ssn}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US01StepDefinitions.user_enters_valid_SSN_number(US01StepDefinitions.java:35)
-	at ✽.user enters valid SSN number(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/US01.feature:94)
-]]></failure>
+<testcase classname="US10 tests" name="state positive test" time="3.568">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "123456"..................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test 2" time="3.568">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "asdasd"..................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test 3" time="3.569">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "das455"..................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test 4" time="3.58">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "4a"......................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
 </testsuite>
