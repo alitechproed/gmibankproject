@@ -10,6 +10,8 @@ public class US_10_Page {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+    @FindBy(xpath = "//a[@aria-haspopup='true']")
+    public WebElement enterIcon;
     @FindBy(xpath = "//span[.='Sign in']")
     public WebElement signinLink;
     @FindBy(id = "username")

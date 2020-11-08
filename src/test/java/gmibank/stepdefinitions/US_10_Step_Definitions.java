@@ -165,4 +165,15 @@ public class US_10_Step_Definitions {
         Assert.assertTrue(us10Page.state.getAttribute("class")
                 .equals("form-control is-touched is-dirty av-valid form-control"));
     }
+
+    @Given("user enters gmibank homepage")
+    public void userEntersGmibankHomepage() {
+        Driver.getDriver().get("http://www.gmibank.com/");
+    }
+
+    @Then("user clicks userEntry icon")
+    public void userClicksUserEntryIcon() {
+        us10Page.enterIcon.click();
+        us10Page.signinLink.click();
+    }
 }
