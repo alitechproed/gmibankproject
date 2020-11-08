@@ -1,9 +1,8 @@
 package gmibank.stepdefinitions;
 
-import gmibank.pages.US10Page;
+import gmibank.pages.US_10_Page;
 import gmibank.utilities.Driver;
 import gmibank.utilities.ReusableMethods;
-import io.cucumber.java.bs.A;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -11,8 +10,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class US10StepDefinitions {
-    US10Page us10Page = new US10Page();
+public class US_10_Step_Definitions {
+    US_10_Page us10Page = new US_10_Page();
     Actions actions = new Actions(Driver.getDriver());
 
 
