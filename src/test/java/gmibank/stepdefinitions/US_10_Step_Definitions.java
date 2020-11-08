@@ -17,6 +17,7 @@ public class US_10_Step_Definitions {
 
     @Then("user clicks signIn link")
     public void user_clicks_signIn_link() {
+        ReusableMethods.waitFor(1);
        us10Page.signinLink.click();
     }
     @Then("user clicks signIn button")
@@ -174,6 +175,5 @@ public class US_10_Step_Definitions {
     @Then("user clicks userEntry icon")
     public void userClicksUserEntryIcon() {
         us10Page.enterIcon.click();
-        us10Page.signinLink.click();
     }
 }
