@@ -58,23 +58,21 @@ public class US_02_Step_Definitions {
     }
     @Then("invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur")
     public void invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur()  {
+        ReusableMethods.waitFor(2);
         String ssnBorderColor= us02Page.SsnTextBox.getCssValue("border-color");
-        System.out.println(ssnBorderColor);
         ReusableMethods.waitFor(2);
         String hexColor= Color.fromString(ssnBorderColor).asHex();
-        System.out.println(hexColor);
-        ReusableMethods.waitFor(2);
-        Assert.assertEquals("#dc3545",ssnBorderColor);
+        Assert.assertEquals("#dc3545",hexColor);
     }
     @Given("kullanici Mobile Phone Number textbox'ini sayilar arasinda ozel karakter kullanmadan doldurur")
     public void kullanici_Mobile_Phone_Number_textbox_ini_sayilar_arasinda_ozel_karakter_kullanmadan_doldurur() {
         us02Page.mobileNumberTextBox.sendKeys("1112223333" +Keys.ENTER);
     }
     @Then("invalid giris yapildiginda mobile phone number yazisi kirmizi olur")
-    public void invalid_giris_yapildiginda_mobile_phone_number_yazisi_kirmizi_olur() throws InterruptedException {
+    public void invalid_giris_yapildiginda_mobile_phone_number_yazisi_kirmizi_olur()  {
         String mobileColor=us02Page.mobileColor.getCssValue("color");
         System.out.println(mobileColor);
-        Thread.sleep(2000);
+        ReusableMethods.waitFor(2);
         String hexColor=Color.fromString(mobileColor).asHex();
         System.out.println(hexColor);
         Assert.assertEquals("#dc3545",hexColor);

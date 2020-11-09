@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12395000000,
+              "duration": 10339000000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 141000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 281000000,
+              "duration": 139000000,
               "status": "passed"
             },
             "line": 6,
@@ -48,15 +48,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-09T15:50:54.269Z",
-        "line": 26,
-        "name": "TC_017",
+        "start_timestamp": "2020-11-09T16:04:52.288Z",
+        "line": 13,
+        "name": "TC_014 invalid SSN test",
         "description": "",
-        "id": "gmibanktest;tc-017;emailler;2",
+        "id": "gmibanktest;tc-014-invalid-ssn-test",
         "after": [
           {
             "result": {
-              "duration": 401000000,
+              "duration": 366000000,
               "status": "passed"
             },
             "match": {
@@ -65,35 +65,29 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 303000000,
+              "duration": 283000000,
               "status": "passed"
             },
-            "line": 22,
-            "name": "kullanici \"alicangmail.com\" adresini girer",
+            "line": 14,
+            "name": "kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"alicangmail.com\"",
-                  "offset": 10
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_adresini_girer(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_SSN_textboxina_sayilar_arasinda_bosluk_koyarak_giris_yapar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 108000000,
+              "duration": 6103000000,
               "status": "passed"
             },
-            "line": 23,
-            "name": "kullanici invalid email girdiginde hata mesajini gorur",
+            "line": 15,
+            "name": "invalid numara girildiginde textbox\u0027in kenar rengi kirmizi gorulur",
             "match": {
-              "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
+              "location": "gmibank.stepdefinitions.US_02_Step_Definitions.invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur()"
             },
             "keyword": "Then "
           }
@@ -103,112 +97,7 @@
             "name": "@US_02"
           },
           {
-            "name": "@TC_017"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 362000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-09T15:51:08.064Z",
-        "line": 27,
-        "name": "TC_017",
-        "description": "",
-        "id": "gmibanktest;tc-017;emailler;3",
-        "after": [
-          {
-            "result": {
-              "duration": 362000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 230000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "kullanici \"alican@gmail\" adresini girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"alican@gmail\"",
-                  "offset": 10
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_adresini_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 78000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "kullanici invalid email girdiginde hata mesajini gorur",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_02"
-          },
-          {
-            "name": "@TC_017"
+            "name": "@TC_015"
           }
         ]
       }
