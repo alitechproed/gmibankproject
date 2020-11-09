@@ -3,6 +3,7 @@ package gmibank.stepdefinitions;
 import gmibank.pages.US_02_Page;
 import gmibank.utilities.ConfigurationReader;
 import gmibank.utilities.Driver;
+import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -36,7 +37,7 @@ public class US_02_Step_Definitions {
 
  */
     @Given("kullanici textboxlari bos birakip register butonuna tiklar")
-    public void kullanici_textboxlari_bos_birakip_register_butonuna_tiklar() throws InterruptedException {
+    public void kullanici_textboxlari_bos_birakip_register_butonuna_tiklar()  {
 
 
         action.sendKeys(Keys.ARROW_UP).perform();
@@ -56,13 +57,14 @@ public class US_02_Step_Definitions {
         us02Page.SsnTextBox.sendKeys("111 22 3333" +Keys.ENTER);
     }
     @Then("invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur")
-    public void invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur() throws InterruptedException {
+    public void invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur()  {
         String ssnBorderColor= us02Page.SsnTextBox.getCssValue("border-color");
         System.out.println(ssnBorderColor);
-        Thread.sleep(3000);
+        ReusableMethods.waitFor(2);
         String hexColor= Color.fromString(ssnBorderColor).asHex();
         System.out.println(hexColor);
-        Assert.assertEquals(ssnBorderColor,"#ced4da");
+        ReusableMethods.waitFor(2);
+        Assert.assertEquals("#dc3545",ssnBorderColor);
     }
     @Given("kullanici Mobile Phone Number textbox'ini sayilar arasinda ozel karakter kullanmadan doldurur")
     public void kullanici_Mobile_Phone_Number_textbox_ini_sayilar_arasinda_ozel_karakter_kullanmadan_doldurur() {
@@ -75,7 +77,7 @@ public class US_02_Step_Definitions {
         Thread.sleep(2000);
         String hexColor=Color.fromString(mobileColor).asHex();
         System.out.println(hexColor);
-        Assert.assertEquals(hexColor,"#dc3545");
+        Assert.assertEquals("#dc3545",hexColor);
     }
     @Given("kullanici {string} adresini girer")
     public void kullanici_adresini_girer(String string) {

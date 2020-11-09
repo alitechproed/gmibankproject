@@ -9,6 +9,46 @@ formatter.feature({
     }
   ]
 });
+formatter.scenarioOutline({
+  "name": "TC_017",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC_017"
+    }
+  ]
+});
+formatter.step({
+  "name": "kullanici \"\u003cemail\u003e\" adresini girer",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "kullanici invalid email girdiginde hata mesajini gorur",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "emailler",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "email"
+      ]
+    },
+    {
+      "cells": [
+        "alicangmail.com"
+      ]
+    },
+    {
+      "cells": [
+        "alican@gmail"
+      ]
+    }
+  ]
+});
 formatter.background({
   "name": "Kullanici bir user olarak gmibank anasayfasina gider",
   "description": "",
@@ -45,40 +85,109 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC_014 invalid SSN test",
+  "name": "TC_017",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@US_02"
     },
     {
-      "name": "@TC_015"
+      "name": "@TC_017"
     }
   ]
 });
 formatter.step({
-  "name": "kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar",
+  "name": "kullanici \"alicangmail.com\" adresini girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_SSN_textboxina_sayilar_arasinda_bosluk_koyarak_giris_yapar()"
+  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_adresini_girer(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "invalid numara girildiginde textbox\u0027in kenar rengi kirmizi gorulur",
+  "name": "kullanici invalid email girdiginde hata mesajini gorur",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur()"
+  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[rgb(207, 195, 202)]\u003e but was:\u003c[#ced4da]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_02_Step_Definitions.invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur(US_02_Step_Definitions.java:68)\r\n\tat ✽.invalid numara girildiginde textbox\u0027in kenar rengi kirmizi gorulur(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_02.feature:15)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_017",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@US_02"
+    },
+    {
+      "name": "@TC_017"
+    }
+  ]
+});
+formatter.step({
+  "name": "kullanici \"alican@gmail\" adresini girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_adresini_girer(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici invalid email girdiginde hata mesajini gorur",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_invalid_email_girdiginde_hata_mesajini_gorur()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

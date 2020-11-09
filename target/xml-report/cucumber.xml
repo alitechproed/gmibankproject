@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.571">
-<testcase classname="GmiBankTest" name="TC_014 invalid SSN test" time="14.041">
-<failure message="expected:&lt;[rgb(207, 195, 202)]&gt; but was:&lt;[#ced4da]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="15.561">
+<testcase classname="GmiBankTest" name="TC_017" time="13.769">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
-And kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar....passed
-Then invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur.....failed
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[rgb(207, 195, 202)]> but was:<[#ced4da]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at gmibank.stepdefinitions.US_02_Step_Definitions.invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur(US_02_Step_Definitions.java:68)
-	at ✽.invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_02.feature:15)
-]]></failure>
+And kullanici "alicangmail.com" adresini girer..............................passed
+Then kullanici invalid email girdiginde hata mesajini gorur.................passed
+]]></system-out>
+</testcase>
+<testcase classname="GmiBankTest" name="TC_017_2" time="1.259">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And kullanici "alican@gmail" adresini girer.................................passed
+Then kullanici invalid email girdiginde hata mesajini gorur.................passed
+]]></system-out>
 </testcase>
 </testsuite>
