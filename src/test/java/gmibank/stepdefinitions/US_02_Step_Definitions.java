@@ -42,26 +42,23 @@ public class US_02_Step_Definitions {
         action.sendKeys(Keys.ARROW_UP).perform();
         action.sendKeys(Keys.ARROW_UP).perform();
         us02Page.registirationButton.click();
+
         System.out.println(us02Page.invalidMessageList.size());
+    }
+    @Then("kullanici bos birakilan textbox'larda uyari yazisi ciktigini dogrular")
+    public void kullanici_bos_birakilan_textbox_larda_uyari_yazisi_ciktigini_dogrular() {
         for (WebElement w:us02Page.invalidMessageList){
             Assert.assertTrue(w.isDisplayed());
         }
     }
-    @Then("kullanici bos birakilan textbox'larda uyari yazisi ciktigini dogrular")
-    public void kullanici_bos_birakilan_textbox_larda_uyari_yazisi_ciktigini_dogrular() {
-        Assert.assertTrue(us02Page.uyariTexti.isDisplayed());
-    }
     @Given("kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar")
     public void kullanici_SSN_textboxina_sayilar_arasinda_bosluk_koyarak_giris_yapar() {
-        us02Page.SsnTextBox.sendKeys("111 22 3333");
+        us02Page.SsnTextBox.sendKeys("111 22 3333" +Keys.ENTER);
     }
     @Then("invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur")
     public void invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur() throws InterruptedException {
         String ssnBorderColor= us02Page.SsnTextBox.getCssValue("border-color");
         System.out.println(ssnBorderColor);
-//        WebDriverWait wait= new WebDriverWait(Driver.getDriver(),20);
-//        wait.until(ExpectedConditions.(us02Page.SsnTextBox));
-        //  Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(3000);
         String hexColor= Color.fromString(ssnBorderColor).asHex();
         System.out.println(hexColor);

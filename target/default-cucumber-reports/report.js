@@ -45,7 +45,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC_013 registiration test",
+  "name": "TC_014 invalid SSN test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -53,30 +53,32 @@ formatter.scenario({
       "name": "@US_02"
     },
     {
-      "name": "@TC_014"
+      "name": "@TC_015"
     }
   ]
 });
 formatter.step({
-  "name": "kullanici textboxlari bos birakip register butonuna tiklar",
+  "name": "kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_textboxlari_bos_birakip_register_butonuna_tiklar()"
+  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_SSN_textboxina_sayilar_arasinda_bosluk_koyarak_giris_yapar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici bos birakilan textbox\u0027larda uyari yazisi ciktigini dogrular",
+  "name": "invalid numara girildiginde textbox\u0027in kenar rengi kirmizi gorulur",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.kullanici_bos_birakilan_textbox_larda_uyari_yazisi_ciktigini_dogrular()"
+  "location": "gmibank.stepdefinitions.US_02_Step_Definitions.invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[rgb(207, 195, 202)]\u003e but was:\u003c[#ced4da]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_02_Step_Definitions.invalid_numara_girildiginde_textbox_in_kenar_rengi_kirmizi_gorulur(US_02_Step_Definitions.java:68)\r\n\tat ✽.invalid numara girildiginde textbox\u0027in kenar rengi kirmizi gorulur(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_02.feature:15)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
