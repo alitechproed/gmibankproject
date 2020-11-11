@@ -13,8 +13,9 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
-        tags = "@US44",
-        dryRun = true
+        tags = "",
+        dryRun = false
+
 )
 
 public class Runner {
