@@ -12,6 +12,7 @@
       And user clicks manageCostomers link
       And user clicks createNewCustomer link
 
+
       @tc1001
       Scenario Outline: zipcode positive test
         Given user send data to zipcode box "<zipcode>"
@@ -29,6 +30,7 @@
         Given user send nothing to zipcode box
         Then user verifies invalid zipcode data entry
         Then user signOut
+
 
 
 
