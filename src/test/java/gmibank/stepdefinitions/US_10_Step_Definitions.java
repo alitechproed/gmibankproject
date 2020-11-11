@@ -176,4 +176,5 @@ public class US_10_Step_Definitions {
     public void userClicksUserEntryIcon() {
         us10Page.enterIcon.click();
     }
+
 }

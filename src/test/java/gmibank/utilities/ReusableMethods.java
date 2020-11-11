@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
 
 public class ReusableMethods {
@@ -248,6 +249,15 @@ public class ReusableMethods {
 
         return mobileNumber;
 
+    }
+
+    public static String randomMethod(int a, int ilkAscii, int sonAscii){
+        String myData ="";
+        for (int i=0;i<a;i++) {
+            char ascii = (char) ThreadLocalRandom.current().nextInt(ilkAscii, sonAscii );
+            myData =myData + ascii;
+        }
+        return myData;
     }
 
 }
