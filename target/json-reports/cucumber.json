@@ -1,0 +1,222 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user register gmibank hopage click and reache",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16542000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-11T21:02:44.950Z",
+        "line": 19,
+        "name": "TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly",
+        "description": "",
+        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0301--positiv-test--at-least-1-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 552000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3100000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "bir user sent data to new Password Box \"Betul2015.\" and verify the level chart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Betul2015.\"",
+                  "offset": 39
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bir_user_sent_data_to_new_Password_Box_and_verify_the_level_chart(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03"
+          },
+          {
+            "name": "@SmokeTests"
+          },
+          {
+            "name": "@tc0301"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user register gmibank hopage click and reache",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1380000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-11T21:03:06.452Z",
+        "line": 20,
+        "name": "TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly",
+        "description": "",
+        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0301--positiv-test--at-least-1-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2606000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "bir user sent data to new Password Box \"BeT201*\" and verify the level chart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BeT201*\"",
+                  "offset": 39
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bir_user_sent_data_to_new_Password_Box_and_verify_the_level_chart(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03"
+          },
+          {
+            "name": "@SmokeTests"
+          },
+          {
+            "name": "@tc0301"
+          }
+        ]
+      }
+    ],
+    "name": "US_003 Registration page should restrict password usage to a secure and high level passcode",
+    "description": "",
+    "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/us_03.feature",
+    "tags": [
+      {
+        "name": "@US03",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@SmokeTests",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]
