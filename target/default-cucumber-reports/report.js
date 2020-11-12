@@ -935,10 +935,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c#d[c3545]\u003e but was:\u003c#d[ddddd]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler(US_01_Step_Definitions.java:149)\r\n\tat ✽.Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_01.feature:67)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
