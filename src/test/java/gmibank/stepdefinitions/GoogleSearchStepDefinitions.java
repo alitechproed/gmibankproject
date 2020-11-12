@@ -1,6 +1,7 @@
 package gmibank.stepdefinitions;
 
 import gmibank.pages.GooglePage;
+import gmibank.pojos.SamplePojo;
 import gmibank.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -14,6 +15,7 @@ public class GoogleSearchStepDefinitions {
     @Given("user is in the google page")
     public void user_is_in_the_google_page() {
         Driver.getDriver().get("https://www.google.com");
+
 
     }
 
