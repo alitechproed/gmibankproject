@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="29" time="317.525">
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly" time="34.725">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given bir user sent data to new Password Box "Betul2015" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly 2" time="7.456">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given bir user sent data to new Password Box "BeT201" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly" time="7.568">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given iki user sent to newPassword Box "BETUL2015!!!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly 2" time="5.428">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given iki user sent to newPassword Box "BET201!.....B" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly" time="4.992">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given uc user sent to newPass box "Betul2015." and verify the level chart...passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 2" time="4.101">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given uc user sent to newPass box "BeT201!" and verify the level chart......passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 3" time="4.191">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given uc user sent to newPass box "aBE3." and verify the level chart........passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 4" time="4.019">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given uc user sent to newPass box "bet2015" and verify the level chart......passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 5" time="3.947">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given uc user sent to newPass box "BET2015a" and verify the level chart.....passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly" time="4.064">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given dort user sent to newPassword field "BETUL2015." and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly 2" time="4.134">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given dort user sent to newPassword field "BT201!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly 3" time="4.661">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given dort user sent to newPassword field "BT2015434!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly" time="14.74">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given bes user sent to newPassword field "Bet2a.!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly 2" time="13.966">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given bes user sent to newPassword field "Ba!2C4" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly 3" time="14.25">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given bes user sent to newPassword field "345a!B" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly" time="4.907">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given alti user sent to newPassword  "BETULa." and verify the level chart...passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly 2" time="4.098">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given alti user sent to newPassword  "Besdfbbdf!!!!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly 3" time="5.724">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given alti user sent to newPassword  "BeTdfsdgb!!!..!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly" time="15.563">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given yedi user sent to newPASWORD box "BE24La." and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly 2" time="14.537">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given yedi user sent to newPASWORD box "Bet2!a2" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly 3" time="14.628">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given yedi user sent to newPASWORD box "BeTdf34dgb!!..!" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly" time="14.288">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given sekiz user sent to newPASvORD box "BETULa23" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly 2" time="14.182">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given sekiz user sent to newPASvORD box "Bet2" and verify the level chart...passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly 3" time="14.757">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given sekiz user sent to newPASvORD box "BeTd35" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0309 Positiv Test  at least 7 chars for a stronger password" time="18.793">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given dokuz user sent to newPassWORD box "Be2.!Al" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0309 Positiv Test  at least 7 chars for a stronger password 2" time="14.804">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given dokuz user sent to newPassWORD box "Bet2a!.a345" and verify the level chart.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password" time="15.865">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given on user sent to newPass field "Be2.!A" and verify the level chart.....passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password 2" time="14.854">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given on user sent to newPass field "Bet2a" and verify the level chart......passed
+]]></system-out>
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password 3" time="15.999">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given on user sent to newPass field "aB2!" and verify the level chart.......passed
+]]></system-out>
+</testcase>
+</testsuite>
