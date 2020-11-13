@@ -1,5 +1,5 @@
 @US_02
-Feature: GmiBankTest
+Feature: US_02 Test
   Background: Kullanici bir user olarak gmibank anasayfasina gider
     Given Kullanici bir user olarak gmibank anasayfasina gider
     And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar
