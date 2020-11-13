@@ -1,6 +1,7 @@
 package gmibank.stepdefinitions;
 
-import gmibank.pages.Us_02_Page;
+
+import gmibank.pages.US_02_Page;
 import gmibank.utilities.ConfigurationReader;
 import gmibank.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -19,24 +20,24 @@ import java.util.concurrent.TimeUnit;
 
 public class Us_02_StepDef {
 
-    Us_02_Page us02Page=new Us_02_Page();
+    US_02_Page us02Page=new US_02_Page();
     Actions action=new Actions(Driver.getDriver());
 
-    @Given("Kullanici bir user olarak gmibank anasayfasina gider")
-    public void kullanici_bir_user_olarak_gmibank_anasayfasina_gider() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("gmi_Bank_Url"));
-    }
-
-    @Given("Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar")
-    public void kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar() {
-        us02Page.registirationGirisImage.click();
-
-    }
-
-    @Given("Kullanici bir user olarak acilan menuden register linkine tiklar")
-    public void kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar() {
-        us02Page.registirationGirisMenu.click();
-    }
+//    @Given("Kullanici bir user olarak gmibank anasayfasina gider")
+//    public void kullanici_bir_user_olarak_gmibank_anasayfasina_gider() {
+//        Driver.getDriver().get(ConfigurationReader.getProperty("gmi_Bank_Url"));
+//    }
+//
+//    @Given("Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar")
+//    public void kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar() {
+//        us02Page.registirationGirisImage.click();
+//
+//    }
+//
+//    @Given("Kullanici bir user olarak acilan menuden register linkine tiklar")
+//    public void kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar() {
+//        us02Page.registirationGirisMenu.click();
+//    }
 
     @Given("kullanici textboxlari bos birakip register butonuna tiklar")
     public void kullanici_textboxlari_bos_birakip_register_butonuna_tiklar() throws InterruptedException {

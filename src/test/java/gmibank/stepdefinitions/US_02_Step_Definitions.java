@@ -19,10 +19,10 @@ import java.util.concurrent.TimeUnit;
 
 public class US_02_Step_Definitions {
 
-    US_02_Page us02Page=new US_02_Page();
+   /* US_02_Page us02Page=new US_02_Page();
     Actions action=new Actions(Driver.getDriver());
 
-/*    @Given("Kullanici bir user olarak gmibank anasayfasina gider")
+ @Given("Kullanici bir user olarak gmibank anasayfasina gider")
     public void kullanici_bir_user_olarak_gmibank_anasayfasina_gider() {
         Driver.getDriver().get(ConfigurationReader.getProperty("gmi_Bank_Url"));
     }
@@ -35,7 +35,7 @@ public class US_02_Step_Definitions {
         us02Page.registirationGirisMenu.click();
     }
 
- */
+
     @Given("kullanici textboxlari bos birakip register butonuna tiklar")
     public void kullanici_textboxlari_bos_birakip_register_butonuna_tiklar()  {
 
@@ -84,4 +84,6 @@ public class US_02_Step_Definitions {
     @Then("kullanici invalid email girdiginde hata mesajini gorur")
     public void kullanici_invalid_email_girdiginde_hata_mesajini_gorur() {
         Assert.assertTrue(us02Page.emailInvalidMessage.isDisplayed());    }
+        */
+
 }

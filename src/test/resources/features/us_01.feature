@@ -73,13 +73,13 @@ Feature: US_01 succes register with valid credentials
 
   @TC_013
   Scenario: TC_013 gecerli verilerle hesap olusturma
-    Given Kullanici bir user olarak SSN textboxina "333-28-4444" numarasini girer
+    Given Kullanici bir user olarak SSN textboxina "222-28-4444" numarasini girer
     And Kullanici bir user olarak First Name textboxina "Ali" ismini girer
     And Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer
     And Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer
     And Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer
     And Kullanici bir user olarak Username textboxina  "AAbc123" kullanici adini girer
-    And Kullanici bir user olarak Email textboxina "abc12@mail.com" mail adresini girer
+    And Kullanici bir user olarak Email textboxina "abc122@mail.com" mail adresini girer
     And Kullanici bir user olarak New password textboxina "A1b2C3" sifresini girer
     And Kullanici bir user olarak New password confirmation textboxina "A1b2C3" sifresini girer
     And Kullanici bir user olarak Register butonuna tiklar
