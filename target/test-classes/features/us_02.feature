@@ -1,4 +1,4 @@
-@US_02
+@US_02  @SmokeTest
 Feature: US_02 Test
   Background: Kullanici bir user olarak gmibank anasayfasina gider
     Given Kullanici bir user olarak gmibank anasayfasina gider
