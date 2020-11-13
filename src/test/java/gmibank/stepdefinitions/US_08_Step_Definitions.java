@@ -314,20 +314,22 @@ public class US_08_Step_Definitions {
 
     @Given("user clicks password link and writes random password")
     public void userClicksPasswordLinkAndWritesRandomPassword() {
+        ReusableMethods.waitFor(2);
         System.out.println(newPasswordRandom);
         us08Page.currentPasswordBox.sendKeys("User123_");
-        us08Page.newPasswordBox.sendKeys("User123_");
-        //us08Page.newPasswordBox.sendKeys(newPasswordRandom);
-        us08Page.confirmPasswordBox.sendKeys("User123_");
-        //us08Page.confirmPasswordBox.sendKeys(newPasswordRandom);
+       // us08Page.newPasswordBox.sendKeys("User123_");
+        us08Page.newPasswordBox.sendKeys(newPasswordRandom);
+       // us08Page.confirmPasswordBox.sendKeys("User123_");
+        us08Page.confirmPasswordBox.sendKeys(newPasswordRandom);
 
 
     }
 
     @Then("user saves new password")
     public void userSavesNewPassword() {
-        us08Page.saveButton.click();
-       // Assert.assertTrue(us08Page.passwordChanged.isDisplayed());
+        ReusableMethods.waitFor(2);
+        Assert.assertTrue(us08Page.saveButton.isEnabled());
+
 
 
 

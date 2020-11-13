@@ -15,6 +15,7 @@ Feature: US_08 Password segment on Homepage should be editable
   Scenario: The old password should not be used
     Given user clicks password link and old password for three textbox "User123_"
     Then user doesn't save
+    Then user signOut
 
 
   @TC_0802
@@ -23,6 +24,7 @@ Feature: US_08 Password segment on Homepage should be editable
     Then user writes six lower cases and sees the change of password scales
     Then user writes six digits and sees the change of password scales
     Then user writes six special chars and sees the change of password scales
+    Then user signOut
 
   @TC_0803
   Scenario: There should be at least 1 lowercase char for stronger password
@@ -30,6 +32,7 @@ Feature: US_08 Password segment on Homepage should be editable
     Then 0user writes six digits and sees the change of password scales
     Then user writes six upper cases and sees the change of password scales
     Then user writes  six special chars and sees the change of password scales
+    Then user signOut
 
   @TC_0804
   Scenario: There should be at least 1 digit char for stronger password
@@ -37,6 +40,7 @@ Feature: US_08 Password segment on Homepage should be editable
     Then testcasefour user writes six upper cases and sees the change of password scales
     Then testcasefour user writes six special chars and sees the change of password scales
     Then testcasefour user writes six lower cases and sees the change of password scales
+    Then user signOut
 
   @TC_0805
   Scenario: There should be at least 1 special char for stronger password
@@ -44,6 +48,7 @@ Feature: US_08 Password segment on Homepage should be editable
     Then testcasefive user writes six lower cases and sees the change of password scales
     Then testcasefive user writes six upper cases and sees the change of password scales
     Then testcasefive user writes six digits and sees the change of password scales
+    Then user signOut
 
   @TC_0806
   Scenario: There should be at least 7 chars for a stronger password
@@ -56,9 +61,11 @@ Feature: US_08 Password segment on Homepage should be editable
     And user write one more digits and sees to changing
     And user writes two special chars and doesn't see the change of password scales
     Then user write one more special chars and sees to changing
+    Then user signOut
 
   @TC_0807
   Scenario: The new password should be confirmed
     Given user clicks password link and writes random password
     Then user saves new password
+    
 
