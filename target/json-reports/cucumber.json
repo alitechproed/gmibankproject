@@ -1,20 +1,20 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 28917000000,
+              "duration": 13424000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 139000000,
+              "duration": 220000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 507000000,
+              "duration": 234000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -48,971 +48,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:45:03.481Z",
-        "line": 19,
-        "name": "TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly",
+        "start_timestamp": "2020-11-12T21:11:09.783Z",
+        "line": 10,
+        "name": "TC_001 gecerli SSN test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0301--positiv-test--at-least-1-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 941000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3910000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "bir user sent data to new Password Box \"Betul2015\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Betul2015\"",
-                  "offset": 39
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bir_user_sent_data_to_new_Password_Box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0301"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2835000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 290000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 592000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:45:38.269Z",
-        "line": 20,
-        "name": "TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0301--positiv-test--at-least-1-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 565000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3142000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "bir user sent data to new Password Box \"BeT201\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BeT201\"",
-                  "offset": 39
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bir_user_sent_data_to_new_Password_Box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0301"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2354000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 358000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 771000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:45:45.764Z",
-        "line": 30,
-        "name": "TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0302-negative-test-at-least-1-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 404000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3671000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "iki user sent to newPassword Box \"BETUL2015!!!\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BETUL2015!!!\"",
-                  "offset": 33
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.iki_user_sent_to_newPassword_Box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0302"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1549000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 546000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:45:53.351Z",
-        "line": 31,
-        "name": "TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0302-negative-test-at-least-1-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 421000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2704000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "iki user sent to newPassword Box \"BET201!.....B\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BET201!.....B\"",
-                  "offset": 33
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.iki_user_sent_to_newPassword_Box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0302"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1306000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 329000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 301000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:45:58.798Z",
-        "line": 40,
-        "name": "TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0303-positiv-test-at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 394000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2650000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "uc user sent to newPass box \"Betul2015.\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Betul2015.\"",
-                  "offset": 28
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.uc_user_sent_to_newPass_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0303"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 944000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 239000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:03.806Z",
-        "line": 41,
-        "name": "TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0303-positiv-test-at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 361000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2350000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "uc user sent to newPass box \"BeT201!\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BeT201!\"",
-                  "offset": 28
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.uc_user_sent_to_newPass_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0303"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1061000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 237000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 273000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:07.924Z",
-        "line": 42,
-        "name": "TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0303-positiv-test-at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 349000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2269000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "uc user sent to newPass box \"aBE3.\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"aBE3.\"",
-                  "offset": 28
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.uc_user_sent_to_newPass_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0303"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 971000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 189000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 211000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:12.133Z",
-        "line": 43,
-        "name": "TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0303-positiv-test-at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 351000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2294000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "uc user sent to newPass box \"bet2015\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"bet2015\"",
-                  "offset": 28
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.uc_user_sent_to_newPass_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0303"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 754000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 231000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:16.168Z",
-        "line": 44,
-        "name": "TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0303-positiv-test-at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 396000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2347000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "uc user sent to newPass box \"BET2015a\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BET2015a\"",
-                  "offset": 28
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.uc_user_sent_to_newPass_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0303"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 752000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 222000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 333000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:20.128Z",
-        "line": 51,
-        "name": "TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0304-negativ-test--at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 345000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2404000000,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "dort user sent to newPassword field \"BETUL2015.\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BETUL2015.\"",
-                  "offset": 36
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.dort_user_sent_to_newPassword_field_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0304"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 984000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 164000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 248000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:24.204Z",
-        "line": 52,
-        "name": "TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0304-negativ-test--at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;3",
+        "id": "us-01-succes-register-with-valid-credentials;tc-001-gecerli-ssn-test",
         "after": [
           {
             "result": {
@@ -1025,57 +65,195 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2361000000,
+              "duration": 525000000,
               "status": "passed"
             },
-            "line": 47,
-            "name": "dort user sent to newPassword field \"BT201!\" and verify the level chart",
+            "line": 11,
+            "name": "Kullanici bir user olarak SSN textboxina \"333-22-4444\" numarasini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"BT201!\"",
-                  "offset": 36
+                  "val": "\"333-22-4444\"",
+                  "offset": 41
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.dort_user_sent_to_newPassword_field_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_numarasini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxinin_bir_hata_uyarisi_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0304"
+            "name": "@TC_001"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1010000000,
+              "duration": 758000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T21:11:24.885Z",
+        "line": 21,
+        "name": "TC_002 gecersiz SSN test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-002-gecersiz-ssn-test;tc-002-ssn-numaralari;2",
+        "after": [
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 374000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-44445\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"333-22-44445\"",
+                  "offset": 51
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_gecersiz_numarasini_girer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Kullanici bir user olarak \"Your SSN is invalid\" hata mesajini goruntuler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your SSN is invalid\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_002"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 812000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
@@ -1083,38 +261,26 @@
               "status": "passed"
             },
             "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
             },
             "keyword": "And "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T21:11:27.155Z",
+        "line": 22,
+        "name": "TC_002 gecersiz SSN test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-002-gecersiz-ssn-test;tc-002-ssn-numaralari;3",
+        "after": [
           {
             "result": {
               "duration": 377000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:28.351Z",
-        "line": 53,
-        "name": "TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0304-negativ-test--at-least-1-lowercase-char-and-see-the-level-chart-change-accordingly;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 351000000,
-              "status": "passed"
-            },
             "match": {
               "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
@@ -1125,48 +291,66 @@
         "steps": [
           {
             "result": {
-              "duration": 2517000000,
+              "duration": 284000000,
               "status": "passed"
             },
-            "line": 47,
-            "name": "dort user sent to newPassword field \"BT2015434!\" and verify the level chart",
+            "line": 16,
+            "name": "Kullanici bir user olarak SSN textboxina gecersiz  \"333-22-443\" numarasini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"BT2015434!\"",
-                  "offset": 36
+                  "val": "\"333-22-443\"",
+                  "offset": 51
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.dort_user_sent_to_newPassword_field_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_gecersiz_numarasini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Kullanici bir user olarak \"Your SSN is invalid\" hata mesajini goruntuler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your SSN is invalid\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0304"
+            "name": "@TC_002"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 935000000,
+              "duration": 897000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -1175,10 +359,10 @@
           },
           {
             "result": {
-              "duration": 247000000,
+              "duration": 205000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -1187,10 +371,10 @@
           },
           {
             "result": {
-              "duration": 420000000,
+              "duration": 196000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -1200,15 +384,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:46:33.025Z",
-        "line": 61,
-        "name": "TC_0305 Positiv test at least 1 digit and see the level chart change accordingly",
+        "start_timestamp": "2020-11-12T21:11:29.327Z",
+        "line": 25,
+        "name": "TC_003  gecerli first name positive test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0305-positiv-test-at-least-1-digit-and-see-the-level-chart-change-accordingly;;2",
+        "id": "us-01-succes-register-with-valid-credentials;tc-003--gecerli-first-name-positive-test",
         "after": [
           {
             "result": {
-              "duration": 328000000,
+              "duration": 407000000,
               "status": "passed"
             },
             "match": {
@@ -1217,244 +401,64 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
-          {
-            "result": {
-              "duration": 12802000000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "bes user sent to newPassword field \"Bet2a.!\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bet2a.!\"",
-                  "offset": 35
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bes_user_sent_to_newPassword_field_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0305"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 708000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 321000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 236000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:46:47.775Z",
-        "line": 62,
-        "name": "TC_0305 Positiv test at least 1 digit and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0305-positiv-test-at-least-1-digit-and-see-the-level-chart-change-accordingly;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 353000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12345000000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "bes user sent to newPassword field \"Ba!2C4\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ba!2C4\"",
-                  "offset": 35
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bes_user_sent_to_newPassword_field_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0305"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 861000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 348000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
           {
             "result": {
               "duration": 219000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:47:01.753Z",
-        "line": 63,
-        "name": "TC_0305 Positiv test at least 1 digit and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0305-positiv-test-at-least-1-digit-and-see-the-level-chart-change-accordingly;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 349000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12471000000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "bes user sent to newPassword field \"345a!B\" and verify the level chart",
+            "line": 26,
+            "name": "Kullanici bir user olarak First Name textboxina \"Ali\" ismini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"345a!B\"",
-                  "offset": 35
+                  "val": "\"Ali\"",
+                  "offset": 48
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.bes_user_sent_to_newPassword_field_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxina_ismini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxinin_bir_hata_uyarisi_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0305"
+            "name": "@TC_003"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 959000000,
+              "duration": 594000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -1463,10 +467,10 @@
           },
           {
             "result": {
-              "duration": 265000000,
+              "duration": 199000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -1475,10 +479,10 @@
           },
           {
             "result": {
-              "duration": 303000000,
+              "duration": 224000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -1488,15 +492,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:47:16.012Z",
-        "line": 77,
-        "name": "TC_0306 Negativ test at least 1 digit and see the level chart change accordingly",
+        "start_timestamp": "2020-11-12T21:11:31.348Z",
+        "line": 30,
+        "name": "TC_004 bos first name negative test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0306-negativ-test-at-least-1-digit-and-see-the-level-chart-change-accordingly;;2",
+        "id": "us-01-succes-register-with-valid-credentials;tc-004-bos-first-name-negative-test",
         "after": [
           {
             "result": {
-              "duration": 415000000,
+              "duration": 360000000,
               "status": "passed"
             },
             "match": {
@@ -1505,52 +509,70 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2957000000,
+              "duration": 209000000,
               "status": "passed"
             },
-            "line": 72,
-            "name": "alti user sent to newPassword  \"BETULa.\" and verify the level chart",
+            "line": 31,
+            "name": "Kullanici bir user olarak First Name textboxini \" \" bos birakir",
             "match": {
               "arguments": [
                 {
-                  "val": "\"BETULa.\"",
-                  "offset": 31
+                  "val": "\" \"",
+                  "offset": 48
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.alti_user_sent_to_newPassword_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxini_bos_birakir(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Kullanici bir user olarak \"Your First Name is required\" hata uyarisini goruntuler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your First Name is required\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_uyarisini_goruntuler(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0306"
+            "name": "@TC_004"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 866000000,
+              "duration": 690000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -1559,202 +581,10 @@
           },
           {
             "result": {
-              "duration": 253000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 218000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:47:20.934Z",
-        "line": 78,
-        "name": "TC_0306 Negativ test at least 1 digit and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0306-negativ-test-at-least-1-digit-and-see-the-level-chart-change-accordingly;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 343000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2414000000,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "alti user sent to newPassword  \"Besdfbbdf!!!!\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Besdfbbdf!!!!\"",
-                  "offset": 31
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.alti_user_sent_to_newPassword_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0306"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1634000000,
+              "duration": 202000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 343000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:47:25.040Z",
-        "line": 79,
-        "name": "TC_0306 Negativ test at least 1 digit and see the level chart change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0306-negativ-test-at-least-1-digit-and-see-the-level-chart-change-accordingly;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 522000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3019000000,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "alti user sent to newPassword  \"BeTdfsdgb!!!..!\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BeTdfsdgb!!!..!\"",
-                  "offset": 31
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.alti_user_sent_to_newPassword_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0306"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1334000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 7,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -1766,103 +596,7 @@
               "duration": 256000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:47:30.782Z",
-        "line": 89,
-        "name": "TC_0307 Positiv test at least 1 special char and see the level bar change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0307-positiv-test-at-least-1-special-char-and-see-the-level-bar-change-accordingly;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 435000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 13326000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "yedi user sent to newPASWORD box \"BE24La.\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BE24La.\"",
-                  "offset": 33
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.yedi_user_sent_to_newPASWORD_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0307"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1055000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 240000000,
-              "status": "passed"
-            },
             "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 291000000,
-              "status": "passed"
-            },
-            "line": 8,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -1872,15 +606,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:47:46.356Z",
-        "line": 90,
-        "name": "TC_0307 Positiv test at least 1 special char and see the level bar change accordingly",
+        "start_timestamp": "2020-11-12T21:11:33.021Z",
+        "line": 35,
+        "name": "TC_005  gecerli last name positive test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0307-positiv-test-at-least-1-special-char-and-see-the-level-bar-change-accordingly;;3",
+        "id": "us-01-succes-register-with-valid-credentials;tc-005--gecerli-last-name-positive-test",
         "after": [
           {
             "result": {
-              "duration": 363000000,
+              "duration": 381000000,
               "status": "passed"
             },
             "match": {
@@ -1889,532 +623,64 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12583000000,
+              "duration": 268000000,
               "status": "passed"
             },
-            "line": 84,
-            "name": "yedi user sent to newPASWORD box \"Bet2!a2\" and verify the level chart",
+            "line": 36,
+            "name": "Kullanici bir user olarak Last Name textboxina \"Smith\" soyismini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Bet2!a2\"",
-                  "offset": 33
+                  "val": "\"Smith\"",
+                  "offset": 47
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.yedi_user_sent_to_newPASWORD_box_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Last_Name_textboxina_soyismini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Kullanici bir user olarak First Name textboxinin bir hata mesaji vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0307"
+            "name": "@TC_005"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
-          {
-            "result": {
-              "duration": 1010000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 286000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 317000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:48:00.901Z",
-        "line": 91,
-        "name": "TC_0307 Positiv test at least 1 special char and see the level bar change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0307-positiv-test-at-least-1-special-char-and-see-the-level-bar-change-accordingly;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 394000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12617000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "yedi user sent to newPASWORD box \"BeTdf34dgb!!..!\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BeTdf34dgb!!..!\"",
-                  "offset": 33
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.yedi_user_sent_to_newPASWORD_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0307"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 767000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 390000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 218000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:48:15.537Z",
-        "line": 100,
-        "name": "TC_0308 Negativ test at least 1 special char and see the level bar change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0308-negativ-test-at-least-1-special-char-and-see-the-level-bar-change-accordingly;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 348000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12557000000,
-              "status": "passed"
-            },
-            "line": 95,
-            "name": "sekiz user sent to newPASvORD box \"BETULa23\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BETULa23\"",
-                  "offset": 34
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.sekiz_user_sent_to_newPASvORD_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0308"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 725000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 400000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 264000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:48:29.832Z",
-        "line": 101,
-        "name": "TC_0308 Negativ test at least 1 special char and see the level bar change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0308-negativ-test-at-least-1-special-char-and-see-the-level-bar-change-accordingly;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 349000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12437000000,
-              "status": "passed"
-            },
-            "line": 95,
-            "name": "sekiz user sent to newPASvORD box \"Bet2\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bet2\"",
-                  "offset": 34
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.sekiz_user_sent_to_newPASvORD_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0308"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1145000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 364000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:48:44.026Z",
-        "line": 102,
-        "name": "TC_0308 Negativ test at least 1 special char and see the level bar change accordingly",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0308-negativ-test-at-least-1-special-char-and-see-the-level-bar-change-accordingly;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 488000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12497000000,
-              "status": "passed"
-            },
-            "line": 95,
-            "name": "sekiz user sent to newPASvORD box \"BeTd35\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"BeTd35\"",
-                  "offset": 34
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.sekiz_user_sent_to_newPASvORD_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0308"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3243000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
           {
             "result": {
               "duration": 587000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 631000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-11T21:48:58.796Z",
-        "line": 113,
-        "name": "TC_0309 Positiv Test  at least 7 chars for a stronger password",
-        "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0309-positiv-test--at-least-7-chars-for-a-stronger-password;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 380000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 13945000000,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "dokuz user sent to newPassWORD box \"Be2.!Al\" and verify the level chart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Be2.!Al\"",
-                  "offset": 35
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.dokuz_user_sent_to_newPassWORD_box_and_verify_the_level_chart(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US03"
-          },
-          {
-            "name": "@SmokeTests"
-          },
-          {
-            "name": "@tc0309"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 802000000,
-              "status": "passed"
-            },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -2423,10 +689,10 @@
           },
           {
             "result": {
-              "duration": 399000000,
+              "duration": 205000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -2435,10 +701,10 @@
           },
           {
             "result": {
-              "duration": 312000000,
+              "duration": 298000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -2448,15 +714,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:49:17.601Z",
-        "line": 114,
-        "name": "TC_0309 Positiv Test  at least 7 chars for a stronger password",
+        "start_timestamp": "2020-11-12T21:11:34.892Z",
+        "line": 40,
+        "name": "TC_006 bos last name negative test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0309-positiv-test--at-least-7-chars-for-a-stronger-password;;3",
+        "id": "us-01-succes-register-with-valid-credentials;tc-006-bos-last-name-negative-test",
         "after": [
           {
             "result": {
-              "duration": 494000000,
+              "duration": 443000000,
               "status": "passed"
             },
             "match": {
@@ -2465,52 +731,70 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12792000000,
+              "duration": 182000000,
               "status": "passed"
             },
-            "line": 108,
-            "name": "dokuz user sent to newPassWORD box \"Bet2a!.a345\" and verify the level chart",
+            "line": 41,
+            "name": "Kullanici bir user olarak Last Name textboxini \" \" bos birakir",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Bet2a!.a345\"",
-                  "offset": 35
+                  "val": "\" \"",
+                  "offset": 47
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.dokuz_user_sent_to_newPassWORD_box_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Last_Name_textboxini_bos_birakir(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Kullanici bir user olarak \"Your Last Name is required\" hata mesajini goruntuler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Last Name is required\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0309"
+            "name": "@TC_006"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1839000000,
+              "duration": 798000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -2519,10 +803,10 @@
           },
           {
             "result": {
-              "duration": 497000000,
+              "duration": 219000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -2531,10 +815,10 @@
           },
           {
             "result": {
-              "duration": 379000000,
+              "duration": 216000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -2544,15 +828,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:49:32.420Z",
-        "line": 125,
-        "name": "TC_0310 Negativ Test  at least 7 chars for a stronger password",
+        "start_timestamp": "2020-11-12T21:11:36.704Z",
+        "line": 45,
+        "name": "TC_007  gecerli address test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0310-negativ-test--at-least-7-chars-for-a-stronger-password;;2",
+        "id": "us-01-succes-register-with-valid-credentials;tc-007--gecerli-address-test",
         "after": [
           {
             "result": {
-              "duration": 391000000,
+              "duration": 442000000,
               "status": "passed"
             },
             "match": {
@@ -2561,52 +845,64 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12751000000,
+              "duration": 474000000,
               "status": "passed"
             },
-            "line": 120,
-            "name": "on user sent to newPass field \"Be2.!A\" and verify the level chart",
+            "line": 46,
+            "name": "Kullanici bir user olarak Address textboxina \"A mah. B cad. No:1 66300 Istanbul Sariyer\"  adresini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Be2.!A\"",
-                  "offset": 30
+                  "val": "\"A mah. B cad. No:1 66300 Istanbul Sariyer\"",
+                  "offset": 45
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.on_user_sent_to_newPass_field_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Address_textboxina_adresini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Address_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0310"
+            "name": "@TC_007"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1233000000,
+              "duration": 716000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -2615,10 +911,10 @@
           },
           {
             "result": {
-              "duration": 259000000,
+              "duration": 214000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -2627,10 +923,10 @@
           },
           {
             "result": {
-              "duration": 319000000,
+              "duration": 221000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -2640,15 +936,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:49:48.292Z",
-        "line": 126,
-        "name": "TC_0310 Negativ Test  at least 7 chars for a stronger password",
+        "start_timestamp": "2020-11-12T21:11:38.928Z",
+        "line": 50,
+        "name": "TC_008 gecerli mobile phone number test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0310-negativ-test--at-least-7-chars-for-a-stronger-password;;3",
+        "id": "us-01-succes-register-with-valid-credentials;tc-008-gecerli-mobile-phone-number-test",
         "after": [
           {
             "result": {
-              "duration": 444000000,
+              "duration": 424000000,
               "status": "passed"
             },
             "match": {
@@ -2657,52 +953,64 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12594000000,
+              "duration": 331000000,
               "status": "passed"
             },
-            "line": 120,
-            "name": "on user sent to newPass field \"Bet2a\" and verify the level chart",
+            "line": 51,
+            "name": "Kullanici bir user olarak Mobile Phone Number textboxina \"123-123-1234\" cep telefonu numarasini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Bet2a\"",
-                  "offset": 30
+                  "val": "\"123-123-1234\"",
+                  "offset": 57
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.on_user_sent_to_newPass_field_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_cep_telefonu_numarasini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0310"
+            "name": "@TC_008"
           }
         ]
       },
       {
-        "line": 5,
-        "name": "user register gmibank hopage click and reache",
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 2111000000,
+              "duration": 763000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
@@ -2711,10 +1019,10 @@
           },
           {
             "result": {
-              "duration": 394000000,
+              "duration": 185000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
@@ -2723,10 +1031,10 @@
           },
           {
             "result": {
-              "duration": 380000000,
+              "duration": 222000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
@@ -2736,15 +1044,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-11T21:50:03.162Z",
-        "line": 127,
-        "name": "TC_0310 Negativ Test  at least 7 chars for a stronger password",
+        "start_timestamp": "2020-11-12T21:11:40.886Z",
+        "line": 55,
+        "name": "TC_009 gecersiz mobile phone number negative test",
         "description": "",
-        "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;tc-0310-negativ-test--at-least-7-chars-for-a-stronger-password;;4",
+        "id": "us-01-succes-register-with-valid-credentials;tc-009-gecersiz-mobile-phone-number-negative-test",
         "after": [
           {
             "result": {
-              "duration": 413000000,
+              "duration": 429000000,
               "status": "passed"
             },
             "match": {
@@ -2753,48 +1061,654 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12699000000,
+              "duration": 298000000,
               "status": "passed"
             },
-            "line": 120,
-            "name": "on user sent to newPass field \"aB2!\" and verify the level chart",
+            "line": 56,
+            "name": "Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan \"1231231234\" cep telefonu numarasini girer",
             "match": {
               "arguments": [
                 {
-                  "val": "\"aB2!\"",
-                  "offset": 30
+                  "val": "\"1231231234\"",
+                  "offset": 70
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_03_Step_Definitions.on_user_sent_to_newPass_field_and_verify_the_level_chart(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_tire_olmadan_cep_telefonu_numarasini_girer(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Kullanici bir user olarak \"Your mobile phone number is invalid\" hata mesajini goruntuler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your mobile phone number is invalid\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_hata_mesajini_goruntuler(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03"
+            "name": "@US_01"
           },
           {
-            "name": "@SmokeTests"
+            "name": "@SmokeTest"
           },
           {
-            "name": "@tc0310"
+            "name": "@TC_009"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 663000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T21:11:42.864Z",
+        "line": 60,
+        "name": "TC_010 gecerli kullanici adi test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-010-gecerli-kullanici-adi-test",
+        "after": [
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 211000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Kullanici bir user olarak Username textboxina  \"Abc123\" kullanici adini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abc123\"",
+                  "offset": 47
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_010"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 529000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T21:11:44.655Z",
+        "line": 65,
+        "name": "TC_011 gecersiz kullanici adi test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-011-gecersiz-kullanici-adi-test",
+        "after": [
+          {
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Kullanici bir user olarak Username textboxina  sadece sayilardan olusan \"123\" kullanici adini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 72
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_sadece_sayilardan_olusan_kullanici_adini_girer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_011"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 666000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T21:11:48.238Z",
+        "line": 70,
+        "name": "TC_012 gecerli email test",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-012-gecerli-email-test",
+        "after": [
+          {
+            "result": {
+              "duration": 430000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Kullanici bir user olarak Email textboxina \"abc@mail.com\" mail adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@mail.com\"",
+                  "offset": 43
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxina_mail_adresini_girer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxinin_bir_hata_mesaji_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_012"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 544000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T21:11:50.046Z",
+        "line": 75,
+        "name": "TC_013 gecerli verilerle hesap olusturma",
+        "description": "",
+        "id": "us-01-succes-register-with-valid-credentials;tc-013-gecerli-verilerle-hesap-olusturma",
+        "after": [
+          {
+            "result": {
+              "duration": 417000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Kullanici bir user olarak SSN textboxina \"333-28-4444\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"333-28-4444\"",
+                  "offset": 41
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_SSN_textboxina_numarasini_girer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Kullanici bir user olarak First Name textboxina \"Ali\" ismini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 48
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_First_Name_textboxina_ismini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Kullanici bir user olarak Last Name textboxina \"Smith\" soyismini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Smith\"",
+                  "offset": 47
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Last_Name_textboxina_soyismini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Kullanici bir user olarak Address textboxina \"A mah. B cad. No:1 66300 Istanbul Sariyer\"  adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A mah. B cad. No:1 66300 Istanbul Sariyer\"",
+                  "offset": 45
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Address_textboxina_adresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Kullanici bir user olarak Mobile Phone Number textboxina \"123-123-1234\" cep telefonu numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123-123-1234\"",
+                  "offset": 57
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_cep_telefonu_numarasini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Kullanici bir user olarak Username textboxina  \"AAbc123\" kullanici adini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AAbc123\"",
+                  "offset": 47
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Kullanici bir user olarak Email textboxina \"abc12@mail.com\" mail adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc12@mail.com\"",
+                  "offset": 43
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Email_textboxina_mail_adresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Kullanici bir user olarak New password textboxina \"A1b2C3\" sifresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A1b2C3\"",
+                  "offset": 50
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_New_password_textboxina_sifresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Kullanici bir user olarak New password confirmation textboxina \"A1b2C3\" sifresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A1b2C3\"",
+                  "offset": 63
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_New_password_confirmation_textboxina_sifresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Kullanici bir user olarak Register butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_Register_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_basarili_bir_kayit_olusturulduguna_dair_mesaj_goruntuler()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_01"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_013"
           }
         ]
       }
     ],
-    "name": "US_003 Registration page should restrict password usage to a secure and high level passcode",
+    "name": "US_01 succes register with valid credentials",
     "description": "",
-    "id": "us-003-registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode",
+    "id": "us-01-succes-register-with-valid-credentials",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us_03.feature",
+    "uri": "file:src/test/resources/features/us_01.feature",
     "tags": [
       {
-        "name": "@US03",
+        "name": "@US_01",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -2802,11 +1716,11 @@
         }
       },
       {
-        "name": "@SmokeTests",
+        "name": "@SmokeTest",
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 7
+          "column": 8
         }
       }
     ]
