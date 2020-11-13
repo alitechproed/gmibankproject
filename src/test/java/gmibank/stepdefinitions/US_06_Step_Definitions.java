@@ -75,7 +75,7 @@ public class US_06_Step_Definitions {
         select.selectByIndex(index);
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.ENTER).perform();
-        Assert.assertTrue(us06Page.selectLanguages.isSelected());
+        Assert.assertTrue(us06Page.selectLanguages.isDisplayed());
 
     }
 
