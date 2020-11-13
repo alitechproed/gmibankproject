@@ -56,7 +56,9 @@ public class US_08_Step_Definitions {
     @Then("user clicks password link")
     public void user_clicks_password_link() {
         us08Page.enterIcon.click();
+        ReusableMethods.waitFor(2);
         us08Page.passwordButton.click();
+
     }
 
     @Given("user clicks password link and old password for three textbox {string}")

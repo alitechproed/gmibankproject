@@ -11,7 +11,7 @@ public class us_08_Page {
     public us_08_Page() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    @FindBy(xpath = "//li[@id='account-menu']")
+    @FindBy(xpath = "//a[@aria-haspopup='true']")
     public WebElement enterIcon;
     @FindBy(xpath = "//span[.='Sign in']")
     public WebElement signinLink;

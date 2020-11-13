@@ -67,5 +67,5 @@ Feature: US_08 Password segment on Homepage should be editable
   Scenario: The new password should be confirmed
     Given user clicks password link and writes random password
     Then user saves new password
-    
+
 
