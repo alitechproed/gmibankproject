@@ -17,11 +17,12 @@ Feature:US_06 user info segment should be editable on Homepage
     And "Heim" must be entered as last name
     And "almanbaki@yandex.com" must be entered as email
     And "English" must be selected as language
+    Then user signOut
 
   @TC_002
   Scenario Outline: TC_002 There should be 2 languages available
     Given user select "<options>" language
-    And user signOut
+    Then user signOut
     Examples:
       | options |
       | 0  |
@@ -31,12 +32,14 @@ Feature:US_06 user info segment should be editable on Homepage
   Scenario: TC_003 update firstname
     Given user clears first name textbox
     And user updates first name as "Kolay"
+    Then user signOut
 
 
   @TC_004
   Scenario: TC_004 update lastname
     Given user clears last name textbox
     And User updates last name as "Gelsin"
+    Then user signOut
 
 
   @TC_005
@@ -44,9 +47,11 @@ Feature:US_06 user info segment should be editable on Homepage
     Given user clears email textbox
     Given user uses the "@" sign when they update their email address
     And user uses the new ".com" sign when they update their email address
+    Then user signOut
 
 
   @TC_006
   Scenario: TC_006 negative test update email
     Given user don't uses the @ sign when they update their email address
     And user don't uses the .com sign when they update their email address
+    Then user signOut
