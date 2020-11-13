@@ -1,102 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="71.618">
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_001 user settings test" time="21.48">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given "Resit" must be entered as first name.................................passed
-And "Heim" must be entered as last name.....................................passed
-And "almanbaki@yandex.com" must be entered as email.........................passed
-And "English" must be selected as language..................................passed
-Then user signOut...........................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="32.346">
+<testcase classname="US_01 success register with valid credentials" name="TC_0101 gecerli SSN test" time="11.319">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina "333-22-4444" numarasini girer.passed
+Then Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available" time="7.538">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given user select "0" language..............................................passed
-Then user signOut...........................................................passed
+<testcase classname="US_01 success register with valid credentials" name="TC_0102 gecersiz SSN test" time="1.338">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-44445" numarasini girer.passed
+Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available 2" time="7.721">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given user select "1" language..............................................passed
-Then user signOut...........................................................passed
+<testcase classname="US_01 success register with valid credentials" name="TC_0102 gecersiz SSN test 2" time="1.453">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-443" numarasini girer.passed
+Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_003 update firstname" time="7.493">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given user clears first name textbox........................................passed
-And user updates first name as "Kolay"......................................passed
-Then user signOut...........................................................passed
+<testcase classname="US_01 success register with valid credentials" name="TC_0103  gecerli first name positive test" time="1.447">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak First Name textboxina "Ali" ismini girer....passed
+Then Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_004 update lastname" time="8.099">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given user clears last name textbox.........................................passed
-And User updates last name as "Gelsin"......................................passed
-Then user signOut...........................................................passed
+<testcase classname="US_01 success register with valid credentials" name="TC_0104 bos first name negative test" time="1.343">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak First Name textboxini " " bos birakir.......passed
+Then Kullanici bir user olarak "Your First Name is required" hata uyarisini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_005 positive test update email" time="8.55">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given user clears email textbox.............................................passed
-Given user uses the "@" sign when they update their email address...........passed
-And user uses the new ".com" sign when they update their email address......passed
-Then user signOut...........................................................passed
+<testcase classname="US_01 success register with valid credentials" name="TC_0105  gecerli last name positive test" time="1.166">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer.passed
+Then Kullanici bir user olarak First Name textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_006 negative test update email" time="8.722">
-<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-And user clicks userEntry icon..............................................passed
-And user clicks signIn link.................................................passed
-And user enters admin username "aslinda"....................................passed
-And user enters admin password "Alman.1234".................................passed
-And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................passed
-Then user clicks on user info link..........................................passed
-Given user don't uses the @ sign when they update their email address.......passed
-And user don't uses the .com sign when they update their email address......passed
-Then user signOut...........................................................passed
+<testcase classname="US_01 success register with valid credentials" name="TC_0106 bos last name negative test" time="1.129">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Last Name textboxini " " bos birakir........passed
+Then Kullanici bir user olarak "Your Last Name is required" hata mesajini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0107  gecerli address test" time="1.235">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer.passed
+Then Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0108 gecerli mobile phone number test" time="1.149">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer.passed
+Then Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0109 gecersiz mobile phone number negative test" time="1.137">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan "1231231234" cep telefonu numarasini girer.passed
+Then Kullanici bir user olarak "Your mobile phone number is invalid" hata mesajini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0110 gecerli kullanici adi test" time="1.087">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Username textboxina  "Abc123" kullanici adini girer.passed
+Then Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0111 gecersiz kullanici adi test" time="3.088">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Username textboxina  sadece sayilardan olusan "123" kullanici adini girer.passed
+Then Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0112 gecerli email test" time="1.17">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Email textboxina "abc@mail.com" mail adresini girer.passed
+Then Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0113 gecerli verilerle hesap olusturma" time="3.394">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina "333-28-4444" numarasini girer.passed
+And Kullanici bir user olarak First Name textboxina "Ali" ismini girer......passed
+And Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer..passed
+And Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer.passed
+And Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer.passed
+And Kullanici bir user olarak Username textboxina  "AAbc123" kullanici adini girer.passed
+And Kullanici bir user olarak Email textboxina "abc12@mail.com" mail adresini girer.passed
+And Kullanici bir user olarak New password textboxina "A1b2C3" sifresini girer.passed
+And Kullanici bir user olarak New password confirmation textboxina "A1b2C3" sifresini girer.passed
+And Kullanici bir user olarak Register butonuna tiklar......................passed
+Then Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler.passed
 ]]></system-out>
 </testcase>
 </testsuite>
