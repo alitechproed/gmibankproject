@@ -6,15 +6,15 @@ Feature: GmiBankTest
     And Kullanici bir user olarak acilan menuden register linkine tiklar
 
   @TC_014
-  Scenario: TC_013 registiration test
+  Scenario: TC_014 registiration test
     And  kullanici textboxlari bos birakip register butonuna tiklar
     Then kullanici bos birakilan textbox'larda uyari yazisi ciktigini dogrular
   @TC_015
-  Scenario:  TC_014 invalid SSN test
+  Scenario:  TC_015 invalid SSN test
     And  kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar
     Then invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur
   @TC_016
-  Scenario: TC_015 invalid mobile phone number test
+  Scenario: TC_016 invalid mobile phone number test
     And kullanici Mobile Phone Number textbox'ini sayilar arasinda ozel karakter kullanmadan doldurur
     Then  invalid giris yapildiginda mobile phone number yazisi kirmizi olur
   @TC_017
