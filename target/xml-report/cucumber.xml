@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="78.346">
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_001 user settings test" time="20.438">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="71.618">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_001 user settings test" time="21.48">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
@@ -16,7 +16,7 @@ And "English" must be selected as language..................................pass
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available" time="7.509">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available" time="7.538">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
@@ -29,50 +29,20 @@ Given user select "0" language..............................................pass
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available 2" time="13.197">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@aria-haspopup='true'])[2]&quot;}&#10;  (Session info: chrome=86.0.4240.198)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'USER-BILGISAYAR', ip: '192.168.178.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e6f4a629440c4ebb044528abcd10c54b&#10;*** Element info: {Using=xpath, value=(//a[@aria-haspopup='true'])[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user enters gmibank homepage..........................................passed
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available 2" time="7.721">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
 And user enters admin password "Alman.1234".................................passed
 And user clicks signIn button...............................................passed
-And user clicks on the username on the top right............................failed
-Then user clicks on user info link..........................................skipped
-Given user select "1" language..............................................skipped
-Then user signOut...........................................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@aria-haspopup='true'])[2]"}
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USER-BILGISAYAR', ip: '192.168.178.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e6f4a629440c4ebb044528abcd10c54b
-*** Element info: {Using=xpath, value=(//a[@aria-haspopup='true'])[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US_06_Step_Definitions.user_clicks_on_the_username_on_the_top_right(US_06_Step_Definitions.java:29)
-	at ✽.user clicks on the username on the top right(file:///C:/Users/Administrator/IdeaProjects/gmibankproject/src/test/resources/features/us_06.feature:11)
-]]></failure>
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user select "1" language..............................................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_003 update firstname" time="9.155">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_003 update firstname" time="7.493">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
@@ -86,7 +56,7 @@ And user updates first name as "Kolay"......................................pass
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_004 update lastname" time="8.461">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_004 update lastname" time="8.099">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
@@ -100,7 +70,7 @@ And User updates last name as "Gelsin"......................................pass
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_005 positive test update email" time="8.612">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_005 positive test update email" time="8.55">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
@@ -115,7 +85,7 @@ And user uses the new ".com" sign when they update their email address......pass
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_006 negative test update email" time="9.07">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_006 negative test update email" time="8.722">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
