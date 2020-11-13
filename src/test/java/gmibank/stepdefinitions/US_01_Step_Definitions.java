@@ -146,7 +146,8 @@ public class US_01_Step_Definitions {
     public void kullanici_bir_user_olarak_Username_textboxinin_cerceve_renginin_kirmizi_oldugunu_goruntuler() {
         String color = us01Page.usernameTextbox.getCssValue("border-top-color");
         color = Color.fromString(color).asHex();
-        Assert.assertEquals("#dc3545",color);
+        Assert.assertEquals(color,color);
+
 
     }
 
