@@ -1,20 +1,102 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.782">
-<testcase classname="US_04 succes login with valid credentials" name="TC_0401 success message to login" time="12.332">
-<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
-And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
-And Kullanici bir user olarak acilan menuden login linkine tiklar...........passed
-Given Kullanici acilan Sign in sayfasinda username textboxina "AAbc398" girer.passed
-And Kullanici acilan Sign in sayfasinda password textboxina "A1b2C3" girer..passed
-And Kullanici acilan Sign in sayfasinda Login butonuna tiklar...............passed
-Then Kullanici ismini kayit oldugu ismini acilan sayfada goruntuler.........passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="71.618">
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_001 user settings test" time="21.48">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given "Resit" must be entered as first name.................................passed
+And "Heim" must be entered as last name.....................................passed
+And "almanbaki@yandex.com" must be entered as email.........................passed
+And "English" must be selected as language..................................passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_04 succes login with valid credentials" name="TC_0402 cancel login option" time="1.747">
-<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
-And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
-And Kullanici bir user olarak acilan menuden login linkine tiklar...........passed
-Then Kullanici acilan Sign in sayfasinda Cancel butonunu goruntuler.........passed
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available" time="7.538">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user select "0" language..............................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available 2" time="7.721">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user select "1" language..............................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_003 update firstname" time="7.493">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user clears first name textbox........................................passed
+And user updates first name as "Kolay"......................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_004 update lastname" time="8.099">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user clears last name textbox.........................................passed
+And User updates last name as "Gelsin"......................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_005 positive test update email" time="8.55">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user clears email textbox.............................................passed
+Given user uses the "@" sign when they update their email address...........passed
+And user uses the new ".com" sign when they update their email address......passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_006 negative test update email" time="8.722">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters admin username "aslinda"....................................passed
+And user enters admin password "Alman.1234".................................passed
+And user clicks signIn button...............................................passed
+And user clicks on the username on the top right............................passed
+Then user clicks on user info link..........................................passed
+Given user don't uses the @ sign when they update their email address.......passed
+And user don't uses the .com sign when they update their email address......passed
+Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
