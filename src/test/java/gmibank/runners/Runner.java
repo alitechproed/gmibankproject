@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
-        tags = "@tc0905",
+
+        tags = "",
         dryRun = false
 
 )
