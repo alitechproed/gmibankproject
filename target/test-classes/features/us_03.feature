@@ -1,4 +1,4 @@
-@US03 @SmokeTests
+@US03 @SmokeTest
 
 Feature: US_003 Registration page should restrict password usage to a secure and high level passcode
 
@@ -8,16 +8,15 @@ Feature: US_003 Registration page should restrict password usage to a secure and
     And     Kullanici bir user olarak acilan menuden register linkine tiklar
 
 
-
   @tc0301
   Scenario Outline: TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly
     Given bir user sent data to new Password Box "<Password>" and verify the level chart
 
 
     Examples:
-      | Password   |
-      | Betul2015  |
-      | BeT201     |
+      | Password  |
+      | Betul2015 |
+      | BeT201    |
 
 
   @tc0302
@@ -42,29 +41,26 @@ Feature: US_003 Registration page should restrict password usage to a secure and
       | aBE3.      |
       | bet2015    |
       | BET2015a   |
-@tc0304
-    Scenario Outline: TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly
-      Given dort user sent to newPassword field "<Password>" and verify the level chart
 
-  Examples:
-    | Password   |
-    | BETUL2015. |
-    | BT201!    |
-    | BT2015434!|
+  @tc0304
+  Scenario Outline: TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly
+    Given dort user sent to newPassword field "<Password>" and verify the level chart
 
-@tc0305
+    Examples:
+      | Password   |
+      | BETUL2015. |
+      | BT201!     |
+      | BT2015434! |
+
+  @tc0305
   Scenario Outline: TC_0305 Positiv test at least 1 digit and see the level chart change accordingly
-  Given  bes user sent to newPassword field "<Password>" and verify the level chart
+    Given  bes user sent to newPassword field "<Password>" and verify the level chart
 
-  Examples:
-  |Password|
-  |Bet2a.! |
-  |Ba!2C4  |
-  |345a!B  |
-
-
-
-
+    Examples:
+      | Password |
+      | Bet2a.!  |
+      | Ba!2C4   |
+      | 345a!B   |
 
 
   @tc0306
@@ -73,58 +69,58 @@ Feature: US_003 Registration page should restrict password usage to a secure and
 
 
     Examples:
-      | Password       |
-      | BETULa.        |
-      | Besdfbbdf!!!!  |
-      | BeTdfsdgb!!!..!|
+      | Password        |
+      | BETULa.         |
+      | Besdfbbdf!!!!   |
+      | BeTdfsdgb!!!..! |
 
 
-@tc0307
-    Scenario Outline: TC_0307 Positiv test at least 1 special char and see the level bar change accordingly
-  Given yedi user sent to newPASWORD box "<Password>" and verify the level chart
+  @tc0307
+  Scenario Outline: TC_0307 Positiv test at least 1 special char and see the level bar change accordingly
+    Given yedi user sent to newPASWORD box "<Password>" and verify the level chart
 
 
-  Examples:
-    | Password       |
-    | BE24La.        |
-    | Bet2!a2        |
-    | BeTdf34dgb!!..!|
+    Examples:
+      | Password        |
+      | BE24La.         |
+      | Bet2!a2         |
+      | BeTdf34dgb!!..! |
 
- @tc0308
+  @tc0308
   Scenario Outline: TC_0308 Negativ test at least 1 special char and see the level bar change accordingly
-   Given sekiz user sent to newPASvORD box "<Password>" and verify the level chart
+    Given sekiz user sent to newPASvORD box "<Password>" and verify the level chart
 
 
-   Examples:
-     | Password       |
-     | BETULa23       |
-     | Bet2           |
-     | BeTd35         |
+    Examples:
+      | Password |
+      | BETULa23 |
+      | Bet2     |
+      | BeTd35   |
 
 
-@tc0309
-   Scenario Outline: TC_0309 Positiv Test  at least 7 chars for a stronger password
+  @tc0309
+  Scenario Outline: TC_0309 Positiv Test  at least 7 chars for a stronger password
 
-  Given dokuz user sent to newPassWORD box "<Password>" and verify the level chart
-
-
-  Examples:
-    | Password      |
-    | Be2.!Al       |
-    | Bet2a!.a345   |
+    Given dokuz user sent to newPassWORD box "<Password>" and verify the level chart
 
 
-@tc0310
+    Examples:
+      | Password    |
+      | Be2.!Al     |
+      | Bet2a!.a345 |
+
+
+  @tc0310
   Scenario Outline: TC_0310 Negativ Test  at least 7 chars for a stronger password
 
-  Given on user sent to newPass field "<Password>" and verify the level chart
+    Given on user sent to newPass field "<Password>" and verify the level chart
 
 
-  Examples:
-    | Password      |
-    | Be2.!A        |
-    | Bet2a         |
-    | aB2!          |
+    Examples:
+      | Password |
+      | Be2.!A   |
+      | Bet2a    |
+      | aB2!     |
 
 
 
