@@ -6,7 +6,7 @@ import gmibank.utilities.Driver;
 import org.openqa.selenium.interactions.Actions;
 
 public class US_14_Step_Definitions {
-    US_14_Page us10Page = new US_14_Page();
+    US_14_Page us14Page = new US_14_Page();
     Actions actions = new Actions(Driver.getDriver());
 
 

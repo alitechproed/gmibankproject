@@ -1,4 +1,4 @@
-@US14 @SmokeTests
+@US14 @SmokeTest
   Feature: US14 tests
 
     Background: user enters gmibank homepage then reaches create new costomers link
@@ -10,15 +10,15 @@
       And user clicks signIn button
       Then user clicks myOperations link
 
-    @tc14001
-    Scenario : manage accounts date selection today test
+    @TC1401
+    Scenario: manage accounts date selection today test
       Given user clicks manageAccounts link
       And user clicks createANewAccount link
       And user click calender icon and click today
       And user verifies date is correct
       Then user signOut
 
-    @tc14002
+    @TC1402
     Scenario: manage accounts date selection positive test
       Given user clicks manageAccounts link
       And user clicks createANewAccount link
@@ -28,7 +28,7 @@
       And user account verifies valid data entry to Create Date box
       Then user signOut
 
-    @tc14003
+    @TC1403
     Scenario: manage customers date selection positive test
       Given user clicks manageCustomers link
       And user clicks createANewCustomer link
@@ -38,7 +38,7 @@
       And user customer verifies valid data entry to Create Date box
       Then user signOut
 
-    @tc14004
+    @TC1404
     Scenario: manage customers user selection positive test
       Given user clicks manageCustomers link
       And user clicks createANewCustomer link
@@ -46,7 +46,7 @@
       And user customer verifies valid selection of user
       Then user signOut
 
-    @tc14005
+    @TC1405
     Scenario: manage customers Zelle box selection test
       Given user clicks manageCustomers link
       And user clicks createANewCustomer link
