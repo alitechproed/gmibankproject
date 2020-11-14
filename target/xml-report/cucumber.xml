@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="2.782">
-<testcase classname="US14 tests" name="manage accounts date selection today test" time="0.482">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="3.351">
+<testcase classname="US14 tests" name="manage customers Zelle box selection test" time="0.631">
 <skipped><![CDATA[Given user enters gmibank homepage..........................................skipped
 And user clicks userEntry icon..............................................skipped
 And user clicks signIn link.................................................skipped
-And user enters admin username "sametyaprak"................................skipped
-And user enters admin password "Ankara06"...................................skipped
+And user enters admin username "karak"......................................skipped
+And user enters admin password "DJabc21"....................................skipped
 And user clicks signIn button...............................................skipped
 Then user clicks myOperations link..........................................skipped
-Given user clicks manageAccounts link.......................................undefined
-And user clicks createANewAccount link......................................undefined
-And user click calender icon and click today................................undefined
-And user verifies date is correct...........................................undefined
+Given user clicks manageCustomers link......................................skipped
+And user clicks createANewCustomer link.....................................skipped
+And user customer click Zelle Enrolled box..................................undefined
+And user click save button..................................................undefined
+And user customer verifies that there is no allert message related to Zelle box.undefined
 Then user signOut...........................................................skipped
 ]]></skipped>
 </testcase>

@@ -5,8 +5,8 @@
       Given user enters gmibank homepage
       And user clicks userEntry icon
       And user clicks signIn link
-      And user enters admin username "sametyaprak"
-      And user enters admin password "Ankara06"
+      And user enters admin username "karak"
+      And user enters admin password "DJabc21"
       And user clicks signIn button
       Then user clicks myOperations link
 

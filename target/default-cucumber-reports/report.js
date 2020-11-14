@@ -48,7 +48,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.step({
-  "name": "user enters admin username \"sametyaprak\"",
+  "name": "user enters admin username \"karak\"",
   "keyword": "And "
 });
 formatter.match({
@@ -58,7 +58,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.step({
-  "name": "user enters admin password \"Ankara06\"",
+  "name": "user enters admin password \"DJabc21\"",
   "keyword": "And "
 });
 formatter.match({
@@ -88,7 +88,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.scenario({
-  "name": "manage accounts date selection today test",
+  "name": "manage customers Zelle box selection test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -99,20 +99,32 @@ formatter.scenario({
       "name": "@SmokeTest"
     },
     {
-      "name": "@TC1401"
+      "name": "@TC1405"
     }
   ]
 });
 formatter.step({
-  "name": "user clicks manageAccounts link",
+  "name": "user clicks manageCustomers link",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageCustomers_link()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "user clicks createANewAccount link",
+  "name": "user clicks createANewCustomer link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewCustomer_link()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "user customer click Zelle Enrolled box",
   "keyword": "And "
 });
 formatter.match({});
@@ -120,7 +132,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "user click calender icon and click today",
+  "name": "user click save button",
   "keyword": "And "
 });
 formatter.match({});
@@ -128,7 +140,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "user verifies date is correct",
+  "name": "user customer verifies that there is no allert message related to Zelle box",
   "keyword": "And "
 });
 formatter.match({});
