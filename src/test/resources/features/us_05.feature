@@ -8,7 +8,7 @@ Feature: US_05 Login page should not be accessible with invalid credentials
   Scenario Outline: User cannot login with invalid username validating the error message
     Given user enters gmibank homepage
     Then user clicks userEntry icon
-    Then user clicks signIngit  link
+    Then user clicks signIn link
     Then user enters admin username "<userName>"
     Then user enters admin password "Betul2015"
     Then user clicks signIn button

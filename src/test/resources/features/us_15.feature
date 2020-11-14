@@ -14,6 +14,7 @@ Feature: System should allow user to manage their account
     Given user clicks myOperations link
     Given user clicks manage accounts
     Then can user see all account types and balace populated
+    Then   user signOut
 
 
 
@@ -22,3 +23,4 @@ Feature: System should allow user to manage their account
     Given user clicks myOperations link
     Given user clicks manage accounts
     Then can user see all transaction
+    Then   user signOut
