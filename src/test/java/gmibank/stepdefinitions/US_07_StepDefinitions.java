@@ -74,7 +74,8 @@ public class US_07_StepDefinitions {
         System.out.println(allLang.size());
         List<String> allLangString=ReusableMethods.getElementsText(allLang);
         Assert.assertTrue(allLangString.contains(string) && allLangString.contains(string2));
-
+        us07Page.insanResmi.click();
+        us07Page.signOut.click();
     }
 
 

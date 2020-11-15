@@ -1,4 +1,4 @@
-@US_07 @SmokeTest
+@US_07 @SmokeTest @hata
 Feature: US_07 Test
 
   Background: Kullanici bir user olarak gmibank anasayfasina gider

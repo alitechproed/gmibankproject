@@ -1,7 +1,7 @@
 @US_06 @SmokeTest
 Feature:US_06 user info segment should be editable on Homepage
 
-  Background: : user enters gmibank homepage then reaches sign in link and clicks user info
+  Background: user enters gmibank homepage then reaches sign in link and clicks user info
     Given user enters gmibank homepage
     And user clicks userEntry icon
     And user clicks signIn link
@@ -12,14 +12,14 @@ Feature:US_06 user info segment should be editable on Homepage
     Then user clicks on user info link
 
   @TC_0601
-  Scenario:TC_0601 user settings test
+  Scenario: TC_0601 user settings test
     Given "Resit" must be entered as first name
     And "Heim" must be entered as last name
     And "almanbaki@yandex.com" must be entered as email
     And "English" must be selected as language
-    And user signOut
+    Then user signOut
 
- @TC_0602
+  @TC_0602
   Scenario Outline: TC_002 There should be 2 languages available
     Given user select "<options>" language
     Then user signOut
@@ -27,6 +27,7 @@ Feature:US_06 user info segment should be editable on Homepage
       | options |
       | 0  |
       | 1  |
+
 
   @TC_0603
   Scenario: TC_0603 update firstname
@@ -55,3 +56,4 @@ Feature:US_06 user info segment should be editable on Homepage
     Given user don't uses the @ sign when they update their email address
     And user don't uses the .com sign when they update their email address
     Then user signOut
+
