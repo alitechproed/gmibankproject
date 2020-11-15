@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.914">
+    <testcase classname="US12 tests" name="tc1203  user should show the account information of the customer Middle Initial" time="17.135">
+        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user should show Middle Initial and verify valid......................passed
+Then user signOut...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
