@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="3" tests="3" time="9.694">
+<testcase classname="US_07 Test" name="TC_060 email test" time="7.929">
+<skipped><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................undefined
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.undefined
+And Kullanici bir user olarak acilan menuden signIn linkine tiklar..........undefined
+And Kullanici username textboxina "AAbc398" girer...........................undefined
+And Kullanici  password textboxina "A1b2C3" girer...........................undefined
+And Kullanici signin butonuna tiklar........................................undefined
+And Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer.undefined
+And Kullanici email textBoxina tiklar.......................................undefined
+And Kullanici "abc122afhmail.com" girer.....................................undefined
+Then kullanici hatali email  girdiginde hata mesajini gorur.................undefined
+]]></skipped>
+</testcase>
+<testcase classname="US_07 Test" name="TC_060 email test 2" time="0.326">
+<skipped><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................undefined
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.undefined
+And Kullanici bir user olarak acilan menuden signIn linkine tiklar..........undefined
+And Kullanici username textboxina "AAbc398" girer...........................undefined
+And Kullanici  password textboxina "A1b2C3" girer...........................undefined
+And Kullanici signin butonuna tiklar........................................undefined
+And Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer.undefined
+And Kullanici email textBoxina tiklar.......................................undefined
+And Kullanici "abc122afh@mail" girer........................................undefined
+Then kullanici hatali email  girdiginde hata mesajini gorur.................undefined
+]]></skipped>
+</testcase>
+<testcase classname="US_07 Test" name="TC_061 language  test" time="0.347">
+<skipped><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................undefined
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.undefined
+And Kullanici bir user olarak acilan menuden signIn linkine tiklar..........undefined
+And Kullanici username textboxina "AAbc398" girer...........................undefined
+And Kullanici  password textboxina "A1b2C3" girer...........................undefined
+And Kullanici signin butonuna tiklar........................................undefined
+And Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer.undefined
+Given Kullanici language  secenegine tiklar.................................undefined
+And Kullanici language dropDown'unun icinde sadece  "English" veya "Türkçe" dilleri oldugunu gorur.undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,417 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden signIn linkine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Kullanici username textboxina \"AAbc398\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Kullanici  password textboxina \"A1b2C3\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Kullanici signin butonuna tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T13:57:14.595Z",
+        "line": 20,
+        "name": "TC_060 email test",
+        "description": "",
+        "id": "us-07-test;tc-060-email-test;invalid-emailler;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7769000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Kullanici email textBoxina tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Kullanici \"abc122afhmail.com\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "kullanici hatali email  girdiginde hata mesajini gorur",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_07"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_0701"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden signIn linkine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Kullanici username textboxina \"AAbc398\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Kullanici  password textboxina \"A1b2C3\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Kullanici signin butonuna tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T13:57:22.551Z",
+        "line": 21,
+        "name": "TC_060 email test",
+        "description": "",
+        "id": "us-07-test;tc-060-email-test;invalid-emailler;3",
+        "after": [
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Kullanici email textBoxina tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Kullanici \"abc122afh@mail\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "kullanici hatali email  girdiginde hata mesajini gorur",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_07"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_0701"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Kullanici bir user olarak acilan menuden signIn linkine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Kullanici username textboxina \"AAbc398\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Kullanici  password textboxina \"A1b2C3\" girer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Kullanici signin butonuna tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T13:57:22.889Z",
+        "line": 25,
+        "name": "TC_061 language  test",
+        "description": "",
+        "id": "us-07-test;tc-061-language--test",
+        "after": [
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "Kullanici language  secenegine tiklar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "Kullanici language dropDown\u0027unun icinde sadece  \"English\" veya \"Türkçe\" dilleri oldugunu gorur",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_07"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_0702"
+          }
+        ]
+      }
+    ],
+    "name": "US_07 Test",
+    "description": "",
+    "id": "us-07-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/us_07.feature",
+    "tags": [
+      {
+        "name": "@US_07",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
