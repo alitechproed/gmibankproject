@@ -11,7 +11,7 @@ Feature: US_07 Test
     And Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer
 
   @TC_0701
-  Scenario Outline: TC_060 email test
+  Scenario Outline: TC_0701 email test
     And Kullanici email textBoxina tiklar
     And Kullanici "<email>" girer
     Then kullanici hatali email  girdiginde hata mesajini gorur
@@ -22,6 +22,6 @@ Feature: US_07 Test
 
 
   @TC_0702
-  Scenario: TC_061 language  test
+  Scenario: TC_0702 language  test
     Given Kullanici language  secenegine tiklar
     And Kullanici language dropDown'unun icinde sadece  "English" veya "Türkçe" dilleri oldugunu gorur
