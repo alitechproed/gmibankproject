@@ -1,33 +1,33 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_11.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_10.feature");
 formatter.feature({
-  "name": "US_11 tests",
+  "name": "US10 tests",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     }
   ]
 });
 formatter.scenarioOutline({
-  "name": "Create Date negative test (for in the past)",
+  "name": "zipcode positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TC_1101"
+      "name": "@tc1001"
     }
   ]
 });
 formatter.step({
-  "name": "user send data to date box \"\u003cCreate Date\u003e\"",
+  "name": "user send data to zipcode box \"\u003czipcode\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "user verifies valid data entry to Create Date box",
+  "name": "user verifies valid data entry to zipcode box",
   "keyword": "Then "
 });
 formatter.step({
@@ -35,29 +35,39 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "name": "Test Dates",
+  "name": "",
   "description": "",
   "keyword": "Examples",
   "rows": [
     {
       "cells": [
-        "Create Date"
+        "zipcode"
       ]
     },
     {
       "cells": [
-        "12.12.2015 12:00"
+        "123456"
       ]
     },
     {
       "cells": [
-        "01.20.2020 11:15"
+        "asdasd"
+      ]
+    },
+    {
+      "cells": [
+        "das455"
+      ]
+    },
+    {
+      "cells": [
+        "4a"
       ]
     }
   ]
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -73,7 +83,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -83,7 +93,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -92,7 +102,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -102,7 +112,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin password \"1234567\"",
+  "name": "user enters admin password \"Ankara06\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -152,37 +162,37 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Create Date negative test (for in the past)",
+  "name": "zipcode positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     },
     {
-      "name": "@TC_1101"
+      "name": "@tc1001"
     }
   ]
 });
 formatter.step({
-  "name": "user send data to date box \"12.12.2015 12:00\"",
+  "name": "user send data to zipcode box \"123456\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_send_data_to_date_box(java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendDataToZipcodeBox(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies valid data entry to Create Date box",
+  "name": "user verifies valid data entry to zipcode box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_verifies_valid_data_entry_to_Create_Date_box()"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesValidDataEntryToZipcodeBox()"
 });
 formatter.result({
   "status": "passed"
@@ -201,7 +211,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -217,7 +227,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -227,7 +237,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -236,7 +246,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -246,7 +256,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin password \"1234567\"",
+  "name": "user enters admin password \"Ankara06\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -296,230 +306,37 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Create Date negative test (for in the past)",
+  "name": "zipcode positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     },
     {
-      "name": "@TC_1101"
+      "name": "@tc1001"
     }
   ]
 });
 formatter.step({
-  "name": "user send data to date box \"01.20.2020 11:15\"",
+  "name": "user send data to zipcode box \"asdasd\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_send_data_to_date_box(java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendDataToZipcodeBox(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies valid data entry to Create Date box",
+  "name": "user verifies valid data entry to zipcode box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_verifies_valid_data_entry_to_Create_Date_box()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user signOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "name": "TC_1102 Date format negative test",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@TC_1102"
-    }
-  ]
-});
-formatter.step({
-  "name": "user send invalid data format to date box \"\u003cCreate Date Invalid\u003e\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user verifies invalid data entry to Create Date box",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "user signOut",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "Test Dates",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "Create Date Invalid"
-      ]
-    },
-    {
-      "cells": [
-        "01.12.2020"
-      ]
-    },
-    {
-      "cells": [
-        "01.20.2021 11"
-      ]
-    },
-    {
-      "cells": [
-        "11.2021 09:30"
-      ]
-    }
-  ]
-});
-formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.step({
-  "name": "user enters gmibank homepage",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks userEntry icon",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin username \"joseph37\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin password \"1234567\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks myOperations link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks manageCostomers link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks createNewCustomer link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_createNewCustomer_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC_1102 Date format negative test",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@US_11"
-    },
-    {
-      "name": "@SmokeTest"
-    },
-    {
-      "name": "@TC_1102"
-    }
-  ]
-});
-formatter.step({
-  "name": "user send invalid data format to date box \"01.12.2020\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userSendInvalidDataFormatToDateBox(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user verifies invalid data entry to Create Date box",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userVerifiesInvalidDataEntryToCreateDateBox()"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesValidDataEntryToZipcodeBox()"
 });
 formatter.result({
   "status": "passed"
@@ -538,7 +355,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -554,7 +371,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -564,7 +381,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -573,7 +390,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -583,7 +400,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin password \"1234567\"",
+  "name": "user enters admin password \"Ankara06\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -633,37 +450,37 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC_1102 Date format negative test",
+  "name": "zipcode positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     },
     {
-      "name": "@TC_1102"
+      "name": "@tc1001"
     }
   ]
 });
 formatter.step({
-  "name": "user send invalid data format to date box \"01.20.2021 11\"",
+  "name": "user send data to zipcode box \"das455\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userSendInvalidDataFormatToDateBox(java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendDataToZipcodeBox(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies invalid data entry to Create Date box",
+  "name": "user verifies valid data entry to zipcode box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userVerifiesInvalidDataEntryToCreateDateBox()"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesValidDataEntryToZipcodeBox()"
 });
 formatter.result({
   "status": "passed"
@@ -682,7 +499,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -698,7 +515,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -708,7 +525,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -717,7 +534,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -727,7 +544,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin password \"1234567\"",
+  "name": "user enters admin password \"Ankara06\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -777,37 +594,181 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC_1102 Date format negative test",
+  "name": "zipcode positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     },
     {
-      "name": "@TC_1102"
+      "name": "@tc1001"
     }
   ]
 });
 formatter.step({
-  "name": "user send invalid data format to date box \"11.2021 09:30\"",
+  "name": "user send data to zipcode box \"4a\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userSendInvalidDataFormatToDateBox(java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendDataToZipcodeBox(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies invalid data entry to Create Date box",
+  "name": "user verifies valid data entry to zipcode box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userVerifiesInvalidDataEntryToCreateDateBox()"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesValidDataEntryToZipcodeBox()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signOut",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "user anters gmibank homepage then reaches create new costomers link",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user enters gmibank homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks userEntry icon",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn link",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters admin username \"sametyaprak\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters admin password \"Ankara06\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks myOperations link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks manageCostomers link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks createNewCustomer link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_createNewCustomer_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "zipcode negative test",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US10"
+    },
+    {
+      "name": "@SmokeTests"
+    },
+    {
+      "name": "@tc1002"
+    }
+  ]
+});
+formatter.step({
+  "name": "user send nothing to zipcode box",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendNothingToZipcodeBox()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verifies invalid zipcode data entry",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesInvalidZipcodeDataEntry()"
 });
 formatter.result({
   "status": "passed"
@@ -826,21 +787,21 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "name": "TC_1103 Date format pozitive test",
+  "name": "adress positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TC_1103"
+      "name": "@tc1003"
     }
   ]
 });
 formatter.step({
-  "name": "user send valid data format to date box \"\u003cCreate Date Valid\u003e\"",
+  "name": "user send data to adress box \"\u003cadress\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "user verifies valid date format to Create Date box",
+  "name": "user verifies valid data entry to adress box",
   "keyword": "Then "
 });
 formatter.step({
@@ -848,29 +809,39 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "name": "Test Dates",
+  "name": "",
   "description": "",
   "keyword": "Examples",
   "rows": [
     {
       "cells": [
-        "Create Date Valid"
+        "adress"
       ]
     },
     {
       "cells": [
-        "12.30.2020 12:00"
+        "123456"
       ]
     },
     {
       "cells": [
-        "01.21.2021 11:15"
+        "asdasd"
+      ]
+    },
+    {
+      "cells": [
+        "das455"
+      ]
+    },
+    {
+      "cells": [
+        "4a"
       ]
     }
   ]
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -886,7 +857,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -896,7 +867,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -905,7 +876,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -915,7 +886,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin password \"1234567\"",
+  "name": "user enters admin password \"Ankara06\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -965,37 +936,37 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC_1103 Date format pozitive test",
+  "name": "adress positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     },
     {
-      "name": "@TC_1103"
+      "name": "@tc1003"
     }
   ]
 });
 formatter.step({
-  "name": "user send valid data format to date box \"12.30.2020 12:00\"",
+  "name": "user send data to adress box \"123456\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userSendValidDataFormatToDateBox(java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendDataToAdressBox(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies valid date format to Create Date box",
+  "name": "user verifies valid data entry to adress box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userVerifiesValidDateFormatToCreateDateBox()"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesValidDataEntryToAdressBox()"
 });
 formatter.result({
   "status": "passed"
@@ -1014,7 +985,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -1030,7 +1001,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -1040,7 +1011,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -1049,7 +1020,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -1059,7 +1030,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin password \"1234567\"",
+  "name": "user enters admin password \"Ankara06\"",
   "keyword": "Then "
 });
 formatter.match({
@@ -1109,37 +1080,37 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC_1103 Date format pozitive test",
+  "name": "adress positive test",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@US_11"
+      "name": "@US10"
     },
     {
-      "name": "@SmokeTest"
+      "name": "@SmokeTests"
     },
     {
-      "name": "@TC_1103"
+      "name": "@tc1003"
     }
   ]
 });
 formatter.step({
-  "name": "user send valid data format to date box \"01.21.2021 11:15\"",
+  "name": "user send data to adress box \"asdasd\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userSendValidDataFormatToDateBox(java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSendDataToAdressBox(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies valid date format to Create Date box",
+  "name": "user verifies valid data entry to adress box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userVerifiesValidDateFormatToCreateDateBox()"
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userVerifiesValidDataEntryToAdressBox()"
 });
 formatter.result({
   "status": "passed"
@@ -1158,7 +1129,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
+  "name": "user anters gmibank homepage then reaches create new costomers link",
   "description": "",
   "keyword": "Background"
 });
@@ -1174,7 +1145,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks userEntry icon",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
@@ -1184,7 +1155,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user clicks signIn link",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
@@ -1193,410 +1164,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters admin username \"joseph37\"",
+  "name": "user enters admin username \"sametyaprak\"",
   "keyword": "Then "
 });
 formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin password \"1234567\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks myOperations link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks manageCostomers link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks createNewCustomer link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_createNewCustomer_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User positive test",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@US_11"
-    },
-    {
-      "name": "@SmokeTest"
-    },
-    {
-      "name": "@TC_1104"
-    }
-  ]
-});
-formatter.step({
-  "name": "user select a user from dropbox",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_select_a_user_from_dropbox()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user verifies a user can be selected",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_verifies_a_user_can_be_selected()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user signOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.step({
-  "name": "user enters gmibank homepage",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks userEntry icon",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin username \"joseph37\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin password \"1234567\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks myOperations link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks manageCostomers link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks createNewCustomer link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_createNewCustomer_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Account positive test",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@US_11"
-    },
-    {
-      "name": "@SmokeTest"
-    },
-    {
-      "name": "@TC_1105"
-    }
-  ]
-});
-formatter.step({
-  "name": "user select an account from dropbox",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_select_an_account_from_dropbox()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user verifies an account can be selected",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_verifies_an_account_can_be_selected()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user signOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "user enters gmibank homepage then reaches sign in link and clicks user info",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.step({
-  "name": "user enters gmibank homepage",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks userEntry icon",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin username \"joseph37\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters admin password \"1234567\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks signIn button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks myOperations link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks manageCostomers link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks createNewCustomer link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_createNewCustomer_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Zelle Enrolled option checkbox pozitive test",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@US_11"
-    },
-    {
-      "name": "@SmokeTest"
-    },
-    {
-      "name": "@TC_1106"
-    }
-  ]
-});
-formatter.step({
-  "name": "user select Zelle Enrolled checkbox",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_select_Zelle_Enrolled_checkbox()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on save button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.userClicksOnSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user verifies is selected",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_11_Step_Definitions.user_verifies_is_enabled()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user signOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
 });
