@@ -25,7 +25,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks userEntry icon",
@@ -35,7 +35,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks signIn link",
@@ -45,7 +45,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters admin username \"karak\"",
@@ -55,7 +55,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters admin password \"DJabc21\"",
@@ -65,7 +65,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks signIn button",
@@ -75,7 +75,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -85,10 +85,10 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
-  "name": "manage customers Zelle box selection test",
+  "name": "TC1401 manage accounts date selection today test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -99,65 +99,61 @@ formatter.scenario({
       "name": "@SmokeTest"
     },
     {
-      "name": "@TC1405"
+      "name": "@TC1401"
     }
   ]
 });
 formatter.step({
-  "name": "user clicks manageCustomers link",
+  "name": "user clicks manageAccounts link",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageCustomers_link()"
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageAccounts_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user clicks createANewCustomer link",
+  "name": "user clicks createANewAccount link",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewCustomer_link()"
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewAccount_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user customer click Zelle Enrolled box",
+  "name": "user sends an earlier date",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_sends_an_earlier_date()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user click save button",
+  "name": "user verifies date is an early date",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_verifies_date_is_an_early_date()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user customer verifies that there is no allert message related to Zelle box",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "user signOut",
+  "name": "user signOut from Website",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
+  "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_signOut_from_Website()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });
