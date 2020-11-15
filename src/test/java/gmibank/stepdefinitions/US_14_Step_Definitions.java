@@ -25,8 +25,8 @@ public class US_14_Step_Definitions {
     }
 
     //@TC1401
-    @Given("user clicks manageAccounts link")
-    public void user_clicks_manageAccounts_link() {
+    @Given("user clicks manageAccounts link21")
+    public void user_clicks_manageAccounts_link21() {
         us14Page.manageAccountLink.click();
     }
 

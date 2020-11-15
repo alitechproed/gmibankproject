@@ -12,7 +12,7 @@
 
     @TC1401
     Scenario: TC1401 manage accounts date selection today test
-      Given user clicks manageAccounts link
+      Given user clicks manageAccounts link21
       And user clicks createANewAccount link
       And user sends an earlier date
       And user verifies date is an early date
@@ -20,7 +20,7 @@
 
     @TC1402
     Scenario: TC1402 manage accounts date selection positive test
-      Given user clicks manageAccounts link
+      Given user clicks manageAccounts link21
       And user clicks createANewAccount link
       And user account send a date "12122020" and click tab
       And user account send a time "1000" and user click tab
