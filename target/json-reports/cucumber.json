@@ -75,7 +75,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T13:57:14.595Z",
+        "start_timestamp": "2020-11-15T14:17:40.386Z",
         "line": 20,
         "name": "TC_060 email test",
         "description": "",
@@ -83,7 +83,7 @@
         "after": [
           {
             "result": {
-              "duration": 7769000000,
+              "duration": 8022000000,
               "status": "passed"
             },
             "match": {
@@ -207,7 +207,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T13:57:22.551Z",
+        "start_timestamp": "2020-11-15T14:17:48.610Z",
         "line": 21,
         "name": "TC_060 email test",
         "description": "",
@@ -215,7 +215,7 @@
         "after": [
           {
             "result": {
-              "duration": 311000000,
+              "duration": 340000000,
               "status": "passed"
             },
             "match": {
@@ -339,7 +339,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T13:57:22.889Z",
+        "start_timestamp": "2020-11-15T14:17:48.980Z",
         "line": 25,
         "name": "TC_061 language  test",
         "description": "",
@@ -347,7 +347,7 @@
         "after": [
           {
             "result": {
-              "duration": 334000000,
+              "duration": 348000000,
               "status": "passed"
             },
             "match": {
