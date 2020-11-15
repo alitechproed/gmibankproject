@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
-        tags = "@TC_060",
-        dryRun = false
+        tags = "@gmiLogin_US_005",
+        dryRun = true
 
 )
 

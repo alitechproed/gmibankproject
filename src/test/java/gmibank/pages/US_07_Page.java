@@ -22,7 +22,7 @@ public class US_07_Page {
     @FindBy(xpath = "//input[@id='password']")
     public  WebElement passwordTextBox;
 
-    @FindBy(xpath = "(//span[.='Sign in'])[3]")
+    @FindBy(xpath = "//button[@type='submit']")
     public  WebElement signinButton;
 
     @FindBy(xpath = "//li[@id='account-menu']")

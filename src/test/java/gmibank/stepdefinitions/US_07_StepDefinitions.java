@@ -70,10 +70,9 @@ public class US_07_StepDefinitions {
     @Given("Kullanici language dropDown'unun icinde sadece  {string} veya {string} dilleri oldugunu gorur")
     public void kullanici_language_dropDown_unun_icinde_sadece_veya_dilleri_oldugunu_gorur(String string, String string2) {
         Select select=new Select(us07Page.languageDropdown);
-        List<WebElement> allLang=select.getAllSelectedOptions();
+        List<WebElement> allLang=select.getOptions();
         System.out.println(allLang.size());
         List<String> allLangString=ReusableMethods.getElementsText(allLang);
-        System.out.println(allLangString.size());
         Assert.assertTrue(allLangString.contains(string) && allLangString.contains(string2));
 
     }

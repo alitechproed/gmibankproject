@@ -24,4 +24,4 @@ Feature: US_07 Test
   @TC_061
   Scenario: TC_061 language  test
     Given Kullanici language  secenegine tiklar
-    And Kullanici language dropDown'unun icinde sadece  "English" veya "Turkish" dilleri oldugunu gorur
+    And Kullanici language dropDown'unun icinde sadece  "English" veya "Türkçe" dilleri oldugunu gorur

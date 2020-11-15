@@ -3,89 +3,19 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "line": 3,
+        "name": "TC_005 gmiBank login Test",
         "description": "",
         "type": "background",
         "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7000000,
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden signIn linkine tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "Kullanici username textboxina \"AAbc398\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "Kullanici  password textboxina \"A1b2C3\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "Kullanici signin butonuna tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer",
-            "match": {},
-            "keyword": "And "
-          }
-        ]
+        "steps": []
       },
       {
-        "start_timestamp": "2020-11-13T18:23:26.726Z",
-        "line": 20,
-        "name": "TC_060 email test",
+        "start_timestamp": "2020-11-14T13:16:46.734Z",
+        "line": 4,
+        "name": "Go to login page negativePage",
         "description": "",
-        "id": "us-07-test;tc-060-email-test;;2",
+        "id": "gmibank-login;go-to-login-page-negativepage",
         "after": [
           {
             "result": {
@@ -98,73 +28,24 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
               "status": "undefined"
-            },
-            "line": 15,
-            "name": "Kullanici email textBoxina tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "Kullanici \"abc122afhmail.com\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "kullanici hatali email  girdiginde hata mesajini gorur",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_07"
-          },
-          {
-            "name": "@TC_060"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
             },
             "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
+            "name": "user is on the gmiBank page",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
+            "name": "Click on the login",
+            "match": {},
             "keyword": "And "
           },
           {
@@ -172,186 +53,31 @@
               "status": "undefined"
             },
             "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden signIn linkine tiklar",
+            "name": "Click on the sign in",
             "match": {},
             "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "Kullanici username textboxina \"AAbc398\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "Kullanici  password textboxina \"A1b2C3\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "Kullanici signin butonuna tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer",
-            "match": {},
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-13T18:23:27.305Z",
-        "line": 21,
-        "name": "TC_060 email test",
-        "description": "",
-        "id": "us-07-test;tc-060-email-test;;3",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "Kullanici email textBoxina tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "Kullanici \"abc122afh@mail\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "kullanici hatali email  girdiginde hata mesajini gorur",
-            "match": {},
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_07"
-          },
-          {
-            "name": "@TC_060"
+            "name": "@gmiLogin_US_005"
           }
         ]
       },
       {
-        "line": 4,
-        "name": "Kullanici bir user olarak gmibank anasayfasina gider",
+        "line": 3,
+        "name": "TC_005 gmiBank login Test",
         "description": "",
         "type": "background",
         "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "Kullanici bir user olarak gmibank anasayfasina gider",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_gmibank_anasayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_01_Step_Definitions.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "Kullanici bir user olarak acilan menuden signIn linkine tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "Kullanici username textboxina \"AAbc398\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "Kullanici  password textboxina \"A1b2C3\" girer",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "Kullanici signin butonuna tiklar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer",
-            "match": {},
-            "keyword": "And "
-          }
-        ]
+        "steps": []
       },
       {
-        "start_timestamp": "2020-11-13T18:23:27.347Z",
-        "line": 25,
-        "name": "TC_061 language  test",
+        "start_timestamp": "2020-11-14T13:16:47.003Z",
+        "line": 9,
+        "name": "Negative  username test",
         "description": "",
-        "id": "us-07-test;tc-061-language--test",
+        "id": "gmibank-login;negative--username-test",
         "after": [
           {
             "result": {
@@ -369,39 +95,331 @@
             "result": {
               "status": "undefined"
             },
-            "line": 26,
-            "name": "Kullanici language  secenegine tiklar",
+            "line": 10,
+            "name": "User should be invalid username",
             "match": {},
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
               "status": "undefined"
             },
-            "line": 27,
-            "name": "Kullanici language dropDown\u0027unun icinde sadece  \"English\" veya \"Turkish\" dilleri oldugunu gorur",
+            "line": 11,
+            "name": "User should be valid password",
             "match": {},
             "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User click sing in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Then i should see the error message",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_07"
+            "name": "@gmiLogin_US_005"
           },
           {
-            "name": "@TC_061"
+            "name": "@gmiBankLoginTC_003"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "TC_005 gmiBank login Test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-14T13:16:47.069Z",
+        "line": 15,
+        "name": "Negative password test",
+        "description": "",
+        "id": "gmibank-login;negative-password-test",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User should be valid username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User should be invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User click sing in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Then I should see the error message1",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmiLogin_US_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_004"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "TC_005 gmiBank login Test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-14T13:16:47.135Z",
+        "line": 21,
+        "name": "Negative username and password test",
+        "description": "",
+        "id": "gmibank-login;negative-username-and-password-test",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "User should be invalid username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should be invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User click sing in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Then I should see the error message2",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmiLogin_US_005"
+          },
+          {
+            "name": "@gmiBankTC_005"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "TC_005 gmiBank login Test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-14T13:16:47.173Z",
+        "line": 27,
+        "name": "Forget password test",
+        "description": "",
+        "id": "gmibank-login;forget-password-test",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "Click on the Did you forget your password?",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "provide email to checkbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "Click on the Reset password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "I should see the message reset your password",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmiLogin_US_005"
+          },
+          {
+            "name": "@gmiBankTC_006"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "TC_005 gmiBank login Test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-14T13:16:47.210Z",
+        "line": 33,
+        "name": "New Registration",
+        "description": "",
+        "id": "gmibank-login;new-registration",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "Click on the You don\u0027t have an account yet? Register a new account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "User should be see Registration",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmiLogin_US_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_007"
           }
         ]
       }
     ],
-    "name": "US_07 Test",
+    "name": "gmiBank Login",
     "description": "",
-    "id": "us-07-test",
+    "id": "gmibank-login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us_07.feature",
+    "uri": "file:src/test/resources/features/zuhre.feature",
     "tags": [
       {
-        "name": "@US_07",
+        "name": "@gmiLogin_US_005",
         "type": "Tag",
         "location": {
           "line": 1,
