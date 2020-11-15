@@ -119,9 +119,9 @@ public class US_14_Step_Definitions {
 
     @Given("user customer verifies valid data entry to Create Date box")
     public void user_customer_verifies_valid_data_entry_to_Create_Date_box() {
-        String borderColorCS = ReusableMethods.getHexColor(us14Page.createDateBoxCustomer,"border-color");
-        System.out.println(borderColorCS);//#ced4da     alert color : #dc3545
-        Assert.assertEquals(borderColorCS,"#ced4da");
+        String valueDateBoxCustomer = us14Page.createDateBoxCustomer.getAttribute("value");
+        System.out.println(valueDateBoxCustomer);
+        Assert.assertFalse(valueDateBoxCustomer.isEmpty());
     }
 
     //@TC1404

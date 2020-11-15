@@ -191,5 +191,11 @@ public class US_12_Step_Definitions {
     public void user_verifies_Are_you_sure_you_want_to_delete_Customer() {
         ReusableMethods.waitFor(1);
         Assert.assertTrue(us12Page.deleteOnay.isDisplayed());
+
+        us12Page.canselButton.click();
+
+
     }
+
+
 }
