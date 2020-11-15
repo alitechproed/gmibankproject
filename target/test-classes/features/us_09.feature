@@ -26,7 +26,7 @@ Feature: US_009 User can search for a new applicant by their SSN and see all the
     Then   user signOut
 
   @tc0903
-  Scenario Outline: Positiv Test enter to out of SSN search Box a data then user should not see any data of users
+  Scenario Outline: : Positiv Test enter to out of SSN search Box a data then user should not see any data of users
     Given  five Positv user enters to firstname Box "<name>"
     Then   six  Possitiv user doesnt see any of info of user
     Then   user signOut

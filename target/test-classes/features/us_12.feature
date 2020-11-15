@@ -89,6 +89,7 @@ Feature: US12 tests
   Scenario:  tc1214 user should delete a customer but seeing a message if the user is sure about deletion
     Given     user click Delete Button
     Then      user verifies Are you sure you want to delete Customer
+    Then      user signOut
 
 
 
