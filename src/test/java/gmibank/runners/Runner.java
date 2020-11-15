@@ -13,10 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
-
-        tags = "@SmokeTest",
+        tags = "@US13",
         dryRun = false
-
 )
 
 public class Runner {
