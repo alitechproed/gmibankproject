@@ -1,4 +1,4 @@
-@US_07
+@US_07 @SmokeTest @hata
 Feature: US_07 Test
 
   Background: Kullanici bir user olarak gmibank anasayfasina gider
@@ -10,8 +10,8 @@ Feature: US_07 Test
     And Kullanici signin butonuna tiklar
     And Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini secer
 
-  @TC_060
-  Scenario Outline: TC_060 email test
+  @TC_0701
+  Scenario Outline: TC_0701 email test
     And Kullanici email textBoxina tiklar
     And Kullanici "<email>" girer
     Then kullanici hatali email  girdiginde hata mesajini gorur
@@ -21,7 +21,7 @@ Feature: US_07 Test
       | abc122afh@mail    |
 
 
-  @TC_061
-  Scenario: TC_061 language  test
+  @TC_0702
+  Scenario: TC_0702 language  test
     Given Kullanici language  secenegine tiklar
     And Kullanici language dropDown'unun icinde sadece  "English" veya "Türkçe" dilleri oldugunu gorur

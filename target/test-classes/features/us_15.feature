@@ -1,5 +1,7 @@
-@US015 @SmokeTests
-Feature: System should allow user to manage their account
+
+@US015 @SmokeTest @ABC
+
+Feature: US15 tests
 
   Background: user anters gmibank homepage
     Given user enters gmibank homepage
