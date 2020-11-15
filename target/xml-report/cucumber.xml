@@ -1,126 +1,271 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="186.431">
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Positiv Test  enter correct SSN and All information of the user filled in in the registration field should be seen" time="53.853">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="171.62">
+<testcase classname="US12 tests" name="tc1201 user should show the account information of the customer First Name" time="24.73">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given one Positiv user enter "555-55-5555" SSN  sees then firstname , lastname,email,mobilnumber,phoneNumber,addres ,ssn ,createDate.passed
-Then two Positiv user enter "555-55-5555" SSN  and doesnt  see then the rest of  unfiiled Record in registration.passed
+Given user should show First Name and verify valid..........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test enter incorret SSN then there shoudl not seen any data of users" time="26.781">
+<testcase classname="US12 tests" name="tc1202 user should show the account information of the customer Last Name" time="5.923">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given three Negativ user enter false SNN "343-34-2323" doesnt  see any info of users.passed
-Then four  Negativ user enter incorrect SSN "343-22-2343" and should see aller Error messaj.passed
+Given user should show Last Name and verify valid...........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users" time="16.338">
+<testcase classname="US12 tests" name="tc1203  user should show the account information of the customer Middle Initial" time="6.793">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given five Positv user enters to firstname Box "silgi"......................passed
-Then six  Possitiv user doesnt see any of info of user......................passed
+Given user should show Middle Initial and verify valid......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 2" time="16.926">
+<testcase classname="US12 tests" name="tc1204  user should show the account information of the customer Email" time="6.903">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given five Positv user enters to firstname Box "alex".......................passed
-Then six  Possitiv user doesnt see any of info of user......................passed
+Given user should show Email and verify valid...............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 3" time="16.405">
+<testcase classname="US12 tests" name="tc1205 user should show the account information of the customer Mobile Phone Nummer" time="6.225">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given five Positv user enters to firstname Box "zehra"......................passed
-Then six  Possitiv user doesnt see any of info of user......................passed
+Given user should show Mobile Phone Nummer and verify valid.................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test select from user a data and not filled data should be  displayed" time="33.33">
+<testcase classname="US12 tests" name="tc1206 user should show the account information of the customer Phone Nummer" time="5.797">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given seven Negativ user selects from user Box a data.......................passed
-Then eigth Negativ user can select all usersname............................passed
-Then nine  Negativ user  wont be see any data of users......................passed
+Given user should show Phone Nummer and verify valid........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user" time="9.732">
+<testcase classname="US12 tests" name="tc1207 user should show the account information of the customer Address" time="5.78">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given ten user enter correct ssn data "222-22-2222".........................passed
-Then eleven user fill miss box of data......................................passed
-Then twelve user click save.................................................passed
+Given user should show Address and verify valid.............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user 2" time="10.756">
+<testcase classname="US12 tests" name="tc1208 user should show the account information of the customer Create Date" time="7.101">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
-Then user enters admin username "vivi"......................................passed
-Then user enters admin password "Betul2015."................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
 Then user clicks signIn button..............................................passed
 And user clicks myOperations link...........................................passed
 And user clicks manageCostomers link........................................passed
-And user clicks createNewCustomer link......................................passed
-Given ten user enter correct ssn data "555-55-5555".........................passed
-Then eleven user fill miss box of data......................................passed
-Then twelve user click save.................................................passed
+Given user should show Create Date and verify valid.........................passed
 Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 tests" name="tc1209 user should be an Edit Button where all customer information can be populated" time="5.961">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user should show Edit Button and verify valid.........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 tests" name="tc1210 user should to create or update the Email address" time="9.117">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user should write and new the Email address...........................passed
+And user click Save Button..................................................passed
+Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 tests" name="tc1211 user should to create or update the Mobile Phone Nummer" time="10.538">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user should write and new the Mobile Phone Nummer.....................passed
+And user click Save one Button..............................................passed
+Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 tests" name="tc1212 user should to create or update the Phone Nummer" time="9.114">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user should write and new the Phone Nummer............................passed
+And user click Save two Button..............................................passed
+Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 tests" name="tc1213 user should to create or update the Address" time="9.937">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user should write and new the Address.................................passed
+And user click Save three Button............................................passed
+Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US12 tests" name="tc1214 user should delete a customer but seeing a message if the user is sure about deletion" time="6.662">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+Given user click Delete Button..............................................passed
+Then user verifies Are you sure you want to delete Customer.................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="user enter Description" time="5.98">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user click Description................................................passed
+And user click Balance......................................................passed
+And user sees required message..............................................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="user should provide a balance as a Dollar" time="6.842">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user create as a dollar account "100" and verify......................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="User can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING" time="16.179">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user select an acount as CHECKING and verify..........................passed
+And user select an acount as a SAVING and verify............................passed
+And user select an acount as a CREDIT_CARD and verify.......................passed
+And user select an acount as a INVESTING and verify.........................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="User should account status defined as ACTIVE, SUSPENDED or CLOSED" time="11.917">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user click Account Status Type definied as a ACTIVE and verify........passed
+And user click Account Status Type definied as a  SUESPENDED and verify.....passed
+And user click Account Status Type definied as a  CLOSED and verify.........passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="User can select an employee from the drop-down" time="5.572">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user select Employee and verify the selectet Employee.................passed
+And user signOut............................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
