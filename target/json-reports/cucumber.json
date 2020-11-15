@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17315000000,
+              "duration": 16681000000,
               "status": "passed"
             },
             "line": 5,
@@ -20,534 +20,12 @@
               "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 301000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1479000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 402000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 682000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 220000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 943000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:48:57.347Z",
-        "line": 15,
-        "name": "tc1201 user should show the account information of the customer First Name",
-        "description": "",
-        "id": "us12-tests;tc1201-user-should-show-the-account-information-of-the-customer-first-name",
-        "after": [
-          {
-            "result": {
-              "duration": 812000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1128000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user should show First Name and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_First_Name_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 344000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1201"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1197000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 233000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1204000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 206000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 349000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 136000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 744000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 272000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:22.145Z",
-        "line": 20,
-        "name": "tc1202 user should show the account information of the customer Last Name",
-        "description": "",
-        "id": "us12-tests;tc1202-user-should-show-the-account-information-of-the-customer-last-name",
-        "after": [
-          {
-            "result": {
-              "duration": 479000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 840000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user should show Last Name and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Last_Name_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 248000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1202"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 899000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1193000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
           },
           {
             "result": {
               "duration": 201000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 356000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 129000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 796000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 347000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:28.102Z",
-        "line": 25,
-        "name": "tc1203  user should show the account information of the customer Middle Initial",
-        "description": "",
-        "id": "us12-tests;tc1203--user-should-show-the-account-information-of-the-customer-middle-initial",
-        "after": [
-          {
-            "result": {
-              "duration": 508000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1900000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "user should show Middle Initial and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Middle_Initial_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 249000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1203"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1280000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 296000000,
-              "status": "passed"
-            },
             "line": 6,
             "name": "user clicks userEntry icon",
             "match": {
@@ -557,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1344000000,
+              "duration": 1237000000,
               "status": "passed"
             },
             "line": 7,
@@ -569,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 236000000,
+              "duration": 294000000,
               "status": "passed"
             },
             "line": 8,
@@ -587,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 537000000,
+              "duration": 329000000,
               "status": "passed"
             },
             "line": 9,
@@ -605,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 160000000,
               "status": "passed"
             },
             "line": 10,
@@ -617,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 744000000,
+              "duration": 784000000,
               "status": "passed"
             },
             "line": 11,
@@ -629,2057 +107,7 @@
           },
           {
             "result": {
-              "duration": 259000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:34.943Z",
-        "line": 30,
-        "name": "tc1204  user should show the account information of the customer Email",
-        "description": "",
-        "id": "us12-tests;tc1204--user-should-show-the-account-information-of-the-customer-email",
-        "after": [
-          {
-            "result": {
-              "duration": 591000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1099000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "user should show Email and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Email_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 363000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1204"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1672000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 217000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1272000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 251000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 302000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 126000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 723000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 188000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:41.898Z",
-        "line": 35,
-        "name": "tc1205 user should show the account information of the customer Mobile Phone Nummer",
-        "description": "",
-        "id": "us12-tests;tc1205-user-should-show-the-account-information-of-the-customer-mobile-phone-nummer",
-        "after": [
-          {
-            "result": {
-              "duration": 463000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 760000000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "user should show Mobile Phone Nummer and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Mobile_Phone_Nummer_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 240000000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1205"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 905000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 398000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1250000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 437000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 177000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 619000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 182000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:48.151Z",
-        "line": 40,
-        "name": "tc1206 user should show the account information of the customer Phone Nummer",
-        "description": "",
-        "id": "us12-tests;tc1206-user-should-show-the-account-information-of-the-customer-phone-nummer",
-        "after": [
-          {
-            "result": {
-              "duration": 531000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 831000000,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "user should show Phone Nummer and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Phone_Nummer_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 239000000,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1206"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 733000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 264000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1281000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 245000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 320000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 140000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 747000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 213000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:53.980Z",
-        "line": 45,
-        "name": "tc1207 user should show the account information of the customer Address",
-        "description": "",
-        "id": "us12-tests;tc1207-user-should-show-the-account-information-of-the-customer-address",
-        "after": [
-          {
-            "result": {
-              "duration": 563000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 948000000,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "user should show Address and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Address_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 311000000,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1207"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1581000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 295000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1301000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 318000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 460000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 138000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 732000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 255000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:49:59.798Z",
-        "line": 50,
-        "name": "tc1208 user should show the account information of the customer Create Date",
-        "description": "",
-        "id": "us12-tests;tc1208-user-should-show-the-account-information-of-the-customer-create-date",
-        "after": [
-          {
-            "result": {
-              "duration": 597000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1110000000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "user should show Create Date and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Create_Date_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 299000000,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1208"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1015000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 265000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1182000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 167000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 362000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 132000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 606000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 156000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:50:06.934Z",
-        "line": 55,
-        "name": "tc1209 user should be an Edit Button where all customer information can be populated",
-        "description": "",
-        "id": "us12-tests;tc1209-user-should-be-an-edit-button-where-all-customer-information-can-be-populated",
-        "after": [
-          {
-            "result": {
-              "duration": 580000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1140000000,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "user should show Edit Button and verify valid",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_show_Edit_Button_and_verify_valid()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 347000000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1209"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 898000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 269000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1242000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 156000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 282000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 162000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 584000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 162000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:50:12.930Z",
-        "line": 61,
-        "name": "tc1210 user should to create or update the Email address",
-        "description": "",
-        "id": "us12-tests;tc1210-user-should-to-create-or-update-the-email-address",
-        "after": [
-          {
-            "result": {
-              "duration": 686000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2181000000,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "user should write and new the Email address",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_write_and_new_the_Email_address()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1557000000,
-              "status": "passed"
-            },
-            "line": 63,
-            "name": "user click Save Button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_click_Save_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "user verifies translation not found[gmiBankBackendApp.tPCustomer.updated",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_verifies_translation_not_found_gmiBankBackendApp_tPCustomer_updated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 924000000,
-              "status": "passed"
-            },
-            "line": 65,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1210"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1536000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 262000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1217000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 312000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 500000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 114000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 765000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 217000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:50:22.096Z",
-        "line": 68,
-        "name": "tc1211 user should to create or update the Mobile Phone Nummer",
-        "description": "",
-        "id": "us12-tests;tc1211-user-should-to-create-or-update-the-mobile-phone-nummer",
-        "after": [
-          {
-            "result": {
-              "duration": 755000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2395000000,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "user should write and new the Mobile Phone Nummer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_write_and_new_the_Mobile_Phone_Nummer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1351000000,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "user click Save one Button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.userClickSaveOneButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "user verifies translation not found[gmiBankBackendApp.tPCustomer.updated",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_verifies_translation_not_found_gmiBankBackendApp_tPCustomer_updated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1097000000,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1211"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1839000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 242000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1183000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 193000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 308000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 614000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 178000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:50:32.670Z",
-        "line": 75,
-        "name": "tc1212 user should to create or update the Phone Nummer",
-        "description": "",
-        "id": "us12-tests;tc1212-user-should-to-create-or-update-the-phone-nummer",
-        "after": [
-          {
-            "result": {
-              "duration": 671000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2120000000,
-              "status": "passed"
-            },
-            "line": 76,
-            "name": "user should write and new the Phone Nummer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_write_and_new_the_Phone_Nummer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1248000000,
-              "status": "passed"
-            },
-            "line": 77,
-            "name": "user click Save two Button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.userClickSaveTwoButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 78,
-            "name": "user verifies translation not found[gmiBankBackendApp.tPCustomer.updated",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_verifies_translation_not_found_gmiBankBackendApp_tPCustomer_updated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 353000000,
-              "status": "passed"
-            },
-            "line": 79,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1212"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1354000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 230000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1240000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 384000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 156000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 630000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 197000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:50:41.830Z",
-        "line": 82,
-        "name": "tc1213 user should to create or update the Address",
-        "description": "",
-        "id": "us12-tests;tc1213-user-should-to-create-or-update-the-address",
-        "after": [
-          {
-            "result": {
-              "duration": 675000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2572000000,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "user should write and new the Address",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_should_write_and_new_the_Address()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1322000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "user click Save three Button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.userClickSaveThreeButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "user verifies translation not found[gmiBankBackendApp.tPCustomer.updated",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_verifies_translation_not_found_gmiBankBackendApp_tPCustomer_updated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 954000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1213"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1005000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 249000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1221000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 195000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 316000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 110000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 768000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 166000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:50:51.821Z",
-        "line": 89,
-        "name": "tc1214 user should delete a customer but seeing a message if the user is sure about deletion",
-        "description": "",
-        "id": "us12-tests;tc1214-user-should-delete-a-customer-but-seeing-a-message-if-the-user-is-sure-about-deletion",
-        "after": [
-          {
-            "result": {
-              "duration": 496000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 525000000,
-              "status": "passed"
-            },
-            "line": 90,
-            "name": "user click Delete Button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_click_Delete_Button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1246000000,
-              "status": "passed"
-            },
-            "line": 91,
-            "name": "user verifies Are you sure you want to delete Customer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_12_Step_Definitions.user_verifies_Are_you_sure_you_want_to_delete_Customer()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 354000000,
-              "status": "passed"
-            },
-            "line": 92,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US12"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1214"
-          }
-        ]
-      }
-    ],
-    "name": "US12 tests",
-    "description": "",
-    "id": "us12-tests",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us_12.feature",
-    "tags": [
-      {
-        "name": "@US12",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      },
-      {
-        "name": "@SmokeTest",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 7
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 855000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 180000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1235000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 345000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 131000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 715000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 243000000,
+              "duration": 317000000,
               "status": "passed"
             },
             "line": 12,
@@ -2691,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 238000000,
+              "duration": 308000000,
               "status": "passed"
             },
             "line": 13,
@@ -2704,7 +132,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T18:50:58.518Z",
+        "start_timestamp": "2020-11-15T18:31:14.087Z",
         "line": 16,
         "name": "user enter Description",
         "description": "",
@@ -2712,7 +140,7 @@
         "after": [
           {
             "result": {
-              "duration": 564000000,
+              "duration": 653000000,
               "status": "passed"
             },
             "match": {
@@ -2725,7 +153,7 @@
         "steps": [
           {
             "result": {
-              "duration": 405000000,
+              "duration": 296000000,
               "status": "passed"
             },
             "line": 17,
@@ -2737,7 +165,7 @@
           },
           {
             "result": {
-              "duration": 236000000,
+              "duration": 234000000,
               "status": "passed"
             },
             "line": 18,
@@ -2749,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 187000000,
               "status": "passed"
             },
             "line": 19,
@@ -2761,7 +189,7 @@
           },
           {
             "result": {
-              "duration": 402000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 20,
@@ -2780,6 +208,9 @@
             "name": "@SmokeTest"
           },
           {
+            "name": "@ABC"
+          },
+          {
             "name": "@tc1301"
           }
         ]
@@ -2793,7 +224,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1216000000,
+              "duration": 2766000000,
               "status": "passed"
             },
             "line": 5,
@@ -2805,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 310000000,
+              "duration": 218000000,
               "status": "passed"
             },
             "line": 6,
@@ -2817,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 1376000000,
+              "duration": 1216000000,
               "status": "passed"
             },
             "line": 7,
@@ -2829,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 400000000,
+              "duration": 474000000,
               "status": "passed"
             },
             "line": 8,
@@ -2847,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 721000000,
+              "duration": 408000000,
               "status": "passed"
             },
             "line": 9,
@@ -2865,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 171000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "line": 10,
@@ -2877,7 +308,7 @@
           },
           {
             "result": {
-              "duration": 703000000,
+              "duration": 758000000,
               "status": "passed"
             },
             "line": 11,
@@ -2889,7 +320,7 @@
           },
           {
             "result": {
-              "duration": 281000000,
+              "duration": 229000000,
               "status": "passed"
             },
             "line": 12,
@@ -2901,7 +332,7 @@
           },
           {
             "result": {
-              "duration": 287000000,
+              "duration": 346000000,
               "status": "passed"
             },
             "line": 13,
@@ -2914,7 +345,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T18:51:04.530Z",
+        "start_timestamp": "2020-11-15T18:31:36.531Z",
         "line": 24,
         "name": "user should provide a balance as a Dollar",
         "description": "",
@@ -2922,7 +353,7 @@
         "after": [
           {
             "result": {
-              "duration": 579000000,
+              "duration": 545000000,
               "status": "passed"
             },
             "match": {
@@ -2935,7 +366,7 @@
         "steps": [
           {
             "result": {
-              "duration": 426000000,
+              "duration": 541000000,
               "status": "passed"
             },
             "line": 25,
@@ -2953,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 362000000,
+              "duration": 380000000,
               "status": "passed"
             },
             "line": 26,
@@ -2972,6 +403,9 @@
             "name": "@SmokeTest"
           },
           {
+            "name": "@ABC"
+          },
+          {
             "name": "@tc1302"
           }
         ]
@@ -2985,7 +419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1516000000,
+              "duration": 2903000000,
               "status": "passed"
             },
             "line": 5,
@@ -2997,7 +431,7 @@
           },
           {
             "result": {
-              "duration": 167000000,
+              "duration": 424000000,
               "status": "passed"
             },
             "line": 6,
@@ -3009,7 +443,232 @@
           },
           {
             "result": {
-              "duration": 1202000000,
+              "duration": 1208000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 417000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"sametyaprak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sametyaprak\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 383000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"Ankara06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankara06\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 762000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageAccounts link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks createNewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:31:44.626Z",
+        "line": 29,
+        "name": "User can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING",
+        "description": "",
+        "id": "us13-tests;user-can-select-an-account-type-as-checking--saving--credit-card-or-investing",
+        "after": [
+          {
+            "result": {
+              "duration": 556000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2270000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user select an acount as CHECKING and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsCHECKINGAndVerifieData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1300000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user select an acount as a SAVING and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsASAVINGAndVerifieData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6257000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user select an acount as a CREDIT_CARD and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsACREDIT_CARDAndVerifieData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user select an acount as a INVESTING and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsAINVESTINGAndVerifieData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US13"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@tc1303"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2143000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1167000000,
               "status": "passed"
             },
             "line": 7,
@@ -3039,7 +698,7 @@
           },
           {
             "result": {
-              "duration": 444000000,
+              "duration": 477000000,
               "status": "passed"
             },
             "line": 9,
@@ -3057,7 +716,7 @@
           },
           {
             "result": {
-              "duration": 96000000,
+              "duration": 154000000,
               "status": "passed"
             },
             "line": 10,
@@ -3069,7 +728,7 @@
           },
           {
             "result": {
-              "duration": 706000000,
+              "duration": 677000000,
               "status": "passed"
             },
             "line": 11,
@@ -3081,7 +740,7 @@
           },
           {
             "result": {
-              "duration": 237000000,
+              "duration": 210000000,
               "status": "passed"
             },
             "line": 12,
@@ -3093,7 +752,7 @@
           },
           {
             "result": {
-              "duration": 196000000,
+              "duration": 224000000,
               "status": "passed"
             },
             "line": 13,
@@ -3106,229 +765,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T18:51:11.411Z",
-        "line": 29,
-        "name": "User can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING",
-        "description": "",
-        "id": "us13-tests;user-can-select-an-account-type-as-checking--saving--credit-card-or-investing",
-        "after": [
-          {
-            "result": {
-              "duration": 501000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2273000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "user select an acount as CHECKING and verify",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsCHECKINGAndVerifieData()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1315000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "user select an acount as a SAVING and verify",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsASAVINGAndVerifieData()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5923000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user select an acount as a CREDIT_CARD and verify",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsACREDIT_CARDAndVerifieData()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1180000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "user select an acount as a INVESTING and verify",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.userSelectAnAcountAsAINVESTINGAndVerifieData()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 237000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US13"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@tc1303"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1163000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 245000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1220000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 298000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"sametyaprak\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sametyaprak\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 467000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"Ankara06\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ankara06\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 135000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 717000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 211000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageAccounts link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 193000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks createNewAccount link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-15T18:51:27.616Z",
+        "start_timestamp": "2020-11-15T18:32:03.580Z",
         "line": 37,
         "name": "User should account status defined as ACTIVE, SUSPENDED or CLOSED",
         "description": "",
@@ -3336,7 +773,7 @@
         "after": [
           {
             "result": {
-              "duration": 476000000,
+              "duration": 502000000,
               "status": "passed"
             },
             "match": {
@@ -3349,7 +786,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2261000000,
+              "duration": 2232000000,
               "status": "passed"
             },
             "line": 38,
@@ -3361,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 2144000000,
+              "duration": 2121000000,
               "status": "passed"
             },
             "line": 39,
@@ -3373,7 +810,7 @@
           },
           {
             "result": {
-              "duration": 2123000000,
+              "duration": 2140000000,
               "status": "passed"
             },
             "line": 40,
@@ -3385,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 254000000,
+              "duration": 329000000,
               "status": "passed"
             },
             "line": 41,
@@ -3404,6 +841,9 @@
             "name": "@SmokeTest"
           },
           {
+            "name": "@ABC"
+          },
+          {
             "name": "@tc1304"
           }
         ]
@@ -3417,7 +857,7 @@
         "steps": [
           {
             "result": {
-              "duration": 888000000,
+              "duration": 1531000000,
               "status": "passed"
             },
             "line": 5,
@@ -3429,7 +869,7 @@
           },
           {
             "result": {
-              "duration": 189000000,
+              "duration": 219000000,
               "status": "passed"
             },
             "line": 6,
@@ -3441,7 +881,7 @@
           },
           {
             "result": {
-              "duration": 1195000000,
+              "duration": 1218000000,
               "status": "passed"
             },
             "line": 7,
@@ -3471,7 +911,7 @@
           },
           {
             "result": {
-              "duration": 369000000,
+              "duration": 503000000,
               "status": "passed"
             },
             "line": 9,
@@ -3489,7 +929,7 @@
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 184000000,
               "status": "passed"
             },
             "line": 10,
@@ -3501,7 +941,7 @@
           },
           {
             "result": {
-              "duration": 628000000,
+              "duration": 720000000,
               "status": "passed"
             },
             "line": 11,
@@ -3513,7 +953,7 @@
           },
           {
             "result": {
-              "duration": 248000000,
+              "duration": 222000000,
               "status": "passed"
             },
             "line": 12,
@@ -3525,7 +965,7 @@
           },
           {
             "result": {
-              "duration": 273000000,
+              "duration": 243000000,
               "status": "passed"
             },
             "line": 13,
@@ -3538,7 +978,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T18:51:39.553Z",
+        "start_timestamp": "2020-11-15T18:32:16.304Z",
         "line": 44,
         "name": "User can select an employee from the drop-down",
         "description": "",
@@ -3546,7 +986,7 @@
         "after": [
           {
             "result": {
-              "duration": 545000000,
+              "duration": 494000000,
               "status": "passed"
             },
             "match": {
@@ -3559,7 +999,7 @@
         "steps": [
           {
             "result": {
-              "duration": 437000000,
+              "duration": 291000000,
               "status": "passed"
             },
             "line": 45,
@@ -3571,7 +1011,7 @@
           },
           {
             "result": {
-              "duration": 420000000,
+              "duration": 441000000,
               "status": "passed"
             },
             "line": 46,
@@ -3588,6 +1028,9 @@
           },
           {
             "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
           },
           {
             "name": "@tc1305"
@@ -3615,6 +1058,1517 @@
         "location": {
           "line": 1,
           "column": 7
+        }
+      },
+      {
+        "name": "@ABC",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user enters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1465000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1222000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"karak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karak\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"DJabc21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DJabc21\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 668000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:32:22.608Z",
+        "line": 14,
+        "name": "TC1401 manage accounts date selection today test",
+        "description": "",
+        "id": "us14-tests;tc1401-manage-accounts-date-selection-today-test",
+        "after": [
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks manageAccounts link21",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageAccounts_link21()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks createANewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewAccount_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1506000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sends an earlier date",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_sends_an_earlier_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user verifies date is an early date",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_verifies_date_is_an_early_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user signOut from Website",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_signOut_from_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US14"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@TC1401"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user enters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1132000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"karak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karak\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"DJabc21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DJabc21\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:32:29.699Z",
+        "line": 22,
+        "name": "TC1402 manage accounts date selection positive test",
+        "description": "",
+        "id": "us14-tests;tc1402-manage-accounts-date-selection-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 493000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 213000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks manageAccounts link21",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageAccounts_link21()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks createANewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewAccount_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 391000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user account send a date \"12122020\" and click tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12122020\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_account_send_a_date_and_click_tab(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user account send a time \"1000\" and user click tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_account_send_a_time_and_user_click_tab(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user account click tab",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_account_click_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user account verifies valid data entry to Create Date box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_account_verifies_valid_data_entry_to_Create_Date_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user signOut from Website",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_signOut_from_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US14"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@TC1402"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user enters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1323000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"karak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karak\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"DJabc21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DJabc21\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 634000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:32:35.297Z",
+        "line": 32,
+        "name": "TC1403 manage customers date selection positive test",
+        "description": "",
+        "id": "us14-tests;tc1403-manage-customers-date-selection-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 495000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 277000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks manageCustomers link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageCustomers_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks createANewCustomer link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewCustomer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1355000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user customer send a date \"12122020\" and click tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12122020\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_send_a_date_and_click_tab(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user customer send a time \"1000\" and user click tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_send_a_time_and_user_click_tab(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user customer click tab",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_click_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user customer verifies valid data entry to Create Date box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_verifies_valid_data_entry_to_Create_Date_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user signOut from Website",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_signOut_from_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US14"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@TC1403"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user enters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1159000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"karak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karak\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"DJabc21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DJabc21\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 645000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:32:42.250Z",
+        "line": 42,
+        "name": "TC1404 manage customers user selection positive test",
+        "description": "",
+        "id": "us14-tests;tc1404-manage-customers-user-selection-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user clicks manageCustomers link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageCustomers_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks createANewCustomer link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewCustomer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2538000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user customer click user box and select a user",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_click_user_box_and_select_a_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user customer verifies valid selection of user",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_verifies_valid_selection_of_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user signOut from Website",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_signOut_from_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US14"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@TC1404"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user enters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1069000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1269000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"karak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karak\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"DJabc21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DJabc21\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:32:49.999Z",
+        "line": 50,
+        "name": "TC1405 manage customers Zelle box selection test",
+        "description": "",
+        "id": "us14-tests;tc1405-manage-customers-zelle-box-selection-test",
+        "after": [
+          {
+            "result": {
+              "duration": 557000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user clicks manageCustomers link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_manageCustomers_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user clicks createANewCustomer link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_clicks_createANewCustomer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1557000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user customer click Zelle Enrolled box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_click_Zelle_Enrolled_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user customer verifies that there is no allert message related to Zelle box",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_customer_verifies_that_there_is_no_allert_message_related_to_Zelle_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user signOut from Website",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_14_Step_Definitions.user_signOut_from_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US14"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@TC1405"
+          }
+        ]
+      }
+    ],
+    "name": "US14 tests",
+    "description": "",
+    "id": "us14-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/us_14.feature",
+    "tags": [
+      {
+        "name": "@US14",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      },
+      {
+        "name": "@ABC",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1181000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1210000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"vivi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vivi\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"Betul2015.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Betul2015.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:32:57.478Z",
+        "line": 13,
+        "name": "User should see all account types and balace populated",
+        "description": "",
+        "id": "us15-tests;user-should-see-all-account-types-and-balace-populated",
+        "after": [
+          {
+            "result": {
+              "duration": 475000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 611000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks manage accounts",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Step_Definitions.user_clicks_manage_accounts()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11820000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "can user see all account types and balace populated",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Step_Definitions.can_user_see_all_account_types_and_balace_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US015"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@tc1501"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1064000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1218000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"vivi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vivi\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 379000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"Betul2015.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Betul2015.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T18:33:14.173Z",
+        "line": 22,
+        "name": "User can view transaction",
+        "description": "",
+        "id": "us15-tests;user-can-view-transaction",
+        "after": [
+          {
+            "result": {
+              "duration": 479000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 640000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks manage accounts",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Step_Definitions.user_clicks_manage_accounts()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17063000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "can user see all transaction",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Step_Definitions.canUserSeeAllTransaction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US015"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@ABC"
+          },
+          {
+            "name": "@tc1502"
+          }
+        ]
+      }
+    ],
+    "name": "US15 tests",
+    "description": "",
+    "id": "us15-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/us_15.feature",
+    "tags": [
+      {
+        "name": "@US015",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@ABC",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 19
         }
       }
     ]
