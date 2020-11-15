@@ -1,4 +1,4 @@
-@US_08 @SmokeTest
+@US_08 @SmokeTest @hata
 Feature: US_08 Password segment on Homepage should be editable
 
   Background: us08 user enters gmibank homepage then reaches password menu link
