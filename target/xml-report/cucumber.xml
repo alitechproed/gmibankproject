@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="57.365">
+<testcase classname="US13 tests" name="user enter Description" time="30.901">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user click Description................................................passed
+And user click Balance......................................................passed
+And user sees required message..............................................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="user should provide a balance as a Dollar" time="2.675">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user create as a dollar account "100" and verify......................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="User can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING" time="12.137">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user select an acount as CHECKING and verify..........................passed
+And user select an acount as a SAVING and verify............................passed
+And user select an acount as a CREDIT_CARD and verify.......................passed
+And user select an acount as a INVESTING and verify.........................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="User should account status defined as ACTIVE, SUSPENDED or CLOSED" time="8.813">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user click Account Status Type definied as a ACTIVE and verify........passed
+And user click Account Status Type definied as a  SUESPENDED and verify.....passed
+And user click Account Status Type definied as a  CLOSED and verify.........passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US13 tests" name="User can select an employee from the drop-down" time="2.502">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given user select Employee and verify the selectet Employee.................passed
+And user signOut............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
