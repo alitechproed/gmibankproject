@@ -85,4 +85,7 @@ public class US_12_Page {
     @FindBy(xpath = "//div[@id='gmibankfrontendApp.tPCustomer.delete.question']")
     public WebElement deleteOnay;
 
+    @FindBy(xpath ="//button[@class='btn btn-secondary']")
+    public WebElement canselButton;
+
 }
