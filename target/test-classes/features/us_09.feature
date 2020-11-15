@@ -1,4 +1,4 @@
-@US009 @SmokeTests
+@US009 @SmokeTest
 Feature: US_009 User can search for a new applicant by their SSN and see all their registration info populated
 
   Background: user anters gmibank homepage then reaches create new costomers link
