@@ -127,6 +127,7 @@ public class US_01_Step_Definitions {
     public void kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer(String string) {
         string = ReusableMethods.getNewRequestNumber(string);
         us01Page.usernameTextbox.sendKeys(string + Keys.ENTER);
+        System.out.println("username : " +string);
     }
 
     @Then("Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler")
@@ -139,6 +140,7 @@ public class US_01_Step_Definitions {
     public void kullanici_bir_user_olarak_Username_textboxina_sadece_sayilardan_olusan_kullanici_adini_girer(String string) {
         us01Page.usernameTextbox.sendKeys(string + Keys.ENTER);
         ReusableMethods.waitFor(2);
+
     }
 
     @Then("Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler")
@@ -162,6 +164,7 @@ public class US_01_Step_Definitions {
     public void kullanici_bir_user_olarak_Email_textboxinin_bir_hata_mesaji_vermedigini_goruntuler() {
         String emailTextBox = us01Page.emailTextbox.getAttribute("class");
         Assert.assertFalse(emailTextBox.contains("invalid"));
+
     }
 
     @Given("Kullanici bir user olarak New password textboxina {string} sifresini girer")
