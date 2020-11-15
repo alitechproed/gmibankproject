@@ -136,7 +136,7 @@ public class ReusableMethods {
     // ======= RGB to HEX ==== //
 
     public static String getHexColor(WebElement element, String cssValue) {
-        String color = element.getCssValue(cssValue);
+        String color = element.getCssValue(cssValue); // RGB
         String hex = "";
         int r, g, b = 0;
         if (color.contains("rgba")) {

@@ -1,42 +1,154 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="6" tests="6" time="1.585">
-<testcase classname="gmiBank Login" name="Go to login page negativePage" time="0.205">
-<skipped><![CDATA[Given user is on the gmiBank page...........................................undefined
-And Click on the login......................................................undefined
-And Click on the sign in....................................................undefined
-]]></skipped>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="59.335">
+<testcase classname="US_11 tests" name="Create Date negative test (for in the past)" time="15.858">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to date box "12.12.2015 12:00".........................passed
+Then user verifies valid data entry to Create Date box......................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="gmiBank Login" name="Negative  username test" time="0.015">
-<skipped><![CDATA[And User should be invalid username.........................................undefined
-And User should be valid password...........................................undefined
-And User click sing in button...............................................undefined
-Then Then i should see the error message....................................undefined
-]]></skipped>
+<testcase classname="US_11 tests" name="Create Date negative test (for in the past) 2" time="4.401">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to date box "01.20.2020 11:15".........................passed
+Then user verifies valid data entry to Create Date box......................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="gmiBank Login" name="Negative password test" time="0.015">
-<skipped><![CDATA[And User should be valid username...........................................undefined
-And User should be invalid password.........................................undefined
-And User click sing in button...............................................undefined
-Then Then I should see the error message1...................................undefined
-]]></skipped>
+<testcase classname="US_11 tests" name="TC_1102 Date format negative test" time="4.381">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send invalid data format to date box "01.12.2020"................passed
+Then user verifies invalid data entry to Create Date box....................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="gmiBank Login" name="Negative username and password test" time="0.011">
-<skipped><![CDATA[And User should be invalid username.........................................undefined
-And User should be invalid password.........................................undefined
-And User click sing in button...............................................undefined
-Then Then I should see the error message2...................................undefined
-]]></skipped>
+<testcase classname="US_11 tests" name="TC_1102 Date format negative test 2" time="4.203">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send invalid data format to date box "01.20.2021 11".............passed
+Then user verifies invalid data entry to Create Date box....................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="gmiBank Login" name="Forget password test" time="0.011">
-<skipped><![CDATA[And Click on the Did you forget your password?..............................undefined
-And provide email to checkbox...............................................undefined
-And Click on the Reset password.............................................undefined
-Then I should see the message reset your password...........................undefined
-]]></skipped>
+<testcase classname="US_11 tests" name="TC_1102 Date format negative test 3" time="4.049">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send invalid data format to date box "11.2021 09:30".............passed
+Then user verifies invalid data entry to Create Date box....................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="gmiBank Login" name="New Registration" time="0.006">
-<skipped><![CDATA[And Click on the You don't have an account yet? Register a new account......undefined
-Then User should be see Registration........................................undefined
-]]></skipped>
+<testcase classname="US_11 tests" name="TC_1103 Date format pozitive test" time="4.137">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send valid data format to date box "12.30.2020 12:00"............passed
+Then user verifies valid date format to Create Date box.....................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_11 tests" name="TC_1103 Date format pozitive test 2" time="4.131">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send valid data format to date box "01.21.2021 11:15"............passed
+Then user verifies valid date format to Create Date box.....................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_11 tests" name="User positive test" time="6.42">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user select a user from dropbox.......................................passed
+Then user verifies a user can be selected...................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_11 tests" name="Account positive test" time="6.802">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user select an account from dropbox...................................passed
+Then user verifies an account can be selected...............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_11 tests" name="Zelle Enrolled option checkbox pozitive test" time="4.347">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+Then user enters admin username "joseph37"..................................passed
+Then user enters admin password "1234567"...................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user select Zelle Enrolled checkbox...................................passed
+Then user clicks on save button.............................................passed
+Then user verifies is selected..............................................passed
+Then user signOut...........................................................passed
+]]></system-out>
 </testcase>
 </testsuite>
