@@ -8035,8 +8035,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.testcasefiveUserWritesSixUpperCasesAndSeesTheChangeOfPasswordScales()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: did not expect [background-color: rgb(221, 221, 221);] but found [background-color: rgb(221, 221, 221);]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertNotEquals(Assert.java:1399)\r\n\tat org.testng.Assert.assertNotEquals(Assert.java:1404)\r\n\tat gmibank.stepdefinitions.US_08_Step_Definitions.testcasefiveUserWritesSixUpperCasesAndSeesTheChangeOfPasswordScales(US_08_Step_Definitions.java:237)\r\n\tat ✽.testcasefive user writes six upper cases and sees the change of password scales(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/us_08.feature:49)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "testcasefive user writes six digits and sees the change of password scales",
@@ -8046,7 +8045,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.testcasefiveUserWritesSixDigitsAndSeesTheChangeOfPasswordScales()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user signOut",
@@ -8056,9 +8055,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
@@ -8095,8 +8093,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_link()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Sign in\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SAMET-PC\u0027, ip: \u0027192.168.2.33\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_272\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\samet\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a4edbbf28b5bb74bcb08923c75850656\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Sign in\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_link(US_08_Step_Definitions.java:41)\r\n\tat ✽.us08 user clicks signIn link(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/us_08.feature:7)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "us08 user enters admin username \"USER1\"",
@@ -8106,7 +8103,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_enters_admin_username(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "us08 user enters admin password \"User123_\"",
@@ -8116,7 +8113,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_enters_admin_password(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "us08 user clicks signIn button",
@@ -8126,7 +8123,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks password link",
@@ -8136,7 +8133,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.user_clicks_password_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "There should be at least 7 chars for a stronger password",
@@ -8165,7 +8162,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userClicksPasswordLinkAndWritesOneRandomUppercaseLowercaseDigitAndSpecialChar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user writes two lower cases and doesn\u0027t see the change of password scales",
@@ -8175,7 +8172,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWritesTwoLowerCasesAndDoesnTSeeTheChangeOfPasswordScales()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user write one more lower cases and sees to changing",
@@ -8185,7 +8182,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWriteOneMoreLowerCasesAndSeesToChanging()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user writes two upper cases and doesn\u0027t see the change of password scales",
@@ -8195,7 +8192,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWritesTwoUpperCasesAndDoesnTSeeTheChangeOfPasswordScales()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user write one more upper cases and sees to changing",
@@ -8205,7 +8202,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWriteOneMoreUpperCasesAndSeesToChanging()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user writes two digits and doesn\u0027t see the change of password scales",
@@ -8215,7 +8212,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWritesTwoDigitsAndDoesnTSeeTheChangeOfPasswordScales()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user write one more digits and sees to changing",
@@ -8225,7 +8222,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWriteOneMoreDigitsAndSeesToChanging()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user writes two special chars and doesn\u0027t see the change of password scales",
@@ -8235,7 +8232,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWritesTwoSpecialCharsAndDoesnTSeeTheChangeOfPasswordScales()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user write one more special chars and sees to changing",
@@ -8245,7 +8242,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userWriteOneMoreSpecialCharsAndSeesToChanging()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user signOut",
@@ -8255,9 +8252,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png", null);
 formatter.after({
   "status": "passed"
 });
@@ -8294,8 +8290,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_link()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Sign in\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SAMET-PC\u0027, ip: \u0027192.168.2.33\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_272\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\samet\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a4edbbf28b5bb74bcb08923c75850656\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Sign in\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_link(US_08_Step_Definitions.java:41)\r\n\tat ✽.us08 user clicks signIn link(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/us_08.feature:7)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "us08 user enters admin username \"USER1\"",
@@ -8305,7 +8300,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_enters_admin_username(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "us08 user enters admin password \"User123_\"",
@@ -8315,7 +8310,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_enters_admin_password(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "us08 user clicks signIn button",
@@ -8325,7 +8320,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks password link",
@@ -8335,7 +8330,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.user_clicks_password_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "The new password should be confirmed",
@@ -8364,7 +8359,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userClicksPasswordLinkAndWritesRandomPassword()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user saves new password",
@@ -8374,7 +8369,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_08_Step_Definitions.userSavesNewPassword()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user signOut",
@@ -8384,9 +8379,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded2.png", null);
 formatter.after({
   "status": "passed"
 });
