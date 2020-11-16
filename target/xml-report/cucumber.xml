@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="35" time="366.579">
+<testcase classname="US_08 Password segment on Homepage should be editable" name="The old password should not be used" time="20.606">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given user clicks password link and old password for three textbox "User123_".passed
+Then user doesn't save......................................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 uppercase char for stronger password" time="15.999">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given user clicks password link and writes one random uppercase.............passed
+Then user writes six lower cases and sees the change of password scales.....passed
+Then user writes six digits and sees the change of password scales..........passed
+Then user writes six special chars and sees the change of password scales...passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 lowercase char for stronger password" time="15.731">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given user clicks password link and writes one random lowercase.............passed
+Then 0user writes six digits and sees the change of password scales.........passed
+Then user writes six upper cases and sees the change of password scales.....passed
+Then user writes  six special chars and sees the change of password scales..passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 digit char for stronger password" time="15.792">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given testcasefour user clicks password link and writes one random digit....passed
+Then testcasefour user writes six upper cases and sees the change of password scales.passed
+Then testcasefour user writes six special chars and sees the change of password scales.passed
+Then testcasefour user writes six lower cases and sees the change of password scales.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 special char for stronger password" time="15.809">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given testcasefive user clicks password link and user writes one random special character.passed
+Then testcasefive user writes six lower cases and sees the change of password scales.passed
+Then testcasefive user writes six upper cases and sees the change of password scales.passed
+Then testcasefive user writes six digits and sees the change of password scales.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 7 chars for a stronger password" time="45.066">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given user clicks password link and writes one random uppercase, lowercase, digit and special char.passed
+And user writes two lower cases and doesn't see the change of password scales.passed
+And user write one more lower cases and sees to changing....................passed
+And user writes two upper cases and doesn't see the change of password scales.passed
+And user write one more upper cases and sees to changing....................passed
+And user writes two digits and doesn't see the change of password scales....passed
+And user write one more digits and sees to changing.........................passed
+And user writes two special chars and doesn't see the change of password scales.passed
+Then user write one more special chars and sees to changing.................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="The new password should be confirmed" time="13.405">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+Then us08 user clicks userEntry icon........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given user clicks password link and writes random password..................passed
+Then user saves new password................................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Positiv Test  enter correct SSN and All information of the user filled in in the registration field should be seen" time="34.315">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given one Positiv user enter "555-55-5555" SSN  sees then firstname , lastname,email,mobilnumber,phoneNumber,addres ,ssn ,createDate.passed
+Then two Positiv user enter "555-55-5555" SSN  and doesnt  see then the rest of  unfiiled Record in registration.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test enter incorret SSN then there shoudl not seen any data of users" time="22.652">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given three Negativ user enter false SNN "343-34-2323" doesnt  see any info of users.passed
+Then four  Negativ user enter incorrect SSN "343-22-2343" and should see aller Error messaj.passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users" time="13.718">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given five Positv user enters to firstname Box "silgi"......................passed
+Then six  Possitiv user doesnt see any of info of user......................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 2" time="13.754">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given five Positv user enters to firstname Box "alex".......................passed
+Then six  Possitiv user doesnt see any of info of user......................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 3" time="13.686">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given five Positv user enters to firstname Box "zehra"......................passed
+Then six  Possitiv user doesnt see any of info of user......................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test select from user a data and not filled data should be  displayed" time="28.304">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given seven Negativ user selects from user Box a data.......................passed
+Then eigth Negativ user can select all usersname............................passed
+Then nine  Negativ user  wont be see any data of users......................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user" time="4.812">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given ten user enter correct ssn data "222-22-2222".........................passed
+Then eleven user fill miss box of data......................................passed
+Then twelve user click save.................................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user 2" time="4.623">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "vivi"......................................passed
+Then user enters admin password "Betul2015."................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given ten user enter correct ssn data "555-55-5555".........................passed
+Then eleven user fill miss box of data......................................passed
+Then twelve user click save.................................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="zipcode positive test" time="4.322">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "123456"................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="zipcode positive test 2" time="4.319">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "asdasd"................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="zipcode positive test 3" time="4.289">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "das455"................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="zipcode positive test 4" time="4.269">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to zipcode box "4a"....................................passed
+Then user verifies valid data entry to zipcode box..........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="zipcode negative test" time="4.335">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send nothing to zipcode box......................................passed
+Then user verifies invalid zipcode data entry...............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="adress positive test" time="4.35">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "123456".................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="adress positive test 2" time="4.311">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "asdasd".................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="adress positive test 3" time="4.608">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "das455".................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="adress positive test 4" time="4.435">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to adress box "4a".....................................passed
+Then user verifies valid data entry to adress box...........................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="adress negative test" time="4.319">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send nothing to adress box.......................................passed
+Then user verifies invalid acress data entry................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="city positive test" time="4.313">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "123456"...................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="city positive test 2" time="4.279">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "asdasd"...................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="city positive test 3" time="4.445">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "das455"...................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="city positive test 4" time="4.375">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to city box "4a".......................................passed
+Then user verifies valid data entry to city box.............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="city negative test" time="4.45">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send nothing to city box.........................................passed
+Then user verifies invalid city data entry..................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="country positive test" time="4.39">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user select a country from dropbox....................................passed
+Then user verifies a country can be selected................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test" time="4.329">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "123456"..................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test 2" time="4.243">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "asdasd"..................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test 3" time="4.31">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "das455"..................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US10 tests" name="state positive test 4" time="4.271">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageCostomers link........................................passed
+And user clicks createNewCustomer link......................................passed
+Given user send data to state box "4a"......................................passed
+Then user verifies valid data entry to state box............................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
