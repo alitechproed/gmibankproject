@@ -1,6 +1,4 @@
-
-@US015 @SmokeTest @ABC
-
+@US015 @SmokeTest
 Feature: US15 tests
 
   Background: user anters gmibank homepage
