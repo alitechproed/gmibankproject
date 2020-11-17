@@ -17,11 +17,13 @@ Feature: US_009 User can search for a new applicant by their SSN and see all the
   Scenario: Positiv Test  enter correct SSN and All information of the user filled in in the registration field should be seen
     Given one Positiv user enter "555-55-5555" SSN  sees then firstname , lastname,email,mobilnumber,phoneNumber,addres ,ssn ,createDate
     Then  two Positiv user enter "555-55-5555" SSN  and doesnt  see then the rest of  unfiiled Record in registration
+    Then   user signOut
 
   @tc0902
   Scenario: Negativ Test enter incorret SSN then there shoudl not seen any data of users
     Given  three Negativ user enter false SNN "343-34-2323" doesnt  see any info of users
     Then   four  Negativ user enter incorrect SSN "343-22-2343" and should see aller Error messaj
+    Then   user signOut
 
   @tc0903
   Scenario Outline: : Positiv Test enter to out of SSN search Box a data then user should not see any data of users
@@ -41,6 +43,7 @@ Feature: US_009 User can search for a new applicant by their SSN and see all the
     Given  seven Negativ user selects from user Box a data
     Then   eigth Negativ user can select all usersname
     Then   nine  Negativ user  wont be see any data of users
+    Then   user signOut
 
   @tc0905
   Scenario Outline: user enter correct SSN data and use may edit or fill the data of user

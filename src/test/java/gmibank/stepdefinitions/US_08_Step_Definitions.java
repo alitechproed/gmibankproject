@@ -30,26 +30,35 @@ public class US_08_Step_Definitions {
 
     @Then("us08 user clicks userEntry icon")
     public void us08_user_clicks_userEntry_icon() {
+
+        ReusableMethods.waitFor(1);
         us08Page.enterIcon.click();
     }
 
     @Then("us08 user clicks signIn link")
     public void us08_user_clicks_signIn_link() {
+        ReusableMethods.waitFor(1);
         us08Page.signinLink.click();
     }
 
     @Then("us08 user enters admin username {string}")
     public void us08_user_enters_admin_username(String string) {
+
+        ReusableMethods.waitFor(1);
         us08Page.username.sendKeys("USER1");
     }
 
     @Then("us08 user enters admin password {string}")
     public void us08_user_enters_admin_password(String string) {
+
+        ReusableMethods.waitFor(1);
         us08Page.password.sendKeys("User123_");
     }
 
     @Then("us08 user clicks signIn button")
     public void us08_user_clicks_signIn_button() {
+
+        ReusableMethods.waitFor(1);
         us08Page.signInButton.click();
     }
 
@@ -91,6 +100,7 @@ public class US_08_Step_Definitions {
     public void user_writes_six_lower_cases_and_sees_the_change_of_password_scales() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,97,122));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),us08Page.passwordStrengthScala.get(1).getAttribute("style"));
 
@@ -101,6 +111,7 @@ public class US_08_Step_Definitions {
         user_clicks_password_link_and_writes_one_random_uppercase();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,48,57));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),us08Page.passwordStrengthScala.get(1).getAttribute("style"));
 
@@ -111,6 +122,7 @@ public class US_08_Step_Definitions {
         user_clicks_password_link_and_writes_one_random_uppercase();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,33,47));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),us08Page.passwordStrengthScala.get(1).getAttribute("style"));
 
@@ -129,6 +141,7 @@ public class US_08_Step_Definitions {
         userClicksPasswordLinkAndWritesOneRandomLowercase();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,65,90));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
     }
@@ -140,6 +153,7 @@ public class US_08_Step_Definitions {
         userClicksPasswordLinkAndWritesOneRandomLowercase();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,33,47));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -149,6 +163,7 @@ public class US_08_Step_Definitions {
     public void userWritesSixDigitsAndSeesTheChangeOfPasswordScales(int arg0) {
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,48,57));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -167,6 +182,7 @@ public class US_08_Step_Definitions {
     public void testcasefourUserWritesSixUpperCasesAndSeesTheChangeOfPasswordScales() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,65,90));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -177,6 +193,7 @@ public class US_08_Step_Definitions {
         testcasefourUserClicksPasswordLinkAndWritesOneRandomDigit();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,33,47));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -187,6 +204,7 @@ public class US_08_Step_Definitions {
         testcasefourUserClicksPasswordLinkAndWritesOneRandomDigit();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,97,122));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -204,6 +222,7 @@ public class US_08_Step_Definitions {
     public void testcasefiveUserWritesSixLowerCasesAndSeesTheChangeOfPasswordScales() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,97,122));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -214,7 +233,8 @@ public class US_08_Step_Definitions {
         testcasefiveUserClicksPasswordLinkAndUserWritesOneRandomSpecialCharacter();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,65,90));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
-        Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
+        ReusableMethods.waitFor(4);
+        //Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
     }
@@ -224,6 +244,7 @@ public class US_08_Step_Definitions {
         testcasefiveUserClicksPasswordLinkAndUserWritesOneRandomSpecialCharacter();
         us08Page.newPasswordBox.sendKeys(randomMethod1(6,48,57));
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(2);
         Assert.assertNotEquals(("background-color: rgb(221, 221, 221);"),color);
         Assert.assertEquals(("background-color: rgb(255, 153, 0);"),color);
 
@@ -235,9 +256,13 @@ public class US_08_Step_Definitions {
     public void userClicksPasswordLinkAndWritesOneRandomUppercaseLowercaseDigitAndSpecialChar() {
         us08Page.newPasswordBox.clear();
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,33,47));
+        ReusableMethods.waitFor(1);
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,48,57));
+        ReusableMethods.waitFor(1);
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,65,90));
+        ReusableMethods.waitFor(1);
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,97,122));
+        ReusableMethods.waitFor(1);
 
     }
 
@@ -245,7 +270,9 @@ public class US_08_Step_Definitions {
     @And("user writes two lower cases and doesn't see the change of password scales")
     public void userWritesTwoLowerCasesAndDoesnTSeeTheChangeOfPasswordScales() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(2,97,122));
+        ReusableMethods.waitFor(2);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
+        ReusableMethods.waitFor(2);
         System.out.println(color);
         Assert.assertNotEquals("background-color: rgb(0, 255, 0);",color);
 
@@ -254,6 +281,7 @@ public class US_08_Step_Definitions {
     @And("user write one more lower cases and sees to changing")
     public void userWriteOneMoreLowerCasesAndSeesToChanging() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,97,122));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
         System.out.println(color);
         Assert.assertEquals(("background-color: rgb(0, 255, 0);"),color);
@@ -264,7 +292,9 @@ public class US_08_Step_Definitions {
 
         userClicksPasswordLinkAndWritesOneRandomUppercaseLowercaseDigitAndSpecialChar();
         us08Page.newPasswordBox.sendKeys(randomMethod1(2,65,90));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
+        ReusableMethods.waitFor(1);
         Assert.assertNotEquals("background-color: rgb(0, 255, 0);",color);
 
 
@@ -274,7 +304,9 @@ public class US_08_Step_Definitions {
     public void userWriteOneMoreUpperCasesAndSeesToChanging() {
         ReusableMethods.waitFor(1);
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,65,90));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
+        ReusableMethods.waitFor(1);
         Assert.assertEquals(("background-color: rgb(0, 255, 0);"),color);
     }
 
@@ -282,7 +314,9 @@ public class US_08_Step_Definitions {
     public void userWritesTwoDigitsAndDoesnTSeeTheChangeOfPasswordScales() {
         userClicksPasswordLinkAndWritesOneRandomUppercaseLowercaseDigitAndSpecialChar();
         us08Page.newPasswordBox.sendKeys(randomMethod1(2,48,57));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
+        ReusableMethods.waitFor(1);
         Assert.assertNotEquals("background-color: rgb(0, 255, 0);",color);
 
     }
@@ -290,7 +324,9 @@ public class US_08_Step_Definitions {
     @And("user write one more digits and sees to changing")
     public void userWriteOneMoreDigitsAndSeesToChanging() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,48,57));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
+        ReusableMethods.waitFor(1);
         Assert.assertEquals(("background-color: rgb(0, 255, 0);"),color);
     }
 
@@ -298,14 +334,18 @@ public class US_08_Step_Definitions {
     public void userWritesTwoSpecialCharsAndDoesnTSeeTheChangeOfPasswordScales() {
         userClicksPasswordLinkAndWritesOneRandomUppercaseLowercaseDigitAndSpecialChar();
         us08Page.newPasswordBox.sendKeys(randomMethod1(2,33,47));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
+        ReusableMethods.waitFor(1);
         Assert.assertNotEquals("background-color: rgb(0, 255, 0);",color);
     }
 
     @Then("user write one more special chars and sees to changing")
     public void userWriteOneMoreSpecialCharsAndSeesToChanging() {
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,33,47));
+        ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(1).getAttribute("style");
+        ReusableMethods.waitFor(1);
         Assert.assertEquals(("background-color: rgb(0, 255, 0);"),color);
     }
 
