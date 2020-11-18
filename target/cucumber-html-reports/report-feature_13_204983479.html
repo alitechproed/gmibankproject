@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>16 Nov 2020, 18:58</td>
+      <td>16 Nov 2020, 20:17</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">US14 tests</td>
-          <td      class="passed"    >10</td>
-          <td      class="failed"    >5</td>
-          <td     class="skipped"   >49</td>
+          <td      class="passed"    >64</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">64</td>
 
+          <td  class="passed"    >5</td>
           <td >0</td>
-          <td  class="failed"    >5</td>
           <td class="total">5</td>
 
-          <td class="duration" data-value="60389000000">1:0.389</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="20638000000">20.638</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -176,7 +176,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">US14 tests</span>
 
@@ -194,12 +194,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">12.601</span>
+  <span class="lead-duration duration">2.281</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Background</span>
   <span class="name">user enters gmibank homepage then reaches create new costomers link</span>
 
@@ -210,16 +210,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -229,7 +229,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -237,7 +237,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user enters gmibank homepage</span>
 
-  <span class="lead-duration duration">1.288</span>
+  <span class="lead-duration duration">0.392</span>
 
 </div>
 
@@ -264,7 +264,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks userEntry icon</span>
 
-  <span class="lead-duration duration">0.197</span>
+  <span class="lead-duration duration">0.105</span>
 
 </div>
 
@@ -287,11 +287,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn link</span>
 
-  <span class="lead-duration duration">11.116</span>
+  <span class="lead-duration duration">1.119</span>
 
 </div>
 
@@ -299,44 +299,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.='Sign in']&quot;}
-  (Session info: chrome=86.0.4240.193)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16c3402411dbdbc4e8960be76085912a
-*** Element info: {Using=xpath, value=//span[.='Sign in']}
-	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)
-	at &#10045;.user clicks signIn link(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_14.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -352,11 +314,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin username <span class="argument">&quot;karak&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.062</span>
 
 </div>
 
@@ -379,11 +341,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin password <span class="argument">&quot;DJabc21&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.093</span>
 
 </div>
 
@@ -406,11 +368,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.080</span>
 
 </div>
 
@@ -433,11 +395,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user clicks myOperations link</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.430</span>
 
 </div>
 
@@ -479,12 +441,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.678</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">TC1401 manage accounts date selection today test</span>
 
@@ -495,16 +457,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details  in ">
+  <div id="element-3" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -514,15 +476,15 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-4" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user clicks manageAccounts link21</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.171</span>
 
 </div>
 
@@ -545,11 +507,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks createANewAccount link</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.100</span>
 
 </div>
 
@@ -572,11 +534,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user sends an earlier date</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.240</span>
 
 </div>
 
@@ -599,11 +561,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user verifies date is an early date</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.038</span>
 
 </div>
 
@@ -626,11 +588,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut from Website</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.129</span>
 
 </div>
 
@@ -657,7 +619,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-6">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -669,13 +631,13 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
     </div>
 
-    <div id="after-6" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.836</span>
+  <span class="lead-duration duration">0.316</span>
 
           </div>
 
@@ -684,21 +646,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-7" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_1616617937.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-7" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1616617937.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
@@ -715,12 +662,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">11.977</span>
+  <span class="lead-duration duration">2.424</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-8">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Background</span>
   <span class="name">user enters gmibank homepage then reaches create new costomers link</span>
 
@@ -731,16 +678,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-8" class="collapse collapsable-details  in ">
+  <div id="element-6" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -750,7 +697,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -758,7 +705,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   <span class="keyword indention">Given</span>
   <span class="name">user enters gmibank homepage</span>
 
-  <span class="lead-duration duration">0.745</span>
+  <span class="lead-duration duration">0.396</span>
 
 </div>
 
@@ -785,7 +732,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   <span class="keyword indention">And</span>
   <span class="name">user clicks userEntry icon</span>
 
-  <span class="lead-duration duration">0.153</span>
+  <span class="lead-duration duration">0.130</span>
 
 </div>
 
@@ -808,11 +755,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn link</span>
 
-  <span class="lead-duration duration">11.078</span>
+  <span class="lead-duration duration">1.146</span>
 
 </div>
 
@@ -820,44 +767,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-10" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.='Sign in']&quot;}
-  (Session info: chrome=86.0.4240.193)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16c3402411dbdbc4e8960be76085912a
-*** Element info: {Using=xpath, value=//span[.='Sign in']}
-	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)
-	at &#10045;.user clicks signIn link(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_14.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -873,11 +782,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin username <span class="argument">&quot;karak&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.071</span>
 
 </div>
 
@@ -900,11 +809,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin password <span class="argument">&quot;DJabc21&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.091</span>
 
 </div>
 
@@ -927,11 +836,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.067</span>
 
 </div>
 
@@ -954,11 +863,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user clicks myOperations link</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.523</span>
 
 </div>
 
@@ -1000,12 +909,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.788</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">TC1402 manage accounts date selection positive test</span>
 
@@ -1016,16 +925,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-11" class="collapse collapsable-details  in ">
+  <div id="element-8" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-12">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1035,15 +944,15 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-12" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-9" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user clicks manageAccounts link21</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.146</span>
 
 </div>
 
@@ -1066,11 +975,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks createANewAccount link</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.107</span>
 
 </div>
 
@@ -1093,11 +1002,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user account send a date <span class="argument">&quot;12122020&quot;</span> and click tab</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.179</span>
 
 </div>
 
@@ -1120,11 +1029,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user account send a time <span class="argument">&quot;1000&quot;</span> and user click tab</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.112</span>
 
 </div>
 
@@ -1147,11 +1056,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user account click tab</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.065</span>
 
 </div>
 
@@ -1174,11 +1083,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user account verifies valid data entry to Create Date box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.029</span>
 
 </div>
 
@@ -1201,11 +1110,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut from Website</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.150</span>
 
 </div>
 
@@ -1232,7 +1141,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-13">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1244,13 +1153,13 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
     </div>
 
-    <div id="after-13" class="inner-level collapse collapsable-details ">
+    <div id="after-10" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.877</span>
+  <span class="lead-duration duration">0.311</span>
 
           </div>
 
@@ -1259,21 +1168,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-14" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_1616617937.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-14" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1616617937.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
@@ -1290,12 +1184,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">11.951</span>
+  <span class="lead-duration duration">2.325</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-15">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Background</span>
   <span class="name">user enters gmibank homepage then reaches create new costomers link</span>
 
@@ -1306,16 +1200,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-15" class="collapse collapsable-details  in ">
+  <div id="element-11" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-16">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1325,7 +1219,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-16" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-12" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1333,7 +1227,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   <span class="keyword indention">Given</span>
   <span class="name">user enters gmibank homepage</span>
 
-  <span class="lead-duration duration">0.680</span>
+  <span class="lead-duration duration">0.386</span>
 
 </div>
 
@@ -1360,7 +1254,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   <span class="keyword indention">And</span>
   <span class="name">user clicks userEntry icon</span>
 
-  <span class="lead-duration duration">0.185</span>
+  <span class="lead-duration duration">0.118</span>
 
 </div>
 
@@ -1383,11 +1277,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn link</span>
 
-  <span class="lead-duration duration">11.085</span>
+  <span class="lead-duration duration">1.106</span>
 
 </div>
 
@@ -1395,44 +1289,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-17">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-17" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.='Sign in']&quot;}
-  (Session info: chrome=86.0.4240.193)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16c3402411dbdbc4e8960be76085912a
-*** Element info: {Using=xpath, value=//span[.='Sign in']}
-	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)
-	at &#10045;.user clicks signIn link(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_14.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1448,11 +1304,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin username <span class="argument">&quot;karak&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.082</span>
 
 </div>
 
@@ -1475,11 +1331,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin password <span class="argument">&quot;DJabc21&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.119</span>
 
 </div>
 
@@ -1502,11 +1358,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.069</span>
 
 </div>
 
@@ -1529,11 +1385,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user clicks myOperations link</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.445</span>
 
 </div>
 
@@ -1575,12 +1431,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.838</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-18">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">TC1403 manage customers date selection positive test</span>
 
@@ -1591,16 +1447,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details  in ">
+  <div id="element-13" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-19">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1610,15 +1466,15 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-19" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-14" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user clicks manageCustomers link</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.173</span>
 
 </div>
 
@@ -1641,11 +1497,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks createANewCustomer link</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.150</span>
 
 </div>
 
@@ -1668,11 +1524,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user customer send a date <span class="argument">&quot;12122020&quot;</span> and click tab</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.163</span>
 
 </div>
 
@@ -1695,11 +1551,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user customer send a time <span class="argument">&quot;1000&quot;</span> and user click tab</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.069</span>
 
 </div>
 
@@ -1722,11 +1578,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user customer click tab</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.031</span>
 
 </div>
 
@@ -1749,11 +1605,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user customer verifies valid data entry to Create Date box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.036</span>
 
 </div>
 
@@ -1776,11 +1632,479 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut from Website</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.216</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-15" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.329</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">2.287</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name">user enters gmibank homepage then reaches create new costomers link</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-16" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-17">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-17" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enters gmibank homepage</span>
+
+  <span class="lead-duration duration">0.391</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks userEntry icon</span>
+
+  <span class="lead-duration duration">0.101</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn link</span>
+
+  <span class="lead-duration duration">1.130</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters admin username <span class="argument">&quot;karak&quot;</span></span>
+
+  <span class="lead-duration duration">0.066</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters admin password <span class="argument">&quot;DJabc21&quot;</span></span>
+
+  <span class="lead-duration duration">0.089</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn button</span>
+
+  <span class="lead-duration duration">0.071</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user clicks myOperations link</span>
+
+  <span class="lead-duration duration">0.439</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2209202560.html">@US14</a>
+       <a href="report-tag_2341313088.html">@SmokeTest</a>
+       <a href="report-tag_1286412949.html">@TC1404</a>
+</div>
+
+
+  <span class="lead-duration duration">2.828</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC1404 manage customers user selection positive test</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-18" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-19" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user clicks manageCustomers link</span>
+
+  <span class="lead-duration duration">0.159</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks createANewCustomer link</span>
+
+  <span class="lead-duration duration">0.153</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user customer click user box and select a user</span>
+
+  <span class="lead-duration duration">2.317</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user customer verifies valid selection of user</span>
+
+  <span class="lead-duration duration">0.035</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user signOut from Website</span>
+
+  <span class="lead-duration duration">0.164</span>
 
 </div>
 
@@ -1825,7 +2149,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.864</span>
+  <span class="lead-duration duration">0.345</span>
 
           </div>
 
@@ -1834,21 +2158,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-21" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_1616617937.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-21" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1616617937.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
@@ -1865,533 +2174,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">11.926</span>
+  <span class="lead-duration duration">2.376</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-22">
-
-<div class="brief failed">
-  <span class="keyword indention">Background</span>
-  <span class="name">user enters gmibank homepage then reaches create new costomers link</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-22" class="collapse collapsable-details  in ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-23">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-23" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">user enters gmibank homepage</span>
-
-  <span class="lead-duration duration">0.739</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks userEntry icon</span>
-
-  <span class="lead-duration duration">0.137</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And failed">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks signIn link</span>
-
-  <span class="lead-duration duration">11.049</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-24">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-24" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.='Sign in']&quot;}
-  (Session info: chrome=86.0.4240.193)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16c3402411dbdbc4e8960be76085912a
-*** Element info: {Using=xpath, value=//span[.='Sign in']}
-	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)
-	at &#10045;.user clicks signIn link(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_14.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">user enters admin username <span class="argument">&quot;karak&quot;</span></span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">user enters admin password <span class="argument">&quot;DJabc21&quot;</span></span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks signIn button</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">user clicks myOperations link</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2209202560.html">@US14</a>
-       <a href="report-tag_2341313088.html">@SmokeTest</a>
-       <a href="report-tag_1286412949.html">@TC1404</a>
-</div>
-
-
-  <span class="lead-duration duration">0.002</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-25">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">TC1404 manage customers user selection positive test</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-25" class="collapse collapsable-details  in ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-26">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-26" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given skipped">
-  <span class="keyword indention">Given</span>
-  <span class="name">user clicks manageCustomers link</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks createANewCustomer link</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">user customer click user box and select a user</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">user customer verifies valid selection of user</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">user signOut from Website</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-27">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-21">
 
 <div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-27" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.816</span>
-
-          </div>
-
-
-
-
-
-
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-28" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_1616617937.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-28" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1616617937.png">
-      </div>
-    </div>
-  </div>
-  </div>
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">11.921</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-29">
-
-<div class="brief failed">
   <span class="keyword indention">Background</span>
   <span class="name">user enters gmibank homepage then reaches create new costomers link</span>
 
@@ -2402,16 +2190,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-29" class="collapse collapsable-details  in ">
+  <div id="element-21" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-30">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-22">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2421,7 +2209,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-30" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-22" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2429,7 +2217,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   <span class="keyword indention">Given</span>
   <span class="name">user enters gmibank homepage</span>
 
-  <span class="lead-duration duration">0.696</span>
+  <span class="lead-duration duration">0.424</span>
 
 </div>
 
@@ -2456,7 +2244,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   <span class="keyword indention">And</span>
   <span class="name">user clicks userEntry icon</span>
 
-  <span class="lead-duration duration">0.147</span>
+  <span class="lead-duration duration">0.095</span>
 
 </div>
 
@@ -2479,11 +2267,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn link</span>
 
-  <span class="lead-duration duration">11.076</span>
+  <span class="lead-duration duration">1.125</span>
 
 </div>
 
@@ -2491,44 +2279,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-31">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-31" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.='Sign in']&quot;}
-  (Session info: chrome=86.0.4240.193)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16c3402411dbdbc4e8960be76085912a
-*** Element info: {Using=xpath, value=//span[.='Sign in']}
-	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.click(Unknown Source)
-	at gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)
-	at &#10045;.user clicks signIn link(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_14.feature:7)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -2544,11 +2294,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin username <span class="argument">&quot;karak&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.075</span>
 
 </div>
 
@@ -2571,11 +2321,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters admin password <span class="argument">&quot;DJabc21&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.115</span>
 
 </div>
 
@@ -2598,11 +2348,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks signIn button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.079</span>
 
 </div>
 
@@ -2625,11 +2375,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user clicks myOperations link</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.463</span>
 
 </div>
 
@@ -2671,12 +2421,12 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.813</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-32">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-23">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">TC1405 manage customers Zelle box selection test</span>
 
@@ -2687,16 +2437,16 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-32" class="collapse collapsable-details  in ">
+  <div id="element-23" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-33">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-24">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2706,15 +2456,15 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
   </div>
 
-  <div id="steps-33" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-24" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user clicks manageCustomers link</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.169</span>
 
 </div>
 
@@ -2737,11 +2487,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user clicks createANewCustomer link</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.149</span>
 
 </div>
 
@@ -2764,11 +2514,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user customer click Zelle Enrolled box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.201</span>
 
 </div>
 
@@ -2791,11 +2541,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user customer verifies that there is no allert message related to Zelle box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.134</span>
 
 </div>
 
@@ -2818,11 +2568,11 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut from Website</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.160</span>
 
 </div>
 
@@ -2849,7 +2599,7 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-34">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-25">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2861,13 +2611,13 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
     </div>
 
-    <div id="after-34" class="inner-level collapse collapsable-details ">
+    <div id="after-25" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.876</span>
+  <span class="lead-duration duration">0.328</span>
 
           </div>
 
@@ -2876,21 +2626,6 @@ Session ID: 16c3402411dbdbc4e8960be76085912a
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-35" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_1616617937.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-35" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1616617937.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>

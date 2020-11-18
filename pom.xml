@@ -70,6 +70,7 @@
             <version>7.1.0</version>
         </dependency>
 
+
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -169,7 +170,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>cucumber-jvm-example</projectName>
+                            <projectName>GMIBANK PROJECT</projectName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
@@ -182,7 +183,6 @@
                     </execution>
                 </executions>
             </plugin>
-
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
@@ -190,7 +190,6 @@
                     <source>1.7</source>
                     <target>1.7</target>
                     <fork>true</fork>
-                    <!-- *** BURADA BULUNAN JAVAC YOLU KISISEL OLARAK DUZENLENMELIDIR ***  -->
                     <executable>C:\Program Files\Java\jdk1.8.0_241\bin\javac</executable>
                 </configuration>
             </plugin>
@@ -204,8 +203,6 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
 
 

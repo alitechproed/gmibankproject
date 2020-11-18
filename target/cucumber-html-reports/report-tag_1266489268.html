@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>16 Nov 2020, 18:58</td>
+      <td>16 Nov 2020, 20:17</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@TC_1105</td>
+          <td      class="passed"    >3</td>
           <td >0</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >2</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">3</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="270000000">0.270</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="3591000000">3.591</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -185,12 +185,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.270</span>
+  <span class="lead-duration duration">3.591</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Account positive test</span>
 
@@ -201,16 +201,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -220,15 +220,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given failed">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user select an account from dropbox</span>
 
-  <span class="lead-duration duration">0.270</span>
+  <span class="lead-duration duration">1.371</span>
 
 </div>
 
@@ -236,26 +236,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 5
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
-	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
-	at gmibank.stepdefinitions.US_11_Step_Definitions.user_select_an_account_from_dropbox(US_11_Step_Definitions.java:84)
-	at &#10045;.user select an account from dropbox(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_11.feature:55)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -271,11 +251,11 @@ Driver info: driver.version: unknown
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies an account can be selected</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2.046</span>
 
 </div>
 
@@ -298,11 +278,11 @@ Driver info: driver.version: unknown
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.174</span>
 
 </div>
 
@@ -329,7 +309,7 @@ Driver info: driver.version: unknown
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -341,13 +321,13 @@ Driver info: driver.version: unknown
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-3" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.405</span>
+  <span class="lead-duration duration">0.334</span>
 
           </div>
 
@@ -356,21 +336,6 @@ Driver info: driver.version: unknown
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_-1824191277.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-5" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-1824191277.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
