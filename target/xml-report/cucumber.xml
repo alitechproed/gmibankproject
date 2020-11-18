@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="18.88">
-<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2701 Before DELETE request" time="11.592">
-<system-out><![CDATA[When I send a GET request to REST API URL  "https://www.gmibank.com/api/tp-states/1801".passed
-And get Accept type is "application/json"...................................passed
-Then HTTP Status Code should be "200".......................................passed
-Then Response format should be "application/json"...........................passed
-Then id should be "1801"....................................................passed
-Then name should be "ALASKA"................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="8.719">
+<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2701 before DELETE request" time="6.747">
+<system-out><![CDATA[Given I send a GET request to REST API end point  "https://www.gmibank.com/api/tp-states/1801".passed
+Then Before delete request HTTP Status Code should be "200".................passed
+Then Before delete request response format should be "application/json".....passed
+Then Before delete request id should be "1801"..............................passed
+Then Before delete request name should be "ALASKA"..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2702 check DELETE request" time="6.489">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[When I send a DELETE request to REST API URL  "https://www.gmibank.com/api/tp-states/1801".passed
-And delete Accept type is "application/json"................................passed
-Then HTTP Status Code should be "200".......................................failed
-Then Response format should be "application/json"...........................skipped
-Then response should contain nothing........................................skipped
+<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2702 check DELETE request" time="0.609">
+<failure message="expected [204] but found [200]" type="java.lang.AssertionError"><![CDATA[Given I send a DELETE request to REST API end point  "https://www.gmibank.com/api/tp-states/1801".passed
+Then After delete request HTTP Status Code should be "200"..................failed
+Then After delete request response format should be "application/json"......skipped
+Then After delete request response after delete should contain nothing......skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at gmibank.stepdefinitions.US_27_Step_Definitions.http_Status_Code_should_be(US_27_Step_Definitions.java:46)
-	at ✽.HTTP Status Code should be "200"(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:17)
+java.lang.AssertionError: expected [204] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at gmibank.stepdefinitions.US_27_Step_Definitions.after_delete_request_HTTP_Status_Code_should_be(US_27_Step_Definitions.java:82)
+	at ✽.After delete request HTTP Status Code should be "200"(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:15)
 ]]></failure>
 </testcase>
 </testsuite>

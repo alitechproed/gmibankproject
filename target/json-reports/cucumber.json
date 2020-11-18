@@ -3,76 +3,47 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-18T12:32:08.918Z",
+        "start_timestamp": "2020-11-18T21:38:30.349Z",
         "line": 5,
-        "name": "TC_2701 Before DELETE request",
+        "name": "TC_2701 before DELETE request",
         "description": "",
         "id": "us-27-system-should-allow-to-delete-states-using-api-end-point;tc-2701-before-delete-request",
-        "after": [
-          {
-            "result": {
-              "duration": 7402000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3090000000,
+              "duration": 4790000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I send a GET request to REST API URL  \"https://www.gmibank.com/api/tp-states/1801\"",
+            "name": "I send a GET request to REST API end point  \"https://www.gmibank.com/api/tp-states/1801\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"https://www.gmibank.com/api/tp-states/1801\"",
-                  "offset": 38
+                  "offset": 44
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.i_send_a_GET_request_to_REST_API_URL(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.i_send_a_GET_request_to_REST_API_end_point(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 64000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "get Accept type is \"application/json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"application/json\"",
-                  "offset": 19
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.get_Accept_type_is(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 61000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "HTTP Status Code should be \"200\"",
+            "name": "Before delete request HTTP Status Code should be \"200\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"200\"",
-                  "offset": 27
+                  "offset": 49
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.http_Status_Code_should_be(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.before_delete_request_HTTP_Status_Code_should_be(java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -81,52 +52,52 @@
               "duration": 7000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Response format should be \"application/json\"",
+            "line": 8,
+            "name": "Before delete request response format should be \"application/json\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"application/json\"",
-                  "offset": 26
+                  "offset": 48
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.response_format_should_be(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.before_delete_request_response_format_should_be(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 838000000,
+              "duration": 1665000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "id should be \"1801\"",
+            "line": 9,
+            "name": "Before delete request id should be \"1801\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"1801\"",
-                  "offset": 13
+                  "offset": 35
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.id_should_be(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.before_delete_request_id_should_be(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 22000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "name should be \"ALASKA\"",
+            "line": 10,
+            "name": "Before delete request name should be \"ALASKA\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"ALASKA\"",
-                  "offset": 15
+                  "offset": 37
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.name_should_be(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.before_delete_request_name_should_be(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -144,101 +115,65 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-18T12:32:20.541Z",
-        "line": 14,
+        "start_timestamp": "2020-11-18T21:38:37.150Z",
+        "line": 13,
         "name": "TC_2702 check DELETE request",
         "description": "",
         "id": "us-27-system-should-allow-to-delete-states-using-api-end-point;tc-2702-check-delete-request",
-        "after": [
-          {
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAEhZJREFUeJzt2MENwCAQwLDS/Xc+ViAvhGRPkHfWzMwHAAAAAMCx/3YAAAAAAMBrjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgGgDSlsIxrrMYU8AAAAASUVORK5CYII\u003d",
-                "mime_type": "image/png"
-              }
-            ],
-            "result": {
-              "duration": 6478000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 598000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I send a DELETE request to REST API URL  \"https://www.gmibank.com/api/tp-states/1801\"",
+            "line": 14,
+            "name": "I send a DELETE request to REST API end point  \"https://www.gmibank.com/api/tp-states/1801\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"https://www.gmibank.com/api/tp-states/1801\"",
-                  "offset": 41
+                  "offset": 47
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.i_send_a_DELETE_request_to_REST_API_URL(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.i_send_a_DELETE_request_to_REST_API_end_point(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "delete Accept type is \"application/json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"application/json\"",
-                  "offset": 22
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.delete_Accept_type_is(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat gmibank.stepdefinitions.US_27_Step_Definitions.http_Status_Code_should_be(US_27_Step_Definitions.java:46)\r\n\tat ✽.HTTP Status Code should be \"200\"(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:17)\r\n",
-              "duration": 3000000,
+              "error_message": "java.lang.AssertionError: expected [204] but found [200]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:839)\r\n\tat org.testng.Assert.assertEquals(Assert.java:849)\r\n\tat gmibank.stepdefinitions.US_27_Step_Definitions.after_delete_request_HTTP_Status_Code_should_be(US_27_Step_Definitions.java:82)\r\n\tat ✽.After delete request HTTP Status Code should be \"200\"(file:///C:/Users/TTR/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:15)\r\n",
+              "duration": 5000000,
               "status": "failed"
             },
-            "line": 17,
-            "name": "HTTP Status Code should be \"200\"",
+            "line": 15,
+            "name": "After delete request HTTP Status Code should be \"200\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"200\"",
-                  "offset": 27
+                  "offset": 48
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.http_Status_Code_should_be(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.after_delete_request_HTTP_Status_Code_should_be(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "skipped"
             },
-            "line": 18,
-            "name": "Response format should be \"application/json\"",
+            "line": 16,
+            "name": "After delete request response format should be \"application/json\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"application/json\"",
-                  "offset": 26
+                  "offset": 47
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.response_format_should_be(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.after_delete_request_response_format_should_be(java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -247,10 +182,10 @@
               "duration": 1000000,
               "status": "skipped"
             },
-            "line": 19,
-            "name": "response should contain nothing",
+            "line": 17,
+            "name": "After delete request response after delete should contain nothing",
             "match": {
-              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.response_should_contain_nothing()"
+              "location": "gmibank.stepdefinitions.US_27_Step_Definitions.after_delete_request_response_after_delete_should_contain_nothing()"
             },
             "keyword": "Then "
           }
