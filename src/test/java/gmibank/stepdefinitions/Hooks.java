@@ -11,15 +11,6 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-    protected RequestSpecification spec01;
-
-    @Before
-    public void setup01() {
-        // Spec for API
-        spec01 = new RequestSpecBuilder().
-                setBaseUri("https://**************").
-                build();
-    }
 
     @After
     public void tearDown(Scenario scenario) {
@@ -27,7 +18,7 @@ public class Hooks {
         if (scenario.isFailed()) {
             scenario.embed(screenshot, "image/png");
         }
-//        Driver.closeDriver();
+        Driver.closeDriver();
     }
 
 

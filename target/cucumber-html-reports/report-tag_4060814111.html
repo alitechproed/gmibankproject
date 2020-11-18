@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>15 Nov 2020, 23:15</td>
+      <td>16 Nov 2020, 20:17</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@US_10</td>
+          <td      class="passed"    >60</td>
           <td >0</td>
           <td >0</td>
-          <td     class="skipped"   >60</td>
           <td >0</td>
           <td >0</td>
           <td class="total">60</td>
 
+          <td  class="passed"    >20</td>
           <td >0</td>
-          <td  class="failed"    >20</td>
           <td class="total">20</td>
 
-          <td class="duration" data-value="60000000">0.060</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="28488000000">28.488</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -185,14 +185,14 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.525</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">zipcode positive test</span>
+  <span class="name">tc1001 zipcode positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -201,16 +201,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -220,15 +220,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to zipcode box <span class="argument">&quot;123456&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.316</span>
 
 </div>
 
@@ -251,11 +251,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to zipcode box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.060</span>
 
 </div>
 
@@ -278,11 +278,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.149</span>
 
 </div>
 
@@ -309,9 +309,9 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -321,49 +321,17 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-3" class="inner-level collapse collapsable-details  in ">
+    <div id="after-3" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.014</span>
+  <span class="lead-duration duration">0.313</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>Error message</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -392,14 +360,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.418</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">zipcode positive test</span>
+  <span class="name">tc1001 zipcode positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -408,16 +376,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details  in ">
+  <div id="element-4" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-6">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -427,15 +395,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-6" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-5" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to zipcode box <span class="argument">&quot;asdasd&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.197</span>
 
 </div>
 
@@ -458,11 +426,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to zipcode box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.078</span>
 
 </div>
 
@@ -485,11 +453,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.143</span>
 
 </div>
 
@@ -516,9 +484,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-7">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-6">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -528,49 +496,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-7" class="inner-level collapse collapsable-details  in ">
+    <div id="after-6" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.043</span>
+  <span class="lead-duration duration">0.326</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
-          <a>Error message</a>
-      </div>
-      <div id="msg-8" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -599,14 +535,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">1.421</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-9">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">zipcode positive test</span>
+  <span class="name">tc1001 zipcode positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -615,16 +551,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details  in ">
+  <div id="element-7" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-10">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -634,15 +570,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-10" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to zipcode box <span class="argument">&quot;das455&quot;</span></span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.199</span>
 
 </div>
 
@@ -665,11 +601,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to zipcode box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.073</span>
 
 </div>
 
@@ -692,11 +628,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.149</span>
 
 </div>
 
@@ -723,9 +659,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-11">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -735,49 +671,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-11" class="inner-level collapse collapsable-details  in ">
+    <div id="after-9" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.021</span>
+  <span class="lead-duration duration">0.325</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-12">
-          <a>Error message</a>
-      </div>
-      <div id="msg-12" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -806,14 +710,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.424</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">zipcode positive test</span>
+  <span class="name">tc1001 zipcode positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -822,16 +726,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-13" class="collapse collapsable-details  in ">
+  <div id="element-10" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-14">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -841,15 +745,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-14" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to zipcode box <span class="argument">&quot;4a&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.214</span>
 
 </div>
 
@@ -872,11 +776,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to zipcode box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.062</span>
 
 </div>
 
@@ -899,11 +803,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.148</span>
 
 </div>
 
@@ -930,9 +834,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-15">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -942,49 +846,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-15" class="inner-level collapse collapsable-details  in ">
+    <div id="after-12" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.008</span>
+  <span class="lead-duration duration">0.331</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
-          <a>Error message</a>
-      </div>
-      <div id="msg-16" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1013,14 +885,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">1.453</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-17">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">zipcode negative test</span>
+  <span class="name">tc1002 zipcode negative test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1029,16 +901,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-17" class="collapse collapsable-details  in ">
+  <div id="element-13" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-18">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1048,15 +920,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-18" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-14" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send nothing to zipcode box</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.240</span>
 
 </div>
 
@@ -1079,11 +951,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies invalid zipcode data entry</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.064</span>
 
 </div>
 
@@ -1106,11 +978,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.149</span>
 
 </div>
 
@@ -1137,9 +1009,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-19">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -1149,49 +1021,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-19" class="inner-level collapse collapsable-details  in ">
+    <div id="after-15" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.349</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-20">
-          <a>Error message</a>
-      </div>
-      <div id="msg-20" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1220,14 +1060,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">1.422</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-21">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">adress positive test</span>
+  <span class="name">tc1003 adress positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1236,16 +1076,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-21" class="collapse collapsable-details  in ">
+  <div id="element-16" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-22">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-17">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1255,15 +1095,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-22" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-17" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to adress box <span class="argument">&quot;123456&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.195</span>
 
 </div>
 
@@ -1286,11 +1126,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to adress box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.062</span>
 
 </div>
 
@@ -1313,11 +1153,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.165</span>
 
 </div>
 
@@ -1344,9 +1184,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-23">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-18">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -1356,49 +1196,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-23" class="inner-level collapse collapsable-details  in ">
+    <div id="after-18" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.025</span>
+  <span class="lead-duration duration">0.327</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-24">
-          <a>Error message</a>
-      </div>
-      <div id="msg-24" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1427,14 +1235,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.433</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-25">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">adress positive test</span>
+  <span class="name">tc1003 adress positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1443,16 +1251,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-25" class="collapse collapsable-details  in ">
+  <div id="element-19" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-26">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1462,15 +1270,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-26" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-20" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to adress box <span class="argument">&quot;asdasd&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.225</span>
 
 </div>
 
@@ -1493,11 +1301,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to adress box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.060</span>
 
 </div>
 
@@ -1520,11 +1328,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.148</span>
 
 </div>
 
@@ -1551,9 +1359,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-27">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-21">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -1563,49 +1371,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-27" class="inner-level collapse collapsable-details  in ">
+    <div id="after-21" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.028</span>
+  <span class="lead-duration duration">0.321</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-28">
-          <a>Error message</a>
-      </div>
-      <div id="msg-28" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1634,14 +1410,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">1.436</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-29">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">adress positive test</span>
+  <span class="name">tc1003 adress positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1650,16 +1426,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-29" class="collapse collapsable-details  in ">
+  <div id="element-22" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-30">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1669,15 +1445,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-30" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-23" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to adress box <span class="argument">&quot;das455&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.209</span>
 
 </div>
 
@@ -1700,11 +1476,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to adress box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.066</span>
 
 </div>
 
@@ -1727,11 +1503,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.161</span>
 
 </div>
 
@@ -1758,9 +1534,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-31">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-24">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -1770,49 +1546,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-31" class="inner-level collapse collapsable-details  in ">
+    <div id="after-24" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.332</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-32">
-          <a>Error message</a>
-      </div>
-      <div id="msg-32" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1841,14 +1585,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.363</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-33">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">adress positive test</span>
+  <span class="name">tc1003 adress positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1857,16 +1601,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-33" class="collapse collapsable-details  in ">
+  <div id="element-25" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-34">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1876,15 +1620,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-34" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-26" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to adress box <span class="argument">&quot;4a&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.169</span>
 
 </div>
 
@@ -1907,11 +1651,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to adress box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.052</span>
 
 </div>
 
@@ -1934,11 +1678,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.142</span>
 
 </div>
 
@@ -1965,9 +1709,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-35">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-27">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -1977,49 +1721,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-35" class="inner-level collapse collapsable-details  in ">
+    <div id="after-27" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.019</span>
+  <span class="lead-duration duration">0.320</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-36">
-          <a>Error message</a>
-      </div>
-      <div id="msg-36" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -2048,14 +1760,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.357</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-37">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-28">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">adress negative test</span>
+  <span class="name">tc1004 adress negative test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -2064,16 +1776,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-37" class="collapse collapsable-details  in ">
+  <div id="element-28" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-38">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-29">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2083,15 +1795,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-38" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-29" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send nothing to adress box</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.163</span>
 
 </div>
 
@@ -2114,11 +1826,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies invalid acress data entry</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.062</span>
 
 </div>
 
@@ -2141,11 +1853,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.132</span>
 
 </div>
 
@@ -2172,9 +1884,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-39">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-30">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -2184,49 +1896,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-39" class="inner-level collapse collapsable-details  in ">
+    <div id="after-30" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.022</span>
+  <span class="lead-duration duration">0.330</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-40">
-          <a>Error message</a>
-      </div>
-      <div id="msg-40" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -2255,14 +1935,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">1.431</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-41">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-31">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">city positive test</span>
+  <span class="name">tc1005 city positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -2271,16 +1951,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-41" class="collapse collapsable-details  in ">
+  <div id="element-31" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-42">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-32">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2290,15 +1970,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-42" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-32" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to city box <span class="argument">&quot;123456&quot;</span></span>
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.210</span>
 
 </div>
 
@@ -2321,11 +2001,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to city box</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.075</span>
 
 </div>
 
@@ -2348,11 +2028,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.146</span>
 
 </div>
 
@@ -2379,9 +2059,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-43">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-33">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -2391,49 +2071,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-43" class="inner-level collapse collapsable-details  in ">
+    <div id="after-33" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.010</span>
+  <span class="lead-duration duration">0.319</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-44">
-          <a>Error message</a>
-      </div>
-      <div id="msg-44" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -2462,14 +2110,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">1.414</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-45">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-34">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">city positive test</span>
+  <span class="name">tc1005 city positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -2478,16 +2126,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-45" class="collapse collapsable-details  in ">
+  <div id="element-34" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-46">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2497,15 +2145,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-46" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-35" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to city box <span class="argument">&quot;asdasd&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.198</span>
 
 </div>
 
@@ -2528,11 +2176,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to city box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.074</span>
 
 </div>
 
@@ -2555,11 +2203,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.142</span>
 
 </div>
 
@@ -2586,9 +2234,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-47">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-36">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -2598,49 +2246,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-47" class="inner-level collapse collapsable-details  in ">
+    <div id="after-36" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.030</span>
+  <span class="lead-duration duration">0.315</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-48">
-          <a>Error message</a>
-      </div>
-      <div id="msg-48" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -2669,14 +2285,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">1.430</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-49">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-37">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">city positive test</span>
+  <span class="name">tc1005 city positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -2685,16 +2301,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-49" class="collapse collapsable-details  in ">
+  <div id="element-37" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-50">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-38">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2704,15 +2320,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-50" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-38" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to city box <span class="argument">&quot;das455&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.211</span>
 
 </div>
 
@@ -2735,11 +2351,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to city box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.071</span>
 
 </div>
 
@@ -2762,11 +2378,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.148</span>
 
 </div>
 
@@ -2793,9 +2409,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-51">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-39">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -2805,49 +2421,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-51" class="inner-level collapse collapsable-details  in ">
+    <div id="after-39" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">0.313</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-52">
-          <a>Error message</a>
-      </div>
-      <div id="msg-52" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -2876,14 +2460,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.495</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-53">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-40">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">city positive test</span>
+  <span class="name">tc1005 city positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -2892,16 +2476,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-53" class="collapse collapsable-details  in ">
+  <div id="element-40" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-54">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-41">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2911,15 +2495,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-54" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-41" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to city box <span class="argument">&quot;4a&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.235</span>
 
 </div>
 
@@ -2942,11 +2526,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to city box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.091</span>
 
 </div>
 
@@ -2969,11 +2553,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.169</span>
 
 </div>
 
@@ -3000,9 +2584,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-55">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-42">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -3012,49 +2596,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-55" class="inner-level collapse collapsable-details  in ">
+    <div id="after-42" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.018</span>
+  <span class="lead-duration duration">0.348</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-56">
-          <a>Error message</a>
-      </div>
-      <div id="msg-56" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3083,14 +2635,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">1.385</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-57">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-43">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">city negative test</span>
+  <span class="name">tc1006 city negative test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -3099,16 +2651,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-57" class="collapse collapsable-details  in ">
+  <div id="element-43" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-58">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-44">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3118,15 +2670,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-58" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-44" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send nothing to city box</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.185</span>
 
 </div>
 
@@ -3149,11 +2701,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies invalid city data entry</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.050</span>
 
 </div>
 
@@ -3176,11 +2728,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.150</span>
 
 </div>
 
@@ -3207,9 +2759,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-59">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-45">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -3219,49 +2771,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-59" class="inner-level collapse collapsable-details  in ">
+    <div id="after-45" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.315</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-60">
-          <a>Error message</a>
-      </div>
-      <div id="msg-60" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3290,14 +2810,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.428</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-61">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">country positive test</span>
+  <span class="name">tc1007 country positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -3306,16 +2826,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-61" class="collapse collapsable-details  in ">
+  <div id="element-46" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-62">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-47">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3325,15 +2845,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-62" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-47" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user select a country from dropbox</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.226</span>
 
 </div>
 
@@ -3356,11 +2876,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies a country can be selected</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.060</span>
 
 </div>
 
@@ -3383,11 +2903,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.142</span>
 
 </div>
 
@@ -3414,9 +2934,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-63">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-48">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -3426,49 +2946,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-63" class="inner-level collapse collapsable-details  in ">
+    <div id="after-48" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.019</span>
+  <span class="lead-duration duration">0.316</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-64">
-          <a>Error message</a>
-      </div>
-      <div id="msg-64" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3497,14 +2985,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.438</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-65">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-49">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">state positive test</span>
+  <span class="name">tc1008 state positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -3513,16 +3001,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-65" class="collapse collapsable-details  in ">
+  <div id="element-49" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-66">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-50">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3532,15 +3020,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-66" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-50" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to state box <span class="argument">&quot;123456&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.209</span>
 
 </div>
 
@@ -3563,11 +3051,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to state box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.075</span>
 
 </div>
 
@@ -3590,11 +3078,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.154</span>
 
 </div>
 
@@ -3621,9 +3109,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-67">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-51">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -3633,49 +3121,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-67" class="inner-level collapse collapsable-details  in ">
+    <div id="after-51" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.326</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-68">
-          <a>Error message</a>
-      </div>
-      <div id="msg-68" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3704,14 +3160,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.423</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-69">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-52">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">state positive test</span>
+  <span class="name">tc1008 state positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -3720,16 +3176,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-69" class="collapse collapsable-details  in ">
+  <div id="element-52" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-70">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-53">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3739,15 +3195,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-70" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-53" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to state box <span class="argument">&quot;asdasd&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.206</span>
 
 </div>
 
@@ -3770,11 +3226,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to state box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.075</span>
 
 </div>
 
@@ -3797,11 +3253,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.142</span>
 
 </div>
 
@@ -3828,9 +3284,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-71">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-54">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -3840,49 +3296,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-71" class="inner-level collapse collapsable-details  in ">
+    <div id="after-54" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.006</span>
+  <span class="lead-duration duration">0.372</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-72">
-          <a>Error message</a>
-      </div>
-      <div id="msg-72" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3911,14 +3335,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.390</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-73">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-55">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">state positive test</span>
+  <span class="name">tc1008 state positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -3927,16 +3351,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-73" class="collapse collapsable-details  in ">
+  <div id="element-55" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-74">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-56">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3946,15 +3370,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-74" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-56" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to state box <span class="argument">&quot;das455&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.186</span>
 
 </div>
 
@@ -3977,11 +3401,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to state box</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">1.054</span>
 
 </div>
 
@@ -4004,11 +3428,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.150</span>
 
 </div>
 
@@ -4035,9 +3459,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-75">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-57">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -4047,49 +3471,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-75" class="inner-level collapse collapsable-details  in ">
+    <div id="after-57" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.338</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-76">
-          <a>Error message</a>
-      </div>
-      <div id="msg-76" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -4118,14 +3510,14 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.402</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-77">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-58">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">state positive test</span>
+  <span class="name">tc1008 state positive test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -4134,16 +3526,16 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-77" class="collapse collapsable-details  in ">
+  <div id="element-58" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-78">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-59">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -4153,15 +3545,15 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
   </div>
 
-  <div id="steps-78" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-59" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given skipped">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
   <span class="name">user send data to state box <span class="argument">&quot;4a&quot;</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.203</span>
 
 </div>
 
@@ -4184,11 +3576,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verifies valid data entry to state box</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.051</span>
 
 </div>
 
@@ -4211,11 +3603,11 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">user signOut</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.148</span>
 
 </div>
 
@@ -4242,9 +3634,9 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-79">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-60">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -4254,49 +3646,17 @@ Session ID: 3484ae154a0fb6af92f4d7c5084de93b
 
     </div>
 
-    <div id="after-79" class="inner-level collapse collapsable-details  in ">
+    <div id="after-60" class="inner-level collapse collapsable-details ">
         <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.321</span>
 
           </div>
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-80">
-          <a>Error message</a>
-      </div>
-      <div id="msg-80" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=86.0.4240.193)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-GIHN8273', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\TTR\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3484ae154a0fb6af92f4d7c5084de93b
-	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at gmibank.utilities.Driver.getDriver(Driver.java:55)
-	at gmibank.stepdefinitions.Hooks.tearDown(Hooks.java:26)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
