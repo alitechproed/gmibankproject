@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="146" time="1,036.569">
-    <testcase classname="US_01 success register with valid credentials" name="TC_0101 gecerli SSN test" time="11.835">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="146" time="929.841">
+<testcase classname="US_01 success register with valid credentials" name="TC_0101 gecerli SSN test" time="11.092">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak SSN textboxina "333-22-4444" numarasini girer.passed
 Then Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0102 gecersiz SSN test" time="1.724">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0102 gecersiz SSN test" time="1.222">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-44445" numarasini girer.passed
 Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0102 gecersiz SSN test 2" time="1.691">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0102 gecersiz SSN test 2" time="1.117">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak SSN textboxina gecersiz  "333-22-443" numarasini girer.passed
 Then Kullanici bir user olarak "Your SSN is invalid" hata mesajini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0103  gecerli first name positive test" time="1.675">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0103  gecerli first name positive test" time="1.089">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak First Name textboxina "Ali" ismini girer....passed
 Then Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0104 bos first name negative test" time="1.589">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0104 bos first name negative test" time="1.087">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak First Name textboxini " " bos birakir.......passed
 Then Kullanici bir user olarak "Your First Name is required" hata uyarisini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0105  gecerli last name positive test" time="1.723">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0105  gecerli last name positive test" time="1.068">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Last Name textboxina "Smith" soyismini girer.passed
 Then Kullanici bir user olarak First Name textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0106 bos last name negative test" time="1.73">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0106 bos last name negative test" time="1.113">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Last Name textboxini " " bos birakir........passed
 Then Kullanici bir user olarak "Your Last Name is required" hata mesajini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0107  gecerli address test" time="1.714">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0107  gecerli address test" time="1.242">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Address textboxina "A mah. B cad. No:1 66300 Istanbul Sariyer"  adresini girer.passed
 Then Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0108 gecerli mobile phone number test" time="1.602">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0108 gecerli mobile phone number test" time="1.144">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Mobile Phone Number textboxina "123-123-1234" cep telefonu numarasini girer.passed
 Then Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0109 gecersiz mobile phone number negative test" time="1.665">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0109 gecersiz mobile phone number negative test" time="1.141">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan "1231231234" cep telefonu numarasini girer.passed
 Then Kullanici bir user olarak "Your mobile phone number is invalid" hata mesajini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0110 gecerli kullanici adi test" time="1.614">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0110 gecerli kullanici adi test" time="1.138">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Username textboxina  "Abc123" kullanici adini girer.passed
 Then Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0111 gecersiz kullanici adi test" time="3.521">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0111 gecersiz kullanici adi test" time="3.081">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Username textboxina  sadece sayilardan olusan "123" kullanici adini girer.passed
 Then Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0112 gecerli email test" time="1.564">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0112 gecerli email test" time="1.191">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak Email textboxina "abc@mail.com" mail adresini girer.passed
 Then Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_01 success register with valid credentials" name="TC_0113 gecerli verilerle hesap olusturma" time="4.005">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_01 success register with valid credentials" name="TC_0113 gecerli verilerle hesap olusturma" time="3.19">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given Kullanici bir user olarak SSN textboxina "333-28-4444" numarasini girer.passed
@@ -120,252 +120,252 @@ And Kullanici bir user olarak New password confirmation textboxina "A1b2C3" sifr
 And Kullanici bir user olarak Register butonuna tiklar......................passed
 Then Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_02 Test" name="TC_0201 registiration test" time="1.846">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_02 Test" name="TC_0201 registiration test" time="1.395">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 And kullanici textboxlari bos birakip register butonuna tiklar..............passed
 Then kullanici bos birakilan textbox'larda uyari yazisi ciktigini dogrular..passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_02 Test" name="TC_0202 invalid SSN test" time="5.559">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_02 Test" name="TC_0202 invalid SSN test" time="5.18">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 And kullanici SSN textboxina sayilar arasinda bosluk koyarak giris yapar....passed
 Then invalid numara girildiginde textbox'in kenar rengi kirmizi gorulur.....passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_02 Test" name="TC_0203 invalid mobile phone number test" time="3.524">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_02 Test" name="TC_0203 invalid mobile phone number test" time="3.22">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 And kullanici Mobile Phone Number textbox'ini sayilar arasinda ozel karakter kullanmadan doldurur.passed
 Then invalid giris yapildiginda mobile phone number yazisi kirmizi olur.....passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_02 Test" name="TC_0204 email adress test" time="1.677">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_02 Test" name="TC_0204 email adress test" time="1.247">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 And kullanici "alicangmail.com" adresini girer..............................passed
 Then kullanici invalid email girdiginde hata mesajini gorur.................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_02 Test" name="TC_0204 email adress test 2" time="1.735">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_02 Test" name="TC_0204 email adress test 2" time="1.254">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 And kullanici "alican@gmail" adresini girer.................................passed
 Then kullanici invalid email girdiginde hata mesajini gorur.................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly" time="3.706">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly" time="3.2">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given bir user sent data to new Password Box "Betul2015" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly 2" time="3.507">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0301  Positiv Test  at least 1 lowercase char for stronger password and see the level chart change accordingly 2" time="3.136">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given bir user sent data to new Password Box "BeT201" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly" time="3.654">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly" time="3.268">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given iki user sent to newPassword Box "BETUL2015!!!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly 2" time="3.789">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0302 Negative Test at least 1 lowercase char for stronger password and see the level chart change accordingly 2" time="3.608">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given iki user sent to newPassword Box "BET201!.....B" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly" time="3.764">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly" time="3.428">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given uc user sent to newPass box "Betul2015." and verify the level chart...passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 2" time="3.653">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 2" time="3.225">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given uc user sent to newPass box "BeT201!" and verify the level chart......passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 3" time="3.473">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 3" time="3.132">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given uc user sent to newPass box "aBE3." and verify the level chart........passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 4" time="3.568">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 4" time="3.183">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given uc user sent to newPass box "bet2015" and verify the level chart......passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 5" time="3.663">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0303 Positiv Test at least 1 lowercase char and see the level chart change accordingly 5" time="3.158">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given uc user sent to newPass box "BET2015a" and verify the level chart.....passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly" time="3.691">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly" time="3.215">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given dort user sent to newPassword field "BETUL2015." and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly 2" time="3.523">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly 2" time="3.211">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given dort user sent to newPassword field "BT201!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly 3" time="3.543">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0304 Negativ test  at least 1 lowercase char and see the level chart change accordingly 3" time="3.238">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given dort user sent to newPassword field "BT2015434!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly" time="13.719">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly" time="13.268">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given bes user sent to newPassword field "Bet2a.!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly 2" time="13.792">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly 2" time="13.331">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given bes user sent to newPassword field "Ba!2C4" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly 3" time="13.757">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0305 Positiv test at least 1 digit and see the level chart change accordingly 3" time="13.284">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given bes user sent to newPassword field "345a!B" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly" time="3.632">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly" time="3.322">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given alti user sent to newPassword  "BETULa." and verify the level chart...passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly 2" time="3.604">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly 2" time="3.261">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given alti user sent to newPassword  "Besdfbbdf!!!!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly 3" time="3.617">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0306 Negativ test at least 1 digit and see the level chart change accordingly 3" time="3.244">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given alti user sent to newPassword  "BeTdfsdgb!!!..!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly" time="13.678">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly" time="13.409">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given yedi user sent to newPASWORD box "BE24La." and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly 2" time="13.804">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly 2" time="13.355">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given yedi user sent to newPASWORD box "Bet2!a2" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly 3" time="13.97">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0307 Positiv test at least 1 special char and see the level bar change accordingly 3" time="13.418">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given yedi user sent to newPASWORD box "BeTdf34dgb!!..!" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly" time="13.723">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly" time="13.335">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given sekiz user sent to newPASvORD box "BETULa23" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly 2" time="13.682">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly 2" time="13.333">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given sekiz user sent to newPASvORD box "Bet2" and verify the level chart...passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly 3" time="13.698">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0308 Negativ test at least 1 special char and see the level bar change accordingly 3" time="13.346">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given sekiz user sent to newPASvORD box "BeTd35" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0309 Positiv Test  at least 7 chars for a stronger password" time="13.784">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0309 Positiv Test  at least 7 chars for a stronger password" time="13.379">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given dokuz user sent to newPassWORD box "Be2.!Al" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0309 Positiv Test  at least 7 chars for a stronger password 2" time="13.86">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0309 Positiv Test  at least 7 chars for a stronger password 2" time="13.388">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given dokuz user sent to newPassWORD box "Bet2a!.a345" and verify the level chart.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password" time="13.886">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password" time="13.301">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given on user sent to newPass field "Be2.!A" and verify the level chart.....passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password 2" time="13.712">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password 2" time="13.276">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given on user sent to newPass field "Bet2a" and verify the level chart......passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password 3" time="13.738">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_003 Registration page should restrict password usage to a secure and high level passcode" name="TC_0310 Negativ Test  at least 7 chars for a stronger password 3" time="13.303">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
 Given on user sent to newPass field "aB2!" and verify the level chart.......passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_04 succes login with valid credentials" name="TC_0401 success message to login" time="2.425">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_04 succes login with valid credentials" name="TC_0401 success message to login" time="1.941">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden login linkine tiklar...........passed
 Given Kullanici acilan Sign in sayfasinda username textboxina "AAbc398" girer.passed
@@ -373,16 +373,16 @@ And Kullanici acilan Sign in sayfasinda password textboxina "A1b2C3" girer..pass
 And Kullanici acilan Sign in sayfasinda Login butonuna tiklar...............passed
 Then Kullanici ismini kayit oldugu ismini acilan sayfada goruntuler.........passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_04 succes login with valid credentials" name="TC_0402 cancel login option" time="1.933">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_04 succes login with valid credentials" name="TC_0402 cancel login option" time="1.584">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden login linkine tiklar...........passed
 Then Kullanici acilan Sign in sayfasinda Cancel butonunu goruntuler.........passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message" time="10.622">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message" time="6.96">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -391,9 +391,9 @@ Then user enters admin password "Betul2015".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 2" time="4.286">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 2" time="3.728">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -402,9 +402,9 @@ Then user enters admin password "Betul2015".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 3" time="4.236">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 3" time="3.874">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -413,9 +413,9 @@ Then user enters admin password "Betul2015".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 4" time="4.36">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username validating the error message 4" time="3.728">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -424,9 +424,9 @@ Then user enters admin password "Betul2015".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message" time="4.245">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message" time="3.789">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -435,9 +435,9 @@ Then user enters admin password "aaaaaaa25".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 2" time="4.345">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 2" time="3.677">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -446,9 +446,9 @@ Then user enters admin password "adkssla41".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 3" time="4.26">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 3" time="3.673">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -457,9 +457,9 @@ Then user enters admin password "iso194578".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 4" time="4.362">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid password validating the error message 4" time="3.779">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -468,9 +468,9 @@ Then user enters admin password "12jksks39".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message" time="4.297">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message" time="3.705">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -479,9 +479,9 @@ Then user enters admin password "adkssla41".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 2" time="4.294">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 2" time="3.73">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -490,9 +490,9 @@ Then user enters admin password "haksk7852".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 3" time="4.291">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 3" time="3.748">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -501,9 +501,9 @@ Then user enters admin password "aaaaaaa25".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 4" time="4.215">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 4" time="3.663">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -512,9 +512,9 @@ Then user enters admin password "fjfjfl781".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 5" time="4.307">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User cannot login with invalid username and password validating the error message 5" time="3.698">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -523,9 +523,9 @@ Then user enters admin password "12jksks39".................................pass
 Then user clicks signIn button..............................................passed
 Then assert error message...................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User with invalid credentials should be given an option to reset their password" time="4.741">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User with invalid credentials should be given an option to reset their password" time="4.046">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -538,9 +538,9 @@ And user write invalid mail.................................................pass
 And user click submit button................................................passed
 Then assert succesful message...............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User should be given the option to navigate to registration page if they did not register yet" time="4.379">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_05 Login page should not be accessible with invalid credentials" name="User should be given the option to navigate to registration page if they did not register yet" time="3.706">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -550,9 +550,9 @@ Then user clicks signIn button..............................................pass
 Then assert error message...................................................passed
 Then assert register button.................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0601 user settings test" time="6.943">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0601 user settings test" time="6.147">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -566,9 +566,9 @@ And "almanbaki@yandex.com" must be entered as email.........................pass
 And "English" must be selected as language..................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available" time="6.735">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available" time="6.136">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -579,9 +579,9 @@ Then user clicks on user info link..........................................pass
 Given user select "0" language..............................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available 2" time="6.802">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_002 There should be 2 languages available 2" time="6.155">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -592,9 +592,9 @@ Then user clicks on user info link..........................................pass
 Given user select "1" language..............................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0603 update firstname" time="6.673">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0603 update firstname" time="6.152">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -606,9 +606,9 @@ Given user clears first name textbox........................................pass
 And user updates first name as "Kolay"......................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0604 update lastname" time="6.73">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0604 update lastname" time="6.213">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -620,9 +620,9 @@ Given user clears last name textbox.........................................pass
 And User updates last name as "Gelsin"......................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0605 positive test update email" time="7.01">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0605 positive test update email" time="6.403">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -635,9 +635,9 @@ Given user uses the "@" sign when they update their email address...........pass
 And user uses the new ".com" sign when they update their email address......passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0606 negative test update email" time="6.97">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_06 user info segment should be editable on Homepage" name="TC_0606 negative test update email" time="6.378">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "aslinda"....................................passed
@@ -649,9 +649,9 @@ Given user don't uses the @ sign when they update their email address.......pass
 And user don't uses the .com sign when they update their email address......passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_07 Test" name="TC_0701 email test" time="3.524">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_07 Test" name="TC_0701 email test" time="2.808">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden signIn linkine tiklar..........passed
 And Kullanici username textboxina "AAbc398" girer...........................passed
@@ -662,9 +662,9 @@ And Kullanici email textBoxina tiklar.......................................pass
 And Kullanici "abc122afhmail.com" girer.....................................passed
 Then kullanici hatali email  girdiginde hata mesajini gorur.................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_07 Test" name="TC_0701 email test 2" time="2.78">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_07 Test" name="TC_0701 email test 2" time="2.17">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden signIn linkine tiklar..........passed
 And Kullanici username textboxina "AAbc398" girer...........................passed
@@ -675,9 +675,9 @@ And Kullanici email textBoxina tiklar.......................................pass
 And Kullanici "abc122afh@mail" girer........................................passed
 Then kullanici hatali email  girdiginde hata mesajini gorur.................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_07 Test" name="TC_0702 language  test" time="2.744">
-        <system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+</testcase>
+<testcase classname="US_07 Test" name="TC_0702 language  test" time="2.039">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
 And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
 And Kullanici bir user olarak acilan menuden signIn linkine tiklar..........passed
 And Kullanici username textboxina "AAbc398" girer...........................passed
@@ -687,9 +687,9 @@ And Kullanici sag ustteki insan simgesine tekrar tiklar ve userInfo basligini se
 Given Kullanici language  secenegine tiklar.................................passed
 And Kullanici language dropDown'unun icinde sadece  "English" veya "Türkçe" dilleri oldugunu gorur.passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="The old password should not be used" time="10.453">
-        <system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="The old password should not be used" time="9.522">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
 Then us08 user clicks signIn link...........................................passed
 Then us08 user enters admin username "USER1"................................passed
@@ -700,9 +700,9 @@ Given user clicks password link and old password for three textbox "User123_".pa
 Then user doesn't save......................................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 uppercase char for stronger password" time="16.975">
-        <system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 uppercase char for stronger password" time="16.097">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
 Then us08 user clicks signIn link...........................................passed
 Then us08 user enters admin username "USER1"................................passed
@@ -715,9 +715,9 @@ Then user writes six digits and sees the change of password scales..........pass
 Then user writes six special chars and sees the change of password scales...passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 lowercase char for stronger password" time="16.591">
-        <system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 lowercase char for stronger password" time="15.878">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
 Then us08 user clicks signIn link...........................................passed
 Then us08 user enters admin username "USER1"................................passed
@@ -730,9 +730,9 @@ Then user writes six upper cases and sees the change of password scales.....pass
 Then user writes  six special chars and sees the change of password scales..passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 digit char for stronger password" time="16.734">
-        <system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 digit char for stronger password" time="15.825">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
 Then us08 user clicks signIn link...........................................passed
 Then us08 user enters admin username "USER1"................................passed
@@ -745,9 +745,9 @@ Then testcasefour user writes six special chars and sees the change of password 
 Then testcasefour user writes six lower cases and sees the change of password scales.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 special char for stronger password" time="19.077">
-        <system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 1 special char for stronger password" time="17.858">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
 Then us08 user clicks signIn link...........................................passed
 Then us08 user enters admin username "USER1"................................passed
@@ -760,9 +760,9 @@ Then testcasefive user writes six upper cases and sees the change of password sc
 Then testcasefive user writes six digits and sees the change of password scales.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 7 chars for a stronger password" time="37.864">
-        <failure message="expected [background-color: rgb(221, 221, 221);] but found [background-color: rgb(0, 255, 0);]" type="java.lang.AssertionError"><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="There should be at least 7 chars for a stronger password" time="45.16">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
 Then us08 user clicks signIn link...........................................passed
 Then us08 user enters admin username "USER1"................................passed
@@ -775,68 +775,27 @@ And user write one more lower cases and sees to changing....................pass
 And user writes two upper cases and doesn't see the change of password scales.passed
 And user write one more upper cases and sees to changing....................passed
 And user writes two digits and doesn't see the change of password scales....passed
-And user write one more digits and sees to changing.........................failed
-And user writes two special chars and doesn't see the change of password scales.skipped
-Then user write one more special chars and sees to changing.................skipped
-Then user signOut...........................................................skipped
-
-StackTrace:
-java.lang.AssertionError: expected [background-color: rgb(221, 221, 221);] but found [background-color: rgb(0, 255, 0);]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at org.testng.Assert.assertEquals(Assert.java:585)
-	at gmibank.stepdefinitions.US_08_Step_Definitions.userWriteOneMoreDigitsAndSeesToChanging(US_08_Step_Definitions.java:330)
-	at ✽.user write one more digits and sees to changing(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/us_08.feature:61)
-]]></failure>
-    </testcase>
-    <testcase classname="US_08 Password segment on Homepage should be editable" name="The new password should be confirmed" time="14.56">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[.='Sign in']&quot;}&#10;  (Session info: chrome=86.0.4240.198)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SAMET-PC', ip: '192.168.2.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\samet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 921abe9d7a520e070b937e6096ab5382&#10;*** Element info: {Using=xpath, value=//span[.='Sign in']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given us08 user enters gmibank homepage.....................................passed
+And user write one more digits and sees to changing.........................passed
+And user writes two special chars and doesn't see the change of password scales.passed
+Then user write one more special chars and sees to changing.................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Password segment on Homepage should be editable" name="The new password should be confirmed" time="13.513">
+<system-out><![CDATA[Given us08 user enters gmibank homepage.....................................passed
 Then us08 user clicks userEntry icon........................................passed
-Then us08 user clicks signIn link...........................................failed
-Then us08 user enters admin username "USER1"................................skipped
-Then us08 user enters admin password "User123_".............................skipped
-Then us08 user clicks signIn button.........................................skipped
-Then user clicks password link..............................................skipped
-Given user clicks password link and writes random password..................skipped
-Then user saves new password................................................skipped
-Then user signOut...........................................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[.='Sign in']"}
-  (Session info: chrome=86.0.4240.198)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SAMET-PC', ip: '192.168.2.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\samet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 921abe9d7a520e070b937e6096ab5382
-*** Element info: {Using=xpath, value=//span[.='Sign in']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at gmibank.stepdefinitions.US_08_Step_Definitions.us08_user_clicks_signIn_link(US_08_Step_Definitions.java:41)
-	at ✽.us08 user clicks signIn link(file:///C:/Users/samet/IdeaProjects/gmibankproject/src/test/resources/features/us_08.feature:7)
-]]></failure>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Positiv Test  enter correct SSN and All information of the user filled in in the registration field should be seen" time="32.86">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then us08 user clicks signIn link...........................................passed
+Then us08 user enters admin username "USER1"................................passed
+Then us08 user enters admin password "User123_".............................passed
+Then us08 user clicks signIn button.........................................passed
+Then user clicks password link..............................................passed
+Given user clicks password link and writes random password..................passed
+Then user saves new password................................................passed
+Then user signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Positiv Test  enter correct SSN and All information of the user filled in in the registration field should be seen" time="32.28">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -849,9 +808,9 @@ Given one Positiv user enter "555-55-5555" SSN  sees then firstname , lastname,e
 Then two Positiv user enter "555-55-5555" SSN  and doesnt  see then the rest of  unfiiled Record in registration.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test enter incorret SSN then there shoudl not seen any data of users" time="24.404">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test enter incorret SSN then there shoudl not seen any data of users" time="23.7">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -864,9 +823,9 @@ Given three Negativ user enter false SNN "343-34-2323" doesnt  see any info of u
 Then four  Negativ user enter incorrect SSN "343-22-2343" and should see aller Error messaj.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users" time="14.856">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users" time="14.487">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -879,9 +838,9 @@ Given five Positv user enters to firstname Box "silgi"......................pass
 Then six  Possitiv user doesnt see any of info of user......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 2" time="14.585">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 2" time="14.176">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -894,9 +853,9 @@ Given five Positv user enters to firstname Box "alex".......................pass
 Then six  Possitiv user doesnt see any of info of user......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 3" time="14.606">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name=": Positiv Test enter to out of SSN search Box a data then user should not see any data of users 3" time="14.05">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -909,9 +868,9 @@ Given five Positv user enters to firstname Box "zehra"......................pass
 Then six  Possitiv user doesnt see any of info of user......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test select from user a data and not filled data should be  displayed" time="29.797">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="Negativ Test select from user a data and not filled data should be  displayed" time="28.353">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -925,9 +884,9 @@ Then eigth Negativ user can select all usersname............................pass
 Then nine  Negativ user  wont be see any data of users......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user" time="6.254">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user" time="5.002">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -941,9 +900,9 @@ Then eleven user fill miss box of data......................................pass
 Then twelve user click save.................................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user 2" time="5.975">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_009 User can search for a new applicant by their SSN and see all their registration info populated" name="user enter correct SSN data and use may edit or fill the data of user 2" time="4.918">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -957,9 +916,9 @@ Then eleven user fill miss box of data......................................pass
 Then twelve user click save.................................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1001 zipcode positive test" time="5.2">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1001 zipcode positive test" time="4.438">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -972,9 +931,9 @@ Given user send data to zipcode box "123456"................................pass
 Then user verifies valid data entry to zipcode box..........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1001 zipcode positive test 2" time="5.179">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1001 zipcode positive test 2" time="4.326">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -987,9 +946,9 @@ Given user send data to zipcode box "asdasd"................................pass
 Then user verifies valid data entry to zipcode box..........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1001 zipcode positive test 3" time="5.218">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1001 zipcode positive test 3" time="4.304">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1002,9 +961,9 @@ Given user send data to zipcode box "das455"................................pass
 Then user verifies valid data entry to zipcode box..........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1001 zipcode positive test 4" time="5.051">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1001 zipcode positive test 4" time="4.449">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1017,9 +976,9 @@ Given user send data to zipcode box "4a"....................................pass
 Then user verifies valid data entry to zipcode box..........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1002 zipcode negative test" time="5.127">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1002 zipcode negative test" time="4.369">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1032,9 +991,9 @@ Given user send nothing to zipcode box......................................pass
 Then user verifies invalid zipcode data entry...............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1003 adress positive test" time="5.122">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1003 adress positive test" time="4.338">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1047,9 +1006,9 @@ Given user send data to adress box "123456".................................pass
 Then user verifies valid data entry to adress box...........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1003 adress positive test 2" time="5.22">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1003 adress positive test 2" time="4.414">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1062,9 +1021,9 @@ Given user send data to adress box "asdasd".................................pass
 Then user verifies valid data entry to adress box...........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1003 adress positive test 3" time="5.229">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1003 adress positive test 3" time="4.353">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1077,9 +1036,9 @@ Given user send data to adress box "das455".................................pass
 Then user verifies valid data entry to adress box...........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1003 adress positive test 4" time="5.168">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1003 adress positive test 4" time="4.232">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1092,9 +1051,9 @@ Given user send data to adress box "4a".....................................pass
 Then user verifies valid data entry to adress box...........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1004 adress negative test" time="5.058">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1004 adress negative test" time="4.344">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1107,9 +1066,9 @@ Given user send nothing to adress box.......................................pass
 Then user verifies invalid acress data entry................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1005 city positive test" time="5.155">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1005 city positive test" time="4.404">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1122,9 +1081,9 @@ Given user send data to city box "123456"...................................pass
 Then user verifies valid data entry to city box.............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1005 city positive test 2" time="5.193">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1005 city positive test 2" time="4.292">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1137,9 +1096,9 @@ Given user send data to city box "asdasd"...................................pass
 Then user verifies valid data entry to city box.............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1005 city positive test 3" time="5.143">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1005 city positive test 3" time="4.345">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1152,9 +1111,9 @@ Given user send data to city box "das455"...................................pass
 Then user verifies valid data entry to city box.............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1005 city positive test 4" time="5.162">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1005 city positive test 4" time="4.482">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1167,9 +1126,9 @@ Given user send data to city box "4a".......................................pass
 Then user verifies valid data entry to city box.............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1006 city negative test" time="5.204">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1006 city negative test" time="4.238">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1182,9 +1141,9 @@ Given user send nothing to city box.........................................pass
 Then user verifies invalid city data entry..................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1007 country positive test" time="5.28">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1007 country positive test" time="4.295">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1197,9 +1156,9 @@ Given user select a country from dropbox....................................pass
 Then user verifies a country can be selected................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1008 state positive test" time="5.155">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1008 state positive test" time="4.348">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1212,9 +1171,9 @@ Given user send data to state box "123456"..................................pass
 Then user verifies valid data entry to state box............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1008 state positive test 2" time="5.214">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1008 state positive test 2" time="4.355">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1227,9 +1186,9 @@ Given user send data to state box "asdasd"..................................pass
 Then user verifies valid data entry to state box............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1008 state positive test 3" time="5.162">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1008 state positive test 3" time="4.36">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1242,9 +1201,9 @@ Given user send data to state box "das455"..................................pass
 Then user verifies valid data entry to state box............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US10 tests" name="tc1008 state positive test 4" time="5.135">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US10 tests" name="tc1008 state positive test 4" time="4.46">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1257,9 +1216,9 @@ Given user send data to state box "4a"......................................pass
 Then user verifies valid data entry to state box............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="Create Date negative test (for in the past)" time="4.262">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="Create Date negative test (for in the past)" time="3.592">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1272,9 +1231,9 @@ Given user send data to date box "12.12.2015 12:00".........................pass
 Then user verifies valid data entry to Create Date box......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="Create Date negative test (for in the past) 2" time="4.164">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="Create Date negative test (for in the past) 2" time="3.484">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1287,9 +1246,9 @@ Given user send data to date box "01.20.2020 11:15".........................pass
 Then user verifies valid data entry to Create Date box......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="TC_1102 Date format negative test" time="4.37">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="TC_1102 Date format negative test" time="3.471">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1302,9 +1261,9 @@ Given user send invalid data format to date box "01.12.2020"................pass
 Then user verifies invalid data entry to Create Date box....................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="TC_1102 Date format negative test 2" time="4.229">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="TC_1102 Date format negative test 2" time="3.513">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1317,9 +1276,9 @@ Given user send invalid data format to date box "01.20.2021 11".............pass
 Then user verifies invalid data entry to Create Date box....................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="TC_1102 Date format negative test 3" time="4.23">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="TC_1102 Date format negative test 3" time="3.374">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1332,9 +1291,9 @@ Given user send invalid data format to date box "11.2021 09:30".............pass
 Then user verifies invalid data entry to Create Date box....................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="TC_1103 Date format pozitive test" time="4.224">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="TC_1103 Date format pozitive test" time="3.347">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1347,9 +1306,9 @@ Given user send valid data format to date box "12.30.2020 12:00"............pass
 Then user verifies valid date format to Create Date box.....................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="TC_1103 Date format pozitive test 2" time="4.231">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="TC_1103 Date format pozitive test 2" time="3.458">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1362,9 +1321,9 @@ Given user send valid data format to date box "01.21.2021 11:15"............pass
 Then user verifies valid date format to Create Date box.....................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="User positive test" time="6.24">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="User positive test" time="5.523">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1377,9 +1336,9 @@ Given user select a user from dropbox.......................................pass
 Then user verifies a user can be selected...................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="Account positive test" time="7.347">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="Account positive test" time="6.562">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1392,9 +1351,9 @@ Given user select an account from dropbox...................................pass
 Then user verifies an account can be selected...............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US_11 tests" name="Zelle Enrolled option checkbox pozitive test" time="4.217">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US_11 tests" name="Zelle Enrolled option checkbox pozitive test" time="3.573">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 Then user enters admin username "joseph37"..................................passed
@@ -1408,9 +1367,9 @@ Then user clicks on save button.............................................pass
 Then user verifies is selected..............................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1201 user should show the account information of the customer First Name" time="4.215">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1201 user should show the account information of the customer First Name" time="3.319">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1421,9 +1380,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show First Name and verify valid..........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1202 user should show the account information of the customer Last Name" time="4.197">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1202 user should show the account information of the customer Last Name" time="3.203">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1434,9 +1393,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Last Name and verify valid...........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1203  user should show the account information of the customer Middle Initial" time="5.022">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1203  user should show the account information of the customer Middle Initial" time="4.254">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1447,9 +1406,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Middle Initial and verify valid......................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1204  user should show the account information of the customer Email" time="4.192">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1204  user should show the account information of the customer Email" time="3.351">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1460,9 +1419,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Email and verify valid...............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1205 user should show the account information of the customer Mobile Phone Nummer" time="4.251">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1205 user should show the account information of the customer Mobile Phone Nummer" time="3.276">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1473,9 +1432,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Mobile Phone Nummer and verify valid.................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1206 user should show the account information of the customer Phone Nummer" time="4.213">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1206 user should show the account information of the customer Phone Nummer" time="3.27">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1486,9 +1445,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Phone Nummer and verify valid........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1207 user should show the account information of the customer Address" time="4.157">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1207 user should show the account information of the customer Address" time="3.407">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1499,9 +1458,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Address and verify valid.............................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1208 user should show the account information of the customer Create Date" time="4.252">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1208 user should show the account information of the customer Create Date" time="3.287">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1512,9 +1471,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Create Date and verify valid.........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1209 user should be an Edit Button where all customer information can be populated" time="4.523">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1209 user should be an Edit Button where all customer information can be populated" time="4.041">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1525,9 +1484,9 @@ And user clicks manageCostomers link........................................pass
 Given user should show Edit Button and verify valid.........................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1210 user should to create or update the Email address" time="6.727">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1210 user should to create or update the Email address" time="5.772">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1540,9 +1499,9 @@ And user click Save Button..................................................pass
 Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1211 user should to create or update the Mobile Phone Nummer" time="6.795">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1211 user should to create or update the Mobile Phone Nummer" time="5.488">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1555,9 +1514,9 @@ And user click Save one Button..............................................pass
 Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1212 user should to create or update the Phone Nummer" time="6.64">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1212 user should to create or update the Phone Nummer" time="5.66">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1570,9 +1529,9 @@ And user click Save two Button..............................................pass
 Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1213 user should to create or update the Address" time="7.807">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1213 user should to create or update the Address" time="6.811">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1585,9 +1544,9 @@ And user click Save three Button............................................pass
 Then user verifies translation not found[gmiBankBackendApp.tPCustomer.updated.passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US12 tests" name="tc1214 user should delete a customer but seeing a message if the user is sure about deletion" time="5.115">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US12 tests" name="tc1214 user should delete a customer but seeing a message if the user is sure about deletion" time="4.451">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1599,9 +1558,9 @@ Given user click Delete Button..............................................pass
 Then user verifies Are you sure you want to delete Customer.................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US13 tests" name="user enter Description" time="3.986">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US13 tests" name="user enter Description" time="3.238">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1615,9 +1574,9 @@ And user click Balance......................................................pass
 And user sees required message..............................................passed
 And user signOut............................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US13 tests" name="user should provide a balance as a Dollar" time="3.865">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US13 tests" name="user should provide a balance as a Dollar" time="3.103">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1629,9 +1588,9 @@ And user clicks createNewAccount link.......................................pass
 Given user create as a dollar account "100" and verify......................passed
 And user signOut............................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US13 tests" name="User can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING" time="13.911">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US13 tests" name="User can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING" time="13.136">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1646,9 +1605,9 @@ And user select an acount as a CREDIT_CARD and verify.......................pass
 And user select an acount as a INVESTING and verify.........................passed
 And user signOut............................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US13 tests" name="User should account status defined as ACTIVE, SUSPENDED or CLOSED" time="10.152">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US13 tests" name="User should account status defined as ACTIVE, SUSPENDED or CLOSED" time="9.421">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1662,9 +1621,9 @@ And user click Account Status Type definied as a  SUESPENDED and verify.....pass
 And user click Account Status Type definied as a  CLOSED and verify.........passed
 And user signOut............................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US13 tests" name="User can select an employee from the drop-down" time="3.908">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US13 tests" name="User can select an employee from the drop-down" time="3.194">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "sametyaprak"...............................passed
@@ -1676,9 +1635,9 @@ And user clicks createNewAccount link.......................................pass
 Given user select Employee and verify the selectet Employee.................passed
 And user signOut............................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US14 tests" name="TC1401 manage accounts date selection today test" time="5.094">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US14 tests" name="TC1401 manage accounts date selection today test" time="4.279">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "karak"......................................passed
@@ -1691,9 +1650,9 @@ And user sends an earlier date..............................................pass
 And user verifies date is an early date.....................................passed
 Then user signOut from Website..............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US14 tests" name="TC1402 manage accounts date selection positive test" time="4.066">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US14 tests" name="TC1402 manage accounts date selection positive test" time="3.527">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "karak"......................................passed
@@ -1708,9 +1667,9 @@ And user account click tab..................................................pass
 And user account verifies valid data entry to Create Date box...............passed
 Then user signOut from Website..............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US14 tests" name="TC1403 manage customers date selection positive test" time="5.176">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US14 tests" name="TC1403 manage customers date selection positive test" time="4.495">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "karak"......................................passed
@@ -1725,9 +1684,9 @@ And user customer click tab.................................................pass
 And user customer verifies valid data entry to Create Date box..............passed
 Then user signOut from Website..............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US14 tests" name="TC1404 manage customers user selection positive test" time="6.196">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US14 tests" name="TC1404 manage customers user selection positive test" time="5.464">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "karak"......................................passed
@@ -1740,9 +1699,9 @@ And user customer click user box and select a user..........................pass
 And user customer verifies valid selection of user..........................passed
 Then user signOut from Website..............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US14 tests" name="TC1405 manage customers Zelle box selection test" time="5.391">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US14 tests" name="TC1405 manage customers Zelle box selection test" time="4.522">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 And user clicks userEntry icon..............................................passed
 And user clicks signIn link.................................................passed
 And user enters admin username "karak"......................................passed
@@ -1755,9 +1714,9 @@ And user customer click Zelle Enrolled box..................................pass
 And user customer verifies that there is no allert message related to Zelle box.passed
 Then user signOut from Website..............................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US15 tests" name="User should see all account types and balace populated" time="17.337">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US15 tests" name="User should see all account types and balace populated" time="10.764">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -1768,9 +1727,9 @@ Given user clicks manage accounts...........................................pass
 Then can user see all account types and balace populated....................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US15 tests" name="User can view transaction" time="23.418">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+</testcase>
+<testcase classname="US15 tests" name="User can view transaction" time="13.735">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
 Then user enters admin username "vivi"......................................passed
@@ -1781,5 +1740,5 @@ Given user clicks manage accounts...........................................pass
 Then can user see all transaction...........................................passed
 Then user signOut...........................................................passed
 ]]></system-out>
-    </testcase>
+</testcase>
 </testsuite>
