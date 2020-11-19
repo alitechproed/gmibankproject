@@ -149,11 +149,10 @@ public class US_14_Step_Definitions {
 
     @Given("user customer verifies that there is no allert message related to Zelle box")
     public void user_customer_verifies_that_there_is_no_allert_message_related_to_Zelle_box() {
-        us14Page.zelleCheckBox.click();
         us14Page.saveButton.click();
-        String textColorZelle = ReusableMethods.getHexColor(us14Page.zelleEnrolledText,"color");
-        System.out.println(textColorZelle);//#292929
-        Assert.assertEquals(textColorZelle,"#292929");
+        String valueAfterClick = us14Page.zelleCheckBox.getAttribute("value");
+        System.out.println(valueAfterClick);
+        Assert.assertEquals(valueAfterClick,"true");
     }
 
 }
