@@ -41,6 +41,7 @@ public class US_17_Step_Definitions {
 
     @Then("admin deactivate EMPLOYEE")
     public void admin_deactivate_EMPLOYEE() {
+        ReusableMethods.waitFor(2);
         Driver.getDriver().get(ascendingURL);
         ReusableMethods.waitFor(2);
         us_17_page.deActivateButton.click();
@@ -237,6 +238,6 @@ public class US_17_Step_Definitions {
         us_17_page.activateButton.click();
         ReusableMethods.waitFor(2);
         Assert.assertEquals(us_17_page.confirmationActiveOrDeactive.getText(),"Activated");
-         }
     }
+}
 
