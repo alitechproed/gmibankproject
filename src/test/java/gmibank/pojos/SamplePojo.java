@@ -16,8 +16,10 @@ public class SamplePojo {
 
         @JsonProperty("id")
         private Integer id;
+
         @JsonProperty("name")
         private String name;
+
         @JsonProperty("states")
         private Object states;
 
