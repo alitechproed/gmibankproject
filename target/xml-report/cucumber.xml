@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="15" time="272.402">
+<testcase classname="US17 tests" name="tc_1701 USER activation by ADMIN" time="47.539">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Given admin change the profile to USER......................................passed
+Then admin deactivate USER..................................................passed
+Then admin reactivate USER..................................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1702 USER information verifying by ADMIN" time="6.597">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin clicks view buttons..............................................passed
+Then admin assert all information...........................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1703 EMPLOYEE activation by ADMIN" time="26.606">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Given admin change the profile to EMPLOYEE..................................passed
+Then admin deactivate EMPLOYEE..............................................passed
+Then admin reactivate EMPLOYEE..............................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1704 EMPLOYEE verifying by ADMIN" time="6.841">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin clicks view buttons..............................................passed
+Then admin assert all information...........................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1705 MANAGER activation by ADMIN" time="24.594">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Given admin change the profile to MANAGER...................................passed
+Then admin deactivate MANAGER...............................................passed
+Then admin reactivate MANAGER...............................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1706 MANAGER verifying by ADMIN" time="5.735">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin clicks view buttons..............................................passed
+Then admin assert all information...........................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1707 ADMIN activation by ADMIN" time="24.1">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Given admin change the profile to ADMIN.....................................passed
+Then admin deactivate USER..................................................passed
+Then admin reactivate USER..................................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1708 ADMIN verifying by ADMIN" time="5.52">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin clicks view buttons..............................................passed
+Then admin assert all information...........................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1709 CUSTOMER activation by ADMIN" time="27.084">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Given admin change the profile to CUSTOMER..................................passed
+Then admin deactivate USER..................................................passed
+Then admin reactivate USER..................................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1710 CUSTOMER verifying by CUSTOMER" time="7.63">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin clicks view buttons..............................................passed
+Then admin assert all information...........................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1711 ADMIN creation and deletion by ADMIN" time="15.995">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin creates new ADMIN profile........................................passed
+Then admin assert new profile...............................................passed
+Then admin deletes new created profile......................................passed
+Then admin asserts new profile is deleted...................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1712 EMPLOYEE creation and deletion by ADMIN" time="18.702">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin creates new EMPLOYEE profile.....................................passed
+Then admin assert new profile...............................................passed
+Then admin deletes new created profile......................................passed
+Then admin asserts new profile is deleted...................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1713 MANAGER creation and deletion by ADMIN" time="15.888">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin creates new MANAGER profile......................................passed
+Then admin assert new profile...............................................passed
+Then admin deletes new created profile......................................passed
+Then admin asserts new profile is deleted...................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1714 USER creation and deletion by ADMIN" time="16.488">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin creates new USER profile.........................................passed
+Then admin assert new profile...............................................passed
+Then admin deletes new created profile......................................passed
+Then admin asserts new profile is deleted...................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US17 tests" name="tc_1715 CUSTOMER creation and deletion by ADMIN" time="20.165">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "sametyaprak"...............................passed
+Then user enters admin password "Ankara06"..................................passed
+Then user clicks signIn button..............................................passed
+And ADMIN clicks administration link........................................passed
+Then ADMIN clicks userManagement link.......................................passed
+Then admin creates new CUSTOMER profile.....................................passed
+Then admin assert new profile...............................................passed
+Then admin deletes new created profile......................................passed
+Then admin asserts new profile is deleted...................................passed
+Then admin signOut..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
