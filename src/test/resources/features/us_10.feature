@@ -14,7 +14,7 @@
 
 
       @tc1001
-      Scenario Outline: zipcode positive test
+      Scenario Outline: tc1001 zipcode positive test
         Given user send data to zipcode box "<zipcode>"
         Then user verifies valid data entry to zipcode box
         Then user signOut
@@ -26,7 +26,7 @@
         |4a     |
 
       @tc1002
-      Scenario: zipcode negative test
+      Scenario: tc1002 zipcode negative test
         Given user send nothing to zipcode box
         Then user verifies invalid zipcode data entry
         Then user signOut
@@ -35,7 +35,7 @@
 
 
     @tc1003
-    Scenario Outline: adress positive test
+    Scenario Outline: tc1003 adress positive test
       Given user send data to adress box "<adress>"
       Then user verifies valid data entry to adress box
       Then user signOut
@@ -47,7 +47,7 @@
         |4a     |
 
     @tc1004
-    Scenario: adress negative test
+    Scenario: tc1004 adress negative test
       Given user send nothing to adress box
       Then user verifies invalid acress data entry
       Then user signOut
@@ -55,7 +55,7 @@
 
 
     @tc1005
-    Scenario Outline: city positive test
+    Scenario Outline: tc1005 city positive test
       Given user send data to city box "<city>"
       Then user verifies valid data entry to city box
       Then user signOut
@@ -67,7 +67,7 @@
         |4a     |
 
     @tc1006
-    Scenario: city negative test
+    Scenario: tc1006 city negative test
       Given user send nothing to city box
       Then user verifies invalid city data entry
       Then user signOut
@@ -75,13 +75,13 @@
 
 
     @tc1007
-    Scenario: country positive test
+    Scenario: tc1007 country positive test
       Given user select a country from dropbox
       Then user verifies a country can be selected
       Then user signOut
 
     @tc1008
-    Scenario Outline: state positive test
+    Scenario Outline: tc1008 state positive test
       Given user send data to state box "<state>"
       Then user verifies valid data entry to state box
       Then user signOut
