@@ -1,4 +1,4 @@
-@US03 @SmokeTest
+@US03 //@SmokeTest
 
 Feature: US_003 Registration page should restrict password usage to a secure and high level passcode
 
