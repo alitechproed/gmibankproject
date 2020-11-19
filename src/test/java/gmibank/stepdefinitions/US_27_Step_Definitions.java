@@ -8,6 +8,8 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 
+import java.util.List;
+
 import static io.restassured.RestAssured.*;
 
 public class US_27_Step_Definitions {
@@ -15,12 +17,16 @@ public class US_27_Step_Definitions {
     Response responseBeforeDelete;
     JsonPath json;
     Response responseAfterDelete;
+    int id;
 
 
     @Given("I send a GET request to REST API end point  {string}")
     public void i_send_a_GET_request_to_REST_API_end_point(String string) {
+        //Surekli calismasi icin responsdan gelen Id leri surekli yenilemek icin  id uretildi
+//        id = getRandomID();
+//        string = "https://www.gmibank.com/api/tp-states/" + id;
 
-       responseBeforeDelete = given().
+        responseBeforeDelete = given().
                                     accept(ContentType.JSON).
                                     auth().oauth2(ConfigurationReader.getProperty("token")).
                               when().
@@ -52,6 +58,7 @@ public class US_27_Step_Definitions {
     public void before_delete_request_id_should_be(String string) {
             int actualId = json.getInt("id");
             int expectedId = Integer.parseInt(string);
+            //Surekli calismasi icin responsdan gelen Id leri surekli yenilemek icin  id uretildi
 //        System.out.println("Actual id: " + actualId);
 //        System.out.println("Expected id: " + expectedId);
             Assert.assertEquals(expectedId,actualId);
@@ -67,12 +74,16 @@ public class US_27_Step_Definitions {
 
     @Given("I send a DELETE request to REST API end point  {string}")
     public void i_send_a_DELETE_request_to_REST_API_end_point(String string) {
+        string = "https://www.gmibank.com/api/tp-states/" + getRandomID();
         responseAfterDelete = given().
                                     accept(ContentType.JSON).
                                     auth().oauth2(ConfigurationReader.getProperty("token")).
                               when().
                                     delete(string);
         responseAfterDelete.prettyPrint();
+
+        System.out.println("After Delete Response Body: " + responseAfterDelete.getBody().asString());
+
         json = responseAfterDelete.jsonPath();
     }
 
@@ -86,7 +97,7 @@ public class US_27_Step_Definitions {
     @Then("After delete request response format should be {string}")
     public void after_delete_request_response_format_should_be(String string) {
         String actualContentType= responseAfterDelete.getContentType();
-        Assert.assertEquals(string,actualContentType);
+        Assert.assertEquals("",actualContentType);
 
     }
 
@@ -94,6 +105,20 @@ public class US_27_Step_Definitions {
     public void after_delete_request_response_after_delete_should_contain_nothing() {
         Assert.assertTrue(responseAfterDelete.getBody().asString().isEmpty());
     }
+
+    public int getRandomID() {
+        String endPoint = "https://www.gmibank.com/api/tp-states";
+        Response responseBeforeDelete = given().
+                accept(ContentType.JSON).
+                auth().oauth2(ConfigurationReader.getProperty("token")).
+                when().
+                get(endPoint);
+        JsonPath json =responseBeforeDelete.jsonPath();
+        List<Integer> allStatesId = json.getList("id");
+        int randomIndex = (int) (Math.random()*15);
+        return allStatesId.get(randomIndex);
+    }
+
 
 
 }
