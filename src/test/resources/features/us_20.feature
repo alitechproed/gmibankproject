@@ -8,6 +8,9 @@
   @TC_2001
   Scenario: TC_2001 read all customers you created and validate them from your data set
     And find out how many customers are and verify
+    And get all the information of the seventh customer
+    And verify seventh customers "ssn" is "123-47-2476" and "state" is "New York"
+
 
   @TC_2002
   Scenario: TC_2002 read all customers you created and validate them 1 by 1
