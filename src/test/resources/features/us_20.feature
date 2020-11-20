@@ -16,6 +16,6 @@
   Scenario: TC_2002 read all customers you created and validate them 1 by 1
     And verify first customer's "firstName" "emre"
     And verify second customer's "lastName" "North"
-    And verify fifth customer's "UNITED STATES"
+    And verify fifth customer's country "UNITED STATES"
     And get last customer's id and verify
 

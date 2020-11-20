@@ -76,8 +76,8 @@ public class US_20_Step_Definitions {
         Assert.assertEquals(lastNameOfSecondCustomer,expectedData);
     }
 
-    @And("verify fifth customer's {string}")
-    public void verifyFifthCustomerS(String country) {
+    @And("verify fifth customer's country {string}")
+    public void verifyFifthCustomerSCountry(String country) {
         String countryName = json.getString("country[4].name");
         System.out.println("First : "+countryName);
 //        String countryName2 = json.getList("country.name").get(4).toString();
