@@ -46,6 +46,23 @@ public class US_20_Step_Definitions {
 
     }
 
+    @And("get all the information of the seventh customer")
+    public void getAllTheInformationOfTheSeventhCustomer() {
+        String seventhCustomer = listofCustomers.get(6).toString();
+        System.out.println("Seventh Customer : " + seventhCustomer);
+
+    }
+
+    @And("verify seventh customers {string} is {string} and {string} is {string}")
+    public void verifySeventhCustomersIsAndIs(String snn, String snnNumber, String state, String stateName) {
+        String seventhCustomersSNN = listofCustomers.get(6).get(snn).toString();
+        Assert.assertEquals(seventhCustomersSNN,snnNumber);
+
+        String seventhCustomersState = listofCustomers.get(6).get(state).toString();
+        Assert.assertEquals(seventhCustomersState,stateName);
+
+    }
+
     @And("verify first customer's {string} {string}")
     public void verifyFirstCustomerS(String firstName, String expectedData) {
         String firstCustomerName = listofCustomers.get(0).get(firstName).toString();
@@ -59,8 +76,8 @@ public class US_20_Step_Definitions {
         Assert.assertEquals(lastNameOfSecondCustomer,expectedData);
     }
 
-    @And("verify fifth customer's {string}")
-    public void verifyFifthCustomerS(String country) {
+    @And("verify fifth customer's country {string}")
+    public void verifyFifthCustomerSCountry(String country) {
         String countryName = json.getString("country[4].name");
         System.out.println("First : "+countryName);
 //        String countryName2 = json.getList("country.name").get(4).toString();
@@ -88,4 +105,5 @@ public class US_20_Step_Definitions {
 
       return lastId;
     }
+
 }
