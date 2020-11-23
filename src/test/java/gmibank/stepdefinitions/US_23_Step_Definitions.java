@@ -52,6 +52,7 @@ public class US_23_Step_Definitions {
 
     @And("find out {int} applicants are and verify")
     public void findOutApplicantsAreAndVerify(int actualApplicantsNumber) {
+
         int expectedApplicantsNumber = us23Pojo.length;
         Assert.assertEquals(expectedApplicantsNumber, actualApplicantsNumber);
 
