@@ -29,19 +29,20 @@ public class US_20_Step_Definitions {
 
         json = response.jsonPath();
 
-        response.prettyPrint();
+//        response.prettyPrint();
 
     }
 
     @Given("get all customers' information as De-Serialization")
     public void get_all_customers_information_as_De_Serialization() {
         listofCustomers = response.as(ArrayList.class);
-        System.out.println("De-Serialization Data Type : " +listofCustomers);
+//        System.out.println("De-Serialization Data Type : " +listofCustomers);
+
     }
 
     @Given("find out how many customers are and verify")
     public void find_out_how_many_customers_are_and_verify() {
-        System.out.println("Total Number of Customer : "+ listofCustomers.size());
+//        System.out.println("Total Number of Customer : "+ listofCustomers.size());
         Assert.assertTrue(listofCustomers.size()==20);
 
     }
@@ -49,7 +50,7 @@ public class US_20_Step_Definitions {
     @And("get all the information of the seventh customer")
     public void getAllTheInformationOfTheSeventhCustomer() {
         String seventhCustomer = listofCustomers.get(6).toString();
-        System.out.println("Seventh Customer : " + seventhCustomer);
+//        System.out.println("Seventh Customer : " + seventhCustomer);
 
     }
 
@@ -66,7 +67,6 @@ public class US_20_Step_Definitions {
     @And("verify first customer's {string} {string}")
     public void verifyFirstCustomerS(String firstName, String expectedData) {
         String firstCustomerName = listofCustomers.get(0).get(firstName).toString();
-        System.out.println(firstCustomerName);
         Assert.assertEquals(firstCustomerName,expectedData);
     }
 

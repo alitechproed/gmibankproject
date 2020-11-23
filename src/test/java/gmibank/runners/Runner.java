@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
 
-        tags = " @TC_2101",
+        tags = "@US_23",
 
 
         dryRun = false
