@@ -44,17 +44,16 @@ public class US_23_Step_Definitions {
             }
         }
     }
-    @Given("verify that the status code is {string}")
-    public void verify_that_the_status_code_is(String statusCode) {
-        response.then().assertThat().statusCode(Integer.parseInt(statusCode));
 
+    @Given("verify that the status code is {int}")
+    public void verifyThatTheStatusCodeIs(int expectedStatusCode) {
+        response.then().assertThat().statusCode(expectedStatusCode);
     }
 
-    @Given("find out how many applicants are and verify")
-    public void find_out_how_many_applicants_are_and_verify() {
-        int applicantsNumber = us23Pojo.length;
-//        System.out.println("Applicants Number: " +applicantsNumber);
-        Assert.assertEquals(805, applicantsNumber);
+    @And("find out {int} applicants are and verify")
+    public void findOutApplicantsAreAndVerify(int actualApplicantsNumber) {
+        int expectedApplicantsNumber = us23Pojo.length;
+        Assert.assertEquals(expectedApplicantsNumber, actualApplicantsNumber);
 
     }
 
@@ -224,5 +223,7 @@ public class US_23_Step_Definitions {
         Assert.assertEquals(expectedCreateDate, createDateValue);
 
     }
+
+
 
 }
