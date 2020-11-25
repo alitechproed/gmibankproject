@@ -21,7 +21,8 @@ public class US_16_Page {
     public WebElement myAccountsLink;
 
     //@FindBy(xpath = "//a[.='Transfer Money']")
-    @FindBy(xpath = "(//a[@class='dropdown-item'])[2]")
+  //  @FindBy(xpath = "(//a[@class='dropdown-item'])[2]")
+    @FindBy(xpath = "//*[@id='entity-menu']/div/a[2]")
     public WebElement transferMoneyLink;
 
     @FindBy(xpath = "//td[.='19669']")
