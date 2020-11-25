@@ -36,7 +36,7 @@ public class US_17_Page {
     public WebElement signoutLink;
     @FindBy(xpath = "(//a[@class='btn btn-info btn-sm'])[1]")
     public WebElement viewButton;
-    @FindBy(id = "example")
+    @FindBy(id = "example2")
     public WebElement fullData;
     @FindBy(xpath = "//dd")
     public List<WebElement> fullDataList;
