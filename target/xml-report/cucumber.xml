@@ -1,80 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="106.241">
-    <testcase classname="US19 tests" name="tc1901 admin enter Description" time="68.905">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-Then user clicks userEntry icon.............................................passed
-Then user clicks signIn link................................................passed
-Then user enters admin username "pader49"...................................passed
-Then user enters admin password "pader49."..................................passed
-Then user clicks signIn button..............................................passed
-And user clicks myOperations link...........................................passed
-And user clicks manageAccounts link.........................................passed
-And user clicks createNewAccount link.......................................passed
-Given admin click Description...............................................passed
-And admin click Balance.....................................................passed
-And admin sees required message.............................................passed
-And admin signOut...........................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.431">
+<testcase classname="US_26 System should allow to update countries using api end point" name="TC_2601 User can just update each country 1 by 1" time="11.177">
+<system-out><![CDATA[Given Use api end point  "https://www.gmibank.com/api/tp-countries/"........passed
+And User finds out the size of the country list.............................passed
+Then User send a Put request endpoint "https://www.gmibank.com/api/tp-countries/25562" as "Van".passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="US19 tests" name="tc1902 should provide a balance as a Dollar" time="5.443">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-Then user clicks userEntry icon.............................................passed
-Then user clicks signIn link................................................passed
-Then user enters admin username "pader49"...................................passed
-Then user enters admin password "pader49."..................................passed
-Then user clicks signIn button..............................................passed
-And user clicks myOperations link...........................................passed
-And user clicks manageAccounts link.........................................passed
-And user clicks createNewAccount link.......................................passed
-Given admin create as a dollar account "200" and verify.....................passed
-And admin signOut...........................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US19 tests" name="tc1903 can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING" time="14.853">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-Then user clicks userEntry icon.............................................passed
-Then user clicks signIn link................................................passed
-Then user enters admin username "pader49"...................................passed
-Then user enters admin password "pader49."..................................passed
-Then user clicks signIn button..............................................passed
-And user clicks myOperations link...........................................passed
-And user clicks manageAccounts link.........................................passed
-And user clicks createNewAccount link.......................................passed
-Given admin select an account as CHECKING and verify........................passed
-And admin select an account as a SAVING and verify..........................passed
-And admin select an account as a CREDIT_CARD and verify.....................passed
-And admin select an account as a INVESTING and verify.......................passed
-And admin signOut...........................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US19 tests" name="tc1904 should account status defined as ACTIVE, SUESPENDED or CLOSED" time="10.923">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-Then user clicks userEntry icon.............................................passed
-Then user clicks signIn link................................................passed
-Then user enters admin username "pader49"...................................passed
-Then user enters admin password "pader49."..................................passed
-Then user clicks signIn button..............................................passed
-And user clicks myOperations link...........................................passed
-And user clicks manageAccounts link.........................................passed
-And user clicks createNewAccount link.......................................passed
-Given admin click Account Status Type defined as a ACTIVE and verify........passed
-And admin click Account Status Type defined as a  SUESPENDED and verify.....passed
-And admin click Account Status Type defined as a  CLOSED and verify.........passed
-And admin signOut...........................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US19 tests" name="tc1905 can select an employee from the drop-down" time="4.333">
-        <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
-Then user clicks userEntry icon.............................................passed
-Then user clicks signIn link................................................passed
-Then user enters admin username "pader49"...................................passed
-Then user enters admin password "pader49."..................................passed
-Then user clicks signIn button..............................................passed
-And user clicks myOperations link...........................................passed
-And user clicks manageAccounts link.........................................passed
-And user clicks createNewAccount link.......................................passed
-Given admin select Employee and verify the selectet Employee................passed
-And admin signOut...........................................................passed
-]]></system-out>
-    </testcase>
+</testcase>
 </testsuite>
