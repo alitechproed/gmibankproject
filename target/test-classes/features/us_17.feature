@@ -1,5 +1,5 @@
-@US_17 @SmokeTest
-Feature: US17 tests
+@US_17 @SmokeTest1
+Feature: US_17 tests
 
   Background: user anters gmibank homepage then reaches create new costomers link
     Given user enters gmibank homepage
