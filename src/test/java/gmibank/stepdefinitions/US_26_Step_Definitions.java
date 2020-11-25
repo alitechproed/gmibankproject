@@ -7,6 +7,7 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
+import org.junit.Assert;
 
 import java.util.*;
 
@@ -39,26 +40,54 @@ public class US_26_Step_Definitions {
         System.out.println("Nb of countries :" + listOfCountries.size());
     }
 
-    @Then("User send a Put request endpoint {string} as {string}")
-    public void user_send_a_Put_request_endpoint_as(String endpoint, String updateCountryName) {
+    @And("User send a Put request endpoint {string} as {string} for upddate Cekya")
+    public void user_send_a_Put_request_endpoint_as_for_upddate_Cekya(String endpoint, String replaceContry) {
 
-        country.put("id", 25562);
-        country.put("name","Belgium");
-        country.put("states",null);
+    /*    JSONObject putBoody = new JSONObject();
+        putBoody.put("id", 25587);
+        putBoody.put("name", replaceContry );
+        putBoody.put("states",null);
+
+     */
+
+        Map<String, Object> putBody = new HashMap<>();
+
+        putBody.put("id", 25587);
+        putBody.put("name", replaceContry );
+        putBody.put("states",null);
 
         Response responsePut = given().
-                                            contentType(ContentType.JSON).
-                                            auth().oauth2(ConfigurationReader.getProperty("token")).
-                                            body(country).
-                                        when().
-                                            put(endpoint);
+                                        contentType(ContentType.JSON).
+                                        auth().oauth2(ConfigurationReader.getProperty("token")).
+                                        body(putBody).
+                                     when().
+                                        put(endpoint);
 
-        json =responsePut.jsonPath();
-      /*  responsePut.then().
-                assertThat().
-                statusCode(200);
+              responsePut.prettyPrint();
 
-       */
+                responsePut.
+                        then().
+                        assertThat().
+                        statusCode(200).
+                        contentType(ContentType.JSON);
+
+    }
+
+    @Then("User verify the contry was updated")
+    public void user_verify_the_contry_was_updated() {
+       String url = "https://www.gmibank.com/api/tp-countries/25587";
+       Response responseAfterPut = given().
+                                        contentType(ContentType.JSON).
+                                        auth().oauth2(ConfigurationReader.getProperty("token")).
+                                    when().
+                                        get(url);
+                responseAfterPut.
+                                then().
+                                statusCode(200).
+                                contentType(ContentType.JSON);
+                JsonPath jsonPath = responseAfterPut.jsonPath();
+                String county = jsonPath.getString("name");
+        Assert.assertEquals(county, "Pays-Bas");
 
     }
 

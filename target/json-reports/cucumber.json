@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T19:06:31.438Z",
+        "start_timestamp": "2020-11-25T21:56:59.587Z",
         "line": 6,
         "name": "TC_2601 User can just update each country 1 by 1",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6187000000,
+              "duration": 2824000000,
               "status": "passed"
             },
             "line": 7,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 212000000,
+              "duration": 350000000,
               "status": "passed"
             },
             "line": 8,
@@ -43,23 +43,35 @@
           },
           {
             "result": {
-              "duration": 4725000000,
+              "duration": 1402000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "User send a Put request endpoint \"https://www.gmibank.com/api/tp-countries/25562\" as \"Van\"",
+            "name": "User send a Put request endpoint \"https://www.gmibank.com/api/tp-countries/\" as \"Pays-Bas\" for upddate Cekya",
             "match": {
               "arguments": [
                 {
-                  "val": "\"https://www.gmibank.com/api/tp-countries/25562\"",
+                  "val": "\"https://www.gmibank.com/api/tp-countries/\"",
                   "offset": 33
                 },
                 {
-                  "val": "\"Van\"",
-                  "offset": 85
+                  "val": "\"Pays-Bas\"",
+                  "offset": 80
                 }
               ],
-              "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_send_a_Put_request_endpoint_as(java.lang.String,java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_send_a_Put_request_endpoint_as_for_upddate_Cekya(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1674000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verify the contry was updated",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_verify_the_contry_was_updated()"
             },
             "keyword": "Then "
           }
