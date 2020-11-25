@@ -1,4 +1,4 @@
-@US_27 @SmokeTest1
+@US_27 @SmokeTest
 Feature: US_27 System should allow to delete states using api end point
 
   @TC_2701
