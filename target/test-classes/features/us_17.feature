@@ -5,8 +5,8 @@ Feature: US17 tests
     Given user enters gmibank homepage
     Then user clicks userEntry icon
     Then user clicks signIn link
-    Then user enters admin username "sametyaprak"
-    Then user enters admin password "Ankara06"
+    Then user enters admin username "karak"
+    Then user enters admin password "DJabc21"
     Then user clicks signIn button
     And ADMIN clicks administration link
     Then ADMIN clicks userManagement link
