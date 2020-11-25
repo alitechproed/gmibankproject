@@ -1,5 +1,6 @@
 package gmibank.pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
@@ -10,6 +11,8 @@ import org.apache.commons.lang.builder.ToStringBuilder;
         "name",
         "states"
 })
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Country {
 
     @JsonProperty("name")
