@@ -45,6 +45,7 @@ public class US_01_Step_Definitions {
     @Given("Kullanici bir user olarak SSN textboxina gecersiz  {string} numarasini girer")
     public void kullanici_bir_user_olarak_SSN_textboxina_gecersiz_numarasini_girer(String string) {
         us01Page.ssnTextbox.sendKeys(string + Keys.ENTER);
+
     }
 
     @Then("Kullanici bir user olarak {string} hata mesajini goruntuler")
