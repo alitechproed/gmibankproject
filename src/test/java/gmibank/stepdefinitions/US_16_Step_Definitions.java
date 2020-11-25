@@ -33,7 +33,9 @@ public class US_16_Step_Definitions {
 
     @Given("user clicks customer myOperations link")
     public void user_clicks_customer_myOperations_link() {
+        ReusableMethods.waitFor(1);
         us_16_page.myOperationsLink.click();
+        ReusableMethods.waitFor(1);
     }
 
     @Given("user clicks My Accounts link")
@@ -77,6 +79,7 @@ public class US_16_Step_Definitions {
 //        us_16_page.myOperationsLink.click();
         ReusableMethods.waitFor(2);
         us_16_page.transferMoneyLink.click();
+
     }
 
     @Given("user select first account from From dropdown menu and click")
