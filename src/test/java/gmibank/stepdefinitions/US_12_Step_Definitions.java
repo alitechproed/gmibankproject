@@ -179,6 +179,7 @@ public class US_12_Step_Definitions {
     public void userClickSaveThreeButton() {
         ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
         us12Page.saveButton.click();
     }
 
