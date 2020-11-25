@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="3" tests="3" time="2.4">
-<testcase classname="user tests create user page with database validation" name="TC_2901 All users' information must be obtained database and verified" time="0.313">
-<skipped><![CDATA[Given user  connecting GMI database.........................................undefined
-And user read all user data from database...................................undefined
-Then user validate all user data............................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="user tests create user page with database validation" name="TC_2902 All countries' info should be retrieved by database and validated" time="0.012">
-<skipped><![CDATA[Given user  connecting GMI database.........................................undefined
-And user read all countries infos from database.............................undefined
-Then user validate all countries infos......................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="user tests create user page with database validation" name="TC_2903 All states should related to USA should be retrieved by database and validated" time="0.009">
-<skipped><![CDATA[Given user  connecting GMI database.........................................undefined
-And user read all states of related to USA from database....................undefined
-Then user validate all states of related to USA.............................undefined
-]]></skipped>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.615">
+<testcase classname="US_26 System should allow to update countries using api end point" name="TC_2601 User can just update each country 1 by 1" time="10.614">
+<system-out><![CDATA[Given Use api end point  "https://www.gmibank.com/api/tp-countries/"........passed
+And User finds out the size of the country list.............................passed
+And User send a Put request endpoint "https://www.gmibank.com/api/tp-countries/" as "Pays-Bas" for upddate Cekya.passed
+Then User verify the contry was updated.....................................passed
+]]></system-out>
 </testcase>
 </testsuite>
