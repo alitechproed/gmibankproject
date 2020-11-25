@@ -20,7 +20,8 @@ public class US_16_Page {
     @FindBy(xpath = "//a[.='My Accounts']")
     public WebElement myAccountsLink;
 
-    @FindBy(xpath = "//a[.='Transfer Money']")
+    //@FindBy(xpath = "//a[.='Transfer Money']")
+    @FindBy(xpath = "(//a[@class='dropdown-item'])[2]")
     public WebElement transferMoneyLink;
 
     @FindBy(xpath = "//td[.='19669']")

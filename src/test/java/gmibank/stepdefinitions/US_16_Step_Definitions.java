@@ -72,6 +72,7 @@ public class US_16_Step_Definitions {
     //@TC1602 -------------
     @Given("user clicks Transfer Money link")
     public void user_clicks_Transfer_Money_link() {
+        ReusableMethods.waitForClickablility(us_16_page.transferMoneyLink,4);
         us_16_page.transferMoneyLink.click();
     }
 
@@ -79,15 +80,16 @@ public class US_16_Step_Definitions {
     public void user_select_first_account_from_From_dropdown_menu_and_click() {
         Select select = new Select(us_16_page.idFromDropdown);
         select.selectByIndex(2);
+        ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.TAB).perform();
         ReusableMethods.waitFor(1);
     }
 
     @Given("user verify the selected account can be seen")
     public void user_verify_the_selected_account_can_be_seen() {
-        String textFrom = us_16_page.idFromDropdown.getText();
-        System.out.println(textFrom);
-        Assert.assertTrue(textFrom.contains("19669"));
+        String textFrom = us_16_page.idFromDropdown.getAttribute("value");
+        System.out.println("From text : " +textFrom);
+        Assert.assertEquals(textFrom,"19670");
     }
 
     //@TC1603 -------------
@@ -95,10 +97,12 @@ public class US_16_Step_Definitions {
     public void user_select_other_account_from_To_dropdown_menu_and_click() {
         Select select = new Select(us_16_page.idToDropdown);
         select.selectByIndex(1);
+        ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.TAB).perform();
         ReusableMethods.waitFor(1);
-        String textFrom = us_16_page.idToDropdown.getText();
-        Assert.assertTrue(textFrom.contains("19670"));
+        String textTo = us_16_page.idToDropdown.getAttribute("value");
+        System.out.println("To text : " + textTo);
+        Assert.assertEquals(textTo,"19669");
     }
 
     @Given("user send {string} to Balance and click tab")

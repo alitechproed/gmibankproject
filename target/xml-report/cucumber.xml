@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="78.117">
+<testcase classname="US16 tests" name="TC1601 User should have at least 2 accounts" time="23.588">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters customer username "aaabbb"..................................passed
+And user enters customer password "AaaBbb-21"...............................passed
+And user clicks signIn button...............................................passed
+Then user clicks customer myOperations link.................................passed
+Given user clicks My Accounts link..........................................passed
+And user verify Account Type1 "19669" can be seen...........................passed
+And user verify Account Type2 "19670" can be seen...........................passed
+Then user signOut from customer Website.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US16 tests" name="TC1602 User can select the first account as From dropdown where they receive their money from" time="7.964">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters customer username "aaabbb"..................................passed
+And user enters customer password "AaaBbb-21"...............................passed
+And user clicks signIn button...............................................passed
+Then user clicks customer myOperations link.................................passed
+Given user clicks Transfer Money link.......................................passed
+And user select first account from From dropdown menu and click.............passed
+And user verify the selected account can be seen............................passed
+Then user signOut from customer Website.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US16 tests" name="TC1603 User can select a balance that they want to proceed with" time="11.56">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters customer username "aaabbb"..................................passed
+And user enters customer password "AaaBbb-21"...............................passed
+And user clicks signIn button...............................................passed
+Then user clicks customer myOperations link.................................passed
+Given user clicks Transfer Money link.......................................passed
+And user select first account from From dropdown menu and click.............passed
+And user select other account from To dropdown menu and click...............passed
+And user send "100" to Balance and click tab................................passed
+And user click tab and verify the amount can be seen in Balance.............passed
+Then user signOut from customer Website.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US16 tests" name="TC1604 User should provide a description for that transfer" time="12.398">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters customer username "aaabbb"..................................passed
+And user enters customer password "AaaBbb-21"...............................passed
+And user clicks signIn button...............................................passed
+Then user clicks customer myOperations link.................................passed
+Given user clicks Transfer Money link.......................................passed
+And user select first account from From dropdown menu and click.............passed
+And user select other account from To dropdown menu and click...............passed
+And user send "100" to Balance and click tab................................passed
+And user send "transfer between accounts" to Description and click tab......passed
+Then user signOut from customer Website.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US16 tests" name="TC1605 User can make sure transfer is done successfully validating the message an amount of the transaction&quot;" time="20.646">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+And user clicks userEntry icon..............................................passed
+And user clicks signIn link.................................................passed
+And user enters customer username "aaabbb"..................................passed
+And user enters customer password "AaaBbb-21"...............................passed
+And user clicks signIn button...............................................passed
+Then user clicks customer myOperations link.................................passed
+Given user clicks Transfer Money link.......................................passed
+And user select first account from From dropdown menu and click.............passed
+And user select other account from To dropdown menu and click...............passed
+And user send "100" to Balance and click tab................................passed
+And user send "transfer between accounts" to Description and click tab......passed
+And user click Make Transfer link...........................................passed
+And user clicks customer myOperations link..................................passed
+And user clicks My Accounts link............................................passed
+And user click View Transaction link........................................passed
+And verify the transaction is accomplished..................................passed
+Then user signOut from customer Website.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
