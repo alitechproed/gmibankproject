@@ -32,12 +32,12 @@ public class US_19_Step_Definitions {
 
     }
 
-    @Given("admin signOut")
-    public void admin_signOut() {
-        us19Page.userInfoLink.click();
-        us19Page.signoutLink.click();
-
-    }
+//    @Given("admin signOut")
+//    public void admin_signOut() {
+//        us19Page.userInfoLink.click();
+//        us19Page.signoutLink.click();
+//
+//    }
 
     @Given("admin create as a dollar account {string} and verify")
     public void admin_create_as_a_dollar_account_and_verify(String dolarAccount) {

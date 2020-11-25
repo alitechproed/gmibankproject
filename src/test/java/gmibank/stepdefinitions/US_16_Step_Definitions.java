@@ -72,7 +72,10 @@ public class US_16_Step_Definitions {
     //@TC1602 -------------
     @Given("user clicks Transfer Money link")
     public void user_clicks_Transfer_Money_link() {
-        ReusableMethods.waitForClickablility(us_16_page.transferMoneyLink,4);
+//        actions.sendKeys(Keys.F5).perform();
+//        ReusableMethods.waitFor(2);
+//        us_16_page.myOperationsLink.click();
+        ReusableMethods.waitFor(2);
         us_16_page.transferMoneyLink.click();
     }
 
@@ -146,6 +149,7 @@ public class US_16_Step_Definitions {
 
     @Given("verify the transaction is accomplished")
     public void verify_the_transaction_is_accomplished() {
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
         String textTransactionHistory = us_16_page.bodyOfTransactionHistory.getText();
         System.out.println(textTransactionHistory);
         ReusableMethods.waitFor(2);
