@@ -1,4 +1,4 @@
-@US16 @SmokeTest
+@US16 @SmokeTest1
 Feature: US16 tests
 
   Background: user enters gmibank homepage then sign in as a customer

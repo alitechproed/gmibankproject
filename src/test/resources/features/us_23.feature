@@ -1,4 +1,4 @@
-@US_23  @SmokeTest
+@US_23  @SmokeTest1
   Feature:system should allow to read all Applicants using api end point
 
     Background: TC_2301 and TC_2302 background
