@@ -17,21 +17,20 @@ public class US_27_Step_Definitions {
     Response responseBeforeDelete;
     JsonPath json;
     Response responseAfterDelete;
-    int id;
+    int id = getRandomID();
 
 
     @Given("I send a GET request to REST API end point  {string}")
     public void i_send_a_GET_request_to_REST_API_end_point(String string) {
         //Surekli calismasi icin responsdan gelen Id leri surekli yenilemek icin  id uretildi
-//        id = getRandomID();
-//        string = "https://www.gmibank.com/api/tp-states/" + id;
+        string = "https://www.gmibank.com/api/tp-states/" + id;
 
         responseBeforeDelete = given().
-                                    accept(ContentType.JSON).
-                                    auth().oauth2(ConfigurationReader.getProperty("token")).
-                              when().
-                                    get(string);
-        responseBeforeDelete.prettyPrint();
+                accept(ContentType.JSON).
+                auth().oauth2(ConfigurationReader.getProperty("token")).
+                when().
+                get(string);
+//        responseBeforeDelete.prettyPrint();
 
 //        System.out.println(responseBeforeDelete.getBody().asString());
 
@@ -43,8 +42,8 @@ public class US_27_Step_Definitions {
     public void before_delete_request_HTTP_Status_Code_should_be(String string) {
         int expectedStatusCode = Integer.parseInt(string);
         responseBeforeDelete.then().
-                                assertThat().
-                                statusCode(expectedStatusCode);
+                assertThat().
+                statusCode(expectedStatusCode);
     }
 
     @Then("Before delete request response format should be {string}")
@@ -56,12 +55,13 @@ public class US_27_Step_Definitions {
 
     @Then("Before delete request id should be {string}")
     public void before_delete_request_id_should_be(String string) {
-            int actualId = json.getInt("id");
-            int expectedId = Integer.parseInt(string);
-            //Surekli calismasi icin responsdan gelen Id leri surekli yenilemek icin  id uretildi
+        int actualId = json.getInt("id");
+        int expectedId = Integer.parseInt(string);
+        //Surekli calismasi icin responsdan gelen Id leri surekli yenilemek icin  id uretildi
+        expectedId = id;
 //        System.out.println("Actual id: " + actualId);
 //        System.out.println("Expected id: " + expectedId);
-            Assert.assertEquals(expectedId,actualId);
+        Assert.assertEquals(expectedId,actualId);
 
     }
 
@@ -69,17 +69,18 @@ public class US_27_Step_Definitions {
     public void before_delete_request_name_should_be(String string) {
         String actualName = json.getString("name");
 //        System.out.println("Actual name: " + actualName);
+        string = getRandomState();
         Assert.assertEquals(string,actualName);
     }
 
     @Given("I send a DELETE request to REST API end point  {string}")
-    public void i_send_a_DELETE_request_to_REST_API_end_point(String string) {
-        string = "https://www.gmibank.com/api/tp-states/" + getRandomID();
+    public void i_send_a_DELETE_request_to_REST_API_end_point(String endpointUrl) {
+        endpointUrl = "https://www.gmibank.com/api/tp-states/" + id;
         responseAfterDelete = given().
-                                    accept(ContentType.JSON).
-                                    auth().oauth2(ConfigurationReader.getProperty("token")).
-                              when().
-                                    delete(string);
+                accept(ContentType.JSON).
+                auth().oauth2(ConfigurationReader.getProperty("token")).
+                when().
+                delete(endpointUrl);
         responseAfterDelete.prettyPrint();
 
         System.out.println("After Delete Response Body: " + responseAfterDelete.getBody().asString());
@@ -91,13 +92,13 @@ public class US_27_Step_Definitions {
     public void after_delete_request_HTTP_Status_Code_should_be(String string) {
         int expectedStatusCode = Integer.parseInt(string);
         int actualStatusCode = responseAfterDelete.statusCode();
-        Assert.assertEquals(expectedStatusCode,actualStatusCode);
+        Assert.assertEquals(actualStatusCode,expectedStatusCode);
     }
 
     @Then("After delete request response format should be {string}")
     public void after_delete_request_response_format_should_be(String string) {
         String actualContentType= responseAfterDelete.getContentType();
-        Assert.assertEquals("",actualContentType);
+        Assert.assertEquals(actualContentType,"");
 
     }
 
@@ -119,6 +120,16 @@ public class US_27_Step_Definitions {
         return allStatesId.get(randomIndex);
     }
 
+    public String getRandomState() {
+        String endPoint = "https://www.gmibank.com/api/tp-states/" + id;
+        Response responseBeforeDelete = given().
+                accept(ContentType.JSON).
+                auth().oauth2(ConfigurationReader.getProperty("token")).
+                when().
+                get(endPoint);
+        JsonPath json =responseBeforeDelete.jsonPath();
+        return json.getString("name");
+    }
 
 
 }
