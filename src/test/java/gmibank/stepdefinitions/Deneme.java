@@ -1,9 +1,7 @@
 package gmibank.stepdefinitions;
 
-import com.google.gson.Gson;
-import gmibank.pojos.Country;
+import gmibank.pojos.Country2;
 import gmibank.utilities.ConfigurationReader;
-import gmibank.utilities.JsonUtil;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -14,7 +12,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class Deneme {
-    Country country = new Country("Yunanistan",null);
+    Country2 country = new Country2("Yunanistan",null);
     Map country2 = new HashMap<String,Object>();
 
     @Test
