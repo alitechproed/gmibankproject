@@ -6,5 +6,4 @@ Feature: US_26 System should allow to update countries using api end point
   Scenario: TC_2601 User can just update each country 1 by 1
     Given Use api end point  "https://www.gmibank.com/api/tp-countries/"
     And   User finds out the size of the country list
-    Then  User update the countries
-    Then User verify if the countries were updated
+    Then  User send a Put request endpoint "https://www.gmibank.com/api/tp-countries/25562" as "Van"

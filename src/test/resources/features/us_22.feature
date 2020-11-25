@@ -8,8 +8,7 @@ Feature: System should allow to read states using api end point
   @TC_2001
   Scenario: TC_2201 Read all states you created and validate them from your data set
     And find out how many states
-    And Verify first state is "Ile-de-France"
-    And Verify id of Yozgat is (integer) "19244"
+    And Verify id of Koblenz is (integer) "19241"
 
 
   @TC_2002

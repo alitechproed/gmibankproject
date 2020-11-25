@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T15:45:16.993Z",
+        "start_timestamp": "2020-11-25T19:06:31.438Z",
         "line": 6,
         "name": "TC_2601 User can just update each country 1 by 1",
         "description": "",
@@ -13,38 +13,54 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6187000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "Use api end point  \"https://www.gmibank.com/api/tp-countries/\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-countries/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_26_Step_Definitions.use_api_end_point(java.lang.String)"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 212000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "User finds out the size of the country list",
-            "match": {},
+            "match": {
+              "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_finds_out_the_size_of_the_country_list()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4725000000,
+              "status": "passed"
             },
             "line": 9,
-            "name": "User update the countries",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "name": "User send a Put request endpoint \"https://www.gmibank.com/api/tp-countries/25562\" as \"Van\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-countries/25562\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Van\"",
+                  "offset": 85
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_send_a_Put_request_endpoint_as(java.lang.String,java.lang.String)"
             },
-            "line": 10,
-            "name": "User verify if the countries were updated",
-            "match": {},
             "keyword": "Then "
           }
         ],

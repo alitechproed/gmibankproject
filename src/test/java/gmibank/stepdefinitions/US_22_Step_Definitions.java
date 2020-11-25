@@ -44,19 +44,11 @@ public class US_22_Step_Definitions {
         int nbOfStates = listofStates.size();
         System.out.println(nbOfStates);
 
-
     }
 
-    @Given("Verify first state is {string}")
-    public void verify_first_state_is(String string) {
-        String firstState= json.getString("name[0]");
-        System.out.println(firstState);
-        Assert.assertEquals(firstState,string);
-    }
-
-    @Given("Verify id of Yozgat is \\(integer) {string}")
-    public void verify_id_of_Yozgat_is_integer(String string) {
-        String url = "https://www.gmibank.com/api/tp-states/19244";
+    @Given("Verify id of Koblenz is \\(integer) {string}")
+    public void verify_id_of_Koblenz_is_integer(String string) {
+        String url = "https://www.gmibank.com/api/tp-states/19241";
           Response response2 = given().
                                     auth().
                                     oauth2(ConfigurationReader.getProperty("token")).

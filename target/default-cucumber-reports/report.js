@@ -32,32 +32,30 @@ formatter.step({
   "name": "Use api end point  \"https://www.gmibank.com/api/tp-countries/\"",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_26_Step_Definitions.use_api_end_point(java.lang.String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User finds out the size of the country list",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_finds_out_the_size_of_the_country_list()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "User update the countries",
+  "name": "User send a Put request endpoint \"https://www.gmibank.com/api/tp-countries/25562\" as \"Van\"",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_send_a_Put_request_endpoint_as(java.lang.String,java.lang.String)"
 });
-formatter.step({
-  "name": "User verify if the countries were updated",
-  "keyword": "Then "
-});
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 });
