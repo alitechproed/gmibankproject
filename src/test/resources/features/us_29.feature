@@ -1,5 +1,5 @@
 @US_29  @SmokeTest1
-Feature: user tests create user page with database validation
+Feature: US_29 user tests create user page with database validation
 
   Background:
     Given user  connecting GMI database
