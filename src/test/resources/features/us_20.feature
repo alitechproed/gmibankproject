@@ -1,5 +1,5 @@
-@US_20 @SmokeTest
-  Feature: system should allow to read all customers info using api end point
+@US_20 @SmokeTest1
+  Feature: US_20 system should allow to read all customers info using api end point
 
     Background: TC_2001 and TC_2002 background
       Given use api end point  "https://www.gmibank.com/api/tp-customers"

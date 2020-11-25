@@ -1,5 +1,5 @@
-@US_23  @SmokeTest
-  Feature:system should allow to read all Applicants using api end point
+@US_23  @SmokeTest1
+  Feature: US_23 system should allow to read all Applicants using api end point
 
     Background: TC_2301 and TC_2302 background
       Given us_o23 use api end point  "https://www.gmibank.com/api/tp-account-registrations"
@@ -8,7 +8,7 @@
     @TC_2301
     Scenario: TC_2301 read all countries you created and validate them from your data set
       Given verify that the status code is 200
-      And find out 808 applicants are and verify
+      And find out 829 applicants are and verify
       And Find the number of those whose id is less than 5000 and verify the number
       And verify if there are any applicants named "Ali"
 
