@@ -1,5 +1,5 @@
 @US_24 @SmokeTest1
-  Feature: System should allow to create new states using api endpoint
+  Feature: US_24 System should allow to create new states using api endpoint
     Scenario: User can Just create each state 1 by 1 / TC_2401 before POST request
       Given user enter REST API endpoint as "http://gmibank.com/api/tp-states"
       And Before post request should be HTTP Status Code 200

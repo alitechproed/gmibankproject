@@ -1,5 +1,5 @@
 @US_22 @SmokeTest1
-Feature: System should allow to read states using api end point
+Feature: US_22 System should allow to read states using api end point
 
   Background: TC_22 and TC_2002 background
     Given Use api end point "https://www.gmibank.com/api/tp-states"

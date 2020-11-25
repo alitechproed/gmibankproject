@@ -7,7 +7,6 @@ import io.cucumber.java.en.Then;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 
 import java.util.ArrayList;
@@ -65,6 +64,7 @@ public class US_24_Step_Definitions {
                              when().
                                 post(endpoint);
         responseAfterCreate.jsonPath();
+
     }
 
     @Given("After creation user sends a GET request to REST API endpoint {string}")

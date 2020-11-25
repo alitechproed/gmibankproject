@@ -351,7 +351,7 @@ public class US_08_Step_Definitions {
 
     //TC_07
 
-    String newPasswordRandom = randomMethod1(7,33,122);
+    String newPasswordRandom = randomMethod1(8,33,122);
 
 
     @Given("user clicks password link and writes random password")
