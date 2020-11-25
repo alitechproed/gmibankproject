@@ -3,414 +3,72 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "TC_22 and TC_2002 background",
+        "start_timestamp": "2020-11-25T15:45:16.993Z",
+        "line": 6,
+        "name": "TC_2601 User can just update each country 1 by 1",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5369000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-states\"",
-                  "offset": 18
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "get all states as De-Serialization",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T00:07:10.739Z",
-        "line": 9,
-        "name": "TC_2201 Read all states you created and validate them from your data set",
-        "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2201-read-all-states-you-created-and-validate-them-from-your-data-set",
+        "id": "us-26-system-should-allow-to-update-countries-using-api-end-point;tc-2601-user-can-just-update-each-country-1-by-1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "passed"
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Use api end point  \"https://www.gmibank.com/api/tp-countries/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User finds out the size of the country list",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User update the countries",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
             "line": 10,
-            "name": "find out how many states are and verify",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.find_out_how_many_states_are_and_verify()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 644000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Verify first state is \"Ile-de-France\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ile-de-France\"",
-                  "offset": 22
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_first_state_is(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3133000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Verify id of Yozgat is (integer) \"19244\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"19244\"",
-                  "offset": 33
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_id_of_Yozgat_is_integer(java.lang.String)"
-            },
-            "keyword": "And "
+            "name": "User verify if the countries were updated",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_22"
+            "name": "@US_26"
           },
           {
             "name": "@SmokeTest"
           },
           {
-            "name": "@TC_2001"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "TC_22 and TC_2002 background",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4975000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-states\"",
-                  "offset": 18
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "get all states as De-Serialization",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T00:07:20.124Z",
-        "line": 20,
-        "name": "TC_2202 read all states you created and validate them 1 by 1",
-        "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "verify list of the states contains Centre",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Centre()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_22"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_2002"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "TC_22 and TC_2002 background",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4985000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-states\"",
-                  "offset": 18
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "get all states as De-Serialization",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T00:07:25.134Z",
-        "line": 21,
-        "name": "TC_2202 read all states you created and validate them 1 by 1",
-        "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "verify list of the states contains Auvergne",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Auvergne()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_22"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_2002"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "TC_22 and TC_2002 background",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4971000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-states\"",
-                  "offset": 18
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "get all states as De-Serialization",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T00:07:30.166Z",
-        "line": 22,
-        "name": "TC_2202 read all states you created and validate them 1 by 1",
-        "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "verify list of the states contains Koblenz",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Koblenz()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_22"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_2002"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "TC_22 and TC_2002 background",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4995000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-states\"",
-                  "offset": 18
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "get all states as De-Serialization",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T00:07:35.162Z",
-        "line": 23,
-        "name": "TC_2202 read all states you created and validate them 1 by 1",
-        "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "verify list of the states contains Virginia",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Virginia()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_22"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@TC_2002"
+            "name": "@TC_2601"
           }
         ]
       }
     ],
-    "name": "System should allow to read states using api end point",
-    "description": "",
-    "id": "system-should-allow-to-read-states-using-api-end-point",
+    "name": "US_26 System should allow to update countries using api end point",
+    "description": "          \"https://www.gmibank.com/api/tp-countries\"",
+    "id": "us-26-system-should-allow-to-update-countries-using-api-end-point",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us_22.feature",
+    "uri": "file:src/test/resources/features/us_26.feature",
     "tags": [
       {
-        "name": "@US_22",
+        "name": "@US_26",
         "type": "Tag",
         "location": {
           "line": 1,
