@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="38" time="479.93">
-<testcase classname="US17 tests" name="tc_1701 USER activation by ADMIN" time="49.039">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="43" time="428.366">
+<testcase classname="US_17 tests" name="tc_1701 USER activation by ADMIN" time="39.12">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -15,7 +15,7 @@ Then admin reactivate USER..................................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1702 USER information verifying by ADMIN" time="13.668">
+<testcase classname="US_17 tests" name="tc_1702 USER information verifying by ADMIN" time="8.116">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -29,7 +29,7 @@ Then admin assert all information...........................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1703 EMPLOYEE activation by ADMIN" time="31.765">
+<testcase classname="US_17 tests" name="tc_1703 EMPLOYEE activation by ADMIN" time="29.276">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -44,7 +44,7 @@ Then admin reactivate EMPLOYEE..............................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1704 EMPLOYEE verifying by ADMIN" time="7.63">
+<testcase classname="US_17 tests" name="tc_1704 EMPLOYEE verifying by ADMIN" time="5.832">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -58,7 +58,7 @@ Then admin assert all information...........................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1705 MANAGER activation by ADMIN" time="34.976">
+<testcase classname="US_17 tests" name="tc_1705 MANAGER activation by ADMIN" time="24.972">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -73,7 +73,7 @@ Then admin reactivate MANAGER...............................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1706 MANAGER verifying by ADMIN" time="11.11">
+<testcase classname="US_17 tests" name="tc_1706 MANAGER verifying by ADMIN" time="6.785">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -87,7 +87,7 @@ Then admin assert all information...........................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1707 ADMIN activation by ADMIN" time="33.009">
+<testcase classname="US_17 tests" name="tc_1707 ADMIN activation by ADMIN" time="26.153">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -102,7 +102,7 @@ Then admin reactivate USER..................................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1708 ADMIN verifying by ADMIN" time="13.801">
+<testcase classname="US_17 tests" name="tc_1708 ADMIN verifying by ADMIN" time="6.803">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -116,7 +116,7 @@ Then admin assert all information...........................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1709 CUSTOMER activation by ADMIN" time="37.204">
+<testcase classname="US_17 tests" name="tc_1709 CUSTOMER activation by ADMIN" time="24.912">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -131,7 +131,7 @@ Then admin reactivate USER..................................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1710 CUSTOMER verifying by CUSTOMER" time="14.327">
+<testcase classname="US_17 tests" name="tc_1710 CUSTOMER verifying by CUSTOMER" time="7.007">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -145,7 +145,7 @@ Then admin assert all information...........................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1711 ADMIN creation and deletion by ADMIN" time="23.582">
+<testcase classname="US_17 tests" name="tc_1711 ADMIN creation and deletion by ADMIN" time="15.427">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -161,7 +161,7 @@ Then admin asserts new profile is deleted...................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1712 EMPLOYEE creation and deletion by ADMIN" time="22.347">
+<testcase classname="US_17 tests" name="tc_1712 EMPLOYEE creation and deletion by ADMIN" time="21.933">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -177,7 +177,7 @@ Then admin asserts new profile is deleted...................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1713 MANAGER creation and deletion by ADMIN" time="27.344">
+<testcase classname="US_17 tests" name="tc_1713 MANAGER creation and deletion by ADMIN" time="20.227">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -193,7 +193,7 @@ Then admin asserts new profile is deleted...................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1714 USER creation and deletion by ADMIN" time="25.847">
+<testcase classname="US_17 tests" name="tc_1714 USER creation and deletion by ADMIN" time="20.463">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -209,7 +209,7 @@ Then admin asserts new profile is deleted...................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US17 tests" name="tc_1715 CUSTOMER creation and deletion by ADMIN" time="23.625">
+<testcase classname="US_17 tests" name="tc_1715 CUSTOMER creation and deletion by ADMIN" time="23.26">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -225,7 +225,7 @@ Then admin asserts new profile is deleted...................................pass
 Then admin signOut..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US18 tests" name="tc1801 user should show the account information of the customer First Name" time="22.911">
+<testcase classname="US_18 tests" name="tc1801 user should show the account information of the customer First Name" time="14.711">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -238,7 +238,7 @@ Given ADMIN can select First Name, Last Name, Middle Initial, Email, Mobile Phon
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US18 tests" name="tc1802 There should be a View option where customer can be navigated to all customer info and see  edit button there" time="6.84">
+<testcase classname="US_18 tests" name="tc1802 There should be a View option where customer can be navigated to all customer info and see  edit button there" time="8.749">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -251,7 +251,7 @@ Given ADMIN should show Edit Button and verify valid........................pass
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US18 tests" name="There should be an Edit button where all customer information" time="16.513">
+<testcase classname="US_18 tests" name="There should be an Edit button where all customer information" time="10.505">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -266,7 +266,7 @@ Then ADMIN verifies translation not found[gmiBankBackendApp.tPCustomer.updated.p
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US18 tests" name="The Edit portal can allow user to create or update the user info" time="13.578">
+<testcase classname="US_18 tests" name="The Edit portal can allow user to create or update the user info" time="13.151">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -281,7 +281,7 @@ Then ADMIN  verifies translations not found[gmiBankBackendApp.tPCustomer.updated
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US18 tests" name="User can delete a customer, but seeing a message if the user is" time="17.202">
+<testcase classname="US_18 tests" name="User can delete a customer, but seeing a message if the user is" time="13.564">
 <system-out><![CDATA[Given user enters gmibank homepage..........................................passed
 Then user clicks userEntry icon.............................................passed
 Then user clicks signIn link................................................passed
@@ -296,38 +296,101 @@ Then ADMIN  verifies translat not found[gmiBankBackendApp.tPCustomer.updated.pas
 Then user signOut...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="system should allow to read all customers info using api end point" name="TC_2001 read all customers you created and validate them from your data set" time="8.945">
-<failure message="expected:&lt;[321-54-9800]&gt; but was:&lt;[888-88-8888]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given use api end point  "https://www.gmibank.com/api/tp-customers".........passed
+<testcase classname="US_19 tests" name="tc1901 admin enter Description" time="7.18">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "pader49"...................................passed
+Then user enters admin password "pader49."..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given admin click Description...............................................passed
+And admin click Balance.....................................................passed
+And admin sees required message.............................................passed
+And admin signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_19 tests" name="tc1902 should provide a balance as a Dollar" time="6.487">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "pader49"...................................passed
+Then user enters admin password "pader49."..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given admin create as a dollar account "200" and verify.....................passed
+And admin signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_19 tests" name="tc1903 can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING" time="19.333">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "pader49"...................................passed
+Then user enters admin password "pader49."..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given admin select an account as CHECKING and verify........................passed
+And admin select an account as a SAVING and verify..........................passed
+And admin select an account as a CREDIT_CARD and verify.....................passed
+And admin select an account as a INVESTING and verify.......................passed
+And admin signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_19 tests" name="tc1904 should account status defined as ACTIVE, SUESPENDED or CLOSED" time="13.205">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "pader49"...................................passed
+Then user enters admin password "pader49."..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given admin click Account Status Type defined as a ACTIVE and verify........passed
+And admin click Account Status Type defined as a  SUESPENDED and verify.....passed
+And admin click Account Status Type defined as a  CLOSED and verify.........passed
+And admin signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_19 tests" name="tc1905 can select an employee from the drop-down" time="6.472">
+<system-out><![CDATA[Given user enters gmibank homepage..........................................passed
+Then user clicks userEntry icon.............................................passed
+Then user clicks signIn link................................................passed
+Then user enters admin username "pader49"...................................passed
+Then user enters admin password "pader49."..................................passed
+Then user clicks signIn button..............................................passed
+And user clicks myOperations link...........................................passed
+And user clicks manageAccounts link.........................................passed
+And user clicks createNewAccount link.......................................passed
+Given admin select Employee and verify the selectet Employee................passed
+And admin signOut...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_20 system should allow to read all customers info using api end point" name="TC_2001 read all customers you created and validate them from your data set" time="7.832">
+<system-out><![CDATA[Given use api end point  "https://www.gmibank.com/api/tp-customers".........passed
 And get all customers' information as De-Serialization......................passed
 And find out how many customers are and verify..............................passed
 And get all the information of the seventh customer.........................passed
-And verify seventh customers "ssn" is "888-88-8888" and "state" is "New Jersey".failed
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[321-54-9800]> but was:<[888-88-8888]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at gmibank.stepdefinitions.US_20_Step_Definitions.verifySeventhCustomersIsAndIs(US_20_Step_Definitions.java:60)
-	at ✽.verify seventh customers "ssn" is "888-88-8888" and "state" is "New Jersey"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_20.feature:12)
-]]></failure>
+And verify seventh customers "ssn" is "321-54-9800" and "state" is "".......passed
+]]></system-out>
 </testcase>
-<testcase classname="system should allow to read all customers info using api end point" name="TC_2002 read all customers you created and validate them 1 by 1" time="0.782">
-<failure message="expected:&lt;[John]&gt; but was:&lt;[emre]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given use api end point  "https://www.gmibank.com/api/tp-customers".........passed
+<testcase classname="US_20 system should allow to read all customers info using api end point" name="TC_2002 read all customers you created and validate them 1 by 1" time="5.684">
+<system-out><![CDATA[Given use api end point  "https://www.gmibank.com/api/tp-customers".........passed
 And get all customers' information as De-Serialization......................passed
-And verify first customer's "firstName" "emre"..............................failed
-And verify second customer's "lastName" "John"..............................skipped
-And verify fifth customer's country "GERMANY"...............................skipped
-And get last customer's id and verify.......................................skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[John]> but was:<[emre]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at gmibank.stepdefinitions.US_20_Step_Definitions.verifyFirstCustomerS(US_20_Step_Definitions.java:70)
-	at ✽.verify first customer's "firstName" "emre"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_20.feature:17)
-]]></failure>
+And verify first customer's "firstName" "John"..............................passed
+And verify second customer's "lastName" "Stone".............................passed
+And verify fifth customer's country "UNITED STATES".........................passed
+And get last customer's id and verify.......................................passed
+]]></system-out>
 </testcase>
-<testcase classname="system should allow to read all customers info using api end point" name="TC_2101 read all countries you created and validate them from your data set" time="0.922">
+<testcase classname="US_21 system should allow to read all customers info using api end point" name="TC_2101 read all countries you created and validate them from your data set" time="0.904">
 <system-out><![CDATA[Given use this api end point  "https://www.gmibank.com/api/tp-countries"....passed
 And get all countries information as De-Serialization.......................passed
 And find out how many countries are and verify..............................passed
@@ -335,62 +398,53 @@ And get all the information of the eighth contries..........................pass
 And verify eighth Country "id" is "18902" and "name" is "Hollanda"..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="system should allow to read all customers info using api end point" name="TC_2102 read all countries you created and validate them 1 by 1" time="0.74">
+<testcase classname="US_21 system should allow to read all customers info using api end point" name="TC_2102 read all countries you created and validate them 1 by 1" time="0.753">
 <system-out><![CDATA[Given use this api end point  "https://www.gmibank.com/api/tp-countries"....passed
 And get all countries information as De-Serialization.......................passed
 And verify all countries you created and validate them one by one...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to read states using api end point" name="TC_2201 Read all states you created and validate them from your data set" time="3.323">
+<testcase classname="US_22 System should allow to read states using api end point" name="TC_2201 Read all states you created and validate them from your data set" time="1.567">
 <system-out><![CDATA[Given Use api end point "https://www.gmibank.com/api/tp-states".............passed
 And get all states as De-Serialization......................................passed
 And find out how many states................................................passed
 And Verify id of Koblenz is (integer) "19241"...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1" time="0.74">
+<testcase classname="US_22 System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1" time="0.703">
 <system-out><![CDATA[Given Use api end point "https://www.gmibank.com/api/tp-states".............passed
 And get all states as De-Serialization......................................passed
 And verify list of the states contains Centre...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1 2" time="0.654">
+<testcase classname="US_22 System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1 2" time="0.625">
 <system-out><![CDATA[Given Use api end point "https://www.gmibank.com/api/tp-states".............passed
 And get all states as De-Serialization......................................passed
 And verify list of the states contains Auvergne.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1 3" time="0.676">
+<testcase classname="US_22 System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1 3" time="0.694">
 <system-out><![CDATA[Given Use api end point "https://www.gmibank.com/api/tp-states".............passed
 And get all states as De-Serialization......................................passed
 And verify list of the states contains Koblenz..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1 4" time="0.608">
+<testcase classname="US_22 System should allow to read states using api end point" name="TC_2202 read all states you created and validate them 1 by 1 4" time="0.648">
 <system-out><![CDATA[Given Use api end point "https://www.gmibank.com/api/tp-states".............passed
 And get all states as De-Serialization......................................passed
 And verify list of the states contains Virginia.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="system should allow to read all Applicants using api end point" name="TC_2301 read all countries you created and validate them from your data set" time="1.599">
-<failure message="expected:&lt;829&gt; but was:&lt;807&gt;" type="java.lang.AssertionError"><![CDATA[Given us_o23 use api end point  "https://www.gmibank.com/api/tp-account-registrations".passed
+<testcase classname="US_23 system should allow to read all Applicants using api end point" name="TC_2301 read all countries you created and validate them from your data set" time="1.959">
+<system-out><![CDATA[Given us_o23 use api end point  "https://www.gmibank.com/api/tp-account-registrations".passed
 And get all applicants' information.........................................passed
 Given verify that the status code is 200....................................passed
-And find out 807 applicants are and verify..................................failed
-And Find the number of those whose id is less than 5000 and verify the number.skipped
-And verify if there are any applicants named "Ali"..........................skipped
-
-StackTrace:
-java.lang.AssertionError: expected:<829> but was:<807>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:647)
-	at org.junit.Assert.assertEquals(Assert.java:633)
-	at gmibank.stepdefinitions.US_23_Step_Definitions.findOutApplicantsAreAndVerify(US_23_Step_Definitions.java:57)
-	at ✽.find out 807 applicants are and verify(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_23.feature:11)
-]]></failure>
+And find out 829 applicants are and verify..................................passed
+And Find the number of those whose id is less than 5000 and verify the number.passed
+And verify if there are any applicants named "Ali"..........................passed
+]]></system-out>
 </testcase>
-<testcase classname="system should allow to read all Applicants using api end point" name="TC_2302 read all customers you created and validate them 1 by 1" time="2.13">
+<testcase classname="US_23 system should allow to read all Applicants using api end point" name="TC_2302 read all customers you created and validate them 1 by 1" time="2.117">
 <system-out><![CDATA[Given us_o23 use api end point  "https://www.gmibank.com/api/tp-account-registrations".passed
 And get all applicants' information.........................................passed
 Given one get seventh applicants id 1605 and verify.........................passed
@@ -405,7 +459,7 @@ And nine get seventh applicants "email": "emailexample@gmail.com" and verify.pas
 And ten get seventh applicants "createDate": "2020-10-17T22:57:07.690Z" and verify.passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to create new states using api endpoint" name="User can Just create each state 1 by 1 / TC_2401 before POST request" time="0.883">
+<testcase classname="US_24 System should allow to create new states using api endpoint" name="User can Just create each state 1 by 1 / TC_2401 before POST request" time="1.057">
 <system-out><![CDATA[Given user enter REST API endpoint as "http://gmibank.com/api/tp-states"....passed
 And Before post request should be HTTP Status Code 200......................passed
 And Before post request should be response format "application/json"........passed
@@ -413,35 +467,35 @@ And Before post request user finds out the size of the state list...........pass
 Then User sends a POST request to REST API endpoint "http://gmibank.com/api/tp-states" as "Russelsheim".passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to create new states using api endpoint" name="User can Just create each state 1 by 1 / TC_2401 after POST request" time="1.06">
+<testcase classname="US_24 System should allow to create new states using api endpoint" name="User can Just create each state 1 by 1 / TC_2401 after POST request" time="0.769">
 <system-out><![CDATA[Given After creation user sends a GET request to REST API endpoint "http://gmibank.com/api/tp-states".passed
 And After state creation HTTP Status Code should be 200.....................passed
 And After creation user verifies the created "Russelsheim"..................passed
 And After the creation request, the user sees the size of the status list...passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_25 System should allow to create new countries using api end point" name="TC_2501 User can just create each country 1 by 1 / TC_2501 before POST request" time="1.537">
+<testcase classname="US_25 System should allow to create new countries using api end point" name="TC_2501 User can just create each country 1 by 1 / TC_2501 before POST request" time="1.445">
 <system-out><![CDATA[Given User enter REST API Endpoint as "https://www.gmibank.com/api/tp-countries/".passed
 And Before post request HTTP Status Code should be "200"....................passed
 And Before post request response format should be "application/json"........passed
 And Before post request user finds out the size of the country list.........passed
-Then User send a POST request to REST API endpoint "https://www.gmibank.com/api/tp-countries/" as "Scottland".passed
+Then User send a POST request to REST API endpoint "https://www.gmibank.com/api/tp-countries/" as "Belgium".passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_25 System should allow to create new countries using api end point" name="TC_2502 User can read countries 1 by 1 / TC_2502 after POST request" time="0.711">
+<testcase classname="US_25 System should allow to create new countries using api end point" name="TC_2502 User can read countries 1 by 1 / TC_2502 after POST request" time="0.651">
 <system-out><![CDATA[Given After creation send a GET request to REST API end point "https://www.gmibank.com/api/tp-countries/".passed
-And After creation user verifies the created country "Scottland"............passed
+And After creation user verifies the created country "Belgium"..............passed
 And After creation HTTP Status Code should be "200".........................passed
 Then After creation user finds out the size of the country list.............passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_26 System should allow to update countries using api end point" name="TC_2601 User can just update each country 1 by 1" time="1.283">
+<testcase classname="US_26 System should allow to update countries using api end point" name="TC_2601 User can just update each country 1 by 1" time="1.262">
 <system-out><![CDATA[Given Use api end point  "https://www.gmibank.com/api/tp-countries/"........passed
 And User finds out the size of the country list.............................passed
 Then User send a Put request endpoint "https://www.gmibank.com/api/tp-countries/25562" as "Van".passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2701 before DELETE request" time="0.747">
+<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2701 before DELETE request" time="0.668">
 <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[Given I send a GET request to REST API end point  "https://www.gmibank.com/api/tp-states/1801".passed
 Then Before delete request HTTP Status Code should be "200".................failed
 Then Before delete request response format should be "application/json".....skipped
@@ -492,7 +546,7 @@ Expected status code <200> but was <404>.
 	at ✽.Before delete request HTTP Status Code should be "200"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:7)
 ]]></failure>
 </testcase>
-<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2702 check DELETE request" time="0.638">
+<testcase classname="US_27 System should allow to delete states using api end point" name="TC_2702 check DELETE request" time="0.666">
 <failure message="expected [500] but found [204]" type="java.lang.AssertionError"><![CDATA[Given I send a DELETE request to REST API end point  "https://www.gmibank.com/api/tp-states/1801".passed
 Then After delete request HTTP Status Code should be "204"..................failed
 Then After delete request response format should be "application/json"......skipped

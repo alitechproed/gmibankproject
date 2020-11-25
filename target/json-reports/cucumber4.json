@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17511000000,
+              "duration": 13421000000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 282000000,
+              "duration": 304000000,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1420000000,
+              "duration": 1456000000,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 418000000,
+              "duration": 569000000,
               "status": "passed"
             },
             "line": 8,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 335000000,
+              "duration": 426000000,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 229000000,
+              "duration": 195000000,
               "status": "passed"
             },
             "line": 10,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 913000000,
+              "duration": 1125000000,
               "status": "passed"
             },
             "line": 11,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 253000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 12,
@@ -120,17 +120,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:16:29.720Z",
+        "start_timestamp": "2020-11-25T22:17:24.505Z",
         "line": 15,
         "name": "tc_1701 USER activation by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1701-user-activation-by-admin",
+        "id": "us-17-tests;tc-1701-user-activation-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12146000000,
+              "duration": 7991000000,
               "status": "passed"
             },
             "line": 16,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 6397000000,
+              "duration": 6016000000,
               "status": "passed"
             },
             "line": 17,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 7093000000,
+              "duration": 6748000000,
               "status": "passed"
             },
             "line": 18,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 1584000000,
+              "duration": 479000000,
               "status": "passed"
             },
             "line": 19,
@@ -198,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5352000000,
+              "duration": 2393000000,
               "status": "passed"
             },
             "line": 5,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 824000000,
+              "duration": 307000000,
               "status": "passed"
             },
             "line": 6,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 1480000000,
+              "duration": 1301000000,
               "status": "passed"
             },
             "line": 7,
@@ -234,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 632000000,
+              "duration": 333000000,
               "status": "passed"
             },
             "line": 8,
@@ -252,7 +252,7 @@
           },
           {
             "result": {
-              "duration": 676000000,
+              "duration": 745000000,
               "status": "passed"
             },
             "line": 9,
@@ -270,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 283000000,
+              "duration": 184000000,
               "status": "passed"
             },
             "line": 10,
@@ -282,7 +282,7 @@
           },
           {
             "result": {
-              "duration": 1208000000,
+              "duration": 780000000,
               "status": "passed"
             },
             "line": 11,
@@ -294,7 +294,7 @@
           },
           {
             "result": {
-              "duration": 456000000,
+              "duration": 408000000,
               "status": "passed"
             },
             "line": 12,
@@ -307,17 +307,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:17:18.928Z",
+        "start_timestamp": "2020-11-25T22:18:03.822Z",
         "line": 22,
         "name": "tc_1702 USER information verifying by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1702-user-information-verifying-by-admin",
+        "id": "us-17-tests;tc-1702-user-information-verifying-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1993000000,
+              "duration": 908000000,
               "status": "passed"
             },
             "line": 23,
@@ -329,7 +329,7 @@
           },
           {
             "result": {
-              "duration": 246000000,
+              "duration": 184000000,
               "status": "passed"
             },
             "line": 24,
@@ -341,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 493000000,
+              "duration": 558000000,
               "status": "passed"
             },
             "line": 25,
@@ -373,7 +373,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2589000000,
+              "duration": 2021000000,
               "status": "passed"
             },
             "line": 5,
@@ -385,7 +385,7 @@
           },
           {
             "result": {
-              "duration": 163000000,
+              "duration": 207000000,
               "status": "passed"
             },
             "line": 6,
@@ -397,7 +397,7 @@
           },
           {
             "result": {
-              "duration": 1278000000,
+              "duration": 1256000000,
               "status": "passed"
             },
             "line": 7,
@@ -409,7 +409,7 @@
           },
           {
             "result": {
-              "duration": 164000000,
+              "duration": 221000000,
               "status": "passed"
             },
             "line": 8,
@@ -427,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 378000000,
+              "duration": 698000000,
               "status": "passed"
             },
             "line": 9,
@@ -445,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 228000000,
+              "duration": 255000000,
               "status": "passed"
             },
             "line": 10,
@@ -457,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 744000000,
+              "duration": 1047000000,
               "status": "passed"
             },
             "line": 11,
@@ -469,7 +469,7 @@
           },
           {
             "result": {
-              "duration": 204000000,
+              "duration": 216000000,
               "status": "passed"
             },
             "line": 12,
@@ -482,17 +482,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:17:32.703Z",
+        "start_timestamp": "2020-11-25T22:18:12.006Z",
         "line": 28,
         "name": "tc_1703 EMPLOYEE activation by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1703-employee-activation-by-admin",
+        "id": "us-17-tests;tc-1703-employee-activation-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6052000000,
+              "duration": 6835000000,
               "status": "passed"
             },
             "line": 29,
@@ -504,7 +504,7 @@
           },
           {
             "result": {
-              "duration": 11769000000,
+              "duration": 8493000000,
               "status": "passed"
             },
             "line": 30,
@@ -516,7 +516,7 @@
           },
           {
             "result": {
-              "duration": 7344000000,
+              "duration": 7417000000,
               "status": "passed"
             },
             "line": 31,
@@ -528,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 839000000,
+              "duration": 595000000,
               "status": "passed"
             },
             "line": 32,
@@ -560,7 +560,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2626000000,
+              "duration": 1419000000,
               "status": "passed"
             },
             "line": 5,
@@ -572,7 +572,7 @@
           },
           {
             "result": {
-              "duration": 259000000,
+              "duration": 266000000,
               "status": "passed"
             },
             "line": 6,
@@ -584,7 +584,7 @@
           },
           {
             "result": {
-              "duration": 1234000000,
+              "duration": 1266000000,
               "status": "passed"
             },
             "line": 7,
@@ -596,7 +596,7 @@
           },
           {
             "result": {
-              "duration": 217000000,
+              "duration": 158000000,
               "status": "passed"
             },
             "line": 8,
@@ -614,7 +614,7 @@
           },
           {
             "result": {
-              "duration": 475000000,
+              "duration": 434000000,
               "status": "passed"
             },
             "line": 9,
@@ -632,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 136000000,
+              "duration": 193000000,
               "status": "passed"
             },
             "line": 10,
@@ -644,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 734000000,
+              "duration": 634000000,
               "status": "passed"
             },
             "line": 11,
@@ -656,7 +656,7 @@
           },
           {
             "result": {
-              "duration": 315000000,
+              "duration": 277000000,
               "status": "passed"
             },
             "line": 12,
@@ -669,17 +669,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:18:04.534Z",
+        "start_timestamp": "2020-11-25T22:18:41.359Z",
         "line": 35,
         "name": "tc_1704 EMPLOYEE verifying by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1704-employee-verifying-by-admin",
+        "id": "us-17-tests;tc-1704-employee-verifying-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 899000000,
+              "duration": 782000000,
               "status": "passed"
             },
             "line": 36,
@@ -691,7 +691,7 @@
           },
           {
             "result": {
-              "duration": 178000000,
+              "duration": 100000000,
               "status": "passed"
             },
             "line": 37,
@@ -703,7 +703,7 @@
           },
           {
             "result": {
-              "duration": 535000000,
+              "duration": 285000000,
               "status": "passed"
             },
             "line": 38,
@@ -735,7 +735,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1975000000,
+              "duration": 1573000000,
               "status": "passed"
             },
             "line": 5,
@@ -747,7 +747,7 @@
           },
           {
             "result": {
-              "duration": 214000000,
+              "duration": 125000000,
               "status": "passed"
             },
             "line": 6,
@@ -759,7 +759,7 @@
           },
           {
             "result": {
-              "duration": 1370000000,
+              "duration": 1202000000,
               "status": "passed"
             },
             "line": 7,
@@ -771,7 +771,7 @@
           },
           {
             "result": {
-              "duration": 323000000,
+              "duration": 157000000,
               "status": "passed"
             },
             "line": 8,
@@ -789,7 +789,7 @@
           },
           {
             "result": {
-              "duration": 441000000,
+              "duration": 471000000,
               "status": "passed"
             },
             "line": 9,
@@ -807,7 +807,7 @@
           },
           {
             "result": {
-              "duration": 217000000,
+              "duration": 207000000,
               "status": "passed"
             },
             "line": 10,
@@ -819,7 +819,7 @@
           },
           {
             "result": {
-              "duration": 800000000,
+              "duration": 762000000,
               "status": "passed"
             },
             "line": 11,
@@ -831,7 +831,7 @@
           },
           {
             "result": {
-              "duration": 259000000,
+              "duration": 227000000,
               "status": "passed"
             },
             "line": 12,
@@ -844,17 +844,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:18:12.228Z",
+        "start_timestamp": "2020-11-25T22:18:47.246Z",
         "line": 41,
         "name": "tc_1705 MANAGER activation by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1705-manager-activation-by-admin",
+        "id": "us-17-tests;tc-1705-manager-activation-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10906000000,
+              "duration": 5746000000,
               "status": "passed"
             },
             "line": 42,
@@ -866,7 +866,7 @@
           },
           {
             "result": {
-              "duration": 10020000000,
+              "duration": 6983000000,
               "status": "passed"
             },
             "line": 43,
@@ -878,7 +878,7 @@
           },
           {
             "result": {
-              "duration": 7666000000,
+              "duration": 7047000000,
               "status": "passed"
             },
             "line": 44,
@@ -890,7 +890,7 @@
           },
           {
             "result": {
-              "duration": 765000000,
+              "duration": 460000000,
               "status": "passed"
             },
             "line": 45,
@@ -922,7 +922,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3791000000,
+              "duration": 1697000000,
               "status": "passed"
             },
             "line": 5,
@@ -934,7 +934,7 @@
           },
           {
             "result": {
-              "duration": 450000000,
+              "duration": 284000000,
               "status": "passed"
             },
             "line": 6,
@@ -946,7 +946,7 @@
           },
           {
             "result": {
-              "duration": 1274000000,
+              "duration": 1263000000,
               "status": "passed"
             },
             "line": 7,
@@ -958,7 +958,7 @@
           },
           {
             "result": {
-              "duration": 193000000,
+              "duration": 182000000,
               "status": "passed"
             },
             "line": 8,
@@ -976,7 +976,7 @@
           },
           {
             "result": {
-              "duration": 693000000,
+              "duration": 665000000,
               "status": "passed"
             },
             "line": 9,
@@ -994,7 +994,7 @@
           },
           {
             "result": {
-              "duration": 200000000,
+              "duration": 185000000,
               "status": "passed"
             },
             "line": 10,
@@ -1006,7 +1006,7 @@
           },
           {
             "result": {
-              "duration": 792000000,
+              "duration": 912000000,
               "status": "passed"
             },
             "line": 11,
@@ -1018,7 +1018,7 @@
           },
           {
             "result": {
-              "duration": 287000000,
+              "duration": 207000000,
               "status": "passed"
             },
             "line": 12,
@@ -1031,17 +1031,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:18:47.272Z",
+        "start_timestamp": "2020-11-25T22:19:12.276Z",
         "line": 48,
         "name": "tc_1706 MANAGER verifying by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1706-manager-verifying-by-admin",
+        "id": "us-17-tests;tc-1706-manager-verifying-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1749000000,
+              "duration": 882000000,
               "status": "passed"
             },
             "line": 49,
@@ -1053,7 +1053,7 @@
           },
           {
             "result": {
-              "duration": 465000000,
+              "duration": 90000000,
               "status": "passed"
             },
             "line": 50,
@@ -1065,7 +1065,7 @@
           },
           {
             "result": {
-              "duration": 1193000000,
+              "duration": 405000000,
               "status": "passed"
             },
             "line": 51,
@@ -1097,7 +1097,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3804000000,
+              "duration": 1297000000,
               "status": "passed"
             },
             "line": 5,
@@ -1109,7 +1109,7 @@
           },
           {
             "result": {
-              "duration": 372000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 6,
@@ -1121,7 +1121,7 @@
           },
           {
             "result": {
-              "duration": 1323000000,
+              "duration": 1227000000,
               "status": "passed"
             },
             "line": 7,
@@ -1133,7 +1133,7 @@
           },
           {
             "result": {
-              "duration": 828000000,
+              "duration": 157000000,
               "status": "passed"
             },
             "line": 8,
@@ -1151,7 +1151,7 @@
           },
           {
             "result": {
-              "duration": 330000000,
+              "duration": 772000000,
               "status": "passed"
             },
             "line": 9,
@@ -1169,7 +1169,7 @@
           },
           {
             "result": {
-              "duration": 369000000,
+              "duration": 240000000,
               "status": "passed"
             },
             "line": 10,
@@ -1181,7 +1181,7 @@
           },
           {
             "result": {
-              "duration": 1350000000,
+              "duration": 711000000,
               "status": "passed"
             },
             "line": 11,
@@ -1193,7 +1193,7 @@
           },
           {
             "result": {
-              "duration": 274000000,
+              "duration": 186000000,
               "status": "passed"
             },
             "line": 12,
@@ -1206,17 +1206,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:18:58.448Z",
+        "start_timestamp": "2020-11-25T22:19:19.118Z",
         "line": 54,
         "name": "tc_1707 ADMIN activation by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1707-admin-activation-by-admin",
+        "id": "us-17-tests;tc-1707-admin-activation-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6997000000,
+              "duration": 6894000000,
               "status": "passed"
             },
             "line": 55,
@@ -1228,7 +1228,7 @@
           },
           {
             "result": {
-              "duration": 8686000000,
+              "duration": 7296000000,
               "status": "passed"
             },
             "line": 56,
@@ -1240,7 +1240,7 @@
           },
           {
             "result": {
-              "duration": 7497000000,
+              "duration": 6805000000,
               "status": "passed"
             },
             "line": 57,
@@ -1252,7 +1252,7 @@
           },
           {
             "result": {
-              "duration": 1154000000,
+              "duration": 364000000,
               "status": "passed"
             },
             "line": 58,
@@ -1284,7 +1284,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5117000000,
+              "duration": 1573000000,
               "status": "passed"
             },
             "line": 5,
@@ -1296,7 +1296,7 @@
           },
           {
             "result": {
-              "duration": 563000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 6,
@@ -1308,7 +1308,7 @@
           },
           {
             "result": {
-              "duration": 1413000000,
+              "duration": 1277000000,
               "status": "passed"
             },
             "line": 7,
@@ -1320,7 +1320,7 @@
           },
           {
             "result": {
-              "duration": 629000000,
+              "duration": 153000000,
               "status": "passed"
             },
             "line": 8,
@@ -1338,7 +1338,7 @@
           },
           {
             "result": {
-              "duration": 980000000,
+              "duration": 623000000,
               "status": "passed"
             },
             "line": 9,
@@ -1356,7 +1356,7 @@
           },
           {
             "result": {
-              "duration": 365000000,
+              "duration": 150000000,
               "status": "passed"
             },
             "line": 10,
@@ -1368,7 +1368,7 @@
           },
           {
             "result": {
-              "duration": 1214000000,
+              "duration": 853000000,
               "status": "passed"
             },
             "line": 11,
@@ -1380,7 +1380,7 @@
           },
           {
             "result": {
-              "duration": 581000000,
+              "duration": 266000000,
               "status": "passed"
             },
             "line": 12,
@@ -1393,17 +1393,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:19:31.527Z",
+        "start_timestamp": "2020-11-25T22:19:45.328Z",
         "line": 61,
         "name": "tc_1708 ADMIN verifying by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1708-admin-verifying-by-admin",
+        "id": "us-17-tests;tc-1708-admin-verifying-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1657000000,
+              "duration": 823000000,
               "status": "passed"
             },
             "line": 62,
@@ -1415,7 +1415,7 @@
           },
           {
             "result": {
-              "duration": 425000000,
+              "duration": 119000000,
               "status": "passed"
             },
             "line": 63,
@@ -1427,7 +1427,7 @@
           },
           {
             "result": {
-              "duration": 838000000,
+              "duration": 521000000,
               "status": "passed"
             },
             "line": 64,
@@ -1459,7 +1459,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3897000000,
+              "duration": 1836000000,
               "status": "passed"
             },
             "line": 5,
@@ -1471,7 +1471,7 @@
           },
           {
             "result": {
-              "duration": 432000000,
+              "duration": 292000000,
               "status": "passed"
             },
             "line": 6,
@@ -1483,7 +1483,7 @@
           },
           {
             "result": {
-              "duration": 1347000000,
+              "duration": 1413000000,
               "status": "passed"
             },
             "line": 7,
@@ -1495,7 +1495,7 @@
           },
           {
             "result": {
-              "duration": 801000000,
+              "duration": 163000000,
               "status": "passed"
             },
             "line": 8,
@@ -1513,7 +1513,7 @@
           },
           {
             "result": {
-              "duration": 398000000,
+              "duration": 574000000,
               "status": "passed"
             },
             "line": 9,
@@ -1531,7 +1531,7 @@
           },
           {
             "result": {
-              "duration": 247000000,
+              "duration": 201000000,
               "status": "passed"
             },
             "line": 10,
@@ -1543,7 +1543,7 @@
           },
           {
             "result": {
-              "duration": 734000000,
+              "duration": 788000000,
               "status": "passed"
             },
             "line": 11,
@@ -1555,7 +1555,7 @@
           },
           {
             "result": {
-              "duration": 487000000,
+              "duration": 262000000,
               "status": "passed"
             },
             "line": 12,
@@ -1568,17 +1568,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:19:45.386Z",
+        "start_timestamp": "2020-11-25T22:19:52.178Z",
         "line": 67,
         "name": "tc_1709 CUSTOMER activation by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1709-customer-activation-by-admin",
+        "id": "us-17-tests;tc-1709-customer-activation-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6796000000,
+              "duration": 5735000000,
               "status": "passed"
             },
             "line": 68,
@@ -1590,7 +1590,7 @@
           },
           {
             "result": {
-              "duration": 9239000000,
+              "duration": 5529000000,
               "status": "passed"
             },
             "line": 69,
@@ -1602,7 +1602,7 @@
           },
           {
             "result": {
-              "duration": 10927000000,
+              "duration": 7219000000,
               "status": "passed"
             },
             "line": 70,
@@ -1614,7 +1614,7 @@
           },
           {
             "result": {
-              "duration": 1880000000,
+              "duration": 886000000,
               "status": "passed"
             },
             "line": 71,
@@ -1646,7 +1646,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4973000000,
+              "duration": 2152000000,
               "status": "passed"
             },
             "line": 5,
@@ -1658,7 +1658,7 @@
           },
           {
             "result": {
-              "duration": 817000000,
+              "duration": 413000000,
               "status": "passed"
             },
             "line": 6,
@@ -1670,7 +1670,7 @@
           },
           {
             "result": {
-              "duration": 1689000000,
+              "duration": 1347000000,
               "status": "passed"
             },
             "line": 7,
@@ -1682,7 +1682,7 @@
           },
           {
             "result": {
-              "duration": 821000000,
+              "duration": 301000000,
               "status": "passed"
             },
             "line": 8,
@@ -1700,7 +1700,7 @@
           },
           {
             "result": {
-              "duration": 424000000,
+              "duration": 529000000,
               "status": "passed"
             },
             "line": 9,
@@ -1718,7 +1718,7 @@
           },
           {
             "result": {
-              "duration": 250000000,
+              "duration": 192000000,
               "status": "passed"
             },
             "line": 10,
@@ -1730,7 +1730,7 @@
           },
           {
             "result": {
-              "duration": 1490000000,
+              "duration": 689000000,
               "status": "passed"
             },
             "line": 11,
@@ -1742,7 +1742,7 @@
           },
           {
             "result": {
-              "duration": 479000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "line": 12,
@@ -1755,17 +1755,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:20:22.650Z",
+        "start_timestamp": "2020-11-25T22:20:17.157Z",
         "line": 74,
         "name": "tc_1710 CUSTOMER verifying by CUSTOMER",
         "description": "",
-        "id": "us17-tests;tc-1710-customer-verifying-by-customer",
+        "id": "us-17-tests;tc-1710-customer-verifying-by-customer",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1875000000,
+              "duration": 796000000,
               "status": "passed"
             },
             "line": 75,
@@ -1777,7 +1777,7 @@
           },
           {
             "result": {
-              "duration": 599000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 76,
@@ -1789,7 +1789,7 @@
           },
           {
             "result": {
-              "duration": 897000000,
+              "duration": 296000000,
               "status": "passed"
             },
             "line": 77,
@@ -1821,7 +1821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2072000000,
+              "duration": 979000000,
               "status": "passed"
             },
             "line": 5,
@@ -1833,7 +1833,7 @@
           },
           {
             "result": {
-              "duration": 782000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 6,
@@ -1845,7 +1845,7 @@
           },
           {
             "result": {
-              "duration": 1398000000,
+              "duration": 1208000000,
               "status": "passed"
             },
             "line": 7,
@@ -1857,7 +1857,7 @@
           },
           {
             "result": {
-              "duration": 397000000,
+              "duration": 119000000,
               "status": "passed"
             },
             "line": 8,
@@ -1875,7 +1875,7 @@
           },
           {
             "result": {
-              "duration": 533000000,
+              "duration": 202000000,
               "status": "passed"
             },
             "line": 9,
@@ -1893,7 +1893,7 @@
           },
           {
             "result": {
-              "duration": 204000000,
+              "duration": 263000000,
               "status": "passed"
             },
             "line": 10,
@@ -1905,7 +1905,7 @@
           },
           {
             "result": {
-              "duration": 1266000000,
+              "duration": 671000000,
               "status": "passed"
             },
             "line": 11,
@@ -1917,7 +1917,7 @@
           },
           {
             "result": {
-              "duration": 440000000,
+              "duration": 229000000,
               "status": "passed"
             },
             "line": 12,
@@ -1930,17 +1930,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:20:37.036Z",
+        "start_timestamp": "2020-11-25T22:20:24.208Z",
         "line": 80,
         "name": "tc_1711 ADMIN creation and deletion by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1711-admin-creation-and-deletion-by-admin",
+        "id": "us-17-tests;tc-1711-admin-creation-and-deletion-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2972000000,
+              "duration": 2280000000,
               "status": "passed"
             },
             "line": 81,
@@ -1952,7 +1952,7 @@
           },
           {
             "result": {
-              "duration": 2757000000,
+              "duration": 1900000000,
               "status": "passed"
             },
             "line": 82,
@@ -1964,7 +1964,7 @@
           },
           {
             "result": {
-              "duration": 6559000000,
+              "duration": 5306000000,
               "status": "passed"
             },
             "line": 83,
@@ -1976,7 +1976,7 @@
           },
           {
             "result": {
-              "duration": 2977000000,
+              "duration": 1515000000,
               "status": "passed"
             },
             "line": 84,
@@ -1988,7 +1988,7 @@
           },
           {
             "result": {
-              "duration": 1213000000,
+              "duration": 574000000,
               "status": "passed"
             },
             "line": 85,
@@ -2020,7 +2020,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2699000000,
+              "duration": 1785000000,
               "status": "passed"
             },
             "line": 5,
@@ -2032,7 +2032,7 @@
           },
           {
             "result": {
-              "duration": 474000000,
+              "duration": 362000000,
               "status": "passed"
             },
             "line": 6,
@@ -2044,7 +2044,7 @@
           },
           {
             "result": {
-              "duration": 1423000000,
+              "duration": 1491000000,
               "status": "passed"
             },
             "line": 7,
@@ -2056,7 +2056,7 @@
           },
           {
             "result": {
-              "duration": 183000000,
+              "duration": 849000000,
               "status": "passed"
             },
             "line": 8,
@@ -2074,7 +2074,7 @@
           },
           {
             "result": {
-              "duration": 718000000,
+              "duration": 487000000,
               "status": "passed"
             },
             "line": 9,
@@ -2092,7 +2092,7 @@
           },
           {
             "result": {
-              "duration": 451000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 10,
@@ -2104,7 +2104,7 @@
           },
           {
             "result": {
-              "duration": 698000000,
+              "duration": 1183000000,
               "status": "passed"
             },
             "line": 11,
@@ -2116,7 +2116,7 @@
           },
           {
             "result": {
-              "duration": 444000000,
+              "duration": 321000000,
               "status": "passed"
             },
             "line": 12,
@@ -2129,17 +2129,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:21:00.669Z",
+        "start_timestamp": "2020-11-25T22:20:39.703Z",
         "line": 88,
         "name": "tc_1712 EMPLOYEE creation and deletion by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1712-employee-creation-and-deletion-by-admin",
+        "id": "us-17-tests;tc-1712-employee-creation-and-deletion-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2313000000,
+              "duration": 2936000000,
               "status": "passed"
             },
             "line": 89,
@@ -2151,7 +2151,7 @@
           },
           {
             "result": {
-              "duration": 2846000000,
+              "duration": 3326000000,
               "status": "passed"
             },
             "line": 90,
@@ -2163,7 +2163,7 @@
           },
           {
             "result": {
-              "duration": 6023000000,
+              "duration": 7238000000,
               "status": "passed"
             },
             "line": 91,
@@ -2175,7 +2175,7 @@
           },
           {
             "result": {
-              "duration": 3258000000,
+              "duration": 1402000000,
               "status": "passed"
             },
             "line": 92,
@@ -2187,7 +2187,7 @@
           },
           {
             "result": {
-              "duration": 802000000,
+              "duration": 373000000,
               "status": "passed"
             },
             "line": 93,
@@ -2219,7 +2219,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3596000000,
+              "duration": 1628000000,
               "status": "passed"
             },
             "line": 5,
@@ -2231,7 +2231,7 @@
           },
           {
             "result": {
-              "duration": 867000000,
+              "duration": 294000000,
               "status": "passed"
             },
             "line": 6,
@@ -2243,7 +2243,7 @@
           },
           {
             "result": {
-              "duration": 2130000000,
+              "duration": 1310000000,
               "status": "passed"
             },
             "line": 7,
@@ -2255,7 +2255,7 @@
           },
           {
             "result": {
-              "duration": 1415000000,
+              "duration": 329000000,
               "status": "passed"
             },
             "line": 8,
@@ -2273,7 +2273,7 @@
           },
           {
             "result": {
-              "duration": 435000000,
+              "duration": 431000000,
               "status": "passed"
             },
             "line": 9,
@@ -2291,7 +2291,7 @@
           },
           {
             "result": {
-              "duration": 584000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 10,
@@ -2303,7 +2303,7 @@
           },
           {
             "result": {
-              "duration": 1358000000,
+              "duration": 832000000,
               "status": "passed"
             },
             "line": 11,
@@ -2315,7 +2315,7 @@
           },
           {
             "result": {
-              "duration": 835000000,
+              "duration": 451000000,
               "status": "passed"
             },
             "line": 12,
@@ -2328,17 +2328,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:21:23.082Z",
+        "start_timestamp": "2020-11-25T22:21:01.686Z",
         "line": 96,
         "name": "tc_1713 MANAGER creation and deletion by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1713-manager-creation-and-deletion-by-admin",
+        "id": "us-17-tests;tc-1713-manager-creation-and-deletion-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4148000000,
+              "duration": 2847000000,
               "status": "passed"
             },
             "line": 97,
@@ -2350,7 +2350,7 @@
           },
           {
             "result": {
-              "duration": 2743000000,
+              "duration": 1801000000,
               "status": "passed"
             },
             "line": 98,
@@ -2362,7 +2362,7 @@
           },
           {
             "result": {
-              "duration": 5655000000,
+              "duration": 7341000000,
               "status": "passed"
             },
             "line": 99,
@@ -2374,7 +2374,7 @@
           },
           {
             "result": {
-              "duration": 2976000000,
+              "duration": 2304000000,
               "status": "passed"
             },
             "line": 100,
@@ -2386,7 +2386,7 @@
           },
           {
             "result": {
-              "duration": 588000000,
+              "duration": 533000000,
               "status": "passed"
             },
             "line": 101,
@@ -2418,7 +2418,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2297000000,
+              "duration": 2714000000,
               "status": "passed"
             },
             "line": 5,
@@ -2430,7 +2430,7 @@
           },
           {
             "result": {
-              "duration": 266000000,
+              "duration": 311000000,
               "status": "passed"
             },
             "line": 6,
@@ -2442,7 +2442,7 @@
           },
           {
             "result": {
-              "duration": 1268000000,
+              "duration": 1358000000,
               "status": "passed"
             },
             "line": 7,
@@ -2454,7 +2454,7 @@
           },
           {
             "result": {
-              "duration": 179000000,
+              "duration": 296000000,
               "status": "passed"
             },
             "line": 8,
@@ -2472,7 +2472,7 @@
           },
           {
             "result": {
-              "duration": 707000000,
+              "duration": 590000000,
               "status": "passed"
             },
             "line": 9,
@@ -2490,7 +2490,7 @@
           },
           {
             "result": {
-              "duration": 227000000,
+              "duration": 325000000,
               "status": "passed"
             },
             "line": 10,
@@ -2502,7 +2502,7 @@
           },
           {
             "result": {
-              "duration": 804000000,
+              "duration": 1026000000,
               "status": "passed"
             },
             "line": 11,
@@ -2514,7 +2514,7 @@
           },
           {
             "result": {
-              "duration": 311000000,
+              "duration": 334000000,
               "status": "passed"
             },
             "line": 12,
@@ -2527,17 +2527,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:21:50.473Z",
+        "start_timestamp": "2020-11-25T22:21:21.980Z",
         "line": 104,
         "name": "tc_1714 USER creation and deletion by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1714-user-creation-and-deletion-by-admin",
+        "id": "us-17-tests;tc-1714-user-creation-and-deletion-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3466000000,
+              "duration": 3058000000,
               "status": "passed"
             },
             "line": 105,
@@ -2549,7 +2549,7 @@
           },
           {
             "result": {
-              "duration": 5161000000,
+              "duration": 1874000000,
               "status": "passed"
             },
             "line": 106,
@@ -2561,7 +2561,7 @@
           },
           {
             "result": {
-              "duration": 6929000000,
+              "duration": 5914000000,
               "status": "passed"
             },
             "line": 107,
@@ -2573,7 +2573,7 @@
           },
           {
             "result": {
-              "duration": 3403000000,
+              "duration": 2113000000,
               "status": "passed"
             },
             "line": 108,
@@ -2585,7 +2585,7 @@
           },
           {
             "result": {
-              "duration": 817000000,
+              "duration": 537000000,
               "status": "passed"
             },
             "line": 109,
@@ -2617,7 +2617,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3397000000,
+              "duration": 3852000000,
               "status": "passed"
             },
             "line": 5,
@@ -2629,7 +2629,7 @@
           },
           {
             "result": {
-              "duration": 337000000,
+              "duration": 358000000,
               "status": "passed"
             },
             "line": 6,
@@ -2641,7 +2641,7 @@
           },
           {
             "result": {
-              "duration": 1276000000,
+              "duration": 1502000000,
               "status": "passed"
             },
             "line": 7,
@@ -2653,7 +2653,7 @@
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 482000000,
               "status": "passed"
             },
             "line": 8,
@@ -2671,7 +2671,7 @@
           },
           {
             "result": {
-              "duration": 355000000,
+              "duration": 288000000,
               "status": "passed"
             },
             "line": 9,
@@ -2689,7 +2689,7 @@
           },
           {
             "result": {
-              "duration": 259000000,
+              "duration": 214000000,
               "status": "passed"
             },
             "line": 10,
@@ -2701,7 +2701,7 @@
           },
           {
             "result": {
-              "duration": 770000000,
+              "duration": 861000000,
               "status": "passed"
             },
             "line": 11,
@@ -2713,7 +2713,7 @@
           },
           {
             "result": {
-              "duration": 631000000,
+              "duration": 315000000,
               "status": "passed"
             },
             "line": 12,
@@ -2726,17 +2726,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:22:16.383Z",
+        "start_timestamp": "2020-11-25T22:21:42.520Z",
         "line": 112,
         "name": "tc_1715 CUSTOMER creation and deletion by ADMIN",
         "description": "",
-        "id": "us17-tests;tc-1715-customer-creation-and-deletion-by-admin",
+        "id": "us-17-tests;tc-1715-customer-creation-and-deletion-by-admin",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2799000000,
+              "duration": 4487000000,
               "status": "passed"
             },
             "line": 113,
@@ -2748,7 +2748,7 @@
           },
           {
             "result": {
-              "duration": 1930000000,
+              "duration": 2198000000,
               "status": "passed"
             },
             "line": 114,
@@ -2760,7 +2760,7 @@
           },
           {
             "result": {
-              "duration": 5886000000,
+              "duration": 6511000000,
               "status": "passed"
             },
             "line": 115,
@@ -2772,7 +2772,7 @@
           },
           {
             "result": {
-              "duration": 4549000000,
+              "duration": 1732000000,
               "status": "passed"
             },
             "line": 116,
@@ -2784,7 +2784,7 @@
           },
           {
             "result": {
-              "duration": 1278000000,
+              "duration": 447000000,
               "status": "passed"
             },
             "line": 117,
@@ -2808,9 +2808,9 @@
         ]
       }
     ],
-    "name": "US17 tests",
+    "name": "US_17 tests",
     "description": "",
-    "id": "us17-tests",
+    "id": "us-17-tests",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_17.feature",
     "tags": [
@@ -2844,7 +2844,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5984000000,
+              "duration": 2596000000,
               "status": "passed"
             },
             "line": 5,
@@ -2856,7 +2856,7 @@
           },
           {
             "result": {
-              "duration": 496000000,
+              "duration": 317000000,
               "status": "passed"
             },
             "line": 6,
@@ -2868,7 +2868,7 @@
           },
           {
             "result": {
-              "duration": 1638000000,
+              "duration": 1333000000,
               "status": "passed"
             },
             "line": 7,
@@ -2880,7 +2880,7 @@
           },
           {
             "result": {
-              "duration": 1428000000,
+              "duration": 370000000,
               "status": "passed"
             },
             "line": 8,
@@ -2898,7 +2898,7 @@
           },
           {
             "result": {
-              "duration": 851000000,
+              "duration": 423000000,
               "status": "passed"
             },
             "line": 9,
@@ -2916,7 +2916,7 @@
           },
           {
             "result": {
-              "duration": 671000000,
+              "duration": 237000000,
               "status": "passed"
             },
             "line": 10,
@@ -2928,7 +2928,7 @@
           },
           {
             "result": {
-              "duration": 1360000000,
+              "duration": 1004000000,
               "status": "passed"
             },
             "line": 11,
@@ -2940,7 +2940,7 @@
           },
           {
             "result": {
-              "duration": 329000000,
+              "duration": 327000000,
               "status": "passed"
             },
             "line": 12,
@@ -2953,17 +2953,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:22:40.080Z",
+        "start_timestamp": "2020-11-25T22:22:05.868Z",
         "line": 15,
         "name": "tc1801 user should show the account information of the customer First Name",
         "description": "",
-        "id": "us18-tests;tc1801-user-should-show-the-account-information-of-the-customer-first-name",
+        "id": "us-18-tests;tc1801-user-should-show-the-account-information-of-the-customer-first-name",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9601000000,
+              "duration": 7608000000,
               "status": "passed"
             },
             "line": 16,
@@ -2975,7 +2975,7 @@
           },
           {
             "result": {
-              "duration": 417000000,
+              "duration": 470000000,
               "status": "passed"
             },
             "line": 17,
@@ -2988,7 +2988,7 @@
         ],
         "tags": [
           {
-            "name": "@US18"
+            "name": "@US_18"
           },
           {
             "name": "@SmokeTest1"
@@ -3007,7 +3007,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1644000000,
+              "duration": 2933000000,
               "status": "passed"
             },
             "line": 5,
@@ -3019,7 +3019,7 @@
           },
           {
             "result": {
-              "duration": 278000000,
+              "duration": 148000000,
               "status": "passed"
             },
             "line": 6,
@@ -3031,7 +3031,7 @@
           },
           {
             "result": {
-              "duration": 1320000000,
+              "duration": 1296000000,
               "status": "passed"
             },
             "line": 7,
@@ -3043,7 +3043,7 @@
           },
           {
             "result": {
-              "duration": 197000000,
+              "duration": 369000000,
               "status": "passed"
             },
             "line": 8,
@@ -3061,7 +3061,7 @@
           },
           {
             "result": {
-              "duration": 327000000,
+              "duration": 709000000,
               "status": "passed"
             },
             "line": 9,
@@ -3079,7 +3079,7 @@
           },
           {
             "result": {
-              "duration": 242000000,
+              "duration": 356000000,
               "status": "passed"
             },
             "line": 10,
@@ -3091,7 +3091,7 @@
           },
           {
             "result": {
-              "duration": 728000000,
+              "duration": 951000000,
               "status": "passed"
             },
             "line": 11,
@@ -3103,7 +3103,7 @@
           },
           {
             "result": {
-              "duration": 310000000,
+              "duration": 443000000,
               "status": "passed"
             },
             "line": 12,
@@ -3116,17 +3116,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:23:03.047Z",
+        "start_timestamp": "2020-11-25T22:22:20.648Z",
         "line": 20,
         "name": "tc1802 There should be a View option where customer can be navigated to all customer info and see  edit button there",
         "description": "",
-        "id": "us18-tests;tc1802-there-should-be-a-view-option-where-customer-can-be-navigated-to-all-customer-info-and-see--edit-button-there",
+        "id": "us-18-tests;tc1802-there-should-be-a-view-option-where-customer-can-be-navigated-to-all-customer-info-and-see--edit-button-there",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1258000000,
+              "duration": 1229000000,
               "status": "passed"
             },
             "line": 21,
@@ -3138,7 +3138,7 @@
           },
           {
             "result": {
-              "duration": 528000000,
+              "duration": 307000000,
               "status": "passed"
             },
             "line": 22,
@@ -3151,7 +3151,7 @@
         ],
         "tags": [
           {
-            "name": "@US18"
+            "name": "@US_18"
           },
           {
             "name": "@SmokeTest1"
@@ -3170,7 +3170,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2089000000,
+              "duration": 1803000000,
               "status": "passed"
             },
             "line": 5,
@@ -3182,7 +3182,7 @@
           },
           {
             "result": {
-              "duration": 330000000,
+              "duration": 314000000,
               "status": "passed"
             },
             "line": 6,
@@ -3194,7 +3194,7 @@
           },
           {
             "result": {
-              "duration": 1369000000,
+              "duration": 1250000000,
               "status": "passed"
             },
             "line": 7,
@@ -3206,7 +3206,7 @@
           },
           {
             "result": {
-              "duration": 741000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 8,
@@ -3224,7 +3224,7 @@
           },
           {
             "result": {
-              "duration": 341000000,
+              "duration": 587000000,
               "status": "passed"
             },
             "line": 9,
@@ -3242,7 +3242,7 @@
           },
           {
             "result": {
-              "duration": 287000000,
+              "duration": 179000000,
               "status": "passed"
             },
             "line": 10,
@@ -3254,7 +3254,7 @@
           },
           {
             "result": {
-              "duration": 1220000000,
+              "duration": 666000000,
               "status": "passed"
             },
             "line": 11,
@@ -3266,7 +3266,7 @@
           },
           {
             "result": {
-              "duration": 491000000,
+              "duration": 256000000,
               "status": "passed"
             },
             "line": 12,
@@ -3279,17 +3279,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:23:09.941Z",
+        "start_timestamp": "2020-11-25T22:22:29.473Z",
         "line": 25,
         "name": "There should be an Edit button where all customer information",
         "description": "  can be populated",
-        "id": "us18-tests;there-should-be-an-edit-button-where-all-customer-information",
+        "id": "us-18-tests;there-should-be-an-edit-button-where-all-customer-information",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4240000000,
+              "duration": 2369000000,
               "status": "passed"
             },
             "line": 27,
@@ -3301,7 +3301,7 @@
           },
           {
             "result": {
-              "duration": 2323000000,
+              "duration": 1621000000,
               "status": "passed"
             },
             "line": 28,
@@ -3325,7 +3325,7 @@
           },
           {
             "result": {
-              "duration": 3064000000,
+              "duration": 1208000000,
               "status": "passed"
             },
             "line": 30,
@@ -3338,7 +3338,7 @@
         ],
         "tags": [
           {
-            "name": "@US18"
+            "name": "@US_18"
           },
           {
             "name": "@SmokeTest1"
@@ -3357,7 +3357,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3271000000,
+              "duration": 2665000000,
               "status": "passed"
             },
             "line": 5,
@@ -3369,7 +3369,7 @@
           },
           {
             "result": {
-              "duration": 992000000,
+              "duration": 302000000,
               "status": "passed"
             },
             "line": 6,
@@ -3381,7 +3381,7 @@
           },
           {
             "result": {
-              "duration": 1461000000,
+              "duration": 1297000000,
               "status": "passed"
             },
             "line": 7,
@@ -3393,7 +3393,7 @@
           },
           {
             "result": {
-              "duration": 340000000,
+              "duration": 194000000,
               "status": "passed"
             },
             "line": 8,
@@ -3411,194 +3411,7 @@
           },
           {
             "result": {
-              "duration": 415000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters admin password \"A1b2C3\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"A1b2C3\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 182000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks signIn button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 874000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks myOperations link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 279000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks manageCostomers link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-25T20:23:26.530Z",
-        "line": 34,
-        "name": "The Edit portal can allow user to create or update the user info",
-        "description": "",
-        "id": "us18-tests;the-edit-portal-can-allow-user-to-create-or-update-the-user-info",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3243000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "ADMIN  should write and new the Phone Nummer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_18_Step_Definitions.adminShouldWriteAndNewThePhoneNummer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1587000000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "ADMIN click Save Button",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_18_Step_Definitions.adminClickSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "ADMIN  verifies translations not found[gmiBankBackendApp.tPCustomer.updated",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_18_Step_Definitions.adminVerifiesTranslationsNotFoundGmiBankBackendAppTPCustomerUpdated()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 922000000,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "user signOut",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US18"
-          },
-          {
-            "name": "@SmokeTest1"
-          },
-          {
-            "name": "@tc1804"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user anters gmibank homepage then reaches create new costomers link",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1566000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters gmibank homepage",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks userEntry icon",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1335000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks signIn link",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 181000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters admin username \"AAbc398\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"AAbc398\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 818000000,
+              "duration": 974000000,
               "status": "passed"
             },
             "line": 9,
@@ -3628,7 +3441,7 @@
           },
           {
             "result": {
-              "duration": 763000000,
+              "duration": 850000000,
               "status": "passed"
             },
             "line": 11,
@@ -3640,7 +3453,7 @@
           },
           {
             "result": {
-              "duration": 395000000,
+              "duration": 233000000,
               "status": "passed"
             },
             "line": 12,
@@ -3653,17 +3466,204 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:23:40.158Z",
-        "line": 42,
-        "name": "User can delete a customer, but seeing a message if the user is",
-        "description": "  sure about deletion",
-        "id": "us18-tests;user-can-delete-a-customer--but-seeing-a-message-if-the-user-is",
+        "start_timestamp": "2020-11-25T22:22:40.073Z",
+        "line": 34,
+        "name": "The Edit portal can allow user to create or update the user info",
+        "description": "",
+        "id": "us-18-tests;the-edit-portal-can-allow-user-to-create-or-update-the-user-info",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7748000000,
+              "duration": 2831000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "ADMIN  should write and new the Phone Nummer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_18_Step_Definitions.adminShouldWriteAndNewThePhoneNummer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1861000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "ADMIN click Save Button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_18_Step_Definitions.adminClickSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "ADMIN  verifies translations not found[gmiBankBackendApp.tPCustomer.updated",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_18_Step_Definitions.adminVerifiesTranslationsNotFoundGmiBankBackendAppTPCustomerUpdated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1666000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userSignOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_18"
+          },
+          {
+            "name": "@SmokeTest1"
+          },
+          {
+            "name": "@tc1804"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3850000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 488000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1533000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"AAbc398\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AAbc398\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 423000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"A1b2C3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A1b2C3\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1113000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageCostomers link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_manageCostomers_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-25T22:22:53.339Z",
+        "line": 42,
+        "name": "User can delete a customer, but seeing a message if the user is",
+        "description": "  sure about deletion",
+        "id": "us-18-tests;user-can-delete-a-customer--but-seeing-a-message-if-the-user-is",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2363000000,
               "status": "passed"
             },
             "line": 44,
@@ -3675,7 +3675,7 @@
           },
           {
             "result": {
-              "duration": 1938000000,
+              "duration": 1443000000,
               "status": "passed"
             },
             "line": 45,
@@ -3687,7 +3687,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 46,
@@ -3699,7 +3699,7 @@
           },
           {
             "result": {
-              "duration": 1981000000,
+              "duration": 1184000000,
               "status": "passed"
             },
             "line": 47,
@@ -3712,7 +3712,7 @@
         ],
         "tags": [
           {
-            "name": "@US18"
+            "name": "@US_18"
           },
           {
             "name": "@SmokeTest1"
@@ -3723,14 +3723,14 @@
         ]
       }
     ],
-    "name": "US18 tests",
+    "name": "US_18 tests",
     "description": "",
-    "id": "us18-tests",
+    "id": "us-18-tests",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_18.feature",
     "tags": [
       {
-        "name": "@US18",
+        "name": "@US_18",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -3742,7 +3742,1000 @@
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 7
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1785000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1202000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"pader49\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"pader49.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 911000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageAccounts link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks createNewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-25T22:23:07.002Z",
+        "line": 16,
+        "name": "tc1901 admin enter Description",
+        "description": "",
+        "id": "us-19-tests;tc1901-admin-enter-description",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "admin click Description",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Description()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin click Balance",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Balance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "admin sees required message",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_sees_required_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "admin signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_19"
+          },
+          {
+            "name": "@SmokeTest1"
+          },
+          {
+            "name": "@tc1901"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1509000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"pader49\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 573000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"pader49.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageAccounts link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks createNewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-25T22:23:14.231Z",
+        "line": 24,
+        "name": "tc1902 should provide a balance as a Dollar",
+        "description": "",
+        "id": "us-19-tests;tc1902-should-provide-a-balance-as-a-dollar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 470000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "admin create as a dollar account \"200\" and verify",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_create_as_a_dollar_account_and_verify(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 852000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "admin signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_19"
+          },
+          {
+            "name": "@SmokeTest1"
+          },
+          {
+            "name": "@tc1902"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2364000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1314000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"pader49\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"pader49.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1177000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageAccounts link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks createNewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-25T22:23:20.778Z",
+        "line": 29,
+        "name": "tc1903 can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING",
+        "description": "",
+        "id": "us-19-tests;tc1903-can-select-an-account-type-as-checking--saving--credit-card-or-investing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2549000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "admin select an account as CHECKING and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_CHECKING_and_verify()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1502000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "admin select an account as a SAVING and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_a_SAVING_and_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6066000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "admin select an account as a CREDIT_CARD and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_a_CREDIT_CARD_and_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1229000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "admin select an account as a INVESTING and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_a_INVESTING_and_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "admin signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_19"
+          },
+          {
+            "name": "@SmokeTest1"
+          },
+          {
+            "name": "@tc1903"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1122000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1375000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"pader49\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 402000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"pader49.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 912000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageAccounts link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks createNewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-25T22:23:40.171Z",
+        "line": 37,
+        "name": "tc1904 should account status defined as ACTIVE, SUESPENDED or CLOSED",
+        "description": "",
+        "id": "us-19-tests;tc1904-should-account-status-defined-as-active--suespended-or-closed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2817000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "admin click Account Status Type defined as a ACTIVE and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Account_Status_Type_defined_as_a_ACTIVE_and_verify()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2176000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "admin click Account Status Type defined as a  SUESPENDED and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Account_Status_Type_defined_as_a_SUEPENDED_and_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2135000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "admin click Account Status Type defined as a  CLOSED and verify",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Account_Status_Type_defined_as_a_CLOSED_and_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "admin signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_19"
+          },
+          {
+            "name": "@SmokeTest1"
+          },
+          {
+            "name": "@tc1904"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user anters gmibank homepage then reaches create new costomers link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2015000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters gmibank homepage",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks userEntry icon",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1199000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks signIn link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 169000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters admin username \"pader49\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 452000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters admin password \"pader49.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pader49.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks signIn button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 802000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks myOperations link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks manageAccounts link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks createNewAccount link",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-25T22:23:53.453Z",
+        "line": 44,
+        "name": "tc1905 can select an employee from the drop-down",
+        "description": "",
+        "id": "us-19-tests;tc1905-can-select-an-employee-from-the-drop-down",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 579000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "admin select Employee and verify the selectet Employee",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_Employee_and_verify_the_selectet_Employee()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "admin signOut",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_19"
+          },
+          {
+            "name": "@SmokeTest1"
+          },
+          {
+            "name": "@tc1905"
+          }
+        ]
+      }
+    ],
+    "name": "US_19 tests",
+    "description": "",
+    "id": "us-19-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/us_19.feature",
+    "tags": [
+      {
+        "name": "@US_19",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@SmokeTest1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
         }
       }
     ]
@@ -3759,7 +4752,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7488000000,
+              "duration": 6349000000,
               "status": "passed"
             },
             "line": 5,
@@ -3777,7 +4770,7 @@
           },
           {
             "result": {
-              "duration": 1419000000,
+              "duration": 1431000000,
               "status": "passed"
             },
             "line": 6,
@@ -3790,17 +4783,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:23:57.421Z",
+        "start_timestamp": "2020-11-25T22:23:59.986Z",
         "line": 9,
         "name": "TC_2001 read all customers you created and validate them from your data set",
         "description": "",
-        "id": "system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2001-read-all-customers-you-created-and-validate-them-from-your-data-set",
+        "id": "us-20-system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2001-read-all-customers-you-created-and-validate-them-from-your-data-set",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 10,
@@ -3824,12 +4817,11 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[321-54-9800]\u003e but was:\u003c[888-88-8888]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_20_Step_Definitions.verifySeventhCustomersIsAndIs(US_20_Step_Definitions.java:60)\r\n\tat ✽.verify seventh customers \"ssn\" is \"888-88-8888\" and \"state\" is \"New Jersey\"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_20.feature:12)\r\n",
-              "duration": 6000000,
-              "status": "failed"
+              "duration": 2000000,
+              "status": "passed"
             },
             "line": 12,
-            "name": "verify seventh customers \"ssn\" is \"888-88-8888\" and \"state\" is \"New Jersey\"",
+            "name": "verify seventh customers \"ssn\" is \"321-54-9800\" and \"state\" is \"\"",
             "match": {
               "arguments": [
                 {
@@ -3837,7 +4829,7 @@
                   "offset": 25
                 },
                 {
-                  "val": "\"888-88-8888\"",
+                  "val": "\"321-54-9800\"",
                   "offset": 34
                 },
                 {
@@ -3845,7 +4837,7 @@
                   "offset": 52
                 },
                 {
-                  "val": "\"New Jersey\"",
+                  "val": "\"\"",
                   "offset": 63
                 }
               ],
@@ -3875,7 +4867,7 @@
         "steps": [
           {
             "result": {
-              "duration": 759000000,
+              "duration": 748000000,
               "status": "passed"
             },
             "line": 5,
@@ -3906,22 +4898,21 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:06.438Z",
+        "start_timestamp": "2020-11-25T22:24:07.949Z",
         "line": 16,
         "name": "TC_2002 read all customers you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2002-read-all-customers-you-created-and-validate-them-1-by-1",
+        "id": "us-20-system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2002-read-all-customers-you-created-and-validate-them-1-by-1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[John]\u003e but was:\u003c[emre]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat gmibank.stepdefinitions.US_20_Step_Definitions.verifyFirstCustomerS(US_20_Step_Definitions.java:70)\r\n\tat ✽.verify first customer\u0027s \"firstName\" \"emre\"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_20.feature:17)\r\n",
-              "duration": 5000000,
-              "status": "failed"
+              "duration": 8000000,
+              "status": "passed"
             },
             "line": 17,
-            "name": "verify first customer\u0027s \"firstName\" \"emre\"",
+            "name": "verify first customer\u0027s \"firstName\" \"John\"",
             "match": {
               "arguments": [
                 {
@@ -3929,7 +4920,7 @@
                   "offset": 24
                 },
                 {
-                  "val": "\"emre\"",
+                  "val": "\"John\"",
                   "offset": 36
                 }
               ],
@@ -3940,10 +4931,10 @@
           {
             "result": {
               "duration": 2000000,
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 18,
-            "name": "verify second customer\u0027s \"lastName\" \"John\"",
+            "name": "verify second customer\u0027s \"lastName\" \"Stone\"",
             "match": {
               "arguments": [
                 {
@@ -3951,7 +4942,7 @@
                   "offset": 25
                 },
                 {
-                  "val": "\"John\"",
+                  "val": "\"Stone\"",
                   "offset": 36
                 }
               ],
@@ -3961,15 +4952,15 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 3440000000,
+              "status": "passed"
             },
             "line": 19,
-            "name": "verify fifth customer\u0027s country \"GERMANY\"",
+            "name": "verify fifth customer\u0027s country \"UNITED STATES\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"GERMANY\"",
+                  "val": "\"UNITED STATES\"",
                   "offset": 32
                 }
               ],
@@ -3979,8 +4970,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1477000000,
+              "status": "passed"
             },
             "line": 20,
             "name": "get last customer\u0027s id and verify",
@@ -4003,9 +4994,9 @@
         ]
       }
     ],
-    "name": "system should allow to read all customers info using api end point",
+    "name": "US_20 system should allow to read all customers info using api end point",
     "description": "",
-    "id": "system-should-allow-to-read-all-customers-info-using-api-end-point",
+    "id": "us-20-system-should-allow-to-read-all-customers-info-using-api-end-point",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_20.feature",
     "tags": [
@@ -4039,7 +5030,7 @@
         "steps": [
           {
             "result": {
-              "duration": 880000000,
+              "duration": 820000000,
               "status": "passed"
             },
             "line": 5,
@@ -4057,7 +5048,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 6,
@@ -4070,17 +5061,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:07.273Z",
+        "start_timestamp": "2020-11-25T22:24:13.784Z",
         "line": 9,
         "name": "TC_2101 read all countries you created and validate them from your data set",
         "description": "",
-        "id": "system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2101-read-all-countries-you-created-and-validate-them-from-your-data-set",
+        "id": "us-21-system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2101-read-all-countries-you-created-and-validate-them-from-your-data-set",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 10,
@@ -4104,7 +5095,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 12,
@@ -4154,7 +5145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 722000000,
+              "duration": 738000000,
               "status": "passed"
             },
             "line": 5,
@@ -4172,7 +5163,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 6,
@@ -4185,11 +5176,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:08.250Z",
+        "start_timestamp": "2020-11-25T22:24:14.735Z",
         "line": 17,
         "name": "TC_2102 read all countries you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2102-read-all-countries-you-created-and-validate-them-1-by-1",
+        "id": "us-21-system-should-allow-to-read-all-customers-info-using-api-end-point;tc-2102-read-all-countries-you-created-and-validate-them-1-by-1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -4219,9 +5210,9 @@
         ]
       }
     ],
-    "name": "system should allow to read all customers info using api end point",
+    "name": "US_21 system should allow to read all customers info using api end point",
     "description": "",
-    "id": "system-should-allow-to-read-all-customers-info-using-api-end-point",
+    "id": "us-21-system-should-allow-to-read-all-customers-info-using-api-end-point",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_21.feature",
     "tags": [
@@ -4255,7 +5246,7 @@
         "steps": [
           {
             "result": {
-              "duration": 665000000,
+              "duration": 711000000,
               "status": "passed"
             },
             "line": 5,
@@ -4273,7 +5264,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 6,
@@ -4286,17 +5277,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:09.049Z",
+        "start_timestamp": "2020-11-25T22:24:15.603Z",
         "line": 9,
         "name": "TC_2201 Read all states you created and validate them from your data set",
         "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2201-read-all-states-you-created-and-validate-them-from-your-data-set",
+        "id": "us-22-system-should-allow-to-read-states-using-api-end-point;tc-2201-read-all-states-you-created-and-validate-them-from-your-data-set",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 10,
@@ -4308,7 +5299,7 @@
           },
           {
             "result": {
-              "duration": 2619000000,
+              "duration": 792000000,
               "status": "passed"
             },
             "line": 11,
@@ -4346,7 +5337,7 @@
         "steps": [
           {
             "result": {
-              "duration": 712000000,
+              "duration": 667000000,
               "status": "passed"
             },
             "line": 5,
@@ -4364,7 +5355,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 6,
@@ -4377,17 +5368,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:12.424Z",
+        "start_timestamp": "2020-11-25T22:24:17.264Z",
         "line": 19,
         "name": "TC_2202 read all states you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;2",
+        "id": "us-22-system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 16,
@@ -4419,7 +5410,7 @@
         "steps": [
           {
             "result": {
-              "duration": 642000000,
+              "duration": 607000000,
               "status": "passed"
             },
             "line": 5,
@@ -4437,7 +5428,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 6,
@@ -4450,17 +5441,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:13.209Z",
+        "start_timestamp": "2020-11-25T22:24:18.011Z",
         "line": 20,
         "name": "TC_2202 read all states you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;3",
+        "id": "us-22-system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 16,
@@ -4492,7 +5483,7 @@
         "steps": [
           {
             "result": {
-              "duration": 664000000,
+              "duration": 673000000,
               "status": "passed"
             },
             "line": 5,
@@ -4510,7 +5501,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 6,
@@ -4523,17 +5514,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:13.907Z",
+        "start_timestamp": "2020-11-25T22:24:18.721Z",
         "line": 21,
         "name": "TC_2202 read all states you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;4",
+        "id": "us-22-system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 16,
@@ -4565,7 +5556,7 @@
         "steps": [
           {
             "result": {
-              "duration": 591000000,
+              "duration": 631000000,
               "status": "passed"
             },
             "line": 5,
@@ -4583,7 +5574,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 6,
@@ -4596,17 +5587,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:14.628Z",
+        "start_timestamp": "2020-11-25T22:24:19.482Z",
         "line": 22,
         "name": "TC_2202 read all states you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;5",
+        "id": "us-22-system-should-allow-to-read-states-using-api-end-point;tc-2202-read-all-states-you-created-and-validate-them-1-by-1;;5",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 16,
@@ -4630,9 +5621,9 @@
         ]
       }
     ],
-    "name": "System should allow to read states using api end point",
+    "name": "US_22 System should allow to read states using api end point",
     "description": "",
-    "id": "system-should-allow-to-read-states-using-api-end-point",
+    "id": "us-22-system-should-allow-to-read-states-using-api-end-point",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_22.feature",
     "tags": [
@@ -4666,7 +5657,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1098000000,
+              "duration": 1286000000,
               "status": "passed"
             },
             "line": 5,
@@ -4684,7 +5675,7 @@
           },
           {
             "result": {
-              "duration": 200000000,
+              "duration": 251000000,
               "status": "passed"
             },
             "line": 6,
@@ -4697,17 +5688,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:15.284Z",
+        "start_timestamp": "2020-11-25T22:24:20.187Z",
         "line": 9,
         "name": "TC_2301 read all countries you created and validate them from your data set",
         "description": "",
-        "id": "system-should-allow-to-read-all-applicants-using-api-end-point;tc-2301-read-all-countries-you-created-and-validate-them-from-your-data-set",
+        "id": "us-23-system-should-allow-to-read-all-applicants-using-api-end-point;tc-2301-read-all-countries-you-created-and-validate-them-from-your-data-set",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 274000000,
+              "duration": 380000000,
               "status": "passed"
             },
             "line": 10,
@@ -4725,16 +5716,15 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c829\u003e but was:\u003c807\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat gmibank.stepdefinitions.US_23_Step_Definitions.findOutApplicantsAreAndVerify(US_23_Step_Definitions.java:57)\r\n\tat ✽.find out 807 applicants are and verify(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_23.feature:11)\r\n",
-              "duration": 2000000,
-              "status": "failed"
+              "duration": 1000000,
+              "status": "passed"
             },
             "line": 11,
-            "name": "find out 807 applicants are and verify",
+            "name": "find out 829 applicants are and verify",
             "match": {
               "arguments": [
                 {
-                  "val": "807",
+                  "val": "829",
                   "offset": 9
                 }
               ],
@@ -4744,8 +5734,8 @@
           },
           {
             "result": {
-              "duration": 5000000,
-              "status": "skipped"
+              "duration": 4000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "Find the number of those whose id is less than 5000 and verify the number",
@@ -4762,8 +5752,8 @@
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 9000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "verify if there are any applicants named \"Ali\"",
@@ -4800,7 +5790,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1134000000,
+              "duration": 1167000000,
               "status": "passed"
             },
             "line": 5,
@@ -4818,7 +5808,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 6,
@@ -4831,11 +5821,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:17.199Z",
+        "start_timestamp": "2020-11-25T22:24:22.394Z",
         "line": 16,
         "name": "TC_2302 read all customers you created and validate them 1 by 1",
         "description": "",
-        "id": "system-should-allow-to-read-all-applicants-using-api-end-point;tc-2302-read-all-customers-you-created-and-validate-them-1-by-1",
+        "id": "us-23-system-should-allow-to-read-all-applicants-using-api-end-point;tc-2302-read-all-customers-you-created-and-validate-them-1-by-1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -4877,7 +5867,7 @@
           },
           {
             "result": {
-              "duration": 941000000,
+              "duration": 889000000,
               "status": "passed"
             },
             "line": 19,
@@ -4899,7 +5889,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 20,
@@ -4921,7 +5911,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 21,
@@ -4943,7 +5933,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 22,
@@ -4965,7 +5955,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 23,
@@ -5009,7 +5999,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 25,
@@ -5031,7 +6021,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 26,
@@ -5065,9 +6055,9 @@
         ]
       }
     ],
-    "name": "system should allow to read all Applicants using api end point",
+    "name": "US_23 system should allow to read all Applicants using api end point",
     "description": "",
-    "id": "system-should-allow-to-read-all-applicants-using-api-end-point",
+    "id": "us-23-system-should-allow-to-read-all-applicants-using-api-end-point",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_23.feature",
     "tags": [
@@ -5093,17 +6083,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T20:24:19.424Z",
+        "start_timestamp": "2020-11-25T22:24:24.602Z",
         "line": 3,
         "name": "User can Just create each state 1 by 1 / TC_2401 before POST request",
         "description": "",
-        "id": "system-should-allow-to-create-new-states-using-api-endpoint;user-can-just-create-each-state-1-by-1-/-tc-2401-before-post-request",
+        "id": "us-24-system-should-allow-to-create-new-states-using-api-endpoint;user-can-just-create-each-state-1-by-1-/-tc-2401-before-post-request",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 429000000,
+              "duration": 479000000,
               "status": "passed"
             },
             "line": 4,
@@ -5121,7 +6111,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 5,
@@ -5139,7 +6129,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 6,
@@ -5157,7 +6147,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 7,
@@ -5169,7 +6159,7 @@
           },
           {
             "result": {
-              "duration": 410000000,
+              "duration": 507000000,
               "status": "passed"
             },
             "line": 8,
@@ -5200,17 +6190,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:20.357Z",
+        "start_timestamp": "2020-11-25T22:24:25.716Z",
         "line": 11,
         "name": "User can Just create each state 1 by 1 / TC_2401 after POST request",
         "description": "",
-        "id": "system-should-allow-to-create-new-states-using-api-endpoint;user-can-just-create-each-state-1-by-1-/-tc-2401-after-post-request",
+        "id": "us-24-system-should-allow-to-create-new-states-using-api-endpoint;user-can-just-create-each-state-1-by-1-/-tc-2401-after-post-request",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 386000000,
+              "duration": 420000000,
               "status": "passed"
             },
             "line": 12,
@@ -5246,7 +6236,7 @@
           },
           {
             "result": {
-              "duration": 655000000,
+              "duration": 331000000,
               "status": "passed"
             },
             "line": 14,
@@ -5264,7 +6254,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 15,
@@ -5285,9 +6275,9 @@
         ]
       }
     ],
-    "name": "System should allow to create new states using api endpoint",
+    "name": "US_24 System should allow to create new states using api endpoint",
     "description": "",
-    "id": "system-should-allow-to-create-new-states-using-api-endpoint",
+    "id": "us-24-system-should-allow-to-create-new-states-using-api-endpoint",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/us_24.feature",
     "tags": [
@@ -5313,7 +6303,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T20:24:21.506Z",
+        "start_timestamp": "2020-11-25T22:24:26.581Z",
         "line": 5,
         "name": "TC_2501 User can just create each country 1 by 1 / TC_2501 before POST request",
         "description": "",
@@ -5323,7 +6313,7 @@
         "steps": [
           {
             "result": {
-              "duration": 785000000,
+              "duration": 663000000,
               "status": "passed"
             },
             "line": 6,
@@ -5341,7 +6331,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 7,
@@ -5359,7 +6349,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 8,
@@ -5377,7 +6367,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 9,
@@ -5389,11 +6379,11 @@
           },
           {
             "result": {
-              "duration": 709000000,
+              "duration": 735000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "User send a POST request to REST API endpoint \"https://www.gmibank.com/api/tp-countries/\" as \"Scottland\"",
+            "name": "User send a POST request to REST API endpoint \"https://www.gmibank.com/api/tp-countries/\" as \"Belgium\"",
             "match": {
               "arguments": [
                 {
@@ -5401,7 +6391,7 @@
                   "offset": 46
                 },
                 {
-                  "val": "\"Scottland\"",
+                  "val": "\"Belgium\"",
                   "offset": 93
                 }
               ],
@@ -5423,7 +6413,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:23.102Z",
+        "start_timestamp": "2020-11-25T22:24:28.060Z",
         "line": 14,
         "name": "TC_2502 User can read countries 1 by 1 / TC_2502 after POST request",
         "description": "",
@@ -5433,7 +6423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 628000000,
+              "duration": 604000000,
               "status": "passed"
             },
             "line": 15,
@@ -5451,15 +6441,15 @@
           },
           {
             "result": {
-              "duration": 63000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "After creation user verifies the created country \"Scottland\"",
+            "name": "After creation user verifies the created country \"Belgium\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Scottland\"",
+                  "val": "\"Belgium\"",
                   "offset": 49
                 }
               ],
@@ -5469,7 +6459,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
@@ -5539,7 +6529,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T20:24:23.952Z",
+        "start_timestamp": "2020-11-25T22:24:28.778Z",
         "line": 6,
         "name": "TC_2601 User can just update each country 1 by 1",
         "description": "",
@@ -5549,7 +6539,7 @@
         "steps": [
           {
             "result": {
-              "duration": 612000000,
+              "duration": 595000000,
               "status": "passed"
             },
             "line": 7,
@@ -5579,7 +6569,7 @@
           },
           {
             "result": {
-              "duration": 650000000,
+              "duration": 657000000,
               "status": "passed"
             },
             "line": 9,
@@ -5641,7 +6631,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T20:24:25.287Z",
+        "start_timestamp": "2020-11-25T22:24:30.075Z",
         "line": 5,
         "name": "TC_2701 before DELETE request",
         "description": "",
@@ -5651,7 +6641,7 @@
         "steps": [
           {
             "result": {
-              "duration": 666000000,
+              "duration": 583000000,
               "status": "passed"
             },
             "line": 6,
@@ -5670,7 +6660,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c200\u003e but was \u003c404\u003e.\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat gmibank.stepdefinitions.US_27_Step_Definitions.before_delete_request_HTTP_Status_Code_should_be(US_27_Step_Definitions.java:41)\r\n\tat ✽.Before delete request HTTP Status Code should be \"200\"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:7)\r\n",
-              "duration": 45000000,
+              "duration": 53000000,
               "status": "failed"
             },
             "line": 7,
@@ -5706,7 +6696,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 5000000,
               "status": "skipped"
             },
             "line": 9,
@@ -5724,7 +6714,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "skipped"
             },
             "line": 10,
@@ -5754,7 +6744,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T20:24:26.104Z",
+        "start_timestamp": "2020-11-25T22:24:30.878Z",
         "line": 13,
         "name": "TC_2702 check DELETE request",
         "description": "",
@@ -5764,7 +6754,7 @@
         "steps": [
           {
             "result": {
-              "duration": 619000000,
+              "duration": 657000000,
               "status": "passed"
             },
             "line": 14,
@@ -5783,7 +6773,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected [500] but found [204]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:839)\r\n\tat org.testng.Assert.assertEquals(Assert.java:849)\r\n\tat gmibank.stepdefinitions.US_27_Step_Definitions.after_delete_request_HTTP_Status_Code_should_be(US_27_Step_Definitions.java:83)\r\n\tat ✽.After delete request HTTP Status Code should be \"204\"(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_27.feature:15)\r\n",
-              "duration": 3000000,
+              "duration": 2000000,
               "status": "failed"
             },
             "line": 15,

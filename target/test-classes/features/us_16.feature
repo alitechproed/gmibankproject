@@ -1,5 +1,5 @@
-@US16 @SmokeTest
-Feature: US16 tests
+@US_16 @SmokeTest
+Feature: US_16 tests
 
   Background: user enters gmibank homepage then sign in as a customer
     Given user enters gmibank homepage
