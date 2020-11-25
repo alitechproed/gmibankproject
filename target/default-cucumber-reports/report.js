@@ -1,4 +1,783 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_17.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_16.feature");
+formatter.feature({
+  "name": "US_16 tests",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@US_16"
+    },
+    {
+      "name": "@SmokeTest1"
+    }
+  ]
+});
+formatter.background({
+  "name": "user enters gmibank homepage then sign in as a customer",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user enters gmibank homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks userEntry icon",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer username \"aaabbb\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer password \"AaaBbb-21\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks customer myOperations link",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC1601 User should have at least 2 accounts",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_16"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC1601"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks My Accounts link",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_My_Accounts_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verify Account Type1 \"19669\" can be seen",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_verify_Account_Type1_can_be_seen(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verify Account Type2 \"19670\" can be seen",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_verify_Account_Type2_can_be_seen(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signOut from customer Website",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_signOut_from_customer_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "user enters gmibank homepage then sign in as a customer",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user enters gmibank homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks userEntry icon",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer username \"aaabbb\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer password \"AaaBbb-21\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks customer myOperations link",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC1602 User can select the first account as From dropdown where they receive their money from",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_16"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC1602"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks Transfer Money link",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_Transfer_Money_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select first account from From dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_first_account_from_From_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verify the selected account can be seen",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_verify_the_selected_account_can_be_seen()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signOut from customer Website",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_signOut_from_customer_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "user enters gmibank homepage then sign in as a customer",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user enters gmibank homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks userEntry icon",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer username \"aaabbb\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer password \"AaaBbb-21\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks customer myOperations link",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC1603 User can select a balance that they want to proceed with",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_16"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC1603"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks Transfer Money link",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_Transfer_Money_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select first account from From dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_first_account_from_From_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select other account from To dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_other_account_from_To_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user send \"100\" to Balance and click tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_send_to_Balance_and_click_tab(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user click tab and verify the amount can be seen in Balance",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_click_tab_and_verify_the_amount_can_be_seen_in_Balance()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signOut from customer Website",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_signOut_from_customer_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "user enters gmibank homepage then sign in as a customer",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user enters gmibank homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks userEntry icon",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer username \"aaabbb\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer password \"AaaBbb-21\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks customer myOperations link",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC1604 User should provide a description for that transfer",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_16"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC1604"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks Transfer Money link",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_Transfer_Money_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select first account from From dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_first_account_from_From_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select other account from To dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_other_account_from_To_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user send \"100\" to Balance and click tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_send_to_Balance_and_click_tab(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user send \"transfer between accounts\" to Description and click tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_send_to_Description_and_click_tab(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signOut from customer Website",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_signOut_from_customer_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "user enters gmibank homepage then sign in as a customer",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user enters gmibank homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersGmibankHomepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks userEntry icon",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userClicksUserEntryIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer username \"aaabbb\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_username(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters customer password \"AaaBbb-21\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_enters_customer_password(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks signIn button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks customer myOperations link",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC1605 User can make sure transfer is done successfully validating the message an amount of the transaction\"",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_16"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC1605"
+    }
+  ]
+});
+formatter.step({
+  "name": "user clicks Transfer Money link",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_Transfer_Money_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select first account from From dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_first_account_from_From_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select other account from To dropdown menu and click",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_select_other_account_from_To_dropdown_menu_and_click()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user send \"100\" to Balance and click tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_send_to_Balance_and_click_tab(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user send \"transfer between accounts\" to Description and click tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_send_to_Description_and_click_tab(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user click Make Transfer link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_click_Make_Transfer_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks customer myOperations link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks My Accounts link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_My_Accounts_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user click View Transaction link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_click_View_Transaction_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the transaction is accomplished",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.verify_the_transaction_is_accomplished()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signOut from customer Website",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_16_Step_Definitions.user_signOut_from_customer_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/us_17.feature");
 formatter.feature({
   "name": "US_17 tests",
   "description": "",
@@ -2935,31 +3714,25 @@ formatter.step({
   "name": "admin click Description",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Description()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin click Balance",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Balance()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin sees required message",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_sees_required_message()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin signOut",
@@ -2969,7 +3742,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
@@ -3004,7 +3777,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Sign in\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SV7GREB\u0027, ip: \u0027192.168.2.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_265\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\HP Pavilion\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bde31d61ed4e2795a25d6a2cc9ec4366\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Sign in\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)\r\n\tat ✽.user clicks signIn link(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_19.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user enters admin username \"pader49\"",
@@ -3014,7 +3788,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters admin password \"pader49.\"",
@@ -3024,7 +3798,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks signIn button",
@@ -3034,7 +3808,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -3044,7 +3818,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks manageAccounts link",
@@ -3054,7 +3828,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks createNewAccount link",
@@ -3064,7 +3838,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "tc1902 should provide a balance as a Dollar",
@@ -3086,11 +3860,9 @@ formatter.step({
   "name": "admin create as a dollar account \"200\" and verify",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_create_as_a_dollar_account_and_verify(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin signOut",
@@ -3100,7 +3872,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
@@ -3135,7 +3907,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Sign in\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SV7GREB\u0027, ip: \u0027192.168.2.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_265\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\HP Pavilion\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bde31d61ed4e2795a25d6a2cc9ec4366\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Sign in\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)\r\n\tat ✽.user clicks signIn link(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_19.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user enters admin username \"pader49\"",
@@ -3145,7 +3918,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters admin password \"pader49.\"",
@@ -3155,7 +3928,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks signIn button",
@@ -3165,7 +3938,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -3175,7 +3948,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks manageAccounts link",
@@ -3185,7 +3958,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks createNewAccount link",
@@ -3195,7 +3968,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "tc1903 can select an account type as CHECKING, SAVING, CREDIT_CARD or INVESTING",
@@ -3217,41 +3990,33 @@ formatter.step({
   "name": "admin select an account as CHECKING and verify",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_CHECKING_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin select an account as a SAVING and verify",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_a_SAVING_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin select an account as a CREDIT_CARD and verify",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_a_CREDIT_CARD_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin select an account as a INVESTING and verify",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_an_account_as_a_INVESTING_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin signOut",
@@ -3261,7 +4026,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
@@ -3296,7 +4061,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Sign in\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SV7GREB\u0027, ip: \u0027192.168.2.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_265\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\HP Pavilion\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bde31d61ed4e2795a25d6a2cc9ec4366\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Sign in\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)\r\n\tat ✽.user clicks signIn link(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_19.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user enters admin username \"pader49\"",
@@ -3306,7 +4072,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters admin password \"pader49.\"",
@@ -3316,7 +4082,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks signIn button",
@@ -3326,7 +4092,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -3336,7 +4102,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks manageAccounts link",
@@ -3346,7 +4112,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks createNewAccount link",
@@ -3356,7 +4122,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "tc1904 should account status defined as ACTIVE, SUESPENDED or CLOSED",
@@ -3378,31 +4144,25 @@ formatter.step({
   "name": "admin click Account Status Type defined as a ACTIVE and verify",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Account_Status_Type_defined_as_a_ACTIVE_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin click Account Status Type defined as a  SUESPENDED and verify",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Account_Status_Type_defined_as_a_SUEPENDED_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin click Account Status Type defined as a  CLOSED and verify",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_click_Account_Status_Type_defined_as_a_CLOSED_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin signOut",
@@ -3412,7 +4172,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "name": "user anters gmibank homepage then reaches create new costomers link",
@@ -3447,7 +4207,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.\u003d\u0027Sign in\u0027]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SV7GREB\u0027, ip: \u0027192.168.2.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_265\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\HP Pavilion\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bde31d61ed4e2795a25d6a2cc9ec4366\n*** Element info: {Using\u003dxpath, value\u003d//span[.\u003d\u0027Sign in\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_link(US_10_Step_Definitions.java:21)\r\n\tat ✽.user clicks signIn link(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_19.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user enters admin username \"pader49\"",
@@ -3457,7 +4218,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminUsername(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters admin password \"pader49.\"",
@@ -3467,7 +4228,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.userEntersAdminPassword(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks signIn button",
@@ -3477,7 +4238,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_signIn_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks myOperations link",
@@ -3487,7 +4248,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_10_Step_Definitions.user_clicks_myOperations_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks manageAccounts link",
@@ -3497,7 +4258,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_manageAccounts_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks createNewAccount link",
@@ -3507,7 +4268,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_13_Step_Definitions.user_clicks_createNewAccount_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "tc1905 can select an employee from the drop-down",
@@ -3529,11 +4290,9 @@ formatter.step({
   "name": "admin select Employee and verify the selectet Employee",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_19_Step_Definitions.admin_select_Employee_and_verify_the_selectet_Employee()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "admin signOut",
@@ -3543,7 +4302,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_17_Step_Definitions.adminSignOut()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("file:src/test/resources/features/us_20.feature");
 formatter.feature({
@@ -3870,21 +4629,17 @@ formatter.step({
   "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "get all states as De-Serialization",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "TC_2201 Read all states you created and validate them from your data set",
@@ -3906,21 +4661,17 @@ formatter.step({
   "name": "find out how many states",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.find_out_how_many_states_are_and_verify()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Verify id of Koblenz is (integer) \"19241\"",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_id_of_Koblenz_is_integer(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
   "name": "TC_2202 read all states you created and validate them 1 by 1",
@@ -3977,21 +4728,17 @@ formatter.step({
   "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "get all states as De-Serialization",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "TC_2202 read all states you created and validate them 1 by 1",
@@ -4013,11 +4760,9 @@ formatter.step({
   "name": "verify list of the states contains Centre",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Centre()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.background({
   "name": "TC_22 and TC_2002 background",
@@ -4028,21 +4773,17 @@ formatter.step({
   "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "get all states as De-Serialization",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "TC_2202 read all states you created and validate them 1 by 1",
@@ -4064,11 +4805,9 @@ formatter.step({
   "name": "verify list of the states contains Auvergne",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Auvergne()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.background({
   "name": "TC_22 and TC_2002 background",
@@ -4079,21 +4818,17 @@ formatter.step({
   "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "get all states as De-Serialization",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "TC_2202 read all states you created and validate them 1 by 1",
@@ -4115,11 +4850,9 @@ formatter.step({
   "name": "verify list of the states contains Koblenz",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Koblenz()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.background({
   "name": "TC_22 and TC_2002 background",
@@ -4130,21 +4863,17 @@ formatter.step({
   "name": "Use api end point \"https://www.gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.use_api_end_point(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "get all states as De-Serialization",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.get_all_states_as_De_Serialization()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "TC_2202 read all states you created and validate them 1 by 1",
@@ -4166,11 +4895,9 @@ formatter.step({
   "name": "verify list of the states contains Virginia",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_22_Step_Definitions.verify_list_of_the_states_contains_Virginia()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.uri("file:src/test/resources/features/us_23.feature");
 formatter.feature({
@@ -4245,7 +4972,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_23_Step_Definitions.findOutApplicantsAreAndVerify(int)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: expected:\u003c833\u003e but was:\u003c829\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat gmibank.stepdefinitions.US_23_Step_Definitions.findOutApplicantsAreAndVerify(US_23_Step_Definitions.java:57)\r\n\tat ✽.find out 829 applicants are and verify(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_23.feature:11)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "Find the number of those whose id is less than 5000 and verify the number",
@@ -4255,7 +4983,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_23_Step_Definitions.findTheNumberOfThoseWhoseIdIsLessThanAndVerifyTheNumber(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "verify if there are any applicants named \"Ali\"",
@@ -4265,7 +4993,7 @@ formatter.match({
   "location": "gmibank.stepdefinitions.US_23_Step_Definitions.verifyIfThereAreAnyApplicantsNamed(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "name": "TC_2301 and TC_2302 background",
@@ -4439,51 +5167,41 @@ formatter.step({
   "name": "user enter REST API endpoint as \"http://gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.user_enter_REST_API_endpoint_as(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Before post request should be HTTP Status Code 200",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.before_post_request_should_be_HTTP_Status_Code(java.lang.Integer)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Before post request should be response format \"application/json\"",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.before_post_request_should_be_response_format(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Before post request user finds out the size of the state list",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.before_post_request_user_finds_out_the_size_of_the_state_list()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "User sends a POST request to REST API endpoint \"http://gmibank.com/api/tp-states\" as \"Russelsheim\"",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.user_sends_a_POST_request_to_REST_API_endpoint_as(java.lang.String,java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "name": "User can Just create each state 1 by 1 / TC_2401 after POST request",
@@ -4502,41 +5220,33 @@ formatter.step({
   "name": "After creation user sends a GET request to REST API endpoint \"http://gmibank.com/api/tp-states\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.after_creation_user_sends_a_GET_request_to_REST_API_end_point(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "After state creation HTTP Status Code should be 200",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.after_state_creation_HTTP_Status_Code_should_be(java.lang.Integer)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "After creation user verifies the created \"Russelsheim\"",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.after_creation_user_verifies_the_created(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "After the creation request, the user sees the size of the status list",
   "keyword": "And "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.US_24_Step_Definitions.after_the_creation_request_the_user_sees_the_size_of_the_status_list()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.uri("file:src/test/resources/features/us_25.feature");
 formatter.feature({
@@ -4725,11 +5435,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User send a Put request endpoint \"https://www.gmibank.com/api/tp-countries/25562\" as \"Van\"",
+  "name": "User send a Put request endpoint \"https://www.gmibank.com/api/tp-countries/\" as \"Pays-Bas\" for upddate Cekya",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_send_a_Put_request_endpoint_as_for_upddate_Cekya(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User verify the contry was updated",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_send_a_Put_request_endpoint_as(java.lang.String,java.lang.String)"
+  "location": "gmibank.stepdefinitions.US_26_Step_Definitions.user_verify_the_contry_was_updated()"
 });
 formatter.result({
   "status": "passed"
@@ -4871,5 +5591,223 @@ formatter.match({
 });
 formatter.result({
   "status": "skipped"
+});
+formatter.uri("file:src/test/resources/features/us_29.feature");
+formatter.feature({
+  "name": "user tests create user page with database validation",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@US_29"
+    },
+    {
+      "name": "@SmokeTest1"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user  connecting GMI database",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_connecting_GMI_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_2901 All users\u0027 information must be obtained database and verified",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_29"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC_2901"
+    }
+  ]
+});
+formatter.step({
+  "name": "user read all user data from database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_read_all_user_data_from_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user validate all user data",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_validate_all_user_data()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user  connecting GMI database",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_connecting_GMI_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_2902 All countries\u0027 info should be retrieved by database and validated",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_29"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC_2902"
+    }
+  ]
+});
+formatter.step({
+  "name": "user read all countries infos from database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_read_all_countries_infos_from_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user validate all countries infos",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_validate_all_countries_infos()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "user  connecting GMI database",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_connecting_GMI_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_2903 All states should related to USA should be retrieved by database and validated",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_29"
+    },
+    {
+      "name": "@SmokeTest1"
+    },
+    {
+      "name": "@TC_2903"
+    }
+  ]
+});
+formatter.step({
+  "name": "user read all states of related to USA from database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_read_all_states_of_related_to_USA_from_database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user validate all states of related to USA",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.US_29_Step_Definitions.user_validate_all_states_of_related_to_USA()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/us_30.feature");
+formatter.feature({
+  "name": "US_30 All users (user, employee, manager or admin) should be printed as a pdf file",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@US_30"
+    },
+    {
+      "name": "@SmokeTest1"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "You should have all users\u0027 info as Name, last name and role on a pdf document",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_30"
+    },
+    {
+      "name": "@SmokeTest1"
+    }
+  ]
+});
+formatter.step({
+  "name": "send a GET request to REST API end point \"https://www.gmibank.com/api/users\"",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "HTTP Status Code should be 200 and contentType should be JSON",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "all users\u0027 info as Name, last name and role should had on a pdf document",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });
