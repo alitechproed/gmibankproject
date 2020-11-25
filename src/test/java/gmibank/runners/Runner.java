@@ -13,9 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
-        tags = "@US_29",
-
-        dryRun = true
+        tags = "@SmokeTest1",
+        dryRun = false
 
 )
 

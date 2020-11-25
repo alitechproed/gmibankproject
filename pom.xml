@@ -135,6 +135,14 @@
             <version>2.11.2</version>
         </dependency>
 
+        <!-- PDF CREATION -->
+        <dependency>
+            <groupId>com.lowagie</groupId>
+            <artifactId>itext</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -203,7 +211,7 @@
                     <source>1.7</source>
                     <target>1.7</target>
                     <fork>true</fork>
-                    <executable>C:\Program Files\Java\jdk-15\bin\javac</executable>
+                    <executable>C:\Program Files\Java\jdk1.8.0_251\bin\javac</executable>
                 </configuration>
             </plugin>
             <plugin>
@@ -240,9 +248,3 @@
 
 
 </project>
-
-
-
-
-
-

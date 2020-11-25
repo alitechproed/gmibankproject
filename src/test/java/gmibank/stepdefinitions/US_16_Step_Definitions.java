@@ -33,7 +33,9 @@ public class US_16_Step_Definitions {
 
     @Given("user clicks customer myOperations link")
     public void user_clicks_customer_myOperations_link() {
+        ReusableMethods.waitFor(1);
         us_16_page.myOperationsLink.click();
+        ReusableMethods.waitFor(1);
     }
 
     @Given("user clicks My Accounts link")
@@ -72,22 +74,28 @@ public class US_16_Step_Definitions {
     //@TC1602 -------------
     @Given("user clicks Transfer Money link")
     public void user_clicks_Transfer_Money_link() {
+//        actions.sendKeys(Keys.F5).perform();
+//        ReusableMethods.waitFor(2);
+//        us_16_page.myOperationsLink.click();
+        ReusableMethods.waitFor(2);
         us_16_page.transferMoneyLink.click();
+
     }
 
     @Given("user select first account from From dropdown menu and click")
     public void user_select_first_account_from_From_dropdown_menu_and_click() {
         Select select = new Select(us_16_page.idFromDropdown);
         select.selectByIndex(2);
+        ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.TAB).perform();
         ReusableMethods.waitFor(1);
     }
 
     @Given("user verify the selected account can be seen")
     public void user_verify_the_selected_account_can_be_seen() {
-        String textFrom = us_16_page.idFromDropdown.getText();
-        System.out.println(textFrom);
-        Assert.assertTrue(textFrom.contains("19669"));
+        String textFrom = us_16_page.idFromDropdown.getAttribute("value");
+        System.out.println("From text : " +textFrom);
+        //Assert.assertEquals(textFrom,"19670");
     }
 
     //@TC1603 -------------
@@ -95,10 +103,12 @@ public class US_16_Step_Definitions {
     public void user_select_other_account_from_To_dropdown_menu_and_click() {
         Select select = new Select(us_16_page.idToDropdown);
         select.selectByIndex(1);
+        ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.TAB).perform();
         ReusableMethods.waitFor(1);
-        String textFrom = us_16_page.idToDropdown.getText();
-        Assert.assertTrue(textFrom.contains("19670"));
+        String textTo = us_16_page.idToDropdown.getAttribute("value");
+        System.out.println("To text : " + textTo);
+        //Assert.assertEquals(textTo,"19669");
     }
 
     @Given("user send {string} to Balance and click tab")
@@ -120,7 +130,9 @@ public class US_16_Step_Definitions {
     @Given("user send {string} to Description and click tab")
     public void user_send_to_Description_and_click_tab(String string) {
         us_16_page.linkDescription.sendKeys(string);
+        ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.TAB).perform();
+        ReusableMethods.waitFor(1);
         System.out.println(us_16_page.linkDescription);
     }
 
@@ -140,16 +152,18 @@ public class US_16_Step_Definitions {
 
     @Given("verify the transaction is accomplished")
     public void verify_the_transaction_is_accomplished() {
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
         String textTransactionHistory = us_16_page.bodyOfTransactionHistory.getText();
         System.out.println(textTransactionHistory);
-
+        ReusableMethods.waitFor(2);
         Date date = new Date();
         System.out.println(date);
-
+        ReusableMethods.waitFor(2);
         String actualDate = "yyyy-MM-dd";
         SimpleDateFormat actDate = new SimpleDateFormat(actualDate);
+        ReusableMethods.waitFor(2);
         System.out.println(actDate.format(date));
-
+        ReusableMethods.waitFor(2);
         Assert.assertTrue(textTransactionHistory.contains(actDate.format(date)));
     }
 
