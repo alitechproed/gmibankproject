@@ -54,7 +54,7 @@ public class US_25_Step_Definitions {
     @Given("Before post request user finds out the size of the country list")
     public void before_post_request_user_finds_out_the_size_of_the_country_list() {
         listOfCountries1 = responseBeforePost.as(ArrayList.class);
-//      System.out.println("De-Serialization Data Type :" + listOfCountries);
+//      System.out.println("De-Serialization Data Type :" + listOfCountries1);
         System.out.println("Total Number of Countries :" + listOfCountries1.size());
     }
 
@@ -105,7 +105,7 @@ public class US_25_Step_Definitions {
     public void after_creation_user_finds_out_the_size_of_the_country_list() {
 
         listOfCountries2 = responseGetAfterPost.as(ArrayList.class);
-//      System.out.println("De-Serialization Data Type :" + listOfCountries);
+//      System.out.println("De-Serialization Data Type :" + listOfCountries2);
         System.out.println("Total Number of Countries :" + listOfCountries2.size());
 
         // Assert.assertTrue(listOfCountries1.size()<listOfCountries2.size());
