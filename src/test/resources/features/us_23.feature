@@ -7,8 +7,8 @@
 
     @TC_2301
     Scenario: TC_2301 read all countries you created and validate them from your data set
-      Given verify that the status code is "200"
-      And find out how many applicants are and verify
+      Given verify that the status code is 200
+      And find out 807 applicants are and verify
       And Find the number of those whose id is less than 5000 and verify the number
       And verify if there are any applicants named "Ali"
 
