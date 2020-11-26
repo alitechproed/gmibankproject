@@ -6,11 +6,7 @@ import io.cucumber.java.en.Given;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
-
-import java.sql.Array;
 import java.util.*;
-
-
 
 public class US_20_Step_Definitions {
 
@@ -54,41 +50,52 @@ public class US_20_Step_Definitions {
 
     }
 
-    @And("verify seventh customers {string} is {string} and {string} is {string}")
-    public void verifySeventhCustomersIsAndIs(String snn, String snnNumber, String state, String stateName) {
-        String seventhCustomersSNN = listofCustomers.get(6).get(snn).toString();
-        Assert.assertEquals(seventhCustomersSNN,snnNumber);
+    @And("verify seventh customers {string} and {string}")
+    public void verifySeventhCustomersAnd(String ssnValue, String stateName) {
+        String expectedSsnValue = listofCustomers.get(6).get(ssnValue).toString();
+        Assert.assertEquals(expectedSsnValue,getSeventhCustomerSsn());
 
-        String seventhCustomersState = listofCustomers.get(6).get(state).toString();
-        Assert.assertEquals(seventhCustomersState,stateName);
-
+        String expectedStateValue = listofCustomers.get(6).get(stateName).toString();
+        Assert.assertEquals(expectedStateValue, getSeventhCustomersState());
+    }
+    public String getSeventhCustomerSsn(){
+        return listofCustomers.get(6).get("ssn").toString();
     }
 
-    @And("verify first customer's {string} {string}")
-    public void verifyFirstCustomerS(String firstName, String expectedData) {
+    public String getSeventhCustomersState(){
+        return listofCustomers.get(6).get("state").toString();
+    }
+
+    @And("verify first customer's {string}")
+    public void verifyFirstCustomerS(String firstName) {
         String firstCustomerName = listofCustomers.get(0).get(firstName).toString();
-        Assert.assertEquals(firstCustomerName,expectedData);
+        String expectedFirstNameOne = listofCustomers.get(0).get("firstName").toString();
+        Assert.assertEquals(expectedFirstNameOne,firstCustomerName);
+
     }
 
-    @And("verify second customer's {string} {string}")
-    public void verifySecondCustomerS(String lastName, String expectedData) {
+    @And("verify second customer's {string}")
+    public void verifySecondCustomerS(String lastName) {
         String lastNameOfSecondCustomer= listofCustomers.get(1).get(lastName).toString();
-        Assert.assertEquals(lastNameOfSecondCustomer,expectedData);
+        String expectedLastNameTwo = listofCustomers.get(1).get("lastName").toString();
+        Assert.assertEquals(expectedLastNameTwo, lastNameOfSecondCustomer);
     }
 
-    @And("verify fifth customer's country {string}")
+    @And("verify fifth customer's {string}")
     public void verifyFifthCustomerSCountry(String country) {
-        String countryName = json.getString("country[4].name");
-        System.out.println("First : "+countryName);
-//        String countryName2 = json.getList("country.name").get(4).toString();
-        Assert.assertEquals(countryName,country);
+        country =fifthCustomersCountry();
+        String expectedFifthCountry = json.getString("country[4].name");
+        Assert.assertEquals(expectedFifthCountry,country);
 
+    }
+
+    public String fifthCustomersCountry(){
+        return json.get("country[4].name");
     }
 
     @Given("get last customer's id and verify")
     public void get_first_customer_s_id_and_verify() {
         int actualLastId = json.getInt("id[-1]");
-        System.out.println("Last Id : "+ actualLastId); //6476 ,
         int expectedLastId = getLastId();
         Assert.assertEquals(actualLastId,expectedLastId);
 
@@ -102,8 +109,8 @@ public class US_20_Step_Definitions {
       json = responseGet.jsonPath();
       int lastId = json.getInt("id[-1]");
 
-
       return lastId;
     }
+
 
 }
