@@ -1,0 +1,2702 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Feature: US_16 tests</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>GMIBANK PROJECT</td>
+        <td>1</td>
+      <td>26 Nov 2020, 14:21</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+    <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">US_16 tests</td>
+          <td      class="passed"    >41</td>
+          <td      class="failed"    >2</td>
+          <td     class="skipped"   >23</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">66</td>
+
+          <td  class="passed"    >3</td>
+          <td  class="failed"    >2</td>
+          <td class="total">5</td>
+
+          <td class="duration" data-value="70774458600">1:10.774</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4060814117.html">@US_16</a>
+       <a href="report-tag_3861229071.html">@SmokeTest1</a>
+</div>
+
+
+<div class="brief failed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">US_16 tests</span>
+
+
+</div>
+
+        <div class="description indention"></div>
+
+        <div class="elements inner-level">
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">16.696</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name">user enters gmibank homepage then sign in as a customer</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enters gmibank homepage</span>
+
+  <span class="lead-duration duration">12.507</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks userEntry icon</span>
+
+  <span class="lead-duration duration">0.132</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn link</span>
+
+  <span class="lead-duration duration">1.190</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer username <span class="argument">&quot;aaabbb&quot;</span></span>
+
+  <span class="lead-duration duration">0.247</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer password <span class="argument">&quot;AaaBbb-21&quot;</span></span>
+
+  <span class="lead-duration duration">0.358</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn button</span>
+
+  <span class="lead-duration duration">0.132</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user clicks customer myOperations link</span>
+
+  <span class="lead-duration duration">2.126</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4060814117.html">@US_16</a>
+       <a href="report-tag_3861229071.html">@SmokeTest1</a>
+       <a href="report-tag_1286414868.html">@TC1601</a>
+</div>
+
+
+  <span class="lead-duration duration">1.064</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC1601 User should have at least 2 accounts</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-3" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-4" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user clicks My Accounts link</span>
+
+  <span class="lead-duration duration">0.117</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verify Account Type1 <span class="argument">&quot;19669&quot;</span> can be seen</span>
+
+  <span class="lead-duration duration">0.524</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verify Account Type2 <span class="argument">&quot;19670&quot;</span> can be seen</span>
+
+  <span class="lead-duration duration">0.160</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user signOut from customer Website</span>
+
+  <span class="lead-duration duration">0.261</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">4.896</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name">user enters gmibank homepage then sign in as a customer</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-5" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-6" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enters gmibank homepage</span>
+
+  <span class="lead-duration duration">0.752</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks userEntry icon</span>
+
+  <span class="lead-duration duration">0.158</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn link</span>
+
+  <span class="lead-duration duration">1.165</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer username <span class="argument">&quot;aaabbb&quot;</span></span>
+
+  <span class="lead-duration duration">0.223</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer password <span class="argument">&quot;AaaBbb-21&quot;</span></span>
+
+  <span class="lead-duration duration">0.348</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn button</span>
+
+  <span class="lead-duration duration">0.130</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user clicks customer myOperations link</span>
+
+  <span class="lead-duration duration">2.117</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4060814117.html">@US_16</a>
+       <a href="report-tag_3861229071.html">@SmokeTest1</a>
+       <a href="report-tag_1286414869.html">@TC1602</a>
+</div>
+
+
+  <span class="lead-duration duration">5.342</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC1602 User can select the first account as From dropdown where they receive their money from</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-7" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user clicks Transfer Money link</span>
+
+  <span class="lead-duration duration">2.276</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user select first account from From dropdown menu and click</span>
+
+  <span class="lead-duration duration">2.660</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verify the selected account can be seen</span>
+
+  <span class="lead-duration duration">0.061</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user signOut from customer Website</span>
+
+  <span class="lead-duration duration">0.343</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">5.203</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name">user enters gmibank homepage then sign in as a customer</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-9" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-10" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enters gmibank homepage</span>
+
+  <span class="lead-duration duration">0.943</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks userEntry icon</span>
+
+  <span class="lead-duration duration">0.250</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn link</span>
+
+  <span class="lead-duration duration">1.165</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer username <span class="argument">&quot;aaabbb&quot;</span></span>
+
+  <span class="lead-duration duration">0.177</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer password <span class="argument">&quot;AaaBbb-21&quot;</span></span>
+
+  <span class="lead-duration duration">0.337</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn button</span>
+
+  <span class="lead-duration duration">0.191</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user clicks customer myOperations link</span>
+
+  <span class="lead-duration duration">2.135</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4060814117.html">@US_16</a>
+       <a href="report-tag_3861229071.html">@SmokeTest1</a>
+       <a href="report-tag_1286414870.html">@TC1603</a>
+</div>
+
+
+  <span class="lead-duration duration">8.525</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC1603 User can select a balance that they want to proceed with</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-11" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-12" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user clicks Transfer Money link</span>
+
+  <span class="lead-duration duration">2.144</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user select first account from From dropdown menu and click</span>
+
+  <span class="lead-duration duration">2.460</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user select other account from To dropdown menu and click</span>
+
+  <span class="lead-duration duration">2.379</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user send <span class="argument">&quot;100&quot;</span> to Balance and click tab</span>
+
+  <span class="lead-duration duration">0.099</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user click tab and verify the amount can be seen in Balance</span>
+
+  <span class="lead-duration duration">1.162</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user signOut from customer Website</span>
+
+  <span class="lead-duration duration">0.279</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">16.845</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
+
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name">user enters gmibank homepage then sign in as a customer</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-13" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-14">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-14" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enters gmibank homepage</span>
+
+  <span class="lead-duration duration">1.565</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks userEntry icon</span>
+
+  <span class="lead-duration duration">0.144</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn link</span>
+
+  <span class="lead-duration duration">1.282</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer username <span class="argument">&quot;aaabbb&quot;</span></span>
+
+  <span class="lead-duration duration">0.231</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer password <span class="argument">&quot;AaaBbb-21&quot;</span></span>
+
+  <span class="lead-duration duration">0.271</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn button</span>
+
+  <span class="lead-duration duration">0.141</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user clicks customer myOperations link</span>
+
+  <span class="lead-duration duration">13.206</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-15">
+          <a>org.openqa.selenium.WebDriverException:</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SV7GREB', ip: '192.168.2.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\HP Pavilion\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ed69db29ceff1f514eb416d2251c42be
+*** Element info: {Using=xpath, value=//span[.='My Operations']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at gmibank.stepdefinitions.US_16_Step_Definitions.user_clicks_customer_myOperations_link(US_16_Step_Definitions.java:37)
+	at &#10045;.user clicks customer myOperations link(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_16.feature:11)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4060814117.html">@US_16</a>
+       <a href="report-tag_3861229071.html">@SmokeTest1</a>
+       <a href="report-tag_1286414871.html">@TC1604</a>
+</div>
+
+
+  <span class="lead-duration duration">0.012</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-16">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC1604 User should provide a description for that transfer</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-16" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-17">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-17" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">user clicks Transfer Money link</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user select first account from From dropdown menu and click</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user select other account from To dropdown menu and click</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user send <span class="argument">&quot;100&quot;</span> to Balance and click tab</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user send <span class="argument">&quot;transfer between accounts&quot;</span> to Description and click tab</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user signOut from customer Website</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">12.177</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-18">
+
+<div class="brief failed">
+  <span class="keyword indention">Background</span>
+  <span class="name">user enters gmibank homepage then sign in as a customer</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-18" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-19">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-19" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given failed">
+  <span class="keyword indention">Given</span>
+  <span class="name">user enters gmibank homepage</span>
+
+  <span class="lead-duration duration">12.171</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-20">
+          <a>io.cucumber.core.exception.CucumberException:</a>
+      </div>
+      <div id="msg-20" class="collapse collapsable-details  in ">
+        <pre>io.cucumber.core.exception.CucumberException: Failed to instantiate class gmibank.stepdefinitions.US_10_Step_Definitions
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:74)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65)
+	at org.testng.TestRunner$1.run(TestRunner.java:652)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:843)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:681)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)
+	... 55 more
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SV7GREB', ip: '192.168.2.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\HP Pavilion\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ed69db29ceff1f514eb416d2251c42be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at gmibank.utilities.Driver.getDriver(Driver.java:55)
+	at gmibank.pages.US_10_Page.&lt;init&gt;(US_10_Page.java:10)
+	at gmibank.stepdefinitions.US_10_Step_Definitions.&lt;init&gt;(US_10_Step_Definitions.java:14)
+	... 60 more
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks userEntry icon</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn link</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer username <span class="argument">&quot;aaabbb&quot;</span></span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters customer password <span class="argument">&quot;AaaBbb-21&quot;</span></span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks signIn button</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user clicks customer myOperations link</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4060814117.html">@US_16</a>
+       <a href="report-tag_3861229071.html">@SmokeTest1</a>
+       <a href="report-tag_1286414872.html">@TC1605</a>
+</div>
+
+
+  <span class="lead-duration duration">0.011</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-21">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC1605 User can make sure transfer is done successfully validating the message an amount of the transaction&quot;</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-21" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-22">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-22" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">user clicks Transfer Money link</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user select first account from From dropdown menu and click</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user select other account from To dropdown menu and click</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user send <span class="argument">&quot;100&quot;</span> to Balance and click tab</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user send <span class="argument">&quot;transfer between accounts&quot;</span> to Description and click tab</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user click Make Transfer link</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks customer myOperations link</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks My Accounts link</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user click View Transaction link</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">verify the transaction is accomplished</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user signOut from customer Website</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
