@@ -8,13 +8,15 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
+        "id",
         "name",
         "states"
 })
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Country {
 
+    @JsonProperty("id")
+    private Integer id;
     @JsonProperty("name")
     private String name;
     @JsonProperty("states")
@@ -27,15 +29,32 @@ public class Country {
     public Country() {
     }
 
+
+    public Country(String name, Object states) {
+        this.name = name;
+        this.states = states;
+    }
+
     /**
      *
      * @param name
+     * @param id
      * @param states
      */
-    public Country(String name, Object states) {
-        super();
+    public Country(Integer id, String name, Object states) {
+        this.id = id;
         this.name = name;
         this.states = states;
+    }
+
+    @JsonProperty("id")
+    public Integer getId() {
+        return id;
+    }
+
+    @JsonProperty("id")
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     @JsonProperty("name")
@@ -60,7 +79,7 @@ public class Country {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this).append("name", name).append("states", states).toString();
+        return new ToStringBuilder(this).append("id", id).append("name", name).append("states", states).toString();
     }
 
 }
