@@ -3,7 +3,6 @@ package gmibank.stepdefinitions;
 import gmibank.pages.US_01_Page;
 import gmibank.pages.US_04_Page;
 import gmibank.pojos.Country;
-import gmibank.pojos.LocalStorage;
 import gmibank.pojos.States;
 import gmibank.utilities.ConfigurationReader;
 import gmibank.utilities.Driver;
@@ -167,33 +166,5 @@ public class Deneme {
         System.out.println("Listedeki eleman sayisi: " + allStatesAfterPost.size());
     }
 
-    @Test
-    public void getToken() {
-        US_04_Page us04Page = new US_04_Page();
-        US_01_Page us01Page = new US_01_Page();
-        Driver.getDriver().get(ConfigurationReader.getProperty("gmibank_url"));
-        us01Page.loginAndRegisterButton.click();
-        us04Page.signInButton.click();
-        us04Page.usernameTextBox.sendKeys("AAbc398");
-        us04Page.passwordTextBox.sendKeys("A1b2C3");
-        us04Page.submitLoginButton.click();
 
-//        Cookie cookie = Driver.getDriver().manage().getCookieNamed("SESSION_ID");
-//        String encodedToken  = cookie.getValue();
-//        System.out.println(encodedToken);
-//
-//        SessionLogs sessionLogs = (SessionLogs) Driver.getDriver().manage().logs();
-
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) Driver.getDriver();
-//
-//        String itemFromStorage = (String) jsExecutor.executeScript( String.format("return window.localStorage.getItem('%s');", "jhi-authenticationToken"));
-//        System.out.println(itemFromStorage);
-
-//        LocalStorage localStorage = new LocalStorage(Driver.getDriver());
-//        String token =localStorage.getItemFromLocalStorage("jhi-authenticationToken");
-//        System.out.println(token);
-        String abc = (String) jsExecutor.executeScript("window.localStorage.getItem('%s');", "jhi-authenticationToken");
-        System.out.println(abc);
-
-    }
 }
