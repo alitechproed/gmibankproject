@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="13.967">
+<testcase classname="US_29 user tests create user page with database validation" name="TC_2901 All users' information must be obtained database and verified" time="4.615">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user  connecting GMI database.........................................passed
+And user read all user data from database...................................failed
+Then user validate all user data............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at gmibank.stepdefinitions.US_29_Step_Definitions.user_read_all_user_data_from_database(US_29_Step_Definitions.java:41)
+	at ✽.user read all user data from database(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_29.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="US_29 user tests create user page with database validation" name="TC_2902 All countries' info should be retrieved by database and validated" time="3.212">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user  connecting GMI database.........................................passed
+And user read all countries infos from database.............................failed
+Then user validate all countries infos......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at gmibank.stepdefinitions.US_29_Step_Definitions.user_read_all_countries_infos_from_database(US_29_Step_Definitions.java:72)
+	at ✽.user read all countries infos from database(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_29.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="US_29 user tests create user page with database validation" name="TC_2903 All states should related to USA should be retrieved by database and validated" time="3.299">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user  connecting GMI database.........................................passed
+And user read all states of related to USA from database....................failed
+Then user validate all states of related to USA.............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at gmibank.stepdefinitions.US_29_Step_Definitions.user_read_all_states_of_related_to_USA_from_database(US_29_Step_Definitions.java:104)
+	at ✽.user read all states of related to USA from database(file:///C:/Users/HP%20Pavilion/IdeaProjects/gmibankproject/src/test/resources/features/us_29.feature:21)
+]]></failure>
+</testcase>
+</testsuite>
