@@ -50,11 +50,12 @@ public class US_23_Step_Definitions {
         response.then().assertThat().statusCode(expectedStatusCode);
     }
 
-    @And("find out {int} applicants are and verify")
-    public void findOutApplicantsAreAndVerify(int actualApplicantsNumber) {
+    @And("find out applicants size and verify")
+    public void findOutApplicantsSizeAndVerify() {
+        int expectedAplicantsSize = us23Pojo.length;
+        int actualAplicantsSize = json.getList("$").size();
 
-        int expectedApplicantsNumber = us23Pojo.length;
-        Assert.assertEquals(expectedApplicantsNumber, actualApplicantsNumber);
+        Assert.assertTrue(expectedAplicantsSize == actualAplicantsSize);
 
     }
 
