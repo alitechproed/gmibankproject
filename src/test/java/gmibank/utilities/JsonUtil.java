@@ -29,7 +29,7 @@ public class JsonUtil {
         return jsonResult;
     }
 
-    public static <T> T convertJsonToJava(String json, Class<T> cls) {
+    public static <T> T convertJsonToJavaOneData(String json, Class<T> cls) {
         T javaResult = null;
         try {
             javaResult = mapper.readValue(json, cls);
@@ -43,5 +43,10 @@ public class JsonUtil {
         return javaResult;
 
     }
+
+    // List data convert json to java
+
+    // Customer[] allCustomer = mapper.readValue(json, Customer[].class);
+    // List<Customer> allCustomerList = mapper.readValue(response.asString(), new TypeReference<List<Customer>>(){};
 
 }
