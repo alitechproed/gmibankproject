@@ -60,7 +60,7 @@ public class US_24_Step_Definitions {
         responseAfterCreate = given().
                                 contentType(ContentType.JSON).
                                 auth().oauth2(ConfigurationReader.getProperty("token")).
-                                body(state).
+                                body(statePojo).
                              when().
                                 post(endpoint);
         responseAfterCreate.jsonPath();
