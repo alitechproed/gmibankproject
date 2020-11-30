@@ -3,8 +3,6 @@ package gmibank.stepdefinitions;
 import gmibank.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
