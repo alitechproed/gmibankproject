@@ -306,7 +306,7 @@ public class US_08_Step_Definitions {
         us08Page.newPasswordBox.sendKeys(randomMethod1(1,65,90));
         ReusableMethods.waitFor(1);
         String color = us08Page.passwordStrengthScala.get(4).getAttribute("style");
-        ReusableMethods.waitFor(1);
+        ReusableMethods.waitFor(3);
         Assert.assertEquals(("background-color: rgb(0, 255, 0);"),color);
     }
 
