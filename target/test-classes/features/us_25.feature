@@ -1,4 +1,4 @@
-@US_25 @SmokeTest12
+@US_25 @SmokeTest1
 Feature: US_25 System should allow to create new countries using api end point
 
   @TC_2501

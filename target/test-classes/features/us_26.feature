@@ -1,4 +1,4 @@
-@US_26 @SmokeTest12
+@US_26 @SmokeTest1
 Feature: US_26 System should allow to update countries using api end point
           "https://www.gmibank.com/api/tp-countries"
 

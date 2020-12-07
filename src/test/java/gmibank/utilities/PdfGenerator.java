@@ -3,6 +3,7 @@ import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import gmibank.pojos.Customer;
+import gmibank.pojos.US_30_Pojo;
 import gmibank.pojos.Users;
 
 import java.io.FileOutputStream;
@@ -11,7 +12,7 @@ import java.util.Map;
 
 public class PdfGenerator {
 
-    public static void createTableWithPojo(String filePath, List<Users> allUserPojo) {
+    public static void createTableWithPojo(String filePath, List<US_30_Pojo> allUserPojo) {
 
         try {
             Document document = new Document();

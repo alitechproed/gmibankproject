@@ -1,4 +1,4 @@
-@US_22 @SmokeTest12
+@US_22 @SmokeTest1
 Feature: US_22 System should allow to read states using api end point
 
   Background: TC_22 and TC_2002 background
@@ -8,7 +8,7 @@ Feature: US_22 System should allow to read states using api end point
   @TC_2001
   Scenario: TC_2201 Read all states you created and validate them from your data set
     And find out how many states
-    And Verify id of Koblenz is (integer) "21579"
+    And Verify id of Koblenz is (integer) "19241"
 
 
   @TC_2002

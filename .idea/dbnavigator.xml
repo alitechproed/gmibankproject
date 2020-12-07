@@ -23,54 +23,11 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="c2a2c248-d8b4-4fcb-9b77-c4f7015e6677">
-        <schema name="pg_catalog" object-types="view, table, function" />
-        <schema name="public" object-types="view, table, function, dataset trigger, column, index, constraint, sequence" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c2a2c248-d8b4-4fcb-9b77-c4f7015e6677">
-      <console name="GMIBANK" type="STANDARD" schema="public" session="Main"><![CDATA[select * from jhi_user;
-
-select login, first_name, last_name from  jhi_user;
-
-select * from public.tp_country;
-
-select first_name ,last_name, email, login, authority_name
-from jhi_user
-join jhi_user_authority
-on jhi_user.id = jhi_user_authority.user_id
-where first_name  not like '%s';
-
-select authority_name, count (authority_name) as role_count
-from jhi_user
-join jhi_user_authority
-on jhi_user.id = jhi_user_authority.user_id
-group by  authority_name ;
-
-select count (authority_name) as role_sum
-from jhi_user
-join jhi_user_authority
-on jhi_user.id = jhi_user_authority.user_id ;
-
-SELECT id, name
-FROM tp_state;
-WHERE name  like 'Hou%';
-
-select *
-from tp_employee;
-
-SELECT *
-FROM tp_state;
-
-SELECT *
-FROM tp_country
-WHERE name LIKE 'USA%';
-
-SELECT *
-FROM public.tp_transaction_log;]]></console>
+      <console name="GMIBANK" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="060fe013-3aef-4f06-b77f-beb9f226766b">
       <console name="Connection" type="STANDARD" schema="" session="Main" />

@@ -284,7 +284,11 @@ public class Customer {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this).append("id", id).append("firstName", firstName).append("lastName", lastName).append("middleInitial", middleInitial).append("email", email).append("mobilePhoneNumber", mobilePhoneNumber).append("phoneNumber", phoneNumber).append("zipCode", zipCode).append("address", address).append("city", city).append("ssn", ssn).append("createDate", createDate).append("zelleEnrolled", zelleEnrolled).append("country", country).append("state", state).append("user", user).append("accounts", accounts).toString();
+        return new ToStringBuilder(this).
+                append("id", id).
+                append("firstName", firstName).
+                append("lastName", lastName).
+                append("middleInitial", middleInitial).append("email", email).append("mobilePhoneNumber", mobilePhoneNumber).append("phoneNumber", phoneNumber).append("zipCode", zipCode).append("address", address).append("city", city).append("ssn", ssn).append("createDate", createDate).append("zelleEnrolled", zelleEnrolled).append("country", country).append("state", state).append("user", user).append("accounts", accounts).toString();
     }
 
 }

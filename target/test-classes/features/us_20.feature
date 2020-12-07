@@ -1,4 +1,4 @@
-@US_20 @SmokeTest12
+@US_20 @SmokeTest1
   Feature: US_20 system should allow to read all customers info using api end point
 
     Background: TC_2001 and TC_2002 background

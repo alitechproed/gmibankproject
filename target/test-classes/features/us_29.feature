@@ -1,4 +1,4 @@
-@US_29  @SmokeTest12
+@US_29  @SmokeTest1
 Feature: US_29 user tests create user page with database validation
 
   Background:
