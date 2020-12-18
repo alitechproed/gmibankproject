@@ -10,6 +10,8 @@ public class US_01_Page {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+
+    //iskender
     @FindBy(xpath = "//a[@href='#']")
     public WebElement loginAndRegisterButton;
 
